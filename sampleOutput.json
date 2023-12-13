@@ -1,0 +1,123 @@
+{
+    "status": "ok",
+    "totalResults": 9,
+    "articles": [
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": null,
+            "title": "Ex-Bills punter Matt Araiza will not face charges in alleged gang rape at San Diego State University",
+            "description": "Two of Araiza's former college football teammates, who were also accused, will not face charges either, prosecutors said this week.",
+            "url": "https://www.cbsnews.com/news/matt-araiza-ex-bills-punter-no-charges-alleged-gang-rape-san-diego-state-university/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2022/12/08/174b95cc-b475-4be4-af24-030f266a4668/thumbnail/1200x630/d55fbcbbda76f082a7e1365910f200dc/ap22341800692014.jpg",
+            "publishedAt": "2022-12-08T14:01:28+00:00",
+            "content": "Matt Araiza, the former Buffalo Bills punter who was accused of gang-raping a 17-year-old at an off-campus party at San Diego State University last year, will not be charged in connection with the al… [+3853 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": null,
+            "title": "Meet college football's first $1 million strength coach: 'He is the team'",
+            "description": "For more than three decades, Rob Glass has made a living being the tough enforcer and developer of college football players. His impact is immense.",
+            "url": "https://www.usatoday.com/story/sports/ncaaf/2022/12/08/rob-glass-oklahoma-state-strength-coach-salary/10755253002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2022/12/05/USAT/da183928-efda-4925-8686-cab5b09fc31e-USATSI_19485430.jpg?auto=webp&crop=4690,2639,x0,y0&format=pjpg&width=1200",
+            "publishedAt": "2022-12-08T13:00:35+00:00",
+            "content": "STILLWATER, Okla. — Three years ago, Madi Madory confidently approached a man many college football stars respectfully fear.\r\nMadory had just unceremoniously fired her bocce partner for the next day’… [+16591 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": null,
+            "title": "Portugal deny Ronaldo threatened to leave squad",
+            "description": "The Portuguese Football Federation (FPF) denies that Cristiano Ronaldo threatened to leave the World Cup after Portugal's win over Switzerland.",
+            "url": "http://www.bbc.co.uk/sport/football/63901332",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/EA9E/production/_127926006_tv080872798.jpg",
+            "publishedAt": "2022-12-08T12:07:41.8035805Z",
+            "content": "<table><tr><th>Fifa World Cup</th></tr>\r\n<tr><td>Host nation: Qatar Dates: 20 November-18 December Coverage: Live on BBC TV, BBC iPlayer, BBC Radio 5 Live, BBC Radio Wales, BBC Radio Cymru, BBC Sound… [+2028 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "The Associated Press",
+            "title": "Ex-Bills punter Araiza won't be charged in alleged gang rape",
+            "description": "Prosecutors say former Buffalo Bills punter Matt Araiza will not be charged in connection with an alleged gang rape of a 17-year-old girl at an off-campus party last year when he played football for San Diego State University",
+            "url": "https://abcnews.go.com/Sports/wireStory/bills-punter-araiza-charged-alleged-gang-rape-94726962",
+            "urlToImage": "https://s.abcnews.com/images/Sports/WireAP_443514ccccda418ca1db16951987fda1_16x9_992.jpg",
+            "publishedAt": "2022-12-08T03:32:00Z",
+            "content": "SAN DIEGO -- Former Buffalo Bills punter Matt Araiza will not be charged in connection with an alleged gang rape of a 17-year-old girl at an off-campus party last year when he played football for San… [+3064 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": null,
+            "title": "College football transfer portal: Who will make the biggest impact?",
+            "description": "RJ Young takes a look at the top impact transfers in the portal and shares where he believes they could end up.",
+            "url": "http://www.foxsports.com/stories/college-football/college-football-transfer-portal-who-will-make-the-biggest-impact",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2022/12/1408/814/DJ-Uiagalelei.jpg?ve=1&tl=1",
+            "publishedAt": "2022-12-08T00:18:58Z",
+            "content": "Monday marked the first day of the newly-formed NCAA transfer window, and over 700 college football players entered their name into the portal. That included a loaded list of quarterbacks, highlighte… [+5910 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "David Kenyon",
+            "title": "B/R's 2022 College Football All-American Teams",
+            "description": "The end of the 2022 season is a bittersweet moment. While bowls and the College Football Playoff are still on the horizon, our weekdays are quieter and...",
+            "url": "https://bleacherreport.com/articles/10057831-brs-2022-college-football-all-american-teams",
+            "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1670344128/vwr03c0x0cknewwju3lk.jpg",
+            "publishedAt": "2022-12-07T12:00:00Z",
+            "content": "Michael Allio/Icon Sportswire via Getty Images\r\nCB: Devon Witherspoon, Illinois\r\nIllinois assembled an 8-4 campaign on the strength of an absurdly sticky secondary (nation-leading 22 INTs). Witherspo… [+1062 chars]"
+        },
+        {
+            "source": {
+                "id": "le-monde",
+                "name": "Le Monde"
+            },
+            "author": "Anne Vidalie",
+            "title": "Dans le Far West des NFT, les histoires de gros sous du foot virtuel",
+            "description": "Cartes de footballeurs à collectionner, tournois en ligne, trophées et maillots dématérialisés, vidéos de buts mythiques... Le monde du ballon rond découvre, comme le monde de l’art, les joies et les tristesses des NFT.",
+            "url": "https://www.lemonde.fr/economie/article/2022/11/29/dans-le-far-west-des-nft-les-histoires-de-gros-sous-du-foot-virtuel_6152086_3234.html",
+            "urlToImage": "https://img.lemde.fr/2022/11/25/90/0/1890/1260/1440/960/60/0/15fb907_1669390927574-le-monde-foot-nft2.jpg",
+            "publishedAt": "2022-11-29T05:15:04Z",
+            "content": "Quand il était enfant, Cyril collectionnait les vignettes Panini, ces images de joueurs de foot échangées dans les cours de récré. « Jaimais les regarder, les toucher, tourner les pages des albums da… [+2506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        },
+        {
+            "source": {
+                "id": "le-monde",
+                "name": "Le Monde"
+            },
+            "author": "Clémence Duneau",
+            "title": "Vidéo. Football : la VAR est-elle efficace ?",
+            "description": "Vidéo - L’arbitrage vidéo, qu’on appelle aussi VAR pour « video assistant referee », a été utilisé pour la première fois en Coupe du monde cette année.",
+            "url": "https://www.lemonde.fr/mondial-2018/video/2018/06/08/coupe-du-monde-2018-l-arbitrage-video-est-il-efficace_5311493_5193650.html",
+            "urlToImage": "https://img.lemde.fr/2021/06/18/0/248/1619/1078/1440/960/60/0/62a732b_192023398-924ff76-15084-db9835-du2pn.png",
+            "publishedAt": "2018-06-08T06:00:02Z",
+            "content": "Tout le monde se souvient du match de qualification à la Coupe du monde 2010 entre la France et lIrlande. Thierry Henry remet la balle à William Gallas, qui marque le but dégalisation, et la France e… [+484 chars]"
+        }
+    ]
+}
