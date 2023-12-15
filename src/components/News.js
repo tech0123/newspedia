@@ -21,9 +21,20 @@ const News = (props) => {
     const updateNews = async () => {
 
         props.setProgress(10);
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`;
+       
+        
+        const data = await fetch(
+            `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`,
+            {
+              headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+              },
+            }
+          );
+          
+
         setLoading(true);
-        let data = await fetch(url);
+        // let data = await fetch(url);
         let parsedData = await data.json()
         props.setProgress(50);
         //console.log(parsedData)
@@ -45,11 +56,21 @@ const News = (props) => {
 
     const fetchMoreData = async () => {
 
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`;
+        //const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`;
+        
+        const data = await fetch(
+            `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`,
+            {
+              headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+              },
+            }
+          );
+
         setPage(page + 1);
-        let data = await fetch(url);
+        //let data = await fetch(url);
         let parsedData = await data.json()
-        console.log(parsedData)
+        //console.log(parsedData)
         setArticles(articles.concat(parsedData.articles));
         settotalArticles(parsedData.totalResults);
 
