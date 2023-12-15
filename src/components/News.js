@@ -70,7 +70,9 @@ const News = (props) => {
             >
                 <div className="container">
                     <div className="row">
-                        {articles.map((element, index) => {
+                        {articles
+                         .filter(element => element.urlToImage)
+                         .map((element, index) => {
                             return <div className="col-md-4" key={index}>
                                 <NewsItem title={element.title} description={element.description} imgUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                             </div>
