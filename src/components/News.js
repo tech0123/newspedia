@@ -12,7 +12,7 @@ const News = (props) => {
     const [page, setPage] = useState(1);
     const [totalArticles, settotalArticles] = useState(0);
 
-    
+
 
     const capitalizeFirstLetter = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1);
@@ -44,22 +44,22 @@ const News = (props) => {
 
 
     const fetchMoreData = async () => {
-        
+
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`;
         setPage(page + 1);
         let data = await fetch(url);
         let parsedData = await data.json()
-        //console.log(parsedData)
+        console.log(parsedData)
         setArticles(articles.concat(parsedData.articles));
         settotalArticles(parsedData.totalResults);
-       
+
     };
 
 
 
     return (
         <>
-            <h1 className="text-center" style={{marginTop: '95px',marginBottom: '30px'}}>Newspedia - Top {capitalizeFirstLetter(props.category)}  Headlines</h1>
+            <h1 className="text-center" style={{ marginTop: '95px', marginBottom: '30px' }}>Newspedia - Top {capitalizeFirstLetter(props.category)}  Headlines</h1>
             {loading && <Spinner />}
 
             <InfiniteScroll
@@ -70,13 +70,14 @@ const News = (props) => {
             >
                 <div className="container">
                     <div className="row">
-                        {articles
-                         .filter(element => element.urlToImage)
-                         .map((element, index) => {
-                            return <div className="col-md-4" key={index}>
-                                <NewsItem title={element.title} description={element.description} imgUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
-                            </div>
-                        })}
+                        {
+                            articles
+                                .filter(element => element.urlToImage)
+                                .map((element, index) => {
+                                    return <div className="col-md-4" key={index}>
+                                        <NewsItem title={element.title} description={element.description} imgUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                                    </div>
+                                })}
                     </div>
                 </div>
             </InfiniteScroll>
