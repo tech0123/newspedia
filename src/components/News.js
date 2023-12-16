@@ -3,6 +3,7 @@ import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
 import InfiniteScroll from "react-infinite-scroll-component";
+import axios from 'axios';
 
 
 const News = (props) => {
@@ -21,23 +22,12 @@ const News = (props) => {
     const updateNews = async () => {
 
         props.setProgress(10);
-       
-        
-        const data = await fetch(
-            `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`,
-            {
-              headers: {
-                'X-Requested-With': 'XMLHttpRequest',
-              },
-            }
-          );
-          
-
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`;
         setLoading(true);
-        // let data = await fetch(url);
-        let parsedData = await data.json()
+        const response = await axios.get(url);
+        let parsedData = await response.data;
         props.setProgress(50);
-        //console.log(parsedData)
+        console.log(parsedData.articles)
 
         setArticles(parsedData.articles);
         settotalArticles(parsedData.totalResults);
@@ -56,20 +46,10 @@ const News = (props) => {
 
     const fetchMoreData = async () => {
 
-        //const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`;
-        
-        const data = await fetch(
-            `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`,
-            {
-              headers: {
-                'X-Requested-With': 'XMLHttpRequest',
-              },
-            }
-          );
-
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page + 1}&pagesize=${props.pageSize}`;
         setPage(page + 1);
-        //let data = await fetch(url);
-        let parsedData = await data.json()
+        const response = await axios.get(url);
+        let parsedData = await response.data;
         //console.log(parsedData)
         setArticles(articles.concat(parsedData.articles));
         settotalArticles(parsedData.totalResults);

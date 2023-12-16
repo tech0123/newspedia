@@ -30,7 +30,6 @@ const App = () => {
             <Route exact path="/" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="general" key="general" />} ></Route>
             <Route exact path="/business" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="business" key="business" />} ></Route>
             <Route exact path="/entertainment" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="entertainment" key="entertainment" />} ></Route>
-            <Route exact path="/general" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="general" key="general" />} ></Route>
             <Route exact path="/health" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="health" key="health" />} ></Route>
             <Route exact path="/science" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="science" key="science" />} ></Route>
             <Route exact path="/sports" element={<News setProgress={setProgress} apiKey={apiKey} pageSize={pagesize} country={"in"} category="sports" key="sports" />} ></Route>
