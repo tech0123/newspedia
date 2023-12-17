@@ -9,7 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import FetchArticles from './components/FetchArticles';
+// import FetchArticles from './components/FetchArticles';
 
 
 const App = () => {
