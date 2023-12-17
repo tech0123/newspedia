@@ -5972,12 +5972,15 @@ const News = (props) => {
 
 
     const fetchMoreData = async () => {
+        props.setProgress(10);
         const startIndex = articles.length;
         const endIndex = startIndex + 6;
+        props.setProgress(50);
         const parsedData = newsData.slice(startIndex, endIndex);
         setTimeout(() => {
 
             setArticles((prevArticles) => prevArticles.concat(parsedData));
+            props.setProgress(100);
         }, 1500);
     };
 
