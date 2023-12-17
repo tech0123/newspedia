@@ -13,7 +13,7 @@ const NavBar = () => {
             <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z" />
           </svg><span className='m-1 font-monospace'>Newspedia</span></Link>
           <form className='d-flex font-monospace'>
-            <button style={{border:"0"}} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,12 +22,12 @@ const NavBar = () => {
                   {console.log(location.pathname)}
                   <Link id="myactive" className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">Home</Link>
                 </li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Business" ? "active" : ""} `} to="/Business">Business</Link></li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Entertainment" ? "active" : ""} `} to="/Entertainment">Entertainment</Link></li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Health" ? "active" : ""} `} to="/Health">Health</Link></li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Science" ? "active" : ""} `} to="/Science">Science</Link></li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Sports" ? "active" : ""} `} to="/Sports">Sports</Link></li>
-                <li className="nav-item"><Link id="myactive" className={`nav-link ${location.pathname === "/Technology" ? "active" : ""} `} to="/Technology">Technology</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Business" ? "active" : ""} `} to="/Business">Business</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Entertainment" ? "active" : ""} `} to="/Entertainment">Entertainment</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Health" ? "active" : ""} `} to="/Health">Health</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Science" ? "active" : ""} `} to="/Science">Science</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Sports" ? "active" : ""} `} to="/Sports">Sports</Link></li>
+                <li className="nav-item"><Link id="myactive"  className={`nav-link ${location.pathname === "/Technology" ? "active" : ""} `} to="/Technology">Technology</Link></li>
               </ul>
 
             </div>
