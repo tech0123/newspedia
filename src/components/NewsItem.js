@@ -13,7 +13,7 @@ const NewsItem = (props) => {
                     <div style={{ display: 'flex', justifyContent: 'flex-end', position: 'absolute', right: '0' }}>
                         <span className="badge " style={{backgroundColor:"red"}} >{source}</span>
                     </div>
-                    <img src={imgUrl ? imgUrl : "https://editorial.fxstreet.com/images/Breaking/breaking-news_Large.jpg"} className="card-img-top" style={{ height: '220px' }} alt="NOT AVAILABLE" onError={(e) => {
+                    <img src={imgUrl ? imgUrl : "https://editorial.fxstreet.com/images/Breaking/breaking-news_Large.jpg"} className="card-img-top" style={{ height: '220px', border:"1px solid black" }} alt="NOT AVAILABLE" onError={(e) => {
                         e.target.src = 'https://editorial.fxstreet.com/images/Breaking/breaking-news_Large.jpg';
                     }} />
                     <div className="card-body">
