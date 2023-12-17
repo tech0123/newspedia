@@ -5964,7 +5964,7 @@ const News = (props) => {
     }
 
     useEffect(() => {
-        document.title = `${capitalizeFirstLetter(props.category)} - Newspedia`;
+        document.title = `Newspedia - ${capitalizeFirstLetter(props.category==="general"? "top" : props.category)} News`;
         updateNews();
         // eslint-disable-next-line
     }, [])
@@ -5983,7 +5983,7 @@ const News = (props) => {
 
     return (
         <>
-            <h1 className="text-center" style={{ marginTop: '95px', marginBottom: '30px' }}>Newspedia - Top {capitalizeFirstLetter(props.category)}  Headlines</h1>
+            <h1 className="text-center font-monospace " style={{ marginTop: '95px', marginBottom: '30px' }}>Top {capitalizeFirstLetter(props.category==="general"? "" : props.category)}  Headlines</h1>
             {loading && <Spinner />}
 
             <InfiniteScroll

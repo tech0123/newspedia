@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link.active{
+  color: red !important; /* Change this to the desired color for active and hover states */
+}
+
+.nav-link:hover{
+color: black;
+}
