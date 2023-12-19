@@ -8,5885 +8,5911 @@ import InfiniteScroll from "react-infinite-scroll-component";
 const News = (props) => {
 
     const filteredData = [
-        {
-          "science": [
-            {
-              "source": {
-                "id": null,
-                "name": "Republic World"
-              },
-              "author": "Digital Desk",
-              "title": "NASA finds 17 exoplanets with potentially vast oceans that could be suitable for life- Republic World - Republic World",
-              "description": "A new NASA study has indicated that as many as 17 exoplanets may have oceans beneath their icy shells providing suitable conditions for life.",
-              "url": "https://www.republicworld.com/science/space/nasa-finds-17-exoplanets-with-potentially-vast-oceans-that-could-be-suitable-for-life",
-              "urlToImage": "https://img.republicworld.com/rimages/WaterWorldHiH264-170281236835716_9.webp",
-              "publishedAt": "2023-12-17T11:26:00Z",
-              "content": "NASA scientists have found a key element necessary for the origin of life on one of Saturn's Moon. The Moon in question is Enceladus which is famous for spewing organic compounds into outer space.\r\nA… [+2617 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "WION Web Team",
-              "title": "Study suggests first people reached North America via ‘sea ice highway’ around 24,000 years ago - WION",
-              "description": "Study suggests first people reached North America via ‘sea ice highway’ around 24,000 years ago",
-              "url": "https://www.wionews.com/science/study-suggests-first-people-reached-north-america-via-sea-ice-highway-around-24000-years-ago-670564",
-              "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/17/399705-wion-images-2023-12-17t170749943.png",
-              "publishedAt": "2023-12-17T11:24:55Z",
-              "content": "How and when did humans get to North America? It is arguably one of the most hotly debated topics in archaeology. There have been many theories and studies over the years, and a recent study suggests… [+3042 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "WION Web Team",
-              "title": "NASA’s tiny telescope discovers seven hot Jupiters millions of light-years away - WION",
-              "description": "NASA’s tiny telescope discovers seven hot Jupiters millions of light-years away",
-              "url": "https://www.wionews.com/science/nasas-tiny-telescope-discovers-seven-hot-jupiters-millions-of-light-years-away-670508",
-              "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/17/399670-gettyimages-1025381220.jpg",
-              "publishedAt": "2023-12-17T08:43:57Z",
-              "content": "In a recent study unveiled at the 2023 American Geophysical Union meeting, researchers studied and explored \"hot Jupiters\" through NASA's CubeSat mission, the Colorado Ultraviolet Transit Experiment … [+2754 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Trisha Sengupta",
-              "title": "NASA unveils never-seen-before pic of missing space tomatoes found after months - Hindustan Times",
-              "description": "“Sun-dried tomatoes,” wrote a YouTube user while reacting to a video about the missing space tomatoes that were found after 8 months. | Trending",
-              "url": "https://www.hindustantimes.com/trending/nasa-unveils-never-seen-before-pic-of-missing-space-tomatoes-found-after-8-months-101702800509695.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/YouTube_Video_Viral_Space_Tomato_NASA_1702800723782_1702800724061.png",
-              "publishedAt": "2023-12-17T08:21:41Z",
-              "content": "NASA took to YouTube to share an interesting video that shows how two tomatoes look after being missing for months. A few days ago, astronauts aboard the International Space Station (ISS) solved a pe… [+2133 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Thewire.in"
-              },
-              "author": null,
-              "title": "Was Going to Space a Good Idea? - The Wire",
-              "description": "After the Moon, Mars is the next world in line for 'conquest'. But the question remains. Is space travel enhancing what we value about humanity?",
-              "url": "https://thewire.in/space/was-going-to-space-a-good-idea",
-              "urlToImage": "https://cdn.thewire.in/wp-content/uploads/2023/12/17124747/image-1614-800x375.png",
-              "publishedAt": "2023-12-17T08:00:42Z",
-              "content": "In 1963, six years after the first satellite was launched, editors from the Encyclopaedia Britannica posed a question to five eminent thinkers of the day: Has mans conquest of space increased or dimi… [+6097 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Herzindagi.com"
-              },
-              "author": "Akshita Jolly",
-              "title": "Cleaning Hacks: Top 5 Things To Clean With Toothpaste At Home - HerZindagi",
-              "description": "Cleaning Hacks, Top 5 Things To Clean With Toothpaste At Home: Well, toothpaste has many uses and it can be used to clean many things besides your teeth. Tap to see these things that you can clean with toothpaste easily at home.",
-              "url": "https://www.herzindagi.com/web-stories/society-culture/cleaning-hacks-top-5-things-to-clean-with-toothpaste-at-home-ws-21711",
-              "urlToImage": "https://images.herzindagi.info/webstories/21711/social-media-akshita--9--1702464528.jpeg",
-              "publishedAt": "2023-12-17T07:30:00Z",
-              "content": "<ul>Well, toothpaste has many uses and it can be used to clean many things besides your teeth. Tap to see these things that you can clean with toothpaste easily at home. </ul>\r\nEliminate food odours … [+985 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "DNA India"
-              },
-              "author": "Kajari Goswami",
-              "title": "10 fastest animals in the world - DNA India",
-              "description": "10 fastest animals in the world",
-              "url": "https://www.dnaindia.com/web-stories/lifestyle/10-fastest-animals-in-the-world--1702794461437",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T06:36:41Z",
-              "content": "Dec 17, 2023, 12:06PM IST"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Nature.com"
-              },
-              "author": null,
-              "title": "The first identification of cronstedtite in Cu–Ni–PGE ores of the Talnakh intrusion | Scientific Reports - Nature.com",
-              "description": "Scientific Reports - The first identification of cronstedtite in Cu–Ni–PGE ores of the Talnakh intrusion",
-              "url": "https://www.nature.com/articles/s41598-023-49953-x",
-              "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-023-49953-x/MediaObjects/41598_2023_49953_Fig1_HTML.png",
-              "publishedAt": "2023-12-17T06:17:28Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Men's Eggs, Women's Sperm: Stem Cell Science May Change How We Reproduce - NDTV",
-              "description": "It may soon be possible to coax human skin cells into becoming functional eggs and sperm using a technique known as \"in vitro gametogenesis\". This involves the creation (genesis) of eggs and sperm (gametes) outside the human body.",
-              "url": "https://www.ndtv.com/science/eggs-from-men-sperm-from-women-stem-cell-science-may-change-how-we-reproduce-4689273",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/n5lsdi7_baby-generic_625x300_17_December_23.jpeg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20231203.06",
-              "publishedAt": "2023-12-17T04:41:19Z",
-              "content": "There is the possibility of a child having multiple genetically-related parents, or only one.\r\nIt may soon be possible to coax human skin cells into becoming functional eggs and sperm using a techniq… [+7280 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Nature.com"
-              },
-              "author": null,
-              "title": "First complete mitogenome of Massarineae and its contribution to phylogenetic implications in Pleosporales | Scientific Reports - Nature.com",
-              "description": "Scientific Reports - First complete mitogenome of Massarineae and its contribution to phylogenetic implications in Pleosporales",
-              "url": "https://www.nature.com/articles/s41598-023-49822-7",
-              "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-023-49822-7/MediaObjects/41598_2023_49822_Fig1_HTML.png",
-              "publishedAt": "2023-12-17T04:26:20Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Scientists sound alarm on global consequences as Antarctic ice melt accelerates - AP Archive",
-              "description": "(12 Dec 2023) RESTRICTION SUMMARY: ++MUSIC CLEARED FOR EDITORIAL USE++ASSOCIATED PRESSIsabel Riquelme Islet, Antarctic Peninsula - 24 November 20231. Drone s...",
-              "url": "https://www.youtube.com/watch?v=flFwlftFBIo",
-              "urlToImage": "https://i.ytimg.com/vi/flFwlftFBIo/maxresdefault.jpg",
-              "publishedAt": "2023-12-17T04:02:34Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "ANI",
-              "title": "How body reacts to high or low oxygen levels: Study - Hindustan Times",
-              "description": "The study shows how breathing air containing more oxygen than what is required by the body can lead to health problems or even death. | Health",
-              "url": "https://www.hindustantimes.com/lifestyle/health/how-body-reacts-to-high-or-low-oxygen-levels-study-101702783370425.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/INDIA-POLLUTION-HEALTH-CHILDREN-17_1699503595275_1702783491869.jpg",
-              "publishedAt": "2023-12-17T03:27:06Z",
-              "content": "It only takes a few seconds of holding your breath to know that not obtaining adequate oxygen is detrimental to your health. Is it possible, however, to have too much? Indeed, breathing air that cont… [+4631 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ThePrint"
-              },
-              "author": "Akanksha Mishra",
-              "title": "Aditya L1 unveils full-disk images of Sun, telescope aboard used 11 filters to show new details - ThePrint",
-              "description": "ScientiFix, our weekly feature, offers you a summary of the top global science stories of the week, with links to their sources.",
-              "url": "https://theprint.in/scientifix/aditya-l1-unveils-full-disk-images-of-sun-telescope-aboard-used-11-filters-to-show-new-details/1889030/",
-              "urlToImage": "https://static.theprint.in/wp-content/uploads/2023/12/Untitled-design-32-2.jpg",
-              "publishedAt": "2023-12-17T02:30:52Z",
-              "content": "This imagery includes features like sunspots, which are dark spots on the sun where the magnetic field is strong, offering scientists valuable insights.\r\nThe collaborative effort, led by the Inter-Un… [+3757 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Zoom"
-              },
-              "author": "TN World Desk",
-              "title": "Elon Musk's SpaceX And US Space Force's Secret Mission Delayed: Spy Plane X-37B To Fly On THIS Date - Times Now",
-              "description": "The company's focus and energy will be to cater to a four-hour launch window starting at 7 p.m. ET on Thursday, December 28. The launch will take place at NASA’s Kennedy Space Center in Florida. It was originally scheduled to launch on December 11, but the fi…",
-              "url": "https://www.timesnownews.com/world/elon-musks-spacex-and-us-space-forces-secret-mission-delayed-spy-plane-x-37b-to-fly-on-this-date-article-106055474",
-              "urlToImage": "https://static.tnn.in/thumb/msid-106055471,thumbsize-148778,width-1280,height-720,resizemode-75/106055471.jpg",
-              "publishedAt": "2023-12-17T02:02:06Z",
-              "content": "When John Abraham Called Himself 'Big-Screen Hero', Said He Won't Be 'Available On OTT For Rs 299 Or Rs 499'"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Betty Davis",
-              "title": "Scientists Discover New Species of Deep-Sea Fish - TickerTV News",
-              "description": "Scientists Discover New Species of Deep-Sea Fish - TickerTV News",
-              "url": "https://ticker.tv/news/diddy-pays-tribute-to-late-ex-girlfriend-kim-porter-on-instagram/341723/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_mens_using_smartphone_or_computer_on_outdoor_48e3f3cf-8d21-4f89-b72c-d7c0e970fcec.png",
-              "publishedAt": "2023-12-17T01:24:27Z",
-              "content": "Summary: A recent scientific discovery has unveiled the existence of a previously unknown species of deep-sea fish. Researchers made the finding during a deep-sea expedition, where they encountered t… [+1929 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Gabriel Botha",
-              "title": "Indian Rover Awakening Raises Excitement for Lunar Exploration - CityLife",
-              "description": "Indian Rover Awakening Raises Excitement for Lunar Exploration - CityLife",
-              "url": "https://citylife.capetown/space/ist-der-indische-rover-aufgewacht/535209/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_6e0c2e40-d4f7-45ba-938c-6836abdb6af2.jpeg",
-              "publishedAt": "2023-12-17T00:50:45Z",
-              "content": "Scientists and space enthusiasts are eagerly awaiting the awakening of the Indian rover, known as Pragyan, which has been in hibernation for several months. Pragyan is part of the Chandrayaan-2 missi… [+2891 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Gabriel Botha",
-              "title": "The Celestial Ballet: Prepare to Witness the Enchanting \"Ring of Fire\" Solar Eclipse - CityLife",
-              "description": "The Celestial Ballet: Prepare to Witness the Enchanting \"Ring of Fire\" Solar Eclipse - CityLife",
-              "url": "https://citylife.capetown/uncategorized/us-will-see-ring-of-fire-solar-eclipse/534995/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_6b52c281-f6b9-4c4b-958b-e02e83b80c34.jpeg",
-              "publishedAt": "2023-12-16T23:23:15Z",
-              "content": "Summary: Astronomers and stargazers are eagerly awaiting the upcoming “Ring of Fire” solar eclipse, where the moon will create a mesmerizing ring-like effect as it passes in front of the sun. This aw… [+4021 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Vicky Stavropoulou",
-              "title": "NASA Collaborates with ISRO to Support Chandrayaan-3 Lunar Mission - CityLife",
-              "description": "NASA Collaborates with ISRO to Support Chandrayaan-3 Lunar Mission - CityLife",
-              "url": "https://citylife.capetown/nasa/is-nasa-tracking-chandrayaan-3-2/534932/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_technologies_of_XXI_century_h_a9a164f1-8aa3-4e6d-bdcb-ce7be4406a47.jpeg",
-              "publishedAt": "2023-12-16T22:49:38Z",
-              "content": "NASA, the renowned space agency of the United States, has formed a collaborative partnership with the Indian Space Research Organisation (ISRO) to support and assist India’s upcoming lunar mission, C… [+1859 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Reuters",
-              "title": "Aborted test, missing parts add to Europe's space woes - IndiaTimes",
-              "description": "Europe News: The final flight of Italy's Vega rocket has been delayed after crucial parts went missing, while the latest test of Europe's new Ariane 6 has been abo",
-              "url": "https://timesofindia.indiatimes.com/world/europe/aborted-test-missing-parts-add-to-europes-space-woes/articleshow/106052616.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106052638,width-1070,height-580,imgsize-59596,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T19:54:12Z",
-              "content": "10 foods that claim to be healthy but are not"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Financial Express"
-              },
-              "author": "The Financial Express",
-              "title": "METEOR SHOWERS: Here’s a look at some of the most established meteor showers known in recent years - The Financial Express",
-              "description": null,
-              "url": "https://www.financialexpress.com/life/science-meteor-showers-heresnbspa-look-at-some-of-the-most-establishednbspmeteor-showers-known-in-recent-years-3340339/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T19:45:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Mampho Brescia",
-              "title": "Chandrayaan-3 Successfully Completes Epic Journey to the Moon - CityLife",
-              "description": "Chandrayaan-3 Successfully Completes Epic Journey to the Moon - CityLife",
-              "url": "https://citylife.capetown/nasa/how-much-distance-travelled-by-chandrayaan-3-from-earth-to-moon-2/534424/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_man_19d57e9b-aa17-4d10-b740-0fd2d5c2e158.jpeg",
-              "publishedAt": "2023-12-16T19:22:49Z",
-              "content": "Chandrayaan-3, the Indian Space Research Organisation’s (ISRO) third lunar mission, has completed an incredible voyage from Earth to the Moon. This article explores the remarkable distance covered by… [+2305 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Betty Davis",
-              "title": "New Galaxy Reveals Hidden Population in Early Universe - TickerTV News",
-              "description": "New Galaxy Reveals Hidden Population in Early Universe - TickerTV News",
-              "url": "https://ticker.tv/news/james-webb-space-telescope-pierces-through-dust-to-find-an-ancient-ghostly-galaxy-2/343051/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_mens_using_smartphone_or_computer_on_outdoor_a570845a-27ab-4ada-8ec5-25e3f7efe07e.png",
-              "publishedAt": "2023-12-16T19:04:39Z",
-              "content": "Scientists have made a remarkable discovery with the help of the James Webb Space Telescope (JWST), uncovering a previously unknown population of galaxies from the early universe. The image captured … [+1873 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Robert Andrew",
-              "title": "Chandrayaan-3 Faces Communication Issues, Scientists Working on Solutions - CityLife",
-              "description": "Chandrayaan-3 Faces Communication Issues, Scientists Working on Solutions - CityLife",
-              "url": "https://citylife.capetown/nasa/why-is-chandrayaan-3-not-responding-2/534306/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_future_4fe05ecf-0148-4a8e-8ca1-da3ca853b4d1.jpeg",
-              "publishedAt": "2023-12-16T18:41:45Z",
-              "content": "Summary: India’s ambitious lunar mission, Chandrayaan-3, has encountered communication problems and is currently unresponsive. This setback has raised concerns among scientists and space enthusiasts.… [+2978 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Unilad.com"
-              },
-              "author": "Kit Roberts",
-              "title": "Earth just received record-breaking laser-beamed message from 16000000 miles away - UNILAD",
-              "description": "The message arrived from far beyond the Moon, a record-breaking distance from the planet.",
-              "url": "https://www.unilad.com/technology/space/earth-message-from-space-385612-20231216",
-              "urlToImage": "https://images.ladbible.com/resize?type=jpeg&quality=70&width=1200&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/blt949ea8e16e463049/bltfdb1e74ed8b6eb63/657ddba2d56a0404073fd865/message-earth.png",
-              "publishedAt": "2023-12-16T17:37:47Z",
-              "content": "Earth has received a message from outer space. \r\nYes, you read that right, a message arrived on Earth from a source some 16 million kilometres - or around 10 million miles - from the planet.\r\nThis is… [+2263 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Vicky Stavropoulou",
-              "title": "Does Chandrayaan-3 have humans in it? - CityLife",
-              "description": "Does Chandrayaan-3 have humans in it? - CityLife",
-              "url": "https://citylife.capetown/uncategorized/does-chandrayaan-3-have-humans-in-it/534130/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_automatization_high_resolutio_ad14fad2-5238-40e8-abc5-98fb79cbd481.jpeg",
-              "publishedAt": "2023-12-16T17:26:22Z",
-              "content": "Summary:Chandrayaan-3, the upcoming lunar mission by the Indian Space Research Organisation (ISRO), has sparked speculation about the inclusion of human astronauts. However, ISRO has clarified that C… [+2751 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ANI News"
-              },
-              "author": "ANI News",
-              "title": "Researchers give more insight into how new genes arise from nothing - ANI News",
-              "description": null,
-              "url": "https://www.aninews.in/news/health/researchers-give-more-insight-into-how-new-genes-arise-from-nothing20231216224535",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T17:17:35Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Devdiscourse"
-              },
-              "author": "Devdiscourse News Desk",
-              "title": "NASA and Sierra Space make progress on Dream Chaser's first flight to space station - Devdiscourse",
-              "description": "Read more about NASA and Sierra Space make progress on Dream Chaser's first flight to space station on Devdiscourse",
-              "url": "https://www.devdiscourse.com/article/science-environment/2748322-nasa-and-sierra-space-make-progress-on-dream-chasers-first-flight-to-space-station",
-              "urlToImage": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/16_12_2023_21_04_25_1881619.webp?width=920&format=jpeg",
-              "publishedAt": "2023-12-16T15:37:00Z",
-              "content": "Sierra Space, a leading aerospace company, and NASA are forging ahead with plans to launch an uncrewed cargo spaceplane, named Dream Chaser, to the International Space Station. The spaceplane has ent… [+1958 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Space.com"
-              },
-              "author": "Space.com Staff",
-              "title": "This Week In Space podcast: Episode 91 — 2023 Holiday Special! - Space.com",
-              "description": "On Episode 91 of This Week In Space, Tariq and Rod discuss the year in review with Leonard David.",
-              "url": "https://www.space.com/this-week-in-space-episode-91-year-in-review",
-              "urlToImage": "https://cdn.mos.cms.futurecdn.net/ZteTbT6yNnBuyC3oqQRtJo-1200-80.jpg",
-              "publishedAt": "2023-12-16T15:32:36Z",
-              "content": "Space is part of Future US Inc, an international media group and leading digital publisher. Visit our corporate site.\r\n©\r\nFuture US, Inc. Full 7th Floor, 130 West 42nd Street,\r\nNew York,\r\nNY 10036."
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "The Hindu",
-              "title": "Additional organic molecules found in Enceladus’s plume - The Hindu",
-              "description": null,
-              "url": "https://www.thehindu.com/sci-tech/additional-organic-molecules-found-in-enceladuss-plume/article67642216.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T15:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Robert Andrew",
-              "title": "Satyendra Nath Bose and Albert Einstein: A Revolutionary Scientific Partnership - CityLife",
-              "description": "Satyendra Nath Bose and Albert Einstein: A Revolutionary Scientific Partnership - CityLife",
-              "url": "https://citylife.capetown/education/which-indian-scientist-worked-with-einstein-2/533844/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_man_c01e8acc-9dd6-455c-8cf1-cbf4829b88d4.jpeg",
-              "publishedAt": "2023-12-16T15:23:58Z",
-              "content": "Summary: This article explores the remarkable collaboration between Indian physicist Satyendra Nath Bose and renowned physicist Albert Einstein, highlighting their groundbreaking work on quantum mech… [+2863 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "ESA Astronaut Shares Incredible Pictures Of Icebergs As Seen From Space - NDTV",
-              "description": "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-              "url": "https://www.ndtv.com",
-              "urlToImage": "https://cdn.ndtv.com/common/images/ogndtv.png",
-              "publishedAt": "2023-12-16T15:21:09Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Robert Andrew",
-              "title": "Indian Space Research Organization (ISRO) Achieves Milestone with Chandrayaan-2 Mission to the Moon - CityLife",
-              "description": "Indian Space Research Organization (ISRO) Achieves Milestone with Chandrayaan-2 Mission to the Moon - CityLife",
-              "url": "https://citylife.capetown/space/indien-startet-erfolgreich-die-chandrayaan-2019-mission-zur-erforschung-des-mondes/533795/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_high_resolution_27afee36-3165-4834-b2f7-f1c20eb6da2a.jpeg",
-              "publishedAt": "2023-12-16T15:03:14Z",
-              "content": "The Indian Space Research Organization (ISRO) recently achieved a significant milestone in its space exploration efforts with the successful launch of the Chandrayaan-2 mission to the Moon. The missi… [+2433 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Our Webb Space Telescope’s New Look at an Exploded Star on This Week @NASA – December 15, 2023 - NASA",
-              "description": "Our Webb Space Telescope’s new look at an exploded star, teams prepare to install some Moon rocket hardware, and completing NASA’s first two-way, end-to-end ...",
-              "url": "https://www.youtube.com/watch?v=mZx4DSUzFFQ",
-              "urlToImage": "https://i.ytimg.com/vi/mZx4DSUzFFQ/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T15:00:29Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Newstap.in"
-              },
-              "author": "NewsTAP Bureau",
-              "title": "Hyderabad to witness Ursids meteor showers from December 16-23 - NewsTap",
-              "description": "Enthusiasts might witness up to 10 meteors per hour at the shower’s peak. An opportune moment for viewing is predicted on December 23, with exceptional visibility between 2:55 am and 5:50 am.",
-              "url": "https://www.newstap.in/city-news/hyderabad-to-witness-ursids-meteor-showers-from-december-16-23-1509944",
-              "urlToImage": "https://www.newstap.in/h-upload/2023/12/16/1570248-ursid.jpg",
-              "publishedAt": "2023-12-16T14:12:39Z",
-              "content": "HYDERABAD: Sky-gazers in the city are in for a celestial treat with the Ursids meteor shower will grace the city's skies, marking the final major meteor event of the year. \r\nPlanetary Society of Indi… [+758 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Chris Hadfield talks Starfield, SpaceX Starship and Canada's space program in exclusive interview - VideoFromSpace",
-              "description": "Canadian astronaut Chris Hadfield talks to Space.com about Starfield, new spaceships like SpaceX's Starship and the fleet of new Canadian astronaut announcem...",
-              "url": "https://www.youtube.com/watch?v=Y3idPlofyd8",
-              "urlToImage": "https://i.ytimg.com/vi/Y3idPlofyd8/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T13:23:55Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Nature.com"
-              },
-              "author": null,
-              "title": "Experimental study on the gas desorption law in coal affected by dynamic water injection | Scientific Reports - Nature.com",
-              "description": "Scientific Reports - Experimental study on the gas desorption law in coal affected by dynamic water injection",
-              "url": "https://www.nature.com/articles/s41598-023-49607-y",
-              "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-023-49607-y/MediaObjects/41598_2023_49607_Fig1_HTML.png",
-              "publishedAt": "2023-12-16T13:06:39Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-washington-post",
-                "name": "The Washington Post"
-              },
-              "author": "Kasha Patel",
-              "title": "Here's what happens when the sun's 'wind' disappears near Earth and Mars - The Washington Post",
-              "description": "Scientists are gaining new insights into the solar wind, which played a role in the loss of water from Mars and can disrupt communications systems on Earth.",
-              "url": "https://www.washingtonpost.com/climate-environment/2023/12/16/solar-wind-mars-earth-water/",
-              "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A7VRJJLL5SACN3QRBA2GWVEELM.jpg&w=1440",
-              "publishedAt": "2023-12-16T12:14:43Z",
-              "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nThe sun constantly spews gas and particles charged with electricity into space at a million miles per hour. The stream, known as the s… [+5850 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Vicky Stavropoulou",
-              "title": "India's Ambitious Plans for a Second Mission to Mars - CityLife",
-              "description": "India's Ambitious Plans for a Second Mission to Mars - CityLife",
-              "url": "https://citylife.capetown/space/is-isro-going-to-mars-2/533315/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_51cfddfc-7c1c-44a9-964e-69f6ce100c7e.jpeg",
-              "publishedAt": "2023-12-16T11:30:40Z",
-              "content": "India’s space agency, the Indian Space Research Organisation (ISRO), has been making impressive advancements in space exploration. After the success of its first Mars Orbiter Mission (MOM) in 2013, I… [+2205 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Watch again: NASA’s SpaceX CRS-29 cargo craft undocks from space station - The Independent",
-              "description": "Watch again as Nasa’s SpaceX CRS-29 cargo craft undocks from the International Space Station (ISS) on 15 December.The CRS-29 Dragon spacecraft began undockin...",
-              "url": "https://www.youtube.com/watch?v=IhECSzYV3tY",
-              "urlToImage": "https://i.ytimg.com/vi/IhECSzYV3tY/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T11:25:11Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Gabriel Botha",
-              "title": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
-              "description": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
-              "url": "https://citylife.capetown/space/scientists-say-they-conversed-with-a-whale-it-may-be-practice-for-aliens/533307/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_fc5f1167-f58a-414e-a9cc-49ccd5458071.jpeg",
-              "publishedAt": "2023-12-16T11:24:46Z",
-              "content": "Summary: In a groundbreaking new study, scientists have successfully engaged in a “conversation” with a humpback whale named Twain. Researchers from the University of California, Davis, the SETI Inst… [+1999 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Mampho Brescia",
-              "title": "ISRO: India's Journey in Space Exploration - CityLife",
-              "description": "ISRO: India's Journey in Space Exploration - CityLife",
-              "url": "https://citylife.capetown/technology/which-country-belongs-to-isro-2/533313/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_high_resolution_8cba567c-393a-46ab-ae1e-fa235870e679.jpeg",
-              "publishedAt": "2023-12-16T11:21:22Z",
-              "content": "India’s space agency, the Indian Space Research Organisation (ISRO), has made tremendous strides in the field of space exploration, satellite technology, and scientific research. Established in 1969,… [+2092 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Mampho Brescia",
-              "title": "Can you see the US flag on the moon? - CityLife",
-              "description": "Can you see the US flag on the moon? - CityLife",
-              "url": "https://citylife.capetown/uncategorized/can-you-see-the-us-flag-on-the-moon/533287/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_of_XXI_century_high__e1f98eb8-1c62-4256-a55e-65cce7ebee26.jpeg",
-              "publishedAt": "2023-12-16T11:20:28Z",
-              "content": "Summary:The question of whether the United States flag is visible on the moon has been a subject of debate and curiosity for many years. This article aims to shed light on this topic by examining the… [+3443 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Free Press Journal"
-              },
-              "author": "Aditi Thakur",
-              "title": "Artificial Lights Or Aurora? Latest Study Challenges Conventions About Night Sky - Free Press Journal",
-              "description": "Similar in look and behaviour to auroras, the Steve and Picket Fence phenomena are distinct and not categorised as traditional auroras.",
-              "url": "https://www.freepressjournal.in/science/artificial-lights-or-aurora-latest-study-challenges-conventions-about-night-sky",
-              "urlToImage": "https://media.assettype.com/freepressjournal/2023-12/90d6fa39-e7ae-4a9a-9616-c9eeff7274b2/Fr_rAtiWIAMU4ZR.jfif",
-              "publishedAt": "2023-12-16T10:50:18Z",
-              "content": "Aurora is the ethereal display of light waves that has always intrigued skygazers and lovers. However, there is a similar phenomenon to the aurora, known as 'Steve' and 'Picket Fence.' Holding simila… [+1877 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Zoom"
-              },
-              "author": "TN Tech Desk",
-              "title": "NASA Warns Asteroid 2023 XJ13 Will Come Alarmingly Close to Earth Today! - Times Now",
-              "description": "NASA traces a space rock, Asteroid 2023 XJ13 sailing towards the Earth at a blazing speed. Read further and know everything that NASA has suggested about this asteroid.",
-              "url": "https://www.timesnownews.com/technology-science/nasa-warns-asteroid-2023-xj13-will-alarmingly-close-to-earth-today-article-106045082",
-              "urlToImage": "https://static.tnn.in/thumb/msid-106045144,thumbsize-423485,width-1280,height-720,resizemode-75/106045144.jpg",
-              "publishedAt": "2023-12-16T09:58:41Z",
-              "content": "Delhi Man Drags Lifestyle To Court Over Rs 7 Fee For Paper Bag, Gets Rs 3,000 Compensation"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Year-Ender 2023: Top 5 times Nasa, ISS shared Earth's stellar poses for the Cosmic Kaleidoscope | Mint - Mint",
-              "description": "NASA's Instagram highlights, ranging from the Horn of Africa to the Himalayas, provide straightforward yet striking glimpses of our home planet. As we reflect on the year, these space snapshots serve as a reminder of the beauty and fragility of Earth in the v…",
-              "url": "https://www.livemint.com/science/news/yearender-2023-top-5-times-nasa-iss-shared-earths-stellar-poses-for-the-cosmic-kaleidoscope-11702698589773.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/3-0-13258528-istockphoto-1062473882-2048x2048-0_1679832310043_1702700629861.jpg",
-              "publishedAt": "2023-12-16T09:32:26Z",
-              "content": "As we bid adieu to another year, Mint takes a look at a cosmic journey through some of the most captivating snapshots shared by NASA of our home planet from the vastness of space. Brace yourselves fo… [+3130 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "msnNOW"
-              },
-              "author": null,
-              "title": "Multiple geomagnetic storms headed towards Earth, more radio blackouts expected - MSN",
-              "description": null,
-              "url": "https://www.msn.com/en-in/news/techandscience/multiple-geomagnetic-storms-headed-towards-earth-more-radio-blackouts-expected/ar-AA1lAx2y?ocid=weather-verthp-feeds",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T09:12:23Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Are You A Morning Person? Thank Your Neanderthal Ancestors - NDTV",
-              "description": "New research suggests that individuals who are naturally early risers may have inherited genetic variants from Neanderthals.",
-              "url": "https://www.ndtv.com/science/are-you-a-morning-person-thank-your-neanderthal-ancestors-4684712",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/lqenvv18_neanderthals_625x300_16_December_23.jpeg?ver-20231203.06",
-              "publishedAt": "2023-12-16T09:02:28Z",
-              "content": "All anatomically modern humans trace their origin to Africa.\r\nPeople who naturally wake up early in the morning might have their Neanderthal ancestors to thank, suggests recent research published in … [+1867 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Tanya King",
-              "title": "Astronomers Uncover Astonishing Intergalactic Stellar Stream in Deep Space - TickerTV News",
-              "description": "Astronomers Uncover Astonishing Intergalactic Stellar Stream in Deep Space - TickerTV News",
-              "url": "https://ticker.tv/news/intergalactic-stream-of-stars-10-times-longer-than-the-milky-way-is-the-1st-of-its-kind-ever-spotted/341825/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_a_man_using_smartphone_or_computer_on_outdoor_8e6f1d0b-5c2b-411f-86fc-ecd5cfe5a57c.png",
-              "publishedAt": "2023-12-16T08:01:36Z",
-              "content": "A groundbreaking study has revealed the accidental discovery of the very first known intergalactic trail of stars. This colossal “stellar stream” is estimated to be 10 times longer than our own Milky… [+2684 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Graphene-Info"
-              },
-              "author": null,
-              "title": "Researchers use ultrafast lasers to map ballistic movement of electrons in graphene - Graphene-Info",
-              "description": "Researchers at the University of Kansas’ Ultrafast Laser Lab have observed the ballistic movement of electrons in graphene in real time.  Image credit: University of Kansas“Generally, electron movement is interrupted by collisions with other particles in soli…",
-              "url": "https://www.graphene-info.com/researchers-use-ultrafast-lasers-map-ballistic-movement-electrons-graphene",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T05:58:51Z",
-              "content": "Researchers at the University of Kansas Ultrafast Laser Lab have observed the ballistic movement of electrons in graphene in real time. \r\nImage credit: University of Kansas\r\nGenerally, electron movem… [+4696 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Udayavani.com"
-              },
-              "author": "Udayavani English",
-              "title": "Scientists generate compounds with diamond-like hardness - Udayavani English",
-              "description": null,
-              "url": "https://www.udayavani.com/english-news/scientists-generate-compounds-with-diamond-like-hardness",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T05:51:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Forbesindia.com"
-              },
-              "author": null,
-              "title": "Thawing permafrost in Norway could release unexpected quantities of methane - Forbes India",
-              "description": "In addition to the threat posed by climate change, oil and gas operations located close to areas of permafrost accelerate its thaw",
-              "url": "https://www.forbesindia.com/article/lifes/thawing-permafrost-in-norway-could-release-unexpected-quantities-of-methane/90357/1",
-              "urlToImage": "https://www.forbesindia.com/media/images/2023/Dec/img_224703_norway.jpg",
-              "publishedAt": "2023-12-16T05:06:36Z",
-              "content": "For hassle free instant subscription, just give your number and email id and our customer care agent will get in touch with you"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "DNA India"
-              },
-              "author": "Mahipal Chouhan",
-              "title": "8 Oldest animal species that are still living - DNA India",
-              "description": "Here's a list of 8 Oldest animal species that are still living",
-              "url": "https://www.dnaindia.com/web-stories/viral/8-oldest-animal-species-that-are-still-living-crocodile-wild-dinosaur-africa--1702697081399",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T03:48:39Z",
-              "content": "Dec 16, 2023, 09:18AM IST"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Never-Before-Seen Anomaly Found In Fast Radio Bursts, Say Astronomers - NDTV",
-              "description": "Astronomers think at least some FRBs are generated by a type of neutron star known as a magnetar.",
-              "url": "https://www.ndtv.com/science/never-before-seen-anomaly-found-in-fast-radio-bursts-say-astronomers-4683439",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/ucn14h8o_fast-radio-bursts_625x300_16_December_23.jpeg?ver-20231203.06",
-              "publishedAt": "2023-12-16T03:35:15Z",
-              "content": "Fast radio bursts are brief and intense energy blasts that are brighter than galaxies.\r\nScientists are hot on the heels of unraveling the secrets of mysterious deep space signals, thanks to a peculia… [+2401 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "Shukrayaan-1 mission: ISRO's odyssey to unravel Venus secrets and illuminate solar system mysteries - HT Tech",
-              "description": "Shukrayaan1 mission ISROs odyssey to unravel Venus secrets and illuminate solar system mysteries Indian space agency ISRO is gearing up for a groundbreaking venture to Venus named Shukrayaan1 mission which is set to launch in the near future. Venus mission is…",
-              "url": "https://tech.hindustantimes.com/web-stories/shukrayaan1-mission-isros-odyssey-to-unravel-venus-secrets-and-illuminate-solar-system-mysteries-71702716117130.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/16/1600x900/venus_1673275382214_1702716261335.jpg/",
-              "publishedAt": "2023-12-16T03:21:35Z",
-              "content": "Photo Credit: Pixabay\r\n Indian space agency ISRO is gearing up for a groundbreaking venture to Venus, named Shukrayaan-1 mission, which is set to launch in the near future. Venus mission is poised to… [+1881 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "WION Web Team",
-              "title": "Geminids meteor shower lights up night sky with a greenish hue - WION",
-              "description": "Geminids meteor shower lights up night sky with a greenish hue",
-              "url": "https://www.wionews.com/science/geminids-meteor-shower-lights-up-night-sky-with-a-greenish-hue-670168",
-              "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/16/399468-untitled-design-2.png",
-              "publishedAt": "2023-12-16T03:00:29Z",
-              "content": "The Geminids meteor shower, which is seen in mid-December every year, has lit up the night skies once again. According to a report by Forbes on Friday (Dec 15), the meteor peaked on Thursday night. E… [+1542 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "NASA PACE Mission 2024: Mission To Study Environmental Changes On Earth - Telangana Today",
-              "description": "NASA's upcoming Plankton, Aerosol, Cloud, and Ocean Ecosystem (PACE) mission is set to provide crucial insights into airborne particles and clouds, contribut...",
-              "url": "https://www.youtube.com/watch?v=rC1N_tEXx-o",
-              "urlToImage": "https://i.ytimg.com/vi/rC1N_tEXx-o/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T02:30:31Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Oup.com"
-              },
-              "author": null,
-              "title": "Scientific Preparation for CSST: Classification of galaxy and Nebula/Star Cluster based on deep learning - Oxford Academic",
-              "description": "Abstract. The Chinese Space Station Telescope (abbreviated as CSST) is a future advanced space telescope. Real-time identification of galaxy and nebula/star clu",
-              "url": "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stad3815/7476003",
-              "urlToImage": "https://academic.oup.com/data/sitebuilderassetsoriginals/live/images/mnras/mnras_ogimage.png",
-              "publishedAt": "2023-12-16T01:21:31Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Earth.com"
-              },
-              "author": null,
-              "title": "Laser technology could improve radiation treatments for cancer patients - Earth.com",
-              "description": "Ultrafast laser technology represents a significant advancement in medical technology, particularly in the realm of cancer treatment",
-              "url": "https://www.earth.com/news/laser-technology-could-improve-radiation-treatments-for-cancer-patients/",
-              "urlToImage": "https://cff2.earth.com/uploads/2023/12/15172935/Laser-treatments-scaled.jpg",
-              "publishedAt": "2023-12-16T00:32:16Z",
-              "content": "Ultrafast laser technology represents a significant advancement in medical technology, particularly in the realm of cancer treatment.\r\nThis breakthrough, led by researchers at INRS and McGill Univers… [+3153 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Easternherald.com"
-              },
-              "author": "News Room, News Room",
-              "title": "Scientists call for new era on Moon to reflect human influence - The Eastern Herald",
-              "description": "A new era should be declared on the Moon to recognise human dominance. Human activity first disrupted the lunar surface when the USSR's spacecraft Luna 2 | The Eastern Herald",
-              "url": "https://www.easternherald.com/2023/12/16/scientists-call-for-new-era-on-moon-to-reflect-human-influence/",
-              "urlToImage": "https://www.easternherald.com/wp-content/uploads/2023/12/Scientists-call-for-new-era-on-Moon-to-reflect-human.jpeg",
-              "publishedAt": "2023-12-16T00:27:00Z",
-              "content": "A new era should be declared on the Moon to recognise human dominance.\r\nHuman activity first disrupted the lunar surface when the USSR’s spacecraft Luna 2 left a crater in 1959 and more than 100 othe… [+796 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-              },
-              "author": null,
-              "title": "These huge Japanese 'dragons' hunted the ancient oceans - Yahoo News UK",
-              "description": null,
-              "url": "https://uk.news.yahoo.com/huge-japanese-dragons-hunted-ancient-001314360.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T00:13:00Z",
-              "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Expedition 70 Astronaut Furukawa Discusses Space Station Science Experiments - Dec. 15, 2023 - NASA Video",
-              "description": "Aboard the International Space Station, Expedition 70 Flight Engineer Satoshi Furukawa of JAXA (Japan Aerospace Exploration Agency) discussed science experim...",
-              "url": "https://www.youtube.com/watch?v=eIi6h4yowWE",
-              "urlToImage": "https://i.ytimg.com/vi/eIi6h4yowWE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGMgYyhjMA8=&rs=AOn4CLAQI9itIRMZNeGjUXZIFP3uO9UOLA",
-              "publishedAt": "2023-12-15T20:09:49Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News18"
-              },
-              "author": "Buzz Staff",
-              "title": "From Sinking Into The Sun To Meteorite Collision, 4 Ways Earth May End - News18",
-              "description": "Earth could be consumed by the Sun, ultimately marking the end of life on our planet.",
-              "url": "https://www.news18.com/viral/from-sinking-into-the-sun-to-meteorite-collision-4-ways-earth-may-end-8704791.html",
-              "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/image-9-2023-12-11d1cc20ff4c8a98b010a4aa79cd963b-16x9.jpg?impolicy=website&width=1200&height=675",
-              "publishedAt": "2023-12-15T19:38:00Z",
-              "content": "The Earth has surpassed the speculated apocalypse linked to Mayan predictions. Experts still serve caution that genuine threats still exist, with the potential to pose serious risks to the survival o… [+1917 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "WION Web Team",
-              "title": "Parasite black holes devouring stars from inside, says study - WION",
-              "description": "Parasite black holes devouring stars from inside, says study",
-              "url": "https://www.wionews.com/science/parasite-black-holes-devouring-stars-from-inside-says-study-670146",
-              "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/16/399457-untitled-design-2023-12-16t010801232.png",
-              "publishedAt": "2023-12-15T19:33:26Z",
-              "content": "In a new study, it has been found that an unusual candidate for dark matter, which can be referred to as parasite black holes, is likely to be lurking inside stars and slowly devouring them from the … [+2538 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "My Modern Met"
-              },
-              "author": "Margherita Cole",
-              "title": "150-Million-Year-Old Pliosaur Fossil Discovered in the UK - My Modern Met",
-              "description": "This stunning discovery is incredibly well-preserved with all 130 teeth intact!",
-              "url": "https://mymodernmet.com/pliosaur-skull-discovered-in-uk/",
-              "urlToImage": "https://mymodernmet.com/wp/wp-content/uploads/2023/12/pliosaur-fossil-fb.jpg",
-              "publishedAt": "2023-12-15T18:35:14Z",
-              "content": "MONSTER DISCOVERY: Naturalist David Attenborough is seen standing beside the over six-foot-long skull of a pliosaur, which was recently unearthed on England's Jurassic Coast. https://t.co/zR7x4Hs0rLp… [+3990 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Mampho Brescia",
-              "title": "Newly Discovered Quasar Sheds Light on the Early Universe - CityLife",
-              "description": "Newly Discovered Quasar Sheds Light on the Early Universe - CityLife",
-              "url": "https://citylife.capetown/nasa/scientists-discover-giant-water-reservoir-floating-in-space-3/531827/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_high_resolution_87a7ba8a-5bfb-4414-8cf8-23b4f02e56f7.jpeg",
-              "publishedAt": "2023-12-15T16:26:46Z",
-              "content": "Astronomers have made an astounding discovery: the largest reservoir of water ever detected in the universe. This groundbreaking find comes from two teams of scientists at Caltech who have been study… [+2094 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Republic World"
-              },
-              "author": "Harsh Vardhan",
-              "title": "Axiom Space to launch its 3rd private mission to International Space Station on January 9- Republic World - Republic World",
-              "description": "Axiom SpaceX's Ax-3 mission launch will be carried out by Elon Musk's SpaceX on its Falcon 9 rocket and the Dragon spacecraft from NASA's Kennedy Space Center.",
-              "url": "https://www.republicworld.com/science/space/axiom-space-to-launch-its-3rd-private-mission-to-international-space-station-on-january-9",
-              "urlToImage": "https://img.republicworld.com/rimages/GBPK2KQWQAEFoRx-170265678894316_9.webp",
-              "publishedAt": "2023-12-15T16:13:00Z",
-              "content": "Axiom Space is kickstarting 2024 with a big-ticket mission to the International Space Station (ISS). The company announced on December 13 that it is targeting the launch of its third crewed mission o… [+2002 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran Josh"
-              },
-              "author": "Nikhil Batra",
-              "title": "Top 10 Coldest Places on Earth - Jagran Josh",
-              "description": "",
-              "url": "https://www.jagranjosh.com/general-knowledge/which-are-the-coldest-places-on-earth-1702654814-1",
-              "urlToImage": "https://img.jagranjosh.com/images/2023/December/16122023/coldest-places.jpg",
-              "publishedAt": "2023-12-15T15:40:04Z",
-              "content": "Ever dreamed of experiencing the raw, bone-chilling embrace of the coldest places on Earth? While not everyone's cup of tea (or rather, mug of hot cocoa!), these icy landscapes offer a glimpse into t… [+3848 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Republic World"
-              },
-              "author": "Harsh Vardhan",
-              "title": "NASA posts video of Orion's hellish re-entry through atmosphere during Artemis 1- Republic World - Republic World",
-              "description": "Taking to X, NASA posted a video captured from inside the Orion spacecraft which returned after a 26-day journey around the Moon.",
-              "url": "https://www.republicworld.com/science/space/nasa-posts-video-of-orion-s-hellish-re-entry-through-atmosphere-during-artemis-1",
-              "urlToImage": "https://img.republicworld.com/rimages/WhatsAppImage2023-12-15at8.55.54PM-170265398583816_9.webp",
-              "publishedAt": "2023-12-15T15:26:00Z",
-              "content": "NASA scientists have found a key element necessary for the origin of life on one of Saturn's Moon. The Moon in question is Enceladus which is famous for spewing organic compounds into outer space.\r\nA… [+2617 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Phys.Org"
-              },
-              "author": "Bob Yirka",
-              "title": "Captive Goffin's cockatoos found to dunk hard bread to improve its texture - Phys.org",
-              "description": "A pair of veterinary medicine researchers at Medical University of Vienna and University of Vienna, in Austria, has found that some captive Goffin's cockatoos prefer to dunk their hard bread before eating it, seemingly as a means to improve its texture. In th…",
-              "url": "https://phys.org/news/2023-12-captive-goffin-cockatoos-dunk-hard.html",
-              "urlToImage": "https://scx2.b-cdn.net/gfx/news/2023/captive-goffins-cockat.jpg",
-              "publishedAt": "2023-12-15T14:28:40Z",
-              "content": "A pair of veterinary medicine researchers at Medical University of Vienna and University of Vienna, in Austria, has found that some captive Goffin's cockatoos prefer to dunk their hard bread before e… [+2868 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News18"
-              },
-              "author": "Buzz Staff",
-              "title": "Can Hydrogen Therapy Reverse Ageing? Scientists Think So - News18",
-              "description": "The breakthrough study was published in Nature Communications, a peer-reviewed journal.",
-              "url": "https://www.news18.com/viral/can-hydrogen-therapy-reverse-ageing-scientists-think-so-8704925.html",
-              "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-13-2023-12-be34018a4669da1a72c7dcf4f5ab3db6-16x9.png?impolicy=website&width=1200&height=675",
-              "publishedAt": "2023-12-15T12:44:04Z",
-              "content": "In a breakthrough study, a team of scientists from China have been able to successfully allow hydrogen absorption for bone repair. For quite some time now, scientists around the world have known that… [+2269 chars]"
-            }
-          ]
-        },
-        {
-          "sports": [
-            {
-              "source": {
-                "id": "espn-cric-info",
-                "name": "ESPN Cric Info"
-              },
-              "author": "ESPNcricinfo staff",
-              "title": "Shami and Kishan to miss South Africa Tests, Chahar unavailable for ODIs - ESPNcricinfo",
-              "description": "Shreyas Iyer, meanwhile, will leave the ODI squad after the first game to prepare for the Test series",
-              "url": "https://www.espncricinfo.com/story/india-in-south-africa-mohammed-shami-ishan-kishan-to-miss-tests-deepak-chahar-unavailable-for-odis-1413015",
-              "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/361300/361324.6.jpg",
-              "publishedAt": "2023-12-17T11:28:28Z",
-              "content": "NewsShreyas Iyer, meanwhile, will leave the ODI squad after the first game to prepare for the Test series"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Crictracker.com"
-              },
-              "author": "CricTracker",
-              "title": "EXI-W vs AUS-W Live Score, Match 3 | England XI Women vs Austria Women Score & Updates of Match 3 - CricTracker",
-              "description": "EXI-W vs AUS-W Match 3, Live Score: Get all the latest EXI-W vs AUS-W Live Score of Match 3 along with ball by ball commentary & updates on CricTracker.",
-              "url": "https://www.crictracker.com/live-scores/exi-w-vs-aus-w-match-3-t10-ecc-women-t10-17-dec-2023/",
-              "urlToImage": "https://www.crictracker.com/images/CricTracker-Facebook-Preview.jpg",
-              "publishedAt": "2023-12-17T11:22:43Z",
-              "content": "Partnership :7(5)\r\nLast 5 Overs :14 Runs, 1 Wickets\r\nLast Wicket :Busra CA 1(6) - b Ria Fackrell\r\nToss :Austria Women (batting)"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricbuzz"
-              },
-              "author": null,
-              "title": "Ishan Kishan released from India Test squad for personal reasons | Cricbuzz.com - Cricbuzz - Cricbuzz",
-              "description": "KS Bharath has been roped in as his replacement for the upcoming Test series against South Africa",
-              "url": "https://www.cricbuzz.com/cricket-news/128847/ishan-kishan-released-from-india-test-squad-for-personal-reasons-cricbuzzcom",
-              "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c366247/kishan-has-been-replaced-by-ks-bharath-in-the-test-squad.jpg",
-              "publishedAt": "2023-12-17T10:50:39Z",
-              "content": "Ishan Kishan, the wicketkeeper-batter, has been released from India's Test squad for the upcoming series in South Africa. The BCCI has stated in a release on Sunday that the southpaw had requested to… [+483 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "BBC News"
-              },
-              "author": "https://www.facebook.com/bbcnews",
-              "title": "WTC Points Table: What Pakistans 360-Run Loss vs Australia In Perth Test Means For India - NDTV Sports",
-              "description": "Director Comey says the probe into last year's US election would assess if crimes were committed.",
-              "url": "https://www.bbc.com/news/world-us-canada-39324587",
-              "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/44EC/production/_95244671_mediaitem95244670.jpg",
-              "publishedAt": "2023-12-17T10:35:00Z",
-              "content": "Media caption, 'Putin hates Clinton' and other things the FBI learned about Russia\r\nFBI director James Comey has confirmed for the first time that the FBI is investigating alleged Russian interferenc… [+5942 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": null,
-              "title": "India vs South Africa Live Score 1st ODI: Arshdeep Singh takes fifer, Avesh Khan claims four to skittle SA for 116 - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/sports/cricket/india-vs-south-africa-live-score-1st-odi-ind-vs-sa-cricket-full-scorecard-latest-updates-johannesburg-9071196/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T10:34:16Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "International Cricket Council"
-              },
-              "author": "ICC",
-              "title": "Australia set Pakistan imposing target as key batter is cleared of injury - ICC Cricket",
-              "description": "Australian No.3 batter Marnus Labuschagne has been cleared of serious damage after being struck on the hand in the first Test against Pakistan in Perth.",
-              "url": "https://www.icc-cricket.com/news/3825773",
-              "urlToImage": "https://resources.pulse.icc-cricket.com/ICC/photo/2023/12/17/828b29ba-1979-49b6-b872-ed14baf60903/MarnusLabuschagne.png",
-              "publishedAt": "2023-12-17T09:14:09Z",
-              "content": "Australian No.3 batter Marnus Labuschagne has been cleared of serious damage after being struck on the hand in the first Test against Pakistan in Perth.Labuschagne was hit by fast bowler Khurram Shah… [+1949 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Sports Desk",
-              "title": "Meet Sai Sudharsan, GT's rising star who made India debut vs SA in 1st ODI - Hindustan Times",
-              "description": "Did you know? Sai Sudharsan was signed by Gujarat Titans at a price of INR 20 lakh at IPL 2022 auction. | Cricket",
-              "url": "https://www.hindustantimes.com/cricket/meet-sai-sudharsan-gt-gujarat-titans-rising-star-who-made-odi-debut-india-in-series-opener-vs-south-africa-ipl-auction-101702800351346.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/MixCollage-17-Dec-2023-01-26-PM-7447_1702802367014_1702802371962.jpg",
-              "publishedAt": "2023-12-17T08:40:48Z",
-              "content": "\"Going forward, if Im not wrong, in two years, hell do something great for franchise cricket and eventually for India,\" former Gujarat Titans (GT) skipper Hardik Pandya had famously said when youngst… [+2124 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "International Cricket Council"
-              },
-              "author": "ICC",
-              "title": "New Zealand boosted by the return of Williamson in T20Is - ICC Cricket",
-              "description": "Kane Williamson returns as New Zealand captain for the T20Is against Bangladesh, beginning 27 December.",
-              "url": "https://www.icc-cricket.com/news/3825814",
-              "urlToImage": "https://resources.pulse.icc-cricket.com/ICC/photo/2023/12/17/1ec7d473-5f86-435d-9bf2-38bcd152629d/GettyImages-1442937586.jpg",
-              "publishedAt": "2023-12-17T07:45:57Z",
-              "content": "Kane Williamson returns as New Zealand captain for the T20Is against Bangladesh, beginning 27 December.Williamson will be playing the format after a gap of more than a year, having last participated … [+2064 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Irfan Amin Malik",
-              "title": "Kashmir To Kochi: 9 J&K players shortlisted for IPL 2024 auctions - Moneycontrol",
-              "description": "All nine players have participated in tryouts with IPL teams and are being auctioned for their base price of Rs 20 lakh.",
-              "url": "https://www.moneycontrol.com/news/cricket/kashmir-to-kochi-9-jk-players-shortlisted-for-ipl-2024-auctions-11915691.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/12/1-653x435.jpeg",
-              "publishedAt": "2023-12-17T06:57:12Z",
-              "content": "Nine players from Jammu &amp; Kashmir have been shortlisted for the Indian Premier League (IPL) auction, 2024, scheduled to be held in Dubai at the Coca-Cola Arena on December 19.\r\nFor the first time… [+5316 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Trisha Sengupta",
-              "title": "Only a creative problem solver can decode this brain teaser on country names - Hindustan Times",
-              "description": "Your time to solve this brain teaser starts now… | Trending",
-              "url": "https://www.hindustantimes.com/trending/you-can-decode-this-brain-teaser-on-country-names-if-you-are-a-creative-problem-solver-101702793618415.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/Brain_Teaser_Reddit_Viral_1702794102398_1702794102673.png",
-              "publishedAt": "2023-12-17T06:29:23Z",
-              "content": "Have you ever come across brain teasers which could only be solved by out of the box thinking? A puzzle about country names is a perfect example of that category. At first glance, it looks like a geo… [+1544 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TOI Sports Desk",
-              "title": "'I would choose Sourav Ganguly...': Parthiv Patel on why he has a soft corner for the former India captai - IndiaTimes",
-              "description": "Cricket News: Former Indian cricketer Parthiv Patel has endorsed Sourav Ganguly as his captain over Mahendra Singh Dhoni. Patel, who made his debut for India at 17",
-              "url": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-choose-sourav-ganguly-parthiv-patel-on-why-he-has-a-soft-corner-for-the-former-india-captain/articleshow/106058807.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106058886,width-1070,height-580,imgsize-103558,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T05:45:16Z",
-              "content": "BCCI ends speculations, retains Rahul Dravid as India's head coach alongside support staff"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Chess.com"
-              },
-              "author": "Venkatachalam Saravanan",
-              "title": "Chennai Grand Masters 2023: Harikrishna, Sjugirov In Joint Lead After Day Of Fierce Fights - Chess.com",
-              "description": "Sjugirov and Harikrishna jointly lead the field with one and a half points after two rounds of the Chennai Grand Masters 2023.",
-              "url": "https://www.chess.com/news/view/chennai-grand-masters-2023-round-2",
-              "urlToImage": "https://images.chesscomfiles.com/uploads/v1/news/1321547.e6abe2e9.5000x5000o.623d5b2045c3.jpg",
-              "publishedAt": "2023-12-17T05:23:00Z",
-              "content": "GM Sanan Sjugirov defended against ambitious play by GM Pavel Eljanov in the middlegame to score a patient victory and jumped into a joint lead with one and a half points after the second round of th… [+7076 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "BBC News"
-              },
-              "author": null,
-              "title": "Watch: Needing 21 From 6 To Win, England Star Harry Brook Does The Unthinkable - NDTV Sports",
-              "description": "England needed 21 runs from the final 6 balls to chase down the target of 223 runs in 2nd T20I against West Indies.",
-              "url": "http://www.bbc.com/news/world-us-canada-39324587",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/k0q1ampg_harry-brook_625x300_17_December_23.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
-              "publishedAt": "2023-12-17T04:33:00Z",
-              "content": "England batter Harry Brook produced one of the most dramatic finishes in T20 international cricket history as his side took on West Indies on Saturday. With England requiring 21 runs from the final 6… [+1799 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Inshorts.com"
-              },
-              "author": "Anmol Sharma",
-              "title": "I would be happy to take up the role: KL Rahul on keeping in Test cricket | 1st ODI to take place in Johannesburg | Inshorts - Inshorts",
-              "description": "KL Rahul, who'll lead India in ODI series against South Africa, said he'll keep wickets and bat in middle orde",
-              "url": "https://inshorts.com/en/news/i-would-be-happy-to-take-up-the-role-kl-rahul-on-keeping-in-test-cricket-1702747535053",
-              "urlToImage": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/12_dec/16_sat/img_1702747049739_411.jpg?",
-              "publishedAt": "2023-12-17T04:32:34Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Zee Media Bureau",
-              "title": "Rachin Ravindra: At Base Price Of Rs 50 Lakh, New Zealand All-Rounder Could Be Most Expensive Buy Of IPL 2024 Auction; All You Need To Know About His Net Worth, Girlfriend - In Pics - Zee News",
-              "description": "In the thrilling world of cricket, rising stars often illuminate the field with their extraordinary talent. Among these luminaries stands Rachin Ravindra, a young prodigy from New Zealand whose cricketing prowess and meteoric rise have captivated the global c…",
-              "url": "https://zeenews.india.com/photos/sports/rachin-ravindra-at-base-price-of-rs-50-lakh-new-zealand-all-rounder-could-be-most-expensive-buy-of-ipl-2024-auction-all-you-need-to-know-about-his-net-worth-girlfriend-in-pics-2699776",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337334-rachin-ravindra-10.jpg",
-              "publishedAt": "2023-12-17T04:02:00Z",
-              "content": "photoDetailsenglish2699759In the thrilling world of cricket, rising stars often illuminate the field with their extraordinary talent. Among these luminaries stands Rachin Ravindra, a young prodigy fr… [+4256 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricbuzz"
-              },
-              "author": null,
-              "title": "Australia vs Pakistan, 1st Test, Pakistan tour of Australia, 2023-24 - Cricbuzz",
-              "description": "Follow Australia vs Pakistan, 1st Test, Dec 14, Pakistan tour of Australia, 2023-24 with live Cricket score, ball by ball commentary updates on Cricbuzz",
-              "url": "https://www.cricbuzz.com/cricket-commentary/70305/aus-vs-pak-1st-test-pakistan-tour-of-australia-2023-24",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T03:56:17Z",
-              "content": "Mitchell Marsh | Player of the Match - My first Test match at this stadium, first at Perth in six years, so it's a nice feeling. When I went out, the lead was big and so the pressure was off, but thi… [+226 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Venkatesh Ravichandran",
-              "title": "[Watch] Harry Brook's incredible final over heroics help England pull off highest successful run chase vs WI in 3rd T20I - Sportskeeda",
-              "description": "England batter Harry Brook helped the side pull off an unlikely final over heist against the West Indies in the third T20I on December 16.",
-              "url": "https://www.sportskeeda.com/cricket/news-watch-harry-brook-s-incredible-final-heroics-helps-england-pull-highest-successful-run-chase-vs-wi-3rd-t20i",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/f2db5-17027819035913-1920.jpg",
-              "publishedAt": "2023-12-17T03:34:44Z",
-              "content": "England batter Harry Brook helped the side pull off an unlikely final over heist against the West Indies in the third T20I on December 16.\r\nTrailing 0-2 and chasing an improbable 223 for victory, Eng… [+2593 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Sports Desk",
-              "title": "Explained: Why Rohit was replaced by Hardik as Mumbai captain for IPL 2024 - Hindustan Times",
-              "description": "Rohit Sharma was replaced by Hardik Pandya as Mumbai Indians' captain for IPL 2024. A successful MI season will strengthen his captaincy claim at India. | Cricket",
-              "url": "https://www.hindustantimes.com/cricket/why-rohit-sharma-was-replaced-by-hardik-pandya-captain-of-mumbai-indians-ipl-2024-explained-hardik-pandya-gt-mi-101702778124484.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/PTI12-15-2023-000331B-0_1702782353934_1702782375184.jpg",
-              "publishedAt": "2023-12-17T03:09:47Z",
-              "content": "Endings are just new beginnings in disguise. Rohit Sharma's departure as the captain of the Mumbai Indians marked the end of an era in the Indian Premier League (IPL). The most successful player in t… [+4164 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Akash Kharade",
-              "title": "Delhi Capitals Wanted To Trade In Rohit Sharma Ahead Of IPL 2024: Reports - Zee News",
-              "description": "IPL 2024: Ritika Sajdehs First Reaction To Rohit Sharmas Removal As Mumbai Indians Captain, Check The Glorious Era Under Rohit Sharma Under the captaincy of Rohit Sharma, Mumbai Indians achieved unprecedented success, reaching the IPL finals five times and em…",
-              "url": "https://zeenews.india.com/cricket/delhi-capitals-wanted-rohit-sharma-to-play-for-them-in-ipl-2024-reports-2699746.html",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337298-untitled-design-12.jpg",
-              "publishedAt": "2023-12-17T01:41:02Z",
-              "content": "In a surprising turn of events leading up to the IPL 2024 season, Delhi Capitals made a bold move by approaching Mumbai Indians for a potential trade involving the legendary Rohit Sharma. The buzz ar… [+2271 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Gaurav Gupta",
-              "title": "India vs England, one-off Test: Meet Deepti Sharma, the ‘Ben Stokes of women’s team’ - IndiaTimes",
-              "description": "Cricket News: Deepti Sharma, the off-spinning allrounder, earned praise from new head coach Amol Muzumdar, who called her the 'Ben Stokes of the team'. She became t",
-              "url": "https://timesofindia.indiatimes.com/sports/cricket/news/one-off-test-meet-the-ben-stokes-of-the-womens-team/articleshow/106055166.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106055189,width-1070,height-580,imgsize-29632,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T00:51:17Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ESPN India"
-              },
-              "author": "ESPN",
-              "title": "Transfer Talk: Saudi Pro League ramps up Salah pursuit - ESPN India",
-              "description": "The Saudi Pro League's interest in Liverpool star Mohamed Salah will once again ramp up in the summer. Transfer Talk is LIVE with the latest.",
-              "url": "https://www.espn.in/football/story/_/id/39127721/transfer-talk-saudi-pro-league-ramps-salah-pursuit",
-              "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1110%2Fr1251157_1296x729_16%2D9.jpg",
-              "publishedAt": "2023-12-17T00:41:00Z",
-              "content": "The winter transfer window hasn't re-opened in Europe yet, but there are moves in the works and plenty of gossip swirling around.Transfer Talk brings you all the latest buzz on rumours, comings, goin… [+29 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Xavi Hernandez reacts to Barcelona's 1-1 draw vs. Valencia: We are frustrated | ESPN FC - ESPN UK",
-              "description": "Xavi Hernandez fields questions from ESPN's Gemma Soler following a 1-1 draw vs. Valencia in LALIGA play.----Subscribe to ESPN UK: http://bit.ly/1oGUzVAFollo...",
-              "url": "https://www.youtube.com/watch?v=G8RuYSmBKS8",
-              "urlToImage": "https://i.ytimg.com/vi/G8RuYSmBKS8/maxresdefault.jpg",
-              "publishedAt": "2023-12-17T00:17:07Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News18"
-              },
-              "author": "News18",
-              "title": "WATCH: Sudden Change in Wasim Akram's Expressions on Babar Azam's Dismissal Going Viral - News18",
-              "description": "Former captain Wasim Akram, who was on commentary duties during Babar's dismissal, was completely disappointed with the dismissal of Babar Azam.",
-              "url": "https://www.news18.com/cricket/watch-sudden-change-of-wasim-akrams-expressions-on-babar-azams-dismissal-going-viral-8706313.html",
-              "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/wasim-akram-dissapointed-over-babar-azams-dismissal-2023-12-9040114ee3b67c73a4d94d362eba1f81-16x9.jpg?impolicy=website&width=1200&height=675",
-              "publishedAt": "2023-12-17T00:08:00Z",
-              "content": "Australias Mitchell Marsh dismissed Pakistans Babar Azam for 21 in the first innings of the Perth Test on Saturday. Marsh picked up the prized wicket in the 71st over of the first innings. Aussie wic… [+1920 chars]"
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "Sportstar",
-              "title": "Tom Lockyer collapses, Luton Town vs Bournemouth Premier League match suspended - Sportstar",
-              "description": null,
-              "url": "https://sportstar.thehindu.com/football/epl/tom-lockyer-collapse-luton-town-vs-bournemouth-premier-league-2023-24-details-play-suspended/article67645967.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T23:03:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News18"
-              },
-              "author": "Sahil Malhotra",
-              "title": "Rishabh Pant Update: BCCI, NCA Follow Patient Approach, Focus on “Complete Fitness” - News18",
-              "description": "For the past few weeks, Rishabh Pant has been doing afternoon sessions under the watch of specialists at the National Cricket Academy.",
-              "url": "https://www.news18.com/cricket/rishabh-pant-update-bcci-nca-follow-patient-approach-focus-on-complete-fitness-8706280.html",
-              "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/rishabh-pant-weightlifting-2023-12-b16f44016ee9b667a12ada68361df3ef-16x9.jpg?impolicy=website&width=1200&height=675",
-              "publishedAt": "2023-12-16T22:12:00Z",
-              "content": "Its been 356 days since Rishabh Pant last played for India. The Test vs Bangladesh in Mirpur was the last time he donned the Indian jersey as a horrific car crash on December 30, 2022 made his career… [+4779 chars]"
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "The Hindu",
-              "title": "Jendayi should win the Trilegal Indian 1000 Guineas - The Hindu",
-              "description": null,
-              "url": "https://www.thehindu.com/sport/races/mumbai-card-jendayi-should-win-the-trilegal-indian-1000-guineas/article67645929.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T19:02:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sporting News"
-              },
-              "author": null,
-              "title": "'You deserve it!' - Furious Pep Guardiola in rare public bashing of his own Man City players after Crystal Palace collapse & tells his attackers they 'didn't create anything' - GOAL English",
-              "description": "Get all the latest Soccer news, highlights, scores, schedules, standings and more from Sporting News Canada.",
-              "url": "https://www.sportingnews.com/ca/soccer",
-              "urlToImage": "https://static.sportingnews.com/1.40.1.1/themes/custom/tsn/logo.jpg",
-              "publishedAt": "2023-12-16T18:53:54Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hockeyindia.org"
-              },
-              "author": null,
-              "title": "Indian Men's Hockey Team goes down against Belgium in 5 Nations Tournament Valencia 2023 - Hockey India",
-              "description": "The Indian Men’s Hockey Team lost to Belgium 2-7 in their second match of the 5 Nations Tournament Valencia 2023 on Saturday. Abhishek and Jugraj Singh were the two goal scorers for India.",
-              "url": "https://www.hockeyindia.org/news/indian-mens-hockey-team-goes-down-against-belgium-in-5-nations-tournament-valencia-2023",
-              "urlToImage": "https://www.hockeyindia.org/static-assets/waf-images/0c/1e/66/16-9/796-597/PK7fhijgO7.jpg",
-              "publishedAt": "2023-12-16T18:19:22Z",
-              "content": "~Abhishek and Jugraj Singh scored for India~ \r\nValencia, 16th December 2023: The Indian Men’s Hockey Team lost to Belgium 2-7 in their second match of the 5 Nations Tournament Valencia 2023 on Saturd… [+1245 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "hindustantimes.com",
-              "title": "South Africa Women vs Bangladesh Women Live Score: 1st ODI of Bangladesh Women tour of South Africa, 2023 to start at 05:30 PM - Hindustan Times",
-              "description": "South Africa Women vs Bangladesh Women Live Score: Bangladesh Women beat South Africa Women by 119 runs",
-              "url": "https://www.hindustantimes.com/cricket/south-africa-women-vs-bangladesh-women-live-score-1st-odi-of-bangladesh-women-tour-of-south-africa-2023-final-updates-today-16-dec-2023-101702725054765.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/10/06/1600x900/CRICKET-ICC-MENS-WC-2023-ENGNZL-ODI-6_1696592836309_1696592836773.jpg",
-              "publishedAt": "2023-12-16T18:10:46Z",
-              "content": "South Africa Women vs Bangladesh Women Highlights : \r\nFirst Innings \r\nBangladesh Women Score - 250/3 in 50.0 overs \r\nBangladesh Women batting performance Murshida Khatun 91(100)Nigar Sultana 38(48)\r\n… [+426 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Rahul Pandey",
-              "title": "‘They told me you’re acting injured’: Rajasthan Cricket’s favorite son Ashok Menaria lands scarring blows after leading Haryana to VHT triumph - The Indian Express",
-              "description": "On Saturday after Rajasthan fell short of winning their first-ever Vijay Hazare Trophy, the defeat must’ve tasted even bitter. It was their favourite son Ashok Menaria who had led Haryana to their maiden 50-overs title.",
-              "url": "https://indianexpress.com/article/sports/cricket/ashok-menaria-lands-scarring-blows-after-leading-haryana-to-vijay-hazare-trophy-triumph-over-rajasthan-9071184/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/Maneria.png",
-              "publishedAt": "2023-12-16T18:01:18Z",
-              "content": "The last time Rajasthan won a senior mens title was back in 2012. A second Ranji Trophy title in a row – their only wins in the tournament history. Lifting the trophy on both occasions was Ashok Mena… [+3128 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Khelnow.com"
-              },
-              "author": "Author Name",
-              "title": "Some players should be very concerned in January window, claims Scott Cooper - Khel Now",
-              "description": "Jamshedpur FC head coach Scott Cooper shared his insights after the loss to Bengaluru FC in ISL 2023-24.",
-              "url": "https://khelnow.com/football/2023-12-indian-football-isl-bfc-jfc-scott-cooper-post-match-pc",
-              "urlToImage": "https://assets-webp.khelnow.com/news/uploads/2023/12/PRA05693-1280x854.jpg.webp",
-              "publishedAt": "2023-12-16T17:48:50Z",
-              "content": "Jamshedpur FC faced a narrow 1-0 defeat to hosts Bengaluru FC in a scrappy game at the Kanteerva Stadium. The game was decided by a penalty that was calmly put in the back of the net by Javi Hernande… [+3698 chars]"
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "Sportstar",
-              "title": "Pro Kabaddi League 2023, Match Day 14 Highlights: Delhi beats Telugu Titans 51-40 for second win; Puneri thumps Bengal 49-19 - Sportstar",
-              "description": null,
-              "url": "https://sportstar.thehindu.com/kabaddi/pro-kabaddi-league-live-score-pkl-10-updates-streaming-puneri-vs-bengal-telugu-v-dabang-delhi-highlights-news/article67645258.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T17:15:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Devesh Kumar",
-              "title": "IPL auction 2024: Gujarat Titans likely to struggle with Hardik Pandya-sized void | Mint - Mint",
-              "description": "IPL auction 2024: Things were going well for Gujarat Titans and the franchise hoped to deliver another strong performance in the IPL 2024 season, but Hardik Pandya's sudden decision to return to Mumbai Indians left GT's management in limbo",
-              "url": "https://www.livemint.com/sports/cricket-news/ipl-auction-2024-gujarat-titans-likely-to-struggle-with-hardik-pandya-sized-void-11702744454496.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/9_1702745452449_1702745456039.jpg",
-              "publishedAt": "2023-12-16T17:02:17Z",
-              "content": "IPL auction 2024: Gujarat Titans made their stunning debut in the 2022 season of the Indian Premier League as the team lifted the trophy during their inaugural stint at the world's richest cricket to… [+2319 chars]"
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "Sportstar",
-              "title": "Mumbai City FC vs East Bengal highlights, MCFC 0-0 EBFC, ISL 2023-24: Resolute defending earns point for Red and Gold - Sportstar",
-              "description": null,
-              "url": "https://sportstar.thehindu.com/football/indian-football/east-bengal-vs-mumbai-city-fc-live-score-isl-2023-24-eb-v-mcfc-updates-lineups-streaming-goals-highlights/article67644929.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T16:40:34Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Cricket Times"
-              },
-              "author": "Akshat Gaur",
-              "title": "IPL 2024 Auction: Salary of players retained by Royal Challengers Bangalore (RCB) - Cricket Times",
-              "description": "Royal Challengers Bangalore have 19 players in their squad ahead of IPL 2024 auction. Former captain Virat Kohli has the highest salary for RCB in the cash-rich league.",
-              "url": "https://crickettimes.com/2023/12/ipl-2024-auction-salary-of-players-retained-by-royal-challengers-bangalore-rcb/",
-              "urlToImage": "https://crickettimes.com/wp-content/uploads/2023/12/RCB-players-retained-and-their-salary.webp",
-              "publishedAt": "2023-12-16T15:45:36Z",
-              "content": "Cricket enthusiasts worldwide are gearing up for the much-anticipated Indian Premier League (IPL) 2024 players’ auction scheduled to unfold in Dubai on December 19. A staggering 333 cricketers are se… [+2502 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "International Cricket Council"
-              },
-              "author": "ICC",
-              "title": "2027 World Cup on Stead's agenda during Bangladesh ODI series - ICC Cricket",
-              "description": "New Zealand head coach Gary Stead discussed the addition of uncapped players from the lens of the next ICC Men’s Cricket World Cup.",
-              "url": "https://www.icc-cricket.com/news/3824390",
-              "urlToImage": "https://resources.pulse.icc-cricket.com/ICC/photo/2023/12/16/df822f1c-d903-40ae-bac9-f2ae92b80941/GettyImages-1668035397.jpg",
-              "publishedAt": "2023-12-16T13:43:23Z",
-              "content": "New Zealand head coach Gary Stead discussed the addition of uncapped players from the lens of the next ICC Mens Cricket World Cup.New Zealand have a number of fresh faces for the upcoming home ODI se… [+2256 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Aditya Suketu Desai",
-              "title": "\"MS Dhoni, Sourav Ganguly, and Anil Kumble have performed well\" - Gautam Gambhir on whether captaincy affects a player's game - Sportskeeda",
-              "description": "Former India opener Gautam Gambhir believes that the added pressure of captaincy does not have a big impact on the player's performance as a batter or a bowler.",
-              "url": "https://www.sportskeeda.com/cricket/news-ms-dhoni-sourav-ganguly-anil-kumble-performed-well-gautam-gambhir-whether-captaincy-affects-player-s-game",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/22347-17027314101735-1920.jpg",
-              "publishedAt": "2023-12-16T13:04:05Z",
-              "content": "Former India opener Gautam Gambhir believes that the added pressure of captaincy does not have a big impact on the player's performance as a batter or a bowler.\r\nHe pointed out that the likes of MS D… [+1929 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricket.one"
-              },
-              "author": "Pawan",
-              "title": "Cricket Fantasy Predictions Today | ZIM vs IRE, 3rd ODI- Cricket Exchange Fantasy Teams - OneCricket",
-              "description": "Zimbabwe will be playing with Ireland in the third game of the ongoing ODI series. Ahead of the match, here is a look at some of the important player stats, the best player picks, the top captain and vice-captain choices and the best predicted-XI for the fant…",
-              "url": "https://cricket.one/fantasy-analysis/cricket-fantasy-predictions-today-zim-vs-ire-3rd-odi-cricket-exchange-fantasy-teams/657da00194ab16cbd4f6a605",
-              "urlToImage": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1702731770321_Zim12.jpg",
-              "publishedAt": "2023-12-16T13:02:57Z",
-              "content": "ZIM vs IRE, 1st ODI: Cricket Fantasy Tips and Teams (Source: x.com)\r\nAfter defeating Zimbabwe (ZIM) by a margin of four wickets in the second one-day international, Ireland (IRE) now faces the home s… [+6383 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Mykhel.com"
-              },
-              "author": "myKhel",
-              "title": "India vs Spain Highlights, FIH Hockey Men's Junior World Cup 2023: Spain Beat India 3-1 As They Secures The Third Place - myKhel",
-              "description": null,
-              "url": "https://www.mykhel.com/hockey/india-vs-spain-live-score-fih-hockey-mens-junior-world-cup-2023-251719.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T12:49:13Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricket.one"
-              },
-              "author": "Debashis Sarangi",
-              "title": "'His Problem Is..', Ravi Shastri Reveals 'Real' Reason Behind Shaheen Afridi's Poor Outing In Perth Test - OneCricket",
-              "description": "This Test has been a forgettable game for Shaheen Afridi, who was expected to play a key role for Pakistan on Perth's seam-friendly deck. Afridi blew hot and cold with the ball, scalping a single wicket for 96 runs during Australia's first innings.",
-              "url": "https://cricket.one/who-said-what/his-problem-is-ravi-shastri-reveals-real-reason-behind-shaheen-afridis-poor-outing-in-perth-test/657d9bccde38a068f4cd6591",
-              "urlToImage": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1702721968394_GBdj39_acAAcSAi.jpeg",
-              "publishedAt": "2023-12-16T12:45:00Z",
-              "content": "Shaheen Afridi in action [X.com]\r\nRiding on the players' incredible effort, Australia have claimed the driving seat in the ongoing first Test match against Pakistan in Perth. After bowling out the vi… [+1318 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Are Manchester United in for another heavy defeat at Anfield? | ESPN FC - ESPN UK",
-              "description": "ESPN FC's Alexis Nunes is joined by Steve Nicol and Ryan O'Hanlon to look ahead to this weekends game between Liverpool and Manchester United. Can Man United...",
-              "url": "https://www.youtube.com/watch?v=KAJi8Lj2fw0",
-              "urlToImage": "https://i.ytimg.com/vi/KAJi8Lj2fw0/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T12:00:15Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "espn-cric-info",
-                "name": "ESPN Cric Info"
-              },
-              "author": "Alex Malcolm",
-              "title": "Australia's band was back together and the hits kept coming - ESPNcricinfo",
-              "description": "Cummins, Starc, Hazlewood and Lyon were a joy to watch in Perth",
-              "url": "https://www.espncricinfo.com/story/pat-cummins-mitchell-starc-josh-hazlewood-nathan-lyon-help-australia-dominate-pakistan-1413070",
-              "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/372600/372675.6.jpg",
-              "publishedAt": "2023-12-16T11:44:31Z",
-              "content": "Match AnalysisCummins, Starc, Hazlewood and Lyon were a joy to watch in Perth\r\nJosh Hazlewood beat the bat several times before getting Saud Shakeel out  •  Getty Images\r\nThere is something special a… [+5291 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Prokabaddi.com"
-              },
-              "author": null,
-              "title": "U Mumba head coach Gholamreza Mazandarani: Zafardanesh is a future Pro Kabaddi League star - vivo Pro Kabaddi",
-              "description": "U Mumba registered a thrilling 42-40 victory over Patna Pirates in Pro Kabaddi League Season 10 on Friday.",
-              "url": "https://www.prokabaddi.com/news/zafardanesh-is-a-future-pro-kabaddi-league-star",
-              "urlToImage": "https://www.prokabaddi.com/static-assets/waf-images/ca/be/b9/16-9/HDrPFaFXH2.jpg",
-              "publishedAt": "2023-12-16T10:54:15Z",
-              "content": "News\r\nU Mumba registered a thrilling 42-40 victory over Patna Pirates in the Pro Kabaddi League Season 10 on Friday. The Iranian all-rounder Amirmohammad Zafardanesh was in the thick of things with 1… [+1187 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Rahul Dravid, VVS Laxman to miss South Africa ODIs; BCCI names new India head coach | Mint - Mint",
-              "description": "Dravid will instead, oversee the preparations for the two-match Test series by joining the red-ball squad, and keep an eye on the proceedings of a three-day match inter-squad match starting 20 December in Pretoria.",
-              "url": "https://www.livemint.com/sports/cricket-news/rahul-dravid-vvs-laxman-to-miss-south-africa-odis-bcci-names-new-india-head-coach-11702721413607.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/Rahul_Dravid_1702721506671_1702721506784.jpg",
-              "publishedAt": "2023-12-16T10:14:19Z",
-              "content": "With the three-match ODI series to begin between India and South Africa from 17 December at Wanderers Stadium in Johannesburg, the Indian squad won't have Rahul Dravid or VVS Laxman as coach, said th… [+2455 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Www.geo.tv"
-              },
-              "author": "Sports Desk",
-              "title": "Pakistans hopes of winning first Test fade as Australia build big lead - Geo News",
-              "description": "Usman Khawaja and Steve Smith take Australia's lead to 300 after Pakistan were bowled out for 271",
-              "url": "https://www.geo.tv/latest/523257-khurram-shehzad-sends-david-warner-back-pakistan-all-out-for-271",
-              "urlToImage": "https://www.geo.tv/assets/uploads/updates/2023-12-16/l_523257_035250_updates.jpg",
-              "publishedAt": "2023-12-16T10:07:30Z",
-              "content": "Australia build big lead in Perth Test.\r\nPakistan have not won in Australia since 1995.\r\nNathan Lyon one wicket short of 500 mark.\r\nPERTH: Usman Khawaja and Steve Smith dug in to stretch Australias l… [+2969 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cgtn.com"
-              },
-              "author": "CGTN",
-              "title": "Gu Ailing triumphs in new season to claim 2nd straight FIS World Cup win - CGTN",
-              "description": "China's Olympic champion Gu Ailing had a great start in the new season as she clinched her second consecutive title at the International Ski and Snowboard Federation (FIS) Freeski Halfpipe World Cup at Cooper Mountain on Friday.Previously, 20-year-old",
-              "url": "https://news.cgtn.com/news/2023-12-16/Gu-Ailing-triumphs-in-new-season-to-claim-2nd-straight-World-Cup-win-1pAcv6afJ4I/index.html",
-              "urlToImage": "https://news.cgtn.com/news/2023-12-16/Gu-Ailing-triumphs-in-new-season-to-claim-2nd-straight-World-Cup-win-1pAcv6afJ4I/img/17effa7c376f4ae58cdee00de27bdfa2/17effa7c376f4ae58cdee00de27bdfa2-750.png",
-              "publishedAt": "2023-12-16T09:40:37Z",
-              "content": "A screenshot of women's freeski halfpipe results during the FIS World Cup at Copper Mountain. /FIS\r\nA screenshot of women's freeski halfpipe results during the FIS World Cup at Copper Mountain. /FIS\r… [+2306 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Forbes"
-              },
-              "author": "Nikita Tambe",
-              "title": "How To Watch UFC 296 Colby Covington Vs. Leon Edwards Live From Anywhere - Forbes",
-              "description": "The Ultimate Fight Championship Fight Nights or even a UFC pay-per-view event may not interest you. But if you’re a MMA fan then UFC Fight Night should definitely be on your list. The weekly matchups feature common fighters but they serve up thrilling bouts. …",
-              "url": "https://www.forbes.com/advisor/in/business/software/colby-covington-vs-leon-edwards-how-to-watch-ufc-296-live/",
-              "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/in/wp-content/uploads/2023/12/pexels-skitterphoto-3797-FA-IN-1600_900.jpg",
-              "publishedAt": "2023-12-16T09:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TOI Sports Desk",
-              "title": "Watch: Mitchell Starc's peach of a delivery to dismiss Sarfaraz Ahmed at Perth - IndiaTimes",
-              "description": "Cricket News: It is very rare that the Kookubura ball (with which Tests are played in Australia), swings as late as after 70 overs. But this is exactly where the cl",
-              "url": "https://timesofindia.indiatimes.com/sports/cricket/news/watch-mitchell-starcs-peach-of-a-delivery-to-dismiss-sarfaraz-ahmed-at-perth/articleshow/106044275.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106044221,width-1070,height-580,imgsize-42124,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T09:10:31Z",
-              "content": "Captains who have led two or more IPL teams"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricbuzz"
-              },
-              "author": null,
-              "title": "BCCI to course correct after Sakariya suspect action error | Cricbuzz.com - Cricbuzz - Cricbuzz",
-              "description": "The Saurashtra bowler is not listed among bowlers reported for a suspect action",
-              "url": "https://www.cricbuzz.com/cricket-news/128827/bcci-to-course-correct-after-sakariya-suspect-action-error-cricbuzzcom",
-              "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c365920/sakariya-a-base-price-of-rs-50-lakh.jpg",
-              "publishedAt": "2023-12-16T07:54:22Z",
-              "content": "The Chetan Sakariya affair seems to be an unintentional mistake by the Board of Control for Cricket in India (BCCI) and the left-arm pacer is not listed among bowlers reported for a suspect action. T… [+1677 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Ritesh K Srivastava",
-              "title": "Who Is G Sampath Kumar? IPS Officer Sentenced To Jail For Defaming Mahendra Singh Dhoni - Zee News",
-              "description": "The Madras High Court has sentenced IPS officer G Sampath Kumar to 15 days of simple imprisonment in a contempt of court case filed by former Indian cricket team captain Mahendra Singh Dhoni. A division bench comprising Justices S S Sundar and Sunder Mohan pa…",
-              "url": "https://zeenews.india.com/india/who-is-g-sampath-kumar-ips-officer-sentenced-to-jail-for-defaming-mahendra-singh-dhoni-2699584.html",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/16/1337065-dhoni-ips.jpg",
-              "publishedAt": "2023-12-16T07:23:36Z",
-              "content": "NEW DELHI: The Madras High Court has sentenced IPS officer G Sampath Kumar to 15 days of simple imprisonment in a contempt of court case filed by former Indian cricket team captain Mahendra Singh Dho… [+1809 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Pranav Pandey",
-              "title": "\"Kid's got skills\" - Francis Ngannou, Logan Paul, and other fighters react to Jake Paul's stunning KO win over Andre August - Sportskeeda",
-              "description": "YouTuber-turned-boxer Jake Paul delivered a stunning first-round knockout against Andre August at the Caribe Royale Resort in Orlando, Florida.",
-              "url": "https://www.sportskeeda.com/mma/news-kid-s-got-skills-francis-ngannou-logan-paul-fighters-react-jake-paul-s-stunning-ko-win-andre-august",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/1dd58-17027058724679-1920.jpg",
-              "publishedAt": "2023-12-16T06:59:00Z",
-              "content": "YouTuber-turned-boxer Jake Paul delivered a stunning first-round knockout against Andre August at the Caribe Royale Resort in Orlando, Florida.\r\n'The Problem Child' clinched his eighth professional v… [+2038 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cricket.one"
-              },
-              "author": "Aashay Chopade",
-              "title": "IPL 2024 | RCB Star To Join Punjab Kings? Here's Punjab Kings' Pre-Auction Analysis - OneCricket",
-              "description": "Punjab Kings formerly known as the Kings XI Punjab have been one of the perennial underachievers in IPL history. Let's dive deeper into the Punjab Kings arsenal ahead of IPL Auction 2024, and how they can further strengthen their squad in the upcoming IPL Auc…",
-              "url": "https://cricket.one/cricket-analysis/ipl-2024-rcb-star-to-join-punjab-kings-heres-punjab-kings-pre-auction-analysis/657d43e8de38a068f4cd6411",
-              "urlToImage": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1702357072425_shikkis.jpeg",
-              "publishedAt": "2023-12-16T06:30:00Z",
-              "content": "Punjab Kings players in IPL 2023 (X.com)\r\nPunjab Kings formerly known as the Kings XI Punjab have been one of the perennial underachievers in IPL history. They started the tournament back in 2008 wit… [+6352 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Siasat Daily"
-              },
-              "author": "News Desk",
-              "title": "Telangana cricketer joins India U-19 ICC World Cup squad - The Siasat Daily",
-              "description": "In a momentous achievement for the people of Telangana's Rajanna Sircilla, Aravelly Avanish Rao, 18-year-old cricketer, wicketkeeper-batsman",
-              "url": "https://www.siasat.com/telangana-cricketer-joins-india-u-19-icc-world-cup-squad-2935242/",
-              "urlToImage": "https://cdn.siasat.com/wp-content/uploads/2023/12/Telangana-cricketer.jpg",
-              "publishedAt": "2023-12-16T05:09:00Z",
-              "content": "Hyderabad: In a momentous achievement for the people of Telangana, Aravelly Avanish Rao, the 18-year-old wicketkeeper-batsman from Pothugal village in Mustabad mandal, Rajanna Sircilla, secured a cov… [+1419 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Aditi Priya Singh",
-              "title": "Rohit Sharma's 5 Best Quotes About Life's Challenges - Jagran English",
-              "description": "Let's take a look on 5 best and motivational quotes of Rohit Sharma's about life's challenges.",
-              "url": "https://english.jagran.com/web-stories/rohit-sharma-s-5-best-quotes-about-life-s-challenges-73481",
-              "urlToImage": "https://imgeng.jagran.com/webstories/73481/rohit-sharma-s-best-quotes-on-life-challenges-1702704252.jpeg",
-              "publishedAt": "2023-12-16T04:44:47Z",
-              "content": "By Aditi Priya Singh2023-12-16T10:14:47+05:30english.jagran.com \r\nRohit Sharma's Quotes\r\n Rohit Sharma, the Indian cricket captain's life is an example of motivation and achievements. Today, we have … [+1157 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Vrinda Jain",
-              "title": "Can you solve this tricky riddle in just 10 seconds? - Hindustan Times",
-              "description": "This puzzle might seem to be simple, but it will leave you wondering for an answer.  | Trending",
-              "url": "https://www.hindustantimes.com/trending/can-you-solve-this-tricky-riddle-in-just-10-seconds-101702637776349.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/15/1600x900/riddle_1702638037794_1702638043695.png",
-              "publishedAt": "2023-12-16T03:32:02Z",
-              "content": "Several kinds of brain teasers, puzzles, and riddles intrigue many people. These can often keep many individuals busy for hours and even days. Not only that, it also helps us unlock the creative side… [+1098 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Khelnow.com"
-              },
-              "author": "Author Name",
-              "title": "PUN vs BEN Dream11 Prediction, Dream11 Starting 7, Match 25, PKL 10 - Khel Now",
-              "description": "Dream11 fantasy XI tips and guide for match 25 of the PKL 2023 between PUN vs BEN to be played in Pune.",
-              "url": "https://khelnow.com/kabaddi/2023-12-pkl-10-pun-vs-ben-dream11-predictions",
-              "urlToImage": "https://assets-webp.khelnow.com/news/uploads/2023/12/21-PKL-2023-24-Fantasy-16-copy.jpg.webp",
-              "publishedAt": "2023-12-16T03:00:00Z",
-              "content": "Puneri Paltan suffered a shocking loss to the Haryana Steelers in the opening game of their home leg. Punes defense had no answers for Vinay as he mounted 15 points which included a massive five-poin… [+2627 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Afkgaming.com"
-              },
-              "author": "Umesh Borkar",
-              "title": "BMPS 2023 Grand Finals Day 1: Overall Standings, Match Summary and More - AFK Gaming",
-              "description": "Experienced teams like Blind Esports, Entity and Team XSpark have put forth consistent performances on Day 1 of BMPS 2023 Grand Finals.",
-              "url": "https://afkgaming.com/mobileesports/news/bmps-2023-grand-finals-day-1-overall-standings-match-summary-and-more",
-              "urlToImage": "https://media.assettype.com/afkgaming%2F2023-12%2Ffdf02656-c26e-4c42-a11e-4d2c2b6ad77d%2FjFDrv6G5WiU_HD.jpg?w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true",
-              "publishedAt": "2023-12-16T00:24:03Z",
-              "content": "Match 4 Vikendi: Growing Strong secured its first chicken dinner of the Grand Finals with 18 points. Entity secured the most points, 21, from the match. Team XSpark had a good mix of finish and place… [+739 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "90min"
-              },
-              "author": "Euan Burns",
-              "title": "Real Madrid predicted lineup vs Villarreal - La Liga - 90min UK",
-              "description": "Here is the XI that Ancelotti may choose for Real Madrid vs Villarreal.",
-              "url": "https://www.90min.com/posts/real-madrid-predicted-lineup-vs-villarreal-la-liga-17-12-2023",
-              "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6000,h_3375,x_0,y_396/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01hhq0gzztm6ca3edtaj.jpg",
-              "publishedAt": "2023-12-15T20:00:01Z",
-              "content": "Real Madrid are back in La Liga action on Sunday night as they welcome Villarreal to the Santiago Bernabeu.\r\nCarlo Ancelotti's side have been impressing this season but have lacked some of the consis… [+2218 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Chen Meng vs Hina Hayata | WS R16 | WTT Finals Women Nayoga 2023 - World Table Tennis",
-              "description": "Subscribe for more spectacular table tennis action!#TableTennis #PingPong #乒乓Download the new WTT app and follow us on social media for a full 360 update on ...",
-              "url": "https://www.youtube.com/watch?v=FV9LqF8Ahvs",
-              "urlToImage": "https://i.ytimg.com/vi/FV9LqF8Ahvs/maxresdefault.jpg",
-              "publishedAt": "2023-12-15T18:13:57Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TOI Sports Desk",
-              "title": "'He was always there...': Kuldeep Yadav credits Yuzvendra Chahal for his impressive performance against S - IndiaTimes",
-              "description": "Cricket News: Indian cricketer Kuldeep Yadav has credited his impressive performance in the third and final T20I against South Africa to a supportive chat with team",
-              "url": "https://timesofindia.indiatimes.com/sports/cricket/india-in-south-africa/he-was-always-there-kuldeep-yadav-credits-yuzvendra-chahal-for-his-impressive-performance-against-south-africa/articleshow/106031747.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106031817,width-1070,height-580,imgsize-61766,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-15T17:32:03Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ESPN India"
-              },
-              "author": "Aaditya Narayan",
-              "title": "What's in a number? The tales behind unique jersey numbers - ESPN India",
-              "description": "As MS Dhoni's seven is retired by the Indian cricket team, here are the tales behind some unique sporting numbers - from Jordan's 23 to Blasters' 21 and Sehwag's nothing.",
-              "url": "https://www.espn.in/espn/story/_/id/39118787/ms-dhoni-number-7-retired-tale-unique-jersey-numbers-jordan-sehwag-jhingan",
-              "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1215%2Fr1266697_1296x729_16%2D9.png",
-              "publishedAt": "2023-12-15T14:08:00Z",
-              "content": "Mahendra Singh Dhoni's contributions to Indian cricket were further recognized on Friday, when the BCCI took the decision to retire his jersey number 7.That means no male player representing India ca… [+5606 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Khelnow.com"
-              },
-              "author": "Author Name",
-              "title": "Kerala Blasters' Adrian Luna likely to miss remainder of the ISL season - Khel Now",
-              "description": "Kerala Blasters' midfield maestro Adrian Luna is likely to miss the remainder of the ISL 2023-24 campaign.",
-              "url": "https://khelnow.com/football/2023-12-indian-football-isl-adrian-luna-injury-update-kerala-blasters",
-              "urlToImage": "https://assets-webp.khelnow.com/news/uploads/2023/12/1S3_3562-1-1280x853.jpg.webp",
-              "publishedAt": "2023-12-15T13:07:52Z",
-              "content": "Adrian Luna, the heartbeat of Kerala Blasters is set to endure a significant setback, and is confirmed to miss a substantial part of the season. The Uruguayan playmaker underwent a successful Osteoch… [+1968 chars]"
-            }
-          ]
-        },
-        {
-          "general": [
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "The Hindu",
-              "title": "Four test positive for H1N1 in Tiruvarur - The Hindu",
-              "description": null,
-              "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/four-test-positive-for-h1n1-in-tiruvarur/article67644936.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T12:31:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "9 killed in blast at explosives manufacturing factory in Nagpur; angry locals, kin of workers block road - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/cities/mumbai/blast-explosives-manufacturing-factory-nagpur-9071766/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T11:33:02Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Lymphoma in children: What causes it? What is the diagnosis process and pediatric care? - IndiaTimes",
-              "description": "The lymphatic system is a vast network of lymphatic vessels and lymph nodes which carry lymphocytes and lymph. Lymphocytes are the cells that protect us against various microbes like bacteria and viruses by forming antibodies and destroying them. These lympho…",
-              "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/lymphoma-in-children-what-causes-it-what-is-the-diagnosis-process-and-pediatric-care/photostory/106058349.cms",
-              "urlToImage": "https://static.toiimg.com/photo/106058358.cms",
-              "publishedAt": "2023-12-17T11:30:00Z",
-              "content": "Lymphoma presents as a swollen, painless lymph node under the skin. Swollen lymph nodes are usually in the neck, above the collar bone, or in the armpit or groin.Lymph nodes deeper in the body can al… [+1150 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Republic World"
-              },
-              "author": "Digital Desk",
-              "title": "NASA finds 17 exoplanets with potentially vast oceans that could be suitable for life- Republic World - Republic World",
-              "description": "A new NASA study has indicated that as many as 17 exoplanets may have oceans beneath their icy shells providing suitable conditions for life.",
-              "url": "https://www.republicworld.com/science/space/nasa-finds-17-exoplanets-with-potentially-vast-oceans-that-could-be-suitable-for-life",
-              "urlToImage": "https://img.republicworld.com/rimages/WaterWorldHiH264-170281236835716_9.webp",
-              "publishedAt": "2023-12-17T11:26:00Z",
-              "content": "NASA scientists have found a key element necessary for the origin of life on one of Saturn's Moon. The Moon in question is Enceladus which is famous for spewing organic compounds into outer space.\r\nA… [+2617 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "\"Not The Same\": S Jaishankar On India's Response To US, Canada Probes - NDTV",
-              "description": "With India facing allegations of hatching plots to murder pro-Khalistan elements in the United States and Canada, External Affairs Minister S Jaishankar on Sunday said \"the two issues are not necessarily the same\".",
-              "url": "https://www.ndtv.com/india-news/not-the-same-s-jaishankar-on-indias-response-to-us-canada-probes-4690951",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/do041il8_jaishankar-1200_625x300_17_December_23.jpeg?ver-20231203.06",
-              "publishedAt": "2023-12-17T11:12:53Z",
-              "content": "With India facing allegations of hatching plots to murder pro-Khalistan elements in the United States and Canada, External Affairs Minister S Jaishankar on Sunday said \"the two issues are not necessa… [+2092 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT News Desk",
-              "title": "PM Modi in Varanasi Live: PM visits Viksit Bharat Sankalp Yatra Exhibition - Hindustan Times",
-              "description": "PM Modi in Varanasi Live: PM is set to inaugurate 2nd phase of Kashi Tamil Sangamam & also flag off the Varanasi-Delhi Vande Bharat Express during his visit.",
-              "url": "https://www.hindustantimes.com/india-news/pm-modis-varanasi-visit-pm-to-inaugurate-second-phase-of-kashi-tamil-sangamam-101702801343954.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/modi_1702809534158_1702809719550.png",
-              "publishedAt": "2023-12-17T10:37:14Z",
-              "content": "PM Modi in Varanasi Live: Prime Minister Narendra Modi is scheduled to visit Varanasi, his Lok Sabha constituency today. During this visit, he plans to launch various development initiatives. Subsequ… [+3105 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "BBC News"
-              },
-              "author": "https://www.facebook.com/bbcnews",
-              "title": "WTC Points Table: What Pakistans 360-Run Loss vs Australia In Perth Test Means For India - NDTV Sports",
-              "description": "Director Comey says the probe into last year's US election would assess if crimes were committed.",
-              "url": "https://www.bbc.com/news/world-us-canada-39324587",
-              "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/44EC/production/_95244671_mediaitem95244670.jpg",
-              "publishedAt": "2023-12-17T10:35:00Z",
-              "content": "Media caption, 'Putin hates Clinton' and other things the FBI learned about Russia\r\nFBI director James Comey has confirmed for the first time that the FBI is investigating alleged Russian interferenc… [+5942 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": null,
-              "title": "India vs South Africa Live Score 1st ODI: Arshdeep Singh takes fifer, Avesh Khan claims four to skittle SA for 116 - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/sports/cricket/india-vs-south-africa-live-score-1st-odi-ind-vs-sa-cricket-full-scorecard-latest-updates-johannesburg-9071196/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T10:34:16Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Shobhit Gupta",
-              "title": "‘Parliament security breach serious matter’: Bengal CM Mamata Banerjee - Hindustan Times",
-              "description": "Several opposition leaders have questioned the steps taken by the BJP-led central government and demanded a word from Amit Shah over the incident. | Latest News India",
-              "url": "https://www.hindustantimes.com/india-news/parliament-security-breach-serious-matter-bengal-cm-mamata-banerjee-101702805803315.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/Screenshot_2023-12-17_151527_1702806329756_1702806334493.jfif",
-              "publishedAt": "2023-12-17T10:21:00Z",
-              "content": "West Bengal chief minister Mamata Banerjee on Sunday condemned the Wednesday's Lok Sabha security breach saying that the security lapse is a serious matter and it should be investigated.\r\nWest Bengal… [+2419 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Times of Israel"
-              },
-              "author": "The Times of Israel",
-              "title": "IDF: At least 4 gunmen killed in drone strikes during arrest raid near Tulkarem - The Times of Israel",
-              "description": null,
-              "url": "https://www.timesofisrael.com/5-palestinians-reported-killed-in-idf-drone-strikes-during-arrest-raid-near-tulkarem/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T09:33:45Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Zee Media Bureau",
-              "title": "Poco C65 Launched In India: Check Price, Specifications, Colour Options, And More - Zee News",
-              "description": "Poco has expanded its budget-friendly smartphone lineup in India by launching the Poco C65. With its official launch into the Indian market, the Poco C65 has cemented its status as the newest member of the low-cost smartphone industry. As per the reports, the…",
-              "url": "https://zeenews.india.com/technology/poco-c65-launched-in-india-check-price-specifications-colour-options-and-more-2699878.html",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337458-file-photo-2023-12-17t003052.489.jpg",
-              "publishedAt": "2023-12-17T08:31:31Z",
-              "content": "New Delhi: Poco has expanded its budget-friendly smartphone lineup in India by launching the Poco C65. With its official launch into the Indian market, the Poco C65 has cemented its status as the new… [+2171 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "US Teacher Threatens To Behead Student Over Israeli Flag Remark, Arrested - NDTV",
-              "description": "A school teacher in Georgia was arrested for allegedly threatening to behead a student in his class for saying that she was offended by the Israeli flag.",
-              "url": "https://www.ndtv.com/world-news/us-teacher-threatens-to-behead-student-over-israeli-flag-remark-arrested-4689913",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/0iq175uo_benjamin-reese-us-teacher-arrested_625x300_17_December_23.jpeg?ver-20231203.06",
-              "publishedAt": "2023-12-17T08:20:59Z",
-              "content": "Benjamin Reese is listed as a seventh-grade Social Studies teacher.\r\nA school teacher in Georgia was arrested for allegedly threatening to behead a student in his class for saying that she was offend… [+1994 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Onmanorama.com"
-              },
-              "author": "Onmanorama Staff",
-              "title": "Kerala Governor provokes protesters with insensible acts: Chief Minister : Chief Minister - Onmanorama",
-              "description": "He alleged that the governor breached the protocol and said the central government needs to take a look into that.",
-              "url": "https://www.onmanorama.com/news/kerala/2023/12/17/kerala-chief-minister-criticises-governor-arif-mohammed-khan.html",
-              "urlToImage": "https://img.onmanorama.com/content/dam/mm/en/kerala/top-news/images/2023/12/17/khan-pinarayi-c.jpg",
-              "publishedAt": "2023-12-17T08:18:29Z",
-              "content": "Pathanamthitta: Kerala Chief Minister Pinarayi Vijayan has trained his guns on Governor Arif Mohammed Khan days after the latter used offensive terms against SFI activists who blocked his vehicle and… [+2819 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Tamil Nadu: Heavy rains create flood-like situations in Tirunelveli| WATCH | Mint - Mint",
-              "description": "Visuals from Courtallam Waterfalls and Manimutharu Waterfalls show the impact of heavy rains in Tirunelveli, Tamil Nadu",
-              "url": "https://www.livemint.com/news/india/tamil-nadu-heavy-rains-create-flood-like-situations-in-tirunelveli-watch-11702800178805.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/a_1702800392649_1702800400322.PNG",
-              "publishedAt": "2023-12-17T08:04:39Z",
-              "content": "Tamil Nadu: Intense rainfall in Tirunelveli has led to flood-like conditions, with notable impacts seen at Courtallam Waterfalls and Manimutharu Waterfalls, as reported by ANI.\r\n As per IMD, heavy ra… [+2601 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Thewire.in"
-              },
-              "author": null,
-              "title": "Was Going to Space a Good Idea? - The Wire",
-              "description": "After the Moon, Mars is the next world in line for 'conquest'. But the question remains. Is space travel enhancing what we value about humanity?",
-              "url": "https://thewire.in/space/was-going-to-space-a-good-idea",
-              "urlToImage": "https://cdn.thewire.in/wp-content/uploads/2023/12/17124747/image-1614-800x375.png",
-              "publishedAt": "2023-12-17T08:00:42Z",
-              "content": "In 1963, six years after the first satellite was launched, editors from the Encyclopaedia Britannica posed a question to five eminent thinkers of the day: Has mans conquest of space increased or dimi… [+6097 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Express News Service",
-              "title": "IAS officer’s son ‘injuring’ woman with SUV: Thane police form SIT, promise thorough probe - The Indian Express",
-              "description": "SIT under DCP Amar Singh will probe the allegations against Bharatiya Janata Yuva Morcha functionary Ashwajit Gaikwad.",
-              "url": "https://indianexpress.com/article/cities/mumbai/ias-officers-son-injuring-woman-suv-thane-police-sit-9071599/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/Bjp-10.jpg",
-              "publishedAt": "2023-12-17T07:43:55Z",
-              "content": "A Special Investigation Team (SIT) headed by a deputy commissioner rank officer will probe the alleged assault of a woman by Ashwajit Gaikwad, the son of Maharashtra State Road Development Corporatio… [+2141 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "PTI",
-              "title": "Reliance, Adani Enterprises India's biggest wealth creators from 2018-23: Study - Hindustan Times",
-              "description": "The study, conducted by Motilal Oswal Financial Services, is based on stock market performance of companies.",
-              "url": "https://www.hindustantimes.com/business/reliance-adani-enterprises-indias-biggest-wealth-creators-from-2018-23-study-101702797940763.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/gautam_adani_and_mukesh_ambani_net_worth_164429619_1702798033438_1702798033562.webp",
-              "publishedAt": "2023-12-17T07:31:24Z",
-              "content": "Reliance Industries Ltd was the biggest wealth creator during the five-year period from 2018 to 2023 while Adani Enterprises Ltd was the top all-round wealth creator, according to a study by Motilal … [+2969 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Sun Pharma, Lupin recall drugs in US over manufacturing issues: USFDA | Mint - Mint",
-              "description": "Lupin is also recalling an unspecified number of penicillamine tablets in the US due to failed dissolution specifications..Sun Pharma is recalling 96,192 bottles of Liothyronine Sodium Tablets in the US due to failed impurities/degradation specifications.",
-              "url": "https://www.livemint.com/companies/news/sun-pharma-lupin-recall-drugs-in-us-over-manufacturing-issues-usfda-11702795716102.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/pharma_1702796315613_1702796315895.jpg",
-              "publishedAt": "2023-12-17T07:04:56Z",
-              "content": "Leading drugmakers Sun Pharma and Lupin have recalled their products in the US market over manufacturing issues, as per the US Food and Drug Administration (USFDA).  Mumbai-based Sun Pharmaceutical I… [+2197 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India Today"
-              },
-              "author": "India Today Information Desk",
-              "title": "Garena Free Fire MAX Redeem Codes for December 17, 2023: How to redeem the codes - India Today",
-              "description": "Here is all you need to know about the new active codes for the list of New Garena Free Fire MAX Redeem codes and the steps to redeem them.",
-              "url": "https://www.indiatoday.in/information/story/garena-free-fire-redeem-codes-december-17-garena-free-fire-redeem-codes-december-17-garena-free-fire-max-redeem-codes-for-december-17-2023-how-to-redeem-the-codes-2476939-2023-12-17",
-              "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/garena-free-fire-max-130356711-16x9_0.png?VersionId=DJmShDWoOjJiD0URJ_sPsA16HohVOsuM",
-              "publishedAt": "2023-12-17T06:02:24Z",
-              "content": "Garena Free Fire Max, a popular mobile battle royale game, was released in 2020 as an updated version of the original Garena Free Fire. The game boasts enhanced graphics, controls, gameplay mechanics… [+1615 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Dunki advance box office collection: Shah Rukh Khan’s film goes head-to-head with Prabhas’ Salaar for audience’s attention - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/entertainment/bollywood/dunki-advance-box-office-collection-shah-rukh-khans-film-goes-head-to-head-with-prabhas-salaar-for-audiences-attention-9071465/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T05:51:03Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Deccan Chronicle"
-              },
-              "author": "Bhavana Sharma",
-              "title": "Bigg Boss Telugu 7 Winner Name Leaked before Final Episode - Deccan Chronicle",
-              "description": "Bigg Boss Telugu 7 Winner Name Leaked before Final Episode",
-              "url": "https://www.deccanchronicle.com/entertainment/ott/171223/did-pallavi-prashanth-win-bigg-boss-telugu-7.html",
-              "urlToImage": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-c3gav383vs1psajvpelsj0h7v6-20230919161407.Medi.jpeg",
-              "publishedAt": "2023-12-17T05:48:08Z",
-              "content": "Pallavi Prashanth secured the lead, claiming the winner's title."
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Greater Kashmir"
-              },
-              "author": "GK Web Desk",
-              "title": "Gurez valley draped in white after fresh snowfall - greaterkashmir - Greater Kashmir",
-              "description": "Razdan Pass, which is the gate way to this mountainous valley, has also received fresh snowfall late last night.",
-              "url": "https://www.greaterkashmir.com/latest-news/gurez-valley-draped-in-white-after-fresh-snowfall/",
-              "urlToImage": "https://www.greaterkashmir.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-10.05.02_3855f724.jpg",
-              "publishedAt": "2023-12-17T05:35:20Z",
-              "content": "Srinagar, Dec 17: Gurez valley in north Kashmirs Bandipora district was covered in a white blanket as it received another spell of fresh snowfall on Sunday morning.\r\nReports said that the upper reach… [+456 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "CNBCTV18"
-              },
-              "author": "Asmita Pant",
-              "title": "From Muthoot Microfin to Azad Engineering, here are all the IPOs opening this week - CNBCTV18",
-              "description": "Seven companies will collectively be raising nearly ₹3,900 crore via the route of initial public offer.",
-              "url": "https://www.cnbctv18.com/market/muthoot-microfin-azad-engineering-list-of-ipo-opening-next-week-18580641.htm",
-              "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2021/02/IPO-2.jpg",
-              "publishedAt": "2023-12-17T04:52:22Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Surat Diamond Bourse: 5 Facts On World's Largest Office Overtaking Pentagon - NDTV",
-              "description": "PM Narendra Modi will inaugurate the world's largest corporate office hub, 'Surat Diamond Bourse' today. It will be the biggest hub for worldwide trade in jewellery and diamonds, serving as a global marketplace for polished and unpolished stones.",
-              "url": "https://www.ndtv.com/india-news/surat-diamond-bourse-5-facts-on-worlds-largest-office-overtaking-pentagon-4689239",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/n9qgtogo_surat_625x300_17_December_23.jpeg?ver-20231203.06",
-              "publishedAt": "2023-12-17T04:34:07Z",
-              "content": "<li>With over 4,500 networked offices, the Diamond Bourse is the biggest interconnected building in the world. The office block is the largest customs clearing house in the nation and is even larger … [+786 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Shreyas Talpade Likely To Be Discharged From Hospital Sunday Night Or Monday Morning, Reveals Filmmaker Soham Shah - NDTV Movies",
-              "description": "Shreyas Talpade had undergone an angioplasty on Thursday night",
-              "url": "https://www.ndtv.com/entertainment/shreyas-talpade-likely-to-be-discharged-from-hospital-sunday-night-or-monday-morning-reveals-filmmaker-soham-shah-4689203",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/tobvaq5o_shreyas-_625x300_17_December_23.jpg",
-              "publishedAt": "2023-12-17T04:26:03Z",
-              "content": "Image instagrammed by Shreyas. (courtesy: ShreyasTalpade)\r\nNew Delhi: Shreyas Talpade suffered a heart attack on Thursday and he had undergone an angioplasty on the very night he was taken to the hos… [+2186 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Bigg Boss 17: Khanzaadi gets eliminated; reveals why she wanted to 'run away' - Hindustan Times",
-              "description": "Bigg Boss 17: Khanzaadi was eliminated in the latest Weekend Ka Vaar episode with Salman Khan. She has now spoken about how she 'lost interest in the game'.",
-              "url": "https://www.hindustantimes.com/entertainment/tv/bigg-boss-17-khanzaadi-elimination-who-could-be-winner-ankita-lokhande-munawar-101702785168937.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/khanzaadi_1702786330728_1702786348676.png",
-              "publishedAt": "2023-12-17T04:25:29Z",
-              "content": "Bigg Boss 17: Firoza Khan, who is better known by her stage name Khanzaadi, was among the most talked about contestants of this season. After her eviction from Bigg Boss 17, Khanzaadi told DNA in an … [+2115 chars]"
-            },
-            {
-              "source": {
-                "id": "reuters",
-                "name": "Reuters"
-              },
-              "author": "Reuters India",
-              "title": "India's love of homegrown single malts shakes up Pernod, Diageo - Reuters India",
-              "description": null,
-              "url": "https://www.reuters.com/world/india/indias-love-homegrown-single-malts-shakes-up-pernod-diageo-2023-12-17/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T04:21:05Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "How Israel Forces Mistook 3 Hostages As Hamas Operatives, Shot Them Dead - NDTV",
-              "description": "The Israel military has expressed regret over the killing of three Israeli hostages mistaken for Hamas operatives at Shejaya in Gaza and blamed the \"horrible\" nature of the conflict for the massive error in judgement.",
-              "url": "https://www.ndtv.com/world-news/how-israel-forces-mistook-3-hostages-as-hamas-terrorists-shot-them-dead-4689167",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/9tebmbn_israel-hostages_625x300_17_December_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20231203.06",
-              "publishedAt": "2023-12-17T04:12:47Z",
-              "content": "The killings have compounded worries of the families of the other hostages\r\nNew Delhi: The Israel military has expressed regret over the killing of three Israeli hostages mistaken for Hamas operative… [+4151 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Venkatesh Ravichandran",
-              "title": "[Watch] Harry Brook's incredible final over heroics help England pull off highest successful run chase vs WI in 3rd T20I - Sportskeeda",
-              "description": "England batter Harry Brook helped the side pull off an unlikely final over heist against the West Indies in the third T20I on December 16.",
-              "url": "https://www.sportskeeda.com/cricket/news-watch-harry-brook-s-incredible-final-heroics-helps-england-pull-highest-successful-run-chase-vs-wi-3rd-t20i",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/f2db5-17027819035913-1920.jpg",
-              "publishedAt": "2023-12-17T03:34:44Z",
-              "content": "England batter Harry Brook helped the side pull off an unlikely final over heist against the West Indies in the third T20I on December 16.\r\nTrailing 0-2 and chasing an improbable 223 for victory, Eng… [+2593 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Delhi's Minimum Temperature Settles At 7 Degrees, Air Quality 'Very Poor' - NDTV",
-              "description": "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
-              "url": "https://www.ndtv.com",
-              "urlToImage": "https://cdn.ndtv.com/common/images/ogndtv.png",
-              "publishedAt": "2023-12-17T03:23:53Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Sports Desk",
-              "title": "Explained: Why Rohit was replaced by Hardik as Mumbai captain for IPL 2024 - Hindustan Times",
-              "description": "Rohit Sharma was replaced by Hardik Pandya as Mumbai Indians' captain for IPL 2024. A successful MI season will strengthen his captaincy claim at India. | Cricket",
-              "url": "https://www.hindustantimes.com/cricket/why-rohit-sharma-was-replaced-by-hardik-pandya-captain-of-mumbai-indians-ipl-2024-explained-hardik-pandya-gt-mi-101702778124484.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/PTI12-15-2023-000331B-0_1702782353934_1702782375184.jpg",
-              "publishedAt": "2023-12-17T03:09:47Z",
-              "content": "Endings are just new beginnings in disguise. Rohit Sharma's departure as the captain of the Mumbai Indians marked the end of an era in the Indian Premier League (IPL). The most successful player in t… [+4164 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ThePrint"
-              },
-              "author": "Akanksha Mishra",
-              "title": "Aditya L1 unveils full-disk images of Sun, telescope aboard used 11 filters to show new details - ThePrint",
-              "description": "ScientiFix, our weekly feature, offers you a summary of the top global science stories of the week, with links to their sources.",
-              "url": "https://theprint.in/scientifix/aditya-l1-unveils-full-disk-images-of-sun-telescope-aboard-used-11-filters-to-show-new-details/1889030/",
-              "urlToImage": "https://static.theprint.in/wp-content/uploads/2023/12/Untitled-design-32-2.jpg",
-              "publishedAt": "2023-12-17T02:30:52Z",
-              "content": "This imagery includes features like sunspots, which are dark spots on the sun where the magnetic field is strong, offering scientists valuable insights.\r\nThe collaborative effort, led by the Inter-Un… [+3757 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Tuhin Das Mahapatra",
-              "title": "Donald Trump claims rally immigrants are 'poisoning the blood' of America - Hindustan Times",
-              "description": "Former President Trump's divisive rhetoric resurfaces as he echoes troubling phrases likened to Nazi Germany, targeting immigrants.",
-              "url": "https://www.hindustantimes.com/world-news/us-news/donald-trump-claims-rally-immigrants-are-poisoning-the-blood-of-america-101702773845866.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/Election-2024-Trump-26_1702774530115_1702774546623.jpg",
-              "publishedAt": "2023-12-17T01:03:47Z",
-              "content": "Former US President Donald Trump has once again used inflammatory and divisive language to attack immigrants and his political opponents. Speaking at a rally in Durham, New Hampshire, on Saturday, he… [+2453 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Sridhar Vivan",
-              "title": "BM Health: Karnataka’s health push: Tackling childhood pneumonia - Bangalore Mirror",
-              "description": "Outlining the key objectives, Rao said, “The main goal of the SAANS campaign is to include the adoption and adherence to National Childhood Pneumonia Management guidelines, creating awareness and mob",
-              "url": "https://bangaloremirror.indiatimes.com/bangalore/others/karnatakas-health-push-tackling-childhood-pneumonia/articleshow/106052948.cms",
-              "urlToImage": "https://bangaloremirror.indiatimes.com/photo/52761249.cms",
-              "publishedAt": "2023-12-17T00:30:00Z",
-              "content": "With an alarming rise in pneumonia-related deaths among children, the health department has initiated an awareness program. Health Minister Dinesh Gundu Rao articulated the objective, stating that th… [+3181 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Citylife.capetown"
-              },
-              "author": "Gabriel Botha",
-              "title": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
-              "description": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
-              "url": "https://citylife.capetown/space/scientists-say-they-conversed-with-a-whale-it-may-be-practice-for-aliens/533307/",
-              "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_fc5f1167-f58a-414e-a9cc-49ccd5458071.jpeg",
-              "publishedAt": "2023-12-16T11:24:46Z",
-              "content": "Summary: In a groundbreaking new study, scientists have successfully engaged in a “conversation” with a humpback whale named Twain. Researchers from the University of California, Davis, the SETI Inst… [+1999 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "THE WEEK"
-              },
-              "author": "Shyla Jovitha Abraham",
-              "title": "Intermittent fasting can help obese people with type 2 diabetes lose weight - The Week",
-              "description": "intermittent fasting can help obese people with type 2 diabetes lose weight and control their blood sugar levels. People with type 2 diabetes",
-              "url": "https://www.theweek.in/news/health/2023/12/16/intermittent-fasting-and-people-with-type-2-diabetes.html",
-              "urlToImage": "https://www.theweek.in/content/dam/week/news/2023/images/2023/7/10/Intermittent-fasting-food-eat.jpg",
-              "publishedAt": "2023-12-16T10:25:37Z",
-              "content": "A study published in JAMA Network Open has found that intermittent fasting can help obese people with type 2 diabetes lose weight and control their blood sugar levels. People with type 2 diabetes are… [+1587 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Samsung, Apple phone users get security warnings from CERT-In - The Economic Times",
-              "description": "In has warned against multiple security-related vulnerabilities in the products and operating systems of Samsung and Apple devices which could allow hackers ...",
-              "url": "https://www.youtube.com/watch?v=b8ViIZv34FA",
-              "urlToImage": "https://i.ytimg.com/vi/b8ViIZv34FA/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T08:27:33Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "MacRumors"
-              },
-              "author": "Juli Clover",
-              "title": "Here's How Apple Plans to Display Vision Pro in Retail Stores - MacRumors",
-              "description": "As early 2024 approaches, so does the launch date of Apple's first headworn wearable, the Apple Vision Pro. Apple has promised that the headset...",
-              "url": "https://www.macrumors.com/2023/12/15/apple-vision-pro-retail-store-display/",
-              "urlToImage": "https://images.macrumors.com/t/e40vDS58fugJ33eWPgi8rYw5Uqk=/2000x/article-new/2023/12/vision-pro-display-1.jpg",
-              "publishedAt": "2023-12-15T20:34:33Z",
-              "content": "As early 2024 approaches, so does the launch date of Apple's first headworn wearable, the Apple Vision Pro. Apple has promised that the headset will come out in the early months of the year, with cur… [+2264 chars]"
-            }
-          ]
-        },
-        {
-          "entertainment": [
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Suresh Oberoi Sent This Message To Neetu Kapoor After Working With Ranbir In Animal - NDTV Movies",
-              "description": "Suresh Oberoi plays Ranbir's grandfather in the film",
-              "url": "https://www.ndtv.com/entertainment/suresh-oberoi-sent-this-message-to-neetu-kapoor-after-working-with-ranbir-in-animal-4690848",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/0rm303o8_suresh-oberoi-_625x300_17_December_23.jpg",
-              "publishedAt": "2023-12-17T10:50:22Z",
-              "content": "Suresh Oberoi and Ranbir Kapoor in Animal. (courtesy: YouTube)\r\nNew Delhi: Suresh Oberoi, who acted as Ranbir Kapoor's grandfather in Animal, applauded the actor as \"well-behaved\" and \"dignified pers… [+1956 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Bigg Boss 17: Ayesha Khan confronts Munawar Faruqui, demands apology. Watch - Hindustan Times",
-              "description": "Ayesha Khan has called out Munawar Faruqui's behaviour on Bigg Boss 17 and said that there's a big difference between being a good artist and a good person.",
-              "url": "https://www.hindustantimes.com/entertainment/tv/bigg-boss-17-ayesha-khan-munawar-faruqui-apology-two-timing-101702804959319.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/munawar_1702806084074_1702806084506.jpg",
-              "publishedAt": "2023-12-17T09:55:05Z",
-              "content": "Bigg Boss 17: Ayesha Khan has joined the Bigg Boss house as a wild card contestant after K-pop sensation Aoora. The makers of the show have now shared a video of Ayesha introducing herself and thereb… [+3286 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "123telugu.com"
-              },
-              "author": null,
-              "title": "Latest buzz on Guntur Kaaram trailer - 123telugu",
-              "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-              "url": "https://www.123telugu.com/mnews/latest-buzz-on-guntur-kaaram-trailer.html",
-              "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-              "publishedAt": "2023-12-17T09:30:00Z",
-              "content": "As cinephiles eagerly await the Sankranthi season, all eyes are on Guntur Kaaram, the highly anticipated Telugu movie starring Super Star Mahesh Babu and directed by Trivikram Srinivas.\r\nAccording to… [+522 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Animecorner.me"
-              },
-              "author": "Marko Jovanovic",
-              "title": "One Piece Anime Remake by WIT Studio and Netflix Announced - Anime Corner",
-              "description": "ONE PIECE  is officially getting a remake anime project by WIT Studio and Netflix,…",
-              "url": "https://animecorner.me/one-piece-anime-remake-by-wit-studio-and-netflix-announced/",
-              "urlToImage": "https://static.animecorner.me/2023/12/1702804858-65774.jpg",
-              "publishedAt": "2023-12-17T09:22:09Z",
-              "content": "ONE PIECE  is officially getting a remake anime project by WIT Studio and Netflix, starting with at East Blue with a teaser of Romance Dawn. Thats the title of the first manga chapter, as well as the… [+1649 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Mahesh Babu's son Gautam to pursue higher studies at NYU, Namrata pens note - Hindustan Times",
-              "description": "Gautam Ghattamaneni is the only son of Namrata Shirodkar and actor-husband Mahesh Babu. The couple welcomed Gautam in 2006.",
-              "url": "https://www.hindustantimes.com/entertainment/telugu-cinema/mahesh-babu-namrata-shirodkar-son-gautam-ghattamaneni-higher-studies-nyu-new-york-101702801779161.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/Namrata_Shirodkar_1702803805230_1702803825218.jpg",
-              "publishedAt": "2023-12-17T09:21:07Z",
-              "content": "Former actor Namrata Shirodkar has shared a post informing her fans and followers that her son Gautam Ghattamaneni will pursue his higher studies at New York University. Taking to Instagram on Sunday… [+2658 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "PTI",
-              "title": "Ravi Teja announces new film titled 'Mr Bachchan' after megastar Amitabh Bachchan | Mint - Mint",
-              "description": "Ravi Teja's next film is titled 'Mr Bachchan' after his favourite Amitabh Bachchan, with a tagline 'Naam Tho Suna Hoga'.",
-              "url": "https://www.livemint.com/industry/media/ravi-teja-announces-new-film-titled-mr-bachchan-after-megastar-amitabh-bachchan-11702804252158.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/Amitabh_Bachchan_1702804465550_1702804490707.jpg",
-              "publishedAt": "2023-12-17T09:17:02Z",
-              "content": "Actor Ravi Teja on Sunday announced that his next film is titled \"Mr Bachchan\" after his favourite megastar Amitabh Bachchan.\r\n The makers also released the first look of the film in which Ravi Teja … [+1403 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Amidst pregnancy rumours, Anushka Sharma snapped in a baggy and chic jacket at the airport: pics inside - IndiaTimes",
-              "description": "The rumours have been doing the rounds that Anushka Sharma and Virat Kohli are apparently expecting their second child. On Saturday, the 'Zero' actres",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/amidst-pregnancy-rumours-anushka-sharma-snapped-in-a-baggy-and-chic-jacket-at-the-airport-pics-inside/articleshow/106062160.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106062160,width-1070,height-580,imgsize-50346,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T08:55:53Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Alia Bhatt was asked how she deals with anxiety and if little Raha played a role - Hindustan Times",
-              "description": "Alia Bhatt opens up about her mental health and dealing with separation anxiety from daughter Raha. The actor says letting herself free works for her. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/alia-bhatt-reveals-what-gives-her-anxiety-less-guilty-raha-101702801018154.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/PTI12-10-2023-000216A-0_1702801405176_1702801447484.jpg",
-              "publishedAt": "2023-12-17T08:42:02Z",
-              "content": "Alia Bhatt held an AMA (Ask Me Anything) session with her Instagram followers on Sunday. The actor took to Instagram Stories to respond to a series of questions about herself and her life. When asked… [+2452 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Entertainment Desk",
-              "title": "Jeh refuses to hold mom Kareena Kapoor’s hand at airport; patiently waits for big brother Taimur Ali Khan. Watch adorable video - The Indian Express",
-              "description": "Kareena Kapoor Khan and Saif Ali Khan have jetted off for a vacation to celebrate Christmas with their kids, Taimur and Jeh.",
-              "url": "https://indianexpress.com/article/entertainment/bollywood/jeh-refuses-to-hold-mom-kareena-kapoors-hand-at-airport-patiently-waits-for-big-brother-taimur-ali-khan-watch-adorable-video-9071611/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/jeh.jpg",
-              "publishedAt": "2023-12-17T08:35:27Z",
-              "content": "Actors Saif Ali Khan and Kareena Kapoor Khanheaded out for a vacation with their kids, Taimur Ali Khan and Jeh Ali Khan ahead of the holiday season. The family was all decked up in their cosy winter … [+1344 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India Today"
-              },
-              "author": "India Today Entertainment Desk",
-              "title": "Viral: Abhishek-Aishwarya’s daughter Aaradhya Bachchan hugs SRK’s son AbRam - India Today",
-              "description": "Aaradhya Bachchan and AbRam have been the talk of the town after glimpses of their performance from their school's annual day went viral. Now, a video of Aaradhya cutely hugging AbRam is doing the rounds.",
-              "url": "https://www.indiatoday.in/movies/celebrities/story/aishwarya-rai-abhishek-bachchan-daughter-aaradhya-hugs-shah-rukh-khans-son-abram-2476988-2023-12-17",
-              "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/aaradhya-bachchan-cutely-hugs-abram-172324279-16x9_0.jpg?VersionId=lfbkBCyvCQlChM4nzkzKBKLQvrrx15YQ",
-              "publishedAt": "2023-12-17T08:32:31Z",
-              "content": "It was the annual day event at the Dhirubhai International School, where the children of many of our favourite Bollywood stars are enrolled. Needless to say, it was a star-studded event. Aaradhya’s p… [+1538 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Viral: Triptii Dimri Dances To Animal Co-Star Ranbir Kapoor's Song Ghagra - NDTV Movies",
-              "description": "Triptii also danced to Bole Chudiyan in the video",
-              "url": "https://www.ndtv.com/entertainment/viral-triptii-dimri-dances-to-animal-co-star-ranbir-kapoors-song-ghagra-4690206",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/g1mhp1a8_triptii-_625x300_17_December_23.jpg",
-              "publishedAt": "2023-12-17T08:30:50Z",
-              "content": "Triptii Dimri shared this image. (courtesy: TriptiiDimri)\r\nNew Delhi: Animal star Triptii Dimri has been stealing the limelight and how. The actor, who has become the \"National Crush\" after her role … [+1827 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "123telugu.com"
-              },
-              "author": null,
-              "title": "Salaar: A massive 120 feet cutout of Prabhas erected in Mumbai - 123telugu",
-              "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-              "url": "https://www.123telugu.com/mnews/salaar-a-massive-120-feet-cutout-of-prabhas-erected-in-mumbai.html",
-              "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-              "publishedAt": "2023-12-17T08:30:00Z",
-              "content": "The much-awaited movie, Salaar: Part 1 – Ceasefire, starring Prabhas, is all set to release globally this Friday. Directed by Prashanth Neel, known for the KGF franchise, this A-rated action drama ha… [+684 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Gulte"
-              },
-              "author": "Satya B",
-              "title": "Trailer Talk: Naa Saami Ranga! Nag Banks On Mass - Gulte",
-              "description": "At a time when many are confused if King Nagarjuna is in the race or not, his latest movie \"Naa Saami Ranga\" emerged as the first movie from the Sankranthi race to unveil its massy teaser and grab the attention. Here is how the teaser of the movie is looking …",
-              "url": "https://www.gulte.com/movienews/272918/trailer-talk-naa-saami-ranga-nag-banks-on-mass",
-              "urlToImage": "https://cdn.gulte.com/wp-content/uploads/2023/12/80807f32-2427-4de4-a307-b3c9218a0d62-1.jpg",
-              "publishedAt": "2023-12-17T08:09:19Z",
-              "content": "At a time when many are confused if King Nagarjuna is in the race or not, his latest movie “Naa Saami Ranga” emerged as the first movie from the Sankranthi race to unveil its massy teaser and grab th… [+1003 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Radhika Madan shares fun pictures from Sanya Malhotra's sister's wedding; says, 'Mujhe shaadi karne ka bo - IndiaTimes",
-              "description": "Sanya Malhotra's sister Shagunn Malhotra tied knot with film producer Achin Jain on December 11, 2023. The ceremony was attended by several big names",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/radhika-madan-shares-fun-pictures-from-sanya-malhotras-sisters-wedding-says-mujhe-shaadi-karne-ka-bohat-craze-hai/articleshow/106060571.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106060571,width-1070,height-580,imgsize-54736,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T07:19:38Z",
-              "content": "Radhika Madan reveals she faced rejection saying her jaw is slightly 'tedha'; says 'I was quite surprised because I was Kareena Kapoor Khan in my head'"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Greatandhra.com"
-              },
-              "author": "IANS",
-              "title": "Creating Box Office Miracles!.. - Greatandhra",
-              "description": "Isn't it strange that a film is facing criticism from all corners, especially very strongly from women, and yet the production house keeps issuing collection figures of Rs 30-40 crore each day, and double those figures in the weekend!",
-              "url": "https://www.greatandhra.com/movies/news/creating-box-office-miracles-134390",
-              "urlToImage": "https://www.greatandhra.com/newphotos10/animal11702796716.jpg",
-              "publishedAt": "2023-12-17T07:05:16Z",
-              "content": "Isn't it strange that a film is facing criticism from all corners, especially very strongly from women, and yet the production house keeps issuing collection figures of Rs 30-40 crore each day, and d… [+7073 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Salman Khan's brother-in-law Aayush Sharma's car meets with an accident in Mumbai: report - IndiaTimes",
-              "description": "In October, the actor completed eight years in the industry and wrote, “So I completed 5 years in the industry today, 5th October 2018 Loveyatri relea",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/salman-khans-brother-in-law-aayush-sharmas-car-meets-with-an-accident-in-mumbai-report/articleshow/106059710.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106059692,width-1070,height-580,imgsize-26256,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T06:32:23Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "123telugu.com"
-              },
-              "author": null,
-              "title": "Latest update on Salaar advance bookings in Telugu states - 123telugu",
-              "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-              "url": "https://www.123telugu.com/mnews/latest-update-on-salaar-advance-bookings-in-telugu-states.html",
-              "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-              "publishedAt": "2023-12-17T06:30:00Z",
-              "content": "Prepare for the much-anticipated release of Salaar: Part 1 – Ceasefire, a Telugu cinematic extravaganza with a pan-Indian release scheduled to open in cinemas globally on December 22, 2023. Directed … [+818 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Dunki advance box office collection: Shah Rukh Khan’s film goes head-to-head with Prabhas’ Salaar for audience’s attention - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/entertainment/bollywood/dunki-advance-box-office-collection-shah-rukh-khans-film-goes-head-to-head-with-prabhas-salaar-for-audiences-attention-9071465/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T05:51:03Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Deccan Chronicle"
-              },
-              "author": "Bhavana Sharma",
-              "title": "Bigg Boss Telugu 7 Winner Name Leaked before Final Episode - Deccan Chronicle",
-              "description": "Bigg Boss Telugu 7 Winner Name Leaked before Final Episode",
-              "url": "https://www.deccanchronicle.com/entertainment/ott/171223/did-pallavi-prashanth-win-bigg-boss-telugu-7.html",
-              "urlToImage": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-c3gav383vs1psajvpelsj0h7v6-20230919161407.Medi.jpeg",
-              "publishedAt": "2023-12-17T05:48:08Z",
-              "content": "Pallavi Prashanth secured the lead, claiming the winner's title."
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": null,
-              "title": "Shah Rukh Khan tells paparazzi 'lagega BETA AARAM SE' while getting clicked at Mumbai airport - Times of India",
-              "description": "Actor Shah Rukh Khan, who is gearing up for the release of his upcoming movie 'Dunki' alongside Taapsee Pannu, Boman Irani, Vicky Kaushal, Vikram Kochhar and others, was recently papped at Mumbai airport. While walking in a hurry towards the airport entry, SR…",
-              "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/shah-rukh-khan-tells-paparazzi-lagega-beta-aaram-se-while-getting-clicked-at-mumbai-airport/videoshow/106058956.cms",
-              "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106058956,imgsize-51854.cms",
-              "publishedAt": "2023-12-17T05:47:40Z",
-              "content": "Dec 17, 2023, 11:17AM ISTSource: etimes.inActor Shah Rukh Khan, who is gearing up for the release of his upcoming movie 'Dunki' alongside Taapsee Pannu, Boman Irani, Vicky Kaushal, Vikram Kochhar and… [+390 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Animal box office collection day 16: Ranbir Kapoor starrer crosses Rs 800 crore worldwide! - Times of India - IndiaTimes",
-              "description": "Ranbir Kapoor's 'Animal' continues to mint big at the box office, crossing the 500 crore mark. The film, directed by Sandeep Reddy Vanga, stars Bobby",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/animal-box-office-collection-day-16-ranbir-kapoor-starrer-crosses-rs-800-crore-worldwide/articleshow/106058713.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106058749,width-1070,height-580,imgsize-35806,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T05:36:00Z",
-              "content": "Amid 'Animal's success, Ranbir Kapoor calls himself a 'simple man' who does not like anything 'animalistic'"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Love birds Rubina Dilaik and Abhinav Shukla blessed with twin baby girls?; gym trainer congratulates the - Times of India",
-              "description": "Love birds Rubina Dilaik and Abhinav Shukla embrace parenthood as they welcome twin baby girls. Rubina's gym trainer confirms the news and congratulat",
-              "url": "https://timesofindia.indiatimes.com/tv/news/hindi/love-birds-rubina-dilaik-and-abhinav-shukla-blessed-with-twin-baby-girls-gym-trainer-confirms-the-news/articleshow/106058617.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106058613,width-1070,height-580,imgsize-63368,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T05:24:46Z",
-              "content": "Mukti Mohan ties the knot with 'Animal' actor Kunal Thakur; drops first wedding pictures saying 'In you, I find my divine connection...'"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Dunki Vs Salaar: Shah Rukh Khan asks exhibitors to 'play fair', does not request for more showcasing: rep - IndiaTimes",
-              "description": "According to the makers, Dunki' is a heartwarming tale of four friends and their quest to reach foreign shores. It charts the arduous yet life-changin",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/dunki-vs-salaar-shah-rukh-khan-asks-exhibitors-to-play-fair-does-not-request-for-more-showcasing-report/articleshow/106058519.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106058519,width-1070,height-580,imgsize-31942,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T05:21:46Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Shreyas Talpade Likely To Be Discharged From Hospital Sunday Night Or Monday Morning, Reveals Filmmaker Soham Shah - NDTV Movies",
-              "description": "Shreyas Talpade had undergone an angioplasty on Thursday night",
-              "url": "https://www.ndtv.com/entertainment/shreyas-talpade-likely-to-be-discharged-from-hospital-sunday-night-or-monday-morning-reveals-filmmaker-soham-shah-4689203",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/tobvaq5o_shreyas-_625x300_17_December_23.jpg",
-              "publishedAt": "2023-12-17T04:26:03Z",
-              "content": "Image instagrammed by Shreyas. (courtesy: ShreyasTalpade)\r\nNew Delhi: Shreyas Talpade suffered a heart attack on Thursday and he had undergone an angioplasty on the very night he was taken to the hos… [+2186 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "DNA India"
-              },
-              "author": "DNA Web Team",
-              "title": "After Shah Rukh Khan refuses to be part of Rajinikanth's Thalaivar 171, Lokesh Kanagaraj approaches this Bollywood star - DNA India",
-              "description": "Rajinikanth and Lokesh Kanagaraj's last films, Jailer and Leo, have been two of the biggest blockbusters this year. The filmmaker is now set to direct the superstar in his next film. Read on to know why Shah Rukh Khan has refused to be a part of Thalaivar 171.",
-              "url": "https://www.dnaindia.com/entertainment/report-shah-rukh-khan-refuses-to-be-part-of-rajinikanth-thalaivar-171-lokesh-kanagaraj-approaches-ranveer-singh-3071841",
-              "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/12/17/2620072-srk-rajini.jpg",
-              "publishedAt": "2023-12-17T04:25:52Z",
-              "content": "Rajinikanth and Lokesh Kanagaraj's last films, Jailer and Leo, have been two of the biggest blockbusters this year. The filmmaker is now set to direct the superstar in his next film. Read on to know … [+2038 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Bigg Boss 17: Khanzaadi gets eliminated; reveals why she wanted to 'run away' - Hindustan Times",
-              "description": "Bigg Boss 17: Khanzaadi was eliminated in the latest Weekend Ka Vaar episode with Salman Khan. She has now spoken about how she 'lost interest in the game'.",
-              "url": "https://www.hindustantimes.com/entertainment/tv/bigg-boss-17-khanzaadi-elimination-who-could-be-winner-ankita-lokhande-munawar-101702785168937.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/khanzaadi_1702786330728_1702786348676.png",
-              "publishedAt": "2023-12-17T04:25:29Z",
-              "content": "Bigg Boss 17: Firoza Khan, who is better known by her stage name Khanzaadi, was among the most talked about contestants of this season. After her eviction from Bigg Boss 17, Khanzaadi told DNA in an … [+2115 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Sam Bahadur Box Office Collection Day 16: Vicky Kaushal's film persists strong run, inches closer to ₹100 crore mark | Mint - Mint",
-              "description": "Vicky Kaushal's biopic 'Sam Bahadur' is holding its ground at the box office despite tough competition from 'Animal'. The film is likely to cross  ₹100 crore soon, with the total collection currently at  ₹93.5 crores.",
-              "url": "https://www.livemint.com/industry/media/sam-bahadur-box-office-collection-day-16-vicky-kaushals-film-persists-strong-run-inches-closer-to-rs-100-crore-mark-11702779640099.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/Sam_Bahadur_5_1702179480728_1702780035250.png",
-              "publishedAt": "2023-12-17T03:06:19Z",
-              "content": "Sam Bahadur Box Office Collection Day 16: Vicky Kaushal's 'Sam Bahadur' which is a biopic on the legendary Indian field marshal Sam Manekshaw is going steady at the Box office despite facing a tough … [+2758 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Odishatv.in"
-              },
-              "author": "Sangati Jogwar",
-              "title": "Abhishek-Aishwarya Rai rift: Bachchan Bahu still lives with her in-laws but there is a twist - OTV News",
-              "description": "For the last few days, strong rumours have been circulating that Ash has left the Bachchan house Jalsa and is staying separately with her mother Vrinda Rai.",
-              "url": "https://odishatv.in/news/entertainment/abhishek-aishwarya-rai-rift-bachchan-bahu-still-lives-with-her-in-laws-but-there-is-a-twist-222750",
-              "urlToImage": "https://images.odishatv.in/uploadimage/library/16_9/16_9_5/recent_photo_1702729152.webp",
-              "publishedAt": "2023-12-17T02:00:02Z",
-              "content": "Amitabh Bachchan and all his family members including Jaya, Abhishek, Shweta, and Aishwarya Rai Bachchan have never replied to gossip or rumours about them. For the last few days, strong rumours have… [+2010 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Koreaboo.com"
-              },
-              "author": null,
-              "title": "The TOP 10 K-Pop Girl Group Member Brand Reputation Rankings For The End Of 2023 - Koreaboo",
-              "description": "The Korea Brand Reputation Research Institute recently revealed the K-Pop girl group member brand reputation rankings for the month of December 2023!",
-              "url": "https://www.koreaboo.com/lists/kpop-top-10-girl-group-member-brand-reputation-rankings-end-2023/",
-              "urlToImage": "https://lh3.googleusercontent.com/7sY-jgmm2Ie8bSebmZefxI2V1AzJi1E2Bm9-7uUH_arEhoyCLfUy6rHMAPFFPTk6oauxDB7f2GoH9ILA7cqDe6RTrxG9n95zRl2KOB-bRsuVqrE8=w1200-h630-rj-pp-e365",
-              "publishedAt": "2023-12-17T01:42:59Z",
-              "content": "The Korea Brand Reputation Research Institute recently revealed the K-Pop girl group member brand reputation rankings for the month of December 2023! These rankings are determined by collecting data … [+1792 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Shruti Haasan says alcohol was a ‘big thing’ of her life: I was never into drugs - Hindustan Times",
-              "description": "Shruti Haasan in an interview talked about her journey to sobriety and recalled alcohol being a part of her life. She also said that she was never into drugs. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/shruti-haasan-recalls-always-wanting-to-drink-with-friends-alcohol-was-a-big-thing-in-my-life-i-was-never-into-drugs-101702775941150.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/6a7bc302-743d-11ec-a877-d9dc5eb1ebc2_1642075377558_1702777252065.jpg",
-              "publishedAt": "2023-12-17T01:42:54Z",
-              "content": "Shruti Haasan recently opened up about her journey to sobriety and shared why she decided to quit alcohol. Speaking to Untriggered with Aminjaz, she revealed that although she was never into drugs, s… [+2117 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Taurus Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/taurus-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:56Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Gemini Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/gemini-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:35Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "Woodstock Witch",
-              "title": "Scorpio Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": "Read VOGUE India's free daily Scorpio horoscope for 17th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
-              "url": "https://www.vogue.in/horoscope/product/scorpio-horoscope-today-december-17-2023/",
-              "urlToImage": "https://media.vogue.in/wp-content/uploads/2019/12/Scorpio.jpg",
-              "publishedAt": "2023-12-17T00:20:31Z",
-              "content": "Right now, youre aligned with your mission and your vision. Youre doing everything you can to shine your light, to make the world a better place. Trust that your magnetic field will call into your ex… [+265 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Pisces Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/pisces-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:19Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Sagittarius Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/sagittarius-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:16Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "Woodstock Witch",
-              "title": "Aries Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": "Read VOGUE India's free daily Aries horoscope for 17th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
-              "url": "https://www.vogue.in/horoscope/product/aries-horoscope-today-december-17-2023/",
-              "urlToImage": "https://media.vogue.in/wp-content/uploads/2019/12/Aries-.jpg",
-              "publishedAt": "2023-12-17T00:20:08Z",
-              "content": "Its okay to not have all the answers, Aries. Its okay to feel like youre moving through life without a roadmap and that you do *not* know where you are headed. Given that youre simultaneously grievin… [+383 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Aquarius Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/aquarius-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:04Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "VOGUE India"
-              },
-              "author": "VOGUE India",
-              "title": "Capricorn Horoscope Today: December 17, 2023 - VOGUE India",
-              "description": null,
-              "url": "https://www.vogue.in/horoscope/product/capricorn-horoscope-today-december-17-2023/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T00:20:02Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Dr J.N Pandey",
-              "title": "Weekly Horoscope Libra, Dec 17-23, 2023 predicts a romantic vacation - Hindustan Times",
-              "description": "Read Libra weekly horoscope for Dec 17-23, 2023 to know your Weekly astrological predictions. | Horoscope",
-              "url": "https://www.hindustantimes.com/astrology/horoscope/weekly-horoscope-libra-dec-17-23-2023-predicts-a-romantic-vacation-101702720939772.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/libra_1690910632044_1702756806779.jpg",
-              "publishedAt": "2023-12-16T20:02:02Z",
-              "content": "Libra - (23rd September to 22nd October)\r\nWeekly Horoscope Prediction says, Youll leave no problem unresolved\r\nWeekly Horoscope Libra, Dec 17-23, 2023. Minor financial issues will come up this week w… [+3015 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Quint"
-              },
-              "author": "Saima Andrabi",
-              "title": "Wordle 911 Answer: Hints and Clues To Guess Word of the Day on 17 December 2023 - The Quint",
-              "description": "Wordle 911 Answer for Sunday, 17 December 2023: Today's answer may be tricky to guess. Use our hints and clues to guess the solution.",
-              "url": "https://www.thequint.com/tech-and-auto/tech-news/wordle-911-answer-hints-and-clues-to-guess-word-of-the-day-easily-latest-details",
-              "urlToImage": "https://images.thequint.com/thequint%2F2023-08%2F6066a4b3-8c1c-4dd5-bdcf-4cbaf8ddf5d7%2FWhatsApp_Image_2022_02_18_at_11_31_46_AM.jpeg?rect=0%2C48%2C1280%2C672",
-              "publishedAt": "2023-12-16T18:31:00Z",
-              "content": "Wordle Answer Today: Wordle is an online puzzle played by millions of users across the globe. Players have to guess a five letter word of the day in six attempts. Wordle answers are often tricky to g… [+473 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Randeep Hooda and Lin Laishram's new UNSEEN video from their reception party in dipped in love, netizens - IndiaTimes",
-              "description": "Randeep Hooda tied the knot with Lin Laishram after they dated each other for a few years. The couple got married in Imphal and had a reception party",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/randeep-hooda-and-lin-laishrams-new-unseen-video-from-their-reception-party-in-dipped-in-love-netizens-react-watch/articleshow/106052234.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106052239,width-1070,height-580,imgsize-28074,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T18:26:57Z",
-              "content": "Mimi Chakraborty is embracing the vibrant world of boho prints with style and grace"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "'Animal' actor Siddhant Karnick reacts to Ranbir Kapoor-Rashmika Mandanna's 'bra-strap pulling' scene in - IndiaTimes",
-              "description": "Siddhant Karnick defends the scene from 'Animal' where Ranbir Kapoor's character is pulling his wife Rashmika Mandanna's bra strap and hurting her, he",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/animal-actor-siddhant-karnick-reacts-to-ranbir-kapoor-rashmika-mandannas-bra-strap-pulling-scene-in-the-film-i-understood-the-kinkiness/articleshow/106051296.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106051327,width-1070,height-580,imgsize-80554,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T16:37:56Z",
-              "content": "Kalyani Priyadarshan exuding elegance"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Mypunepulse.com"
-              },
-              "author": null,
-              "title": "Celebrating 40 Years Of Jackie Shroff’s Legacy in Bollywood from Dust to Star - Pune Pulse",
-              "description": "Veteran actor Jackie Shroff celebrated a significant milestone in his illustrious career as his iconic film 'Hero' completed 40 years on Saturday. To commemorate this four-decade-long journey, Jackie took to Instagram, sharing a heartfelt video featuring cher…",
-              "url": "https://www.mypunepulse.com/celebrating-40-years-of-jackie-shroffs-legacy-in-bollywood-from-dust-to-star/",
-              "urlToImage": "https://www.mypunepulse.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-16-at-21.15.24-jpeg.webp",
-              "publishedAt": "2023-12-16T15:51:05Z",
-              "content": "Veteran actor Jackie Shroff celebrated a significant milestone in his illustrious career as his iconic film ‘Hero’ completed 40 years on Saturday. To commemorate this four-decade-long journey, Jackie… [+4585 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Netizens are offended with Twinkle Khanna's comment as she calls men 'desert', she gives a befitting repl - IndiaTimes",
-              "description": "Twinkle Khanna and Akshay Kumar never fail to serve couple goals as their bonding is quite real and deep despite the fact that they're like chalk and",
-              "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/netizens-are-offended-with-twinkle-khannas-comment-as-she-calls-men-desert-she-gives-a-befitting-reply/articleshow/106050651.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106050657,width-1070,height-580,imgsize-40564,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T15:18:36Z",
-              "content": "Bigg Boss Kannada 10: Speculations mount for tenth-week eviction showdown"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Lokesh Kanagaraj announces break from social media platforms, mobile. Here's why - Hindustan Times",
-              "description": "Lokesh Kanagaraj thanked his audience and fans for the ‘love and support you have given for Fight Club’. He shared a post on X.",
-              "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/lokesh-kanagaraj-announces-break-from-social-media-platforms-mobile-during-this-time-i-wont-be-reachable-101702735451477.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/Lokesh_Kanagaraj_1702454298851_1702737315988.jpg",
-              "publishedAt": "2023-12-16T14:42:56Z",
-              "content": "Director-producer Lokesh Kanagaraj has announced that he will take a break from all social media platforms to solely focus on his next project. Taking to X (formerly called Twitter) on Saturday, Loke… [+2427 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Arya Vaishnavi",
-              "title": "Matthew Perry revealed ketamine made him think he was ‘dying’ in his 2022 memoir - Hindustan Times",
-              "description": "Matthew Perry admitted ‘ketamine was not for me’ in his 2022 memoir",
-              "url": "https://www.hindustantimes.com/entertainment/tv/matthew-perry-revealed-ketamine-made-him-feel-as-he-was-dying-in-2022-memoir-101702734177623.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/PEOPLE-MATTHEW-PERRY--0_1699858729446_1702735989494.JPG",
-              "publishedAt": "2023-12-16T14:15:11Z",
-              "content": "Months after Matthew Perry's shocking death, autopsy reports have finally confirmed the cause of his demise. On Friday, December 15, reports confirmed that the Friends actor died from the acute effec… [+1880 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Vishal Bhardwaj reveals Aamir Khan wanted to play Langda Tyagi in Omkara - Hindustan Times",
-              "description": "Vishal Bhardwaj said he was convinced with Saif Ali Khan after watching him in Dil Chahta Hai. He was also reluctant to cut his hair at first. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/vishal-bhardwaj-reveals-aamir-khan-wanted-to-play-langda-tyagi-in-omkara-says-nobody-could-imagine-saif-ali-khan-in-it-101702729143410.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/_e9a26b02-0c98-11e7-ad00-2dd402d181d7_1702729415429.jpg",
-              "publishedAt": "2023-12-16T12:42:29Z",
-              "content": "Saif Ali Khan's performance in Omkara is still considered one of his career best turns. Adapted from Othello by Vishal Bharadwaj, Saif Ali Khan starred as the antagonist Langda Tyagi. In an interview… [+2022 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Trisha Sengupta",
-              "title": "Bobby Deol signs attendant’s shirt while onboard a flight. Watch - Hindustan Times",
-              "description": "A video shared by a flight attendant featuring Bobby Deol, Ranbir Kapoor, and Rashmika Mandanna was shared on Instagram. It has left people amazed. | Trending",
-              "url": "https://www.hindustantimes.com/trending/bobby-deol-signs-flight-attendant-s-shirt-as-ranbir-kapoor-rashmika-mandanna-interact-in-background-101702725903242.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/Screenshot_2023-12-16_170234_1702726355245_1702726360253.png",
-              "publishedAt": "2023-12-16T11:41:31Z",
-              "content": "A video of a flight attendant's fangirl moment with Bobby Deol was shared on social media. The clip shows her all smiles as the actor signs his autograph on her shirt. Ranbir Kapoor and Rashmika Mand… [+1774 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Ananya reveals Sara crashed a wedding once, she had to drag her off dance floor - Hindustan Times",
-              "description": "Sara Ali Khan left Ananya Panday in shock when she decided to crash a wedding party in Mumbai last year. Check out what happened next. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/ananya-panday-reveals-sara-ali-khan-crashed-a-wedding-dance-floor-101702724640158.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/sara_ananya_1702724940954_1702724941266.jpg",
-              "publishedAt": "2023-12-16T11:21:55Z",
-              "content": "Ananya Panday and Sara Ali Khan are close friends. Ananya, who is awaiting the release of her upcoming Netflix film Kho Gaye Hum Kahan, shared how one time Sara crashed a wedding party, and she had t… [+2091 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "After Adipursh VFX backlash, Shrimad Ramayan makers ‘leaving no stones unturned’ - Hindustan Times",
-              "description": "Shrimad Ramayan will air in January and the producer Siddharth Tewary is confident the show will be well received after Adipursh was slammed earlier this year.",
-              "url": "https://www.hindustantimes.com/entertainment/tv/adipursh-vfx-backlash-prabhas-shrimad-ramayan-producer-reacts-mythological-show-101702723941947.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/adipurush_backlash_1702724355719_1702724374326.jpg",
-              "publishedAt": "2023-12-16T11:19:18Z",
-              "content": "Shrimad Ramayan's producer Siddharth Tewary talked about the upcoming TV show based on the Hindu epic, and why he was backing a mythological show after criticism of Prabhas-starrer Adipurush earlier … [+2721 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Kapil Sharma-Ginni Chatrath And Others At Mukti Mohan And Kunal Thakur's Reception - NDTV Movies",
-              "description": "\"Really feeling overwhelmed with love and blessings coming our way,\" Mukti Mohan wrote",
-              "url": "https://www.ndtv.com/entertainment/kapil-sharma-ginni-chatrath-and-others-at-mukti-mohan-and-kunal-thakurs-reception-4685299",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/k9dpv14_mukti_625x300_16_December_23.jpg",
-              "publishedAt": "2023-12-16T11:11:42Z",
-              "content": "Mukti Mohan shared this image. (courtesy: muktimohan)\r\nNew Delhi: Mukti Mohan and Kunal Thakur's wedding reception was a star-studded affair. The guest list included Kapil Sharma and his wife Ginni C… [+1652 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": "NDTV Lifestyle Desk",
-              "title": "Alia Bhatt's Custom Anavila Yellow Saree With Ribbon Braids Brings Spring Sunshine To Winter - NDTV Swirlster",
-              "description": "Every time Alia Bhatt sides with a striking <i>saree</i>, she scores high on the style meter",
-              "url": "https://swirlster.ndtv.com/festive-wear/as-husband-ranbir-kapoors-animal-crosses-rs-800-crores-alia-bhatts-custom-anavila-embroidered-yellow-saree-with-ribbon-braids-brings-spring-sunshine-t-4684854",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/7po31bqg_alia-bhatt_625x300_16_December_23.jpg",
-              "publishedAt": "2023-12-16T10:42:17Z",
-              "content": "Be it her presence at the National Film Awards or the promotions of Rocky Aur Rani Kii Prem Kahaani, Alia Bhatt has spread her \"saree\"-torial charm, big time. So when she was handed the responsibilit… [+2164 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Deepika Padukone-Hrithik Roshan's New Fighter Song Summed Up By Ranveer Singh In A Word - NDTV Movies",
-              "description": "We agree, Ranveer Singh. We agree",
-              "url": "https://www.ndtv.com/entertainment/deepika-padukone-hrithik-roshans-new-fighter-song-summed-up-by-ranveer-singh-in-a-word-4684849",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/bt77lkr_deepika_625x300_16_December_23.jpg",
-              "publishedAt": "2023-12-16T09:34:30Z",
-              "content": "Deepika and Hrithik in a still from Sher Khul Gaye. (courtesy: YouTube)\r\nNew Delhi: The first track from Siddharth Anand's Fighter, released on Friday and it is trending even a day later. The track t… [+1577 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "123telugu.com"
-              },
-              "author": null,
-              "title": "Saaho star’s key role in Sundeep Kishan’s sci-fi thriller - 123telugu",
-              "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
-              "url": "https://www.123telugu.com/mnews/saaho-stars-key-role-in-sundeep-kishans-sci-fi-thriller.html",
-              "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
-              "publishedAt": "2023-12-16T09:30:00Z",
-              "content": "Bollywood actor Neil Nitin Mukesh, who played the main antagonist in Prabhas’ pan-India action drama, Saaho, is all set to return to the southern film industry. The actor has landed a key role in Tol… [+767 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Onmanorama.com"
-              },
-              "author": "Onmanorama Staff",
-              "title": "Sunny Leone to make her Malayalam debut with web series ‘Pan Indian Sundari’ | Onmanorama - Onmanorama",
-              "description": "The series is set to be released in five languages: Malayalam, Tamil, Kannada, Telugu, and Hindi.",
-              "url": "https://www.onmanorama.com/entertainment/entertainment-news/2023/12/16/sunny-leone-malayalam-debut-web-series-pan-indian-sundari.html",
-              "urlToImage": "https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2023/12/16/sunny-leone.jpg",
-              "publishedAt": "2023-12-16T09:17:24Z",
-              "content": "Actor Sunny Leone is making her Malayalam debut in the upcoming web series titled 'Pan Indian Sundari', distributed by HR OTT. Produced by Sreena Prathapan under the banner of HR Productions, the ser… [+604 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India TV News"
-              },
-              "author": "Edited by Ashesh Mallick",
-              "title": "Dog recreates Animal's 'Jamal Kudu' song, internet can't stop gasping. Seen yet? - India TV News",
-              "description": "A video of a dog walking on the tunes 'Jamal Kudu' of 'Animal' movie has gone viral on social media. The Internet cannot stop laughing on the meme. WATCH",
-              "url": "https://www.indiatvnews.com/trending/news/viral-video-fog-recreates-animal-jamal-kudu-song-bobby-deol-ranbir-kapoor-memes-trending-news-stories-latest-updates-2023-12-16-907568",
-              "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/jamal-kudu-viral-video-1702717668.jpg",
-              "publishedAt": "2023-12-16T09:09:23Z",
-              "content": "Viral video: Abrar's entry song in Ranbir Kapoor's 'Animal' movie 'Jamal Kudu' has taken the internet by storm. The song has been edited uniquely and creatively by memers, while creators are making f… [+1206 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Prithviraj says the scale of Salaar is so huge that 'it can even dwarf KGF 2’ - Hindustan Times",
-              "description": "Prithviraj Sukumaran also admitted that he would be disappointed with director Prasanth Neel had the scale of Salaar been any less.",
-              "url": "https://www.hindustantimes.com/entertainment/telugu-cinema/prithviraj-sukumaran-says-the-scale-of-salaar-is-so-huge-that-it-can-even-dwarf-kgf-2-compares-it-to-game-of-thrones-101702715379966.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/Prithviraj_Salaar_3_1702647724667_1702715790867.jpg",
-              "publishedAt": "2023-12-16T08:49:27Z",
-              "content": "Salaar: Part One Ceasefire is one of the most awaited films of the year. It stars Prabhas and Prithviraj Sukumaran in the lead, and is directed by Prashanth Neel, who helmed the KGF films. In a new i… [+1977 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": null,
-              "title": "SHOCKING! 'CID' actress Vaishnavi Dhanraj accuses family of domestic violence; says 'I've been abused and hit badly' - Times of India",
-              "description": "Actress Vaishnavi Dhanraj has accused her family of physical violence. A video has emerged on social media and is going viral wherein the actress could be seen in a tormented state and seeking help after allegedly getting assaulted by her family members. In t…",
-              "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/shocking-cid-actress-vaishnavi-dhanraj-accuses-family-of-domestic-violence-says-ive-been-abused-and-hit-badly/videoshow/106043331.cms",
-              "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106043331,imgsize-57514.cms",
-              "publishedAt": "2023-12-16T08:35:00Z",
-              "content": "Dec 16, 2023, 02:05PM ISTSource: etimes.inActress Vaishnavi Dhanraj has accused her family of physical violence. A video has emerged on social media and is going viral wherein the actress could be se… [+969 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Kareena Kapoor Khan proudly records Taimur’s school performance; Karan Johar, Gauri Khan cheer and smile. Watch here - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/entertainment/bollywood/kareena-kapoor-khan-proudly-records-taimurs-school-performance-karan-johar-gauri-khan-cheer-and-smile-watch-here-9070644/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T08:33:56Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Triptii Dimri reacts as her Instagram followers grow massively since starring with Ranbir Kapoor in Animal - Hindustan Times",
-              "description": "Triptii Dimri has spoken about the sudden jump in her Instagram follower count and also revealed her family's reaction to it. The actor was last seen in Animal. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/triptii-dimri-reacts-as-her-instagram-followers-grow-massively-since-starring-with-ranbir-kapoor-in-animal-101702710808996.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/Triptii_Dimri_1702710993112_1702711008595.jpg",
-              "publishedAt": "2023-12-16T07:47:05Z",
-              "content": "Triptii Dimri, who was seen Sandeep Reddy Vanga's Animal alongside Ranbir Kapoor, has gained millions of followers on Instagram in recent days. Now, in an interview with News 18, the actor has talked… [+2797 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Entertainment Desk",
-              "title": "Indian Police Force teaser: Sidharth Malhotra, Shilpa Shetty are fierce as cops - Hindustan Times",
-              "description": "Indian Police Force teaser: The series is helmed by Rohit Shetty and stars Sidharth Malhotra, Shilpa Shetty and Vivek Oberoi. It will be released in January. | Web Series",
-              "url": "https://www.hindustantimes.com/entertainment/web-series/indian-police-force-teaser-rohit-shetty-action-sidharth-malhotra-shilpa-shetty-101702709485220.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/indian_police_force_1702711550208_1702711550536.png",
-              "publishedAt": "2023-12-16T07:27:50Z",
-              "content": "On Saturday, Rohit Shetty unveiled the much-awaited teaser for Indian Police Force season 1. It is a Prime Video original series, starring Sidharth Malhotra, Shilpa Shetty and Vivek Oberoi. It will b… [+2460 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Sunny Deol On Animal: \"Very Happy For Bobby But Didn't Like Certain Things\" - NDTV Movies",
-              "description": "\"There are certain things that I did not like, which I don't like in many films including my own,\" said Sunny Deol",
-              "url": "https://www.ndtv.com/entertainment/very-happy-for-bobby-but-didnt-like-certain-things-in-animal-sunny-deol-4679221",
-              "urlToImage": "https://c.ndtvimg.com/2023-12/aeq7bemg_sunny-deol_625x300_16_December_23.jpg",
-              "publishedAt": "2023-12-16T06:53:16Z",
-              "content": "Bobby with Sunny Deol. (courtesy: iambobbydeol)\r\nMumbai: Sunny Deol says he is happy with the praise his brother Bobby is receiving for his performance in Animal, even though he didn't like certain t… [+2414 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Kaun Banega Crorepati 15: Host Amitabh Bachchan reveals how once Shah Rukh Khan scolded daughter Suhana K - Times of India",
-              "description": "Amitabh Bachchan welcomes The Archies cast and crew on Kaun Banega Crorepati 15. Suhana Khan, Shah Rukh Khan and Gauri Khan's daughter, appears on the",
-              "url": "https://timesofindia.indiatimes.com/tv/news/hindi/kaun-banega-crorepati-15-host-amitabh-bachchan-reveals-how-once-shah-rukh-khan-scolded-daughter-suhana-khan-over-taking-a-dip-in-pool-the-latter-says-maybe-only-time-my-dad-said-no-to-me/articleshow/106040736.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106040805,width-1070,height-580,imgsize-40466,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T06:32:12Z",
-              "content": "Yeh Rishta Kya Kehlata Hai on location: Abhira gets inside the kitchen to cook food for herself"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Jojo",
-              "title": "WWE SmackDown SPOILER Results: New faction attacks former world champ; AJ Styles attacked by Bloodline; huge match planned for New Year's Special - Sportskeeda",
-              "description": "WWE decided to tape next week's episode of SmackDown as the roster will be going on Christmas Break next week.",
-              "url": "https://www.sportskeeda.com/wwe/wwe-smackdown-spoiler-results-new-faction-attacks-former-world-champ-aj-styles-attacked-bloodline-huge-match-planned-new-year-s-special",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/5627e-17027021391185-1920.jpg",
-              "publishedAt": "2023-12-16T05:06:50Z",
-              "content": "WWE decided to tape next week's episode of SmackDown as the roster will be going on Christmas Break next week. Nick Aldis announced a big triple-threat match for SmackDown New Year's Revolution, with… [+3382 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "PTI",
-              "title": "Tujhse Naraz Nahi Zindagi singer Anup Ghosal dies at 77 - Hindustan Times",
-              "description": "Tujhse Naraz Nahi Zindagi fame singer Anup Ghosal died in Kolkata. He was 77. | Bollywood",
-              "url": "https://www.hindustantimes.com/entertainment/bollywood/tujhse-naraz-nahi-zindagi-singer-anup-ghosal-dies-at-77-mamata-banerjee-extends-condolences-101702698762661.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/anup_ghoshal_1702700797451_1702700797628.jpg",
-              "publishedAt": "2023-12-16T04:28:11Z",
-              "content": "Bengali singer Anup Ghoshal, mostly known for the Tujhse Naraz Nahi Zindagi number from the 1983 film Masoom and who immortalised the songs in several Satyajit Ray's musicals died here on Friday, his… [+2245 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India Today"
-              },
-              "author": "Disha Bhatnagar",
-              "title": "Tarot Card Predictions December 16, 2023: Tarot Card Reading for All Zodiac Signs - India Today",
-              "description": "Tarot Card Reading for Today: December 16, 2023. Know what’s in store for your card. Our Tarot card reader Disha Bhatnagar reads the cards for you.",
-              "url": "https://www.indiatoday.in/horoscopes/story/daily-tarot-card-today-16-december-2023-2476436-2023-12-16",
-              "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/tarot-card-114743357-16x9_2.jpg?VersionId=WNx9hmtdhBwzIUZpObnmE.BSvFKtPPIl",
-              "publishedAt": "2023-12-16T01:32:26Z",
-              "content": "Aries (Four of Cups)\r\nYou are in a dilemma about choosing the best opportunity among the ones that have come your way. It takes you considerable time to make decisions, causing you to miss out on sev… [+8800 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "etimes.in",
-              "title": "Bigg Boss 17: Salman Khan confronts Ankita Lokhande for her conversation with medical help; former says ' - Times of India",
-              "description": "The Bigg Boss 17 episode featured a Keechad task, with housemates pouring mud on contestants with ghamand. Salman Khan criticized Munawar for his game",
-              "url": "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-17-salman-khan-confronts-ankita-lokhande-for-her-conversation-with-medical-help-former-says-bigg-boss-ke-baad-aap-bohot-busy-hone-wale-ho-was-this-about-your-looks/articleshow/106032783.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106032786,width-1070,height-580,imgsize-977743,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-15T20:11:11Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "M Suganth",
-              "title": "Kannagi Movie Review: Kannagi delivers its message without being preachy - IndiaTimes",
-              "description": "For almost its entire running time, Kannagi plays out like four shorts from an anthology being cross-cut from one to the other.",
-              "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movie-reviews/kannagi/movie-review/106031155.cms",
-              "urlToImage": "https://static.toiimg.com/photo/msid-106031155/106031155.jpg?7222",
-              "publishedAt": "2023-12-15T16:36:26Z",
-              "content": "Kannagi Movie Synopsis: 'Four' women facing four different issues in their relationships try to navigate those problems and lead their lives, but will society be favourable towards them?Kannagi Movie… [+2839 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Onam Gupta",
-              "title": "Tripti Dimri Aka Bhabhi 2 Bedazzles in Bold Blouse, Satin Saree - India.com",
-              "description": "",
-              "url": "https://www.india.com/webstories/lifestyle/tripti-dimri-aka-bhabhi-2-bedazzles-in-bold-blouse-satin-saree-6588132/",
-              "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/triptidimri1.jpg",
-              "publishedAt": "2023-12-15T07:57:04Z",
-              "content": "Tripti Dimri is a sight to behold in traditional look\r\nTripti Dimri teamed her satin saree with a deep-neck bold backless blouse\r\nTripti Dimri complemented her saree with long danglers.\r\nTripti Dimri… [+437 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Khushi Pal",
-              "title": "Jawan, Gadar 2, Animal: 5 highest grossing Indian films of 2023 - Hindustan Times",
-              "description": "From Shah Rukh Khan's Jawan to Ranbir Kapoor's Animal, here is a look at the highest grossing Indian films in 2023",
-              "url": "https://www.hindustantimes.com/web-stories/entertainment/jawan-gadar-2-animal-5-highest-grossing-indian-films-of-2023-101702462857038.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-13T12:46:54Z",
-              "content": "By Khushi PalPublished Dec 13, 2023\r\nHindustan TimesEntertainment"
-            }
-          ]
-        },
-        {
-          "technology": [
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "ET Telecom",
-              "title": "Apple releases 1st public beta of iOS 17.3 with stolen device protection - ETTelecom",
-              "description": "When this is enabled, Face ID or Touch ID verification is required for reading iCloud Keychain passwords, turning off Lost Mode, wiping an iPhone's contents, using saved payment methods in Safari, and others, the report mentioned.",
-              "url": "https://telecom.economictimes.indiatimes.com/news/devices/apple-releases-1st-public-beta-of-ios-17-3-with-stolen-device-protection/106065244",
-              "urlToImage": "https://etimg.etb2bimg.com/thumb/msid-106065244,imgsize-6360,width-1200,height=765,overlay-ettelecom/devices/apple-releases-1st-public-beta-of-ios-17-3-with-stolen-device-protection.jpg",
-              "publishedAt": "2023-12-17T12:11:34Z",
-              "content": "San Francisco: Apple has begun seeding the first beta versions of iOS 17.3 and iPadOS 17.3 to public beta testers ahead of their official release. Beta testers can access the beta by going to the Set… [+1333 chars]"
-            },
-            {
-              "source": {
-                "id": "usa-today",
-                "name": "USA Today"
-              },
-              "author": "USA TODAY",
-              "title": "How to tighten skin after weight loss - USA TODAY",
-              "description": null,
-              "url": "https://www.usatoday.com/story/life/health-wellness/2023/12/17/how-to-tighten-skin-after-weight-loss/71835006007/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T12:01:36Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Asus ROG Phone 8 to launch on January 9, 2024: Here’s what we know so far - Times of India",
-              "description": "Asus teases ROG Phone 8, the next-gen gaming smartphone, ahead of its global debut. The official teaser video mentions 'Coming Soon' and the tagline '",
-              "url": "https://timesofindia.indiatimes.com/gadgets-news/asus-rog-phone-8-to-launch-on-january-9-2024-heres-what-we-know-so-far/articleshow/106065076.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106065076,width-1070,height-580,imgsize-9040,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T11:58:53Z",
-              "content": "<ul><li>News</li>\r\n<li>Asus ROG Phone 8 to launch on January 9, 2024: Heres what we know so far</li></ul>\r\nAsus teases ROG Phone 8, the next-gen gaming smartphone, ahead of its global debut. The offi… [+438 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Zeeshan Khan",
-              "title": "Battlegrounds Mobile India (BGMI) guide for increasing F/D ratio (December 2023) - Sportskeeda",
-              "description": "The F/D (Finishes/Death) ratio is a vital indicator of your Battlegrounds Mobile India (BGMI) success.",
-              "url": "https://www.sportskeeda.com/bgmi/battlegrounds-mobile-india-bgmi-guide-increasing-f-d-ratio-december-2023",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/44223-17028036663500-1920.jpg",
-              "publishedAt": "2023-12-17T11:18:04Z",
-              "content": "The F/D (Finishes/Death) ratio is a vital indicator of your Battlegrounds Mobile India (BGMI) success. If it's high, it suggests that you are not only surviving longer but also contributing to your t… [+3146 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Gadgets 360 With TG: Intel's New Meteor Lake Chips and More Tech News - NDTV",
-              "description": null,
-              "url": "https://www.youtube.com/watch?v=RV1j0Kjv-kE",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T10:55:17Z",
-              "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Swastik Sharma",
-              "title": "5 best ways to make money in GTA Online in 2023 (post-Chop Shop update) - Sportskeeda",
-              "description": "The GTA Online Chop Shop update has been an interesting DLC so far. Not only did it add a new business to the game, but also brought drift races along with special drift tuning for certain vehicles.",
-              "url": "https://www.sportskeeda.com/gta/5-best-ways-make-money-gta-online-2023-post-chop-shop-update",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/70f58-17028007662332-1920.jpg",
-              "publishedAt": "2023-12-17T10:51:00Z",
-              "content": "The GTA Online Chop Shop update has been an interesting DLC so far. Not only did it add a new business to the game, but also brought drift races along with special drift tuning for certain vehicles. … [+3954 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Tech News Today: Vivo X100 series India launch, iQOO to launch more accessories and more - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/technology/tech-news-today-17-december-2023-vivo-x100-iqoo-smartwatch-pixel-9071808/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T10:45:30Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Mridul Dutta",
-              "title": "GTA Online Vapid Aleutian review: Price, performance, and more - Sportskeeda",
-              "description": "The Vapid Aleutian is one of the newest cars added to GTA Online on the release day of The Chop Shop DLC.",
-              "url": "https://www.sportskeeda.com/gta/gta-online-vapid-aleutian-review-price-performance",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/8fb63-17027990547508-1920.jpg",
-              "publishedAt": "2023-12-17T10:37:00Z",
-              "content": "The Vapid Aleutian is one of the newest cars added to GTA Online on the release day of The Chop Shop DLC. It is also one of the newest SUVs in the multiplayer game and comes with some special feature… [+2752 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "10 best laptops for coding: From HP, Lenovo to Acer, unlock your programming potential - HT Tech",
-              "description": "Looking for the 10 best laptops for coding? Explore our top picks, from HP 15s to Lenovo Legion 5 Pro, ensuring a smooth programming experience.",
-              "url": "https://tech.hindustantimes.com/laptops-pc/news/10-best-laptops-for-coding-from-hp-lenovo-to-acer-unlock-your-programming-potential-71702802322926.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/17/1600x900/Best_laptops_for_coding_1702803062220_1702803062449.jpg",
-              "publishedAt": "2023-12-17T10:14:03Z",
-              "content": "10 best laptops for coding: Are you into coding? Choosing the right laptop is crucial for a smooth programming experience. You need power for running and testing code without being slowed down by you… [+16982 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "Top 10 budget laptops: From Lenovo, Asus to Zebronics, try these pocket-friendly gadgets - HT Tech",
-              "description": "Top 10 budget laptops: Check out these budget laptops including renowned brands like Lenovo, HP, Asus, Zebronics and more.",
-              "url": "https://tech.hindustantimes.com/laptops-pc/news/top-10-budget-laptops-from-lenovo-asus-to-zebronics-try-these-pocket-friendly-gadgets-71702806084048.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/17/1600x900/untitled_1702806419709_1702806419981.jpg",
-              "publishedAt": "2023-12-17T10:03:48Z",
-              "content": "Top 10 budget laptops: Are you looking for a laptop that fits perfectly into your budget and provides you with the necessary features too? Budget laptops are an economical choice for users seeking fu… [+16934 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India TV News"
-              },
-              "author": "Edited by Saumya Nigam",
-              "title": "WhatsApp brings a new automatic album feature for Channels | Deets here - India TV News",
-              "description": "The new WhatsApp feature in Channels will reportedly enhance the user experience with the organisation of media and will be shared in channels and grouped in an album accordingly.",
-              "url": "https://www.indiatvnews.com/technology/news/whatsapp-brings-a-new-automatic-album-feature-for-channels-deets-here-2023-12-17-907667",
-              "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/whatsapp-update-pixabay-1702805695.jpg",
-              "publishedAt": "2023-12-17T09:36:23Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "GSMArena.com"
-              },
-              "author": "Victor",
-              "title": "Nothing Phone (2a) test unit leaks with photos and alleged specs - GSMArena.com news - GSMArena.com",
-              "description": "Unfortunately, the leak does not reveal much of the upcoming phone's design. If rumors are to be believed, the Nothing Phone (2a) is the next device to...",
-              "url": "https://www.gsmarena.com/nothing_phone_2a_test_unit_leaks_with_photos_and_alleged_specs-news-60940.php",
-              "urlToImage": "https://fdn.gsmarena.com/imgroot/news/23/12/nothing-phone-2a-pvt-leak/-952x498w6/gsmarena_001.jpg",
-              "publishedAt": "2023-12-17T09:01:01Z",
-              "content": "If rumors are to be believed, the Nothing Phone (2a) is the next device to expect from the company and as per the latest official teaser its unveiling is right around the corner. However, we still do… [+1945 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Gmail’s new ‘Package Tracking’ feature is built for shopaholics: Offers package delay updates - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/technology/tech-news-technology/gmails-new-package-tracking-feature-is-built-for-shopaholics-offers-package-delay-updates-9071551/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T08:47:02Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Vikas Yadav",
-              "title": "WhatsApp Update New Layout For Status To Automatic Album In Channels, All About Two Upcoming Features - Jagran English",
-              "description": "WhatsApp Update: The instant messaging app is working on a new status update header layout and the feature to group multiple images and videos in a single bubble in WhatsApp Channels, according to WABetaInfo. Here are the essential details about the two featu…",
-              "url": "https://english.jagran.com/technology/whatsapp-update-new-layout-for-status-to-automatic-album-in-channels-all-about-two-upcoming-features-10120948",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/whatsapp-status-update1702803088386.jpg",
-              "publishedAt": "2023-12-17T08:43:00Z",
-              "content": "WhatsApp Update: Meta-owned messaging application WhatsApp continues to make headlines for testing new features. In the latest update on Android, the platform is working on a new status update header… [+2056 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Zee Media Bureau",
-              "title": "Poco C65 Launched In India: Check Price, Specifications, Colour Options, And More - Zee News",
-              "description": "Poco has expanded its budget-friendly smartphone lineup in India by launching the Poco C65. With its official launch into the Indian market, the Poco C65 has cemented its status as the newest member of the low-cost smartphone industry. As per the reports, the…",
-              "url": "https://zeenews.india.com/technology/poco-c65-launched-in-india-check-price-specifications-colour-options-and-more-2699878.html",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337458-file-photo-2023-12-17t003052.489.jpg",
-              "publishedAt": "2023-12-17T08:31:31Z",
-              "content": "New Delhi: Poco has expanded its budget-friendly smartphone lineup in India by launching the Poco C65. With its official launch into the Indian market, the Poco C65 has cemented its status as the new… [+2171 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Aditi Srivastava",
-              "title": "Ray-Ban Meta glasses rule the TikTok trend with BTS’ Jungkook’s 3D complementing - Hindustan Times",
-              "description": "Ray-Ban Meta glasses bring back the cool factor for technology",
-              "url": "https://www.hindustantimes.com/entertainment/music/rayban-meta-glasses-rule-the-tiktok-trend-with-bts-jungkook-s-3d-complementing-it-101702795823939.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/jk_1702799795172_1702799809412.jpg",
-              "publishedAt": "2023-12-17T07:59:46Z",
-              "content": "Forget your cat ears and filter faces, TikTok has a new obsession: Ray Ban's Meta smart glasses. With millions of people wearing digital glasses and dancing to the same beat, what began as a single c… [+2218 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Cheryl King",
-              "title": "What are the benefits of TCL smart TV? - TickerTV News",
-              "description": "What are the benefits of TCL smart TV? - TickerTV News",
-              "url": "https://ticker.tv/news/what-are-the-benefits-of-tcl-smart-tv/343548/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_a_man_using_smartphone_or_computer_on_outdoor_ebaf6880-ddbf-4b2f-8416-5aa3d92876f3.png",
-              "publishedAt": "2023-12-17T07:44:12Z",
-              "content": "Discover the Advantages of TCL Smart TV: Enhancing Your Entertainment Experience\r\nIn today’s digital age, smart TVs have become an integral part of our homes, revolutionizing the way we consume media… [+2694 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Investing.com"
-              },
-              "author": "IANS",
-              "title": "Microsoft launches robust AI 'small language model' for researchers - Investing.com India",
-              "description": "The Financial News section features stock market news in addition to stories about bonds, forex, commodities and economic releases.",
-              "url": "https://in.investing.com/news/microsoft-launches-robust-ai-small-language-model-for-researchers-3940811",
-              "urlToImage": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/akapi-images/800x450/5a80153a714634b1c3b0c99238d31cb5_w_800_h_450.jpg",
-              "publishedAt": "2023-12-17T06:48:55Z",
-              "content": "New Delhi, Dec 17 (IANS) Microsoft (NASDAQ:\r\nMSFT\r\n) has released its newest compact small language model titled Phi-2 that continues to perform at par or better than certain larger open-source Llama… [+1848 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Instagram rolling out 'Add Yours' template for Stories, here's how it works - Times of India",
-              "description": "Instagram introduces templates for Reels and Stories, allowing users to create custom templates. The new \"Add Yours\" feature lets users add GIFs, text",
-              "url": "https://timesofindia.indiatimes.com/gadgets-news/instagram-rolling-out-add-yours-template-for-stories-heres-how-it-works/articleshow/106059898.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106059880,width-1070,height-580,imgsize-2483789,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T06:43:30Z",
-              "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Zee Business"
-              },
-              "author": "ZeeBiz WebTeam",
-              "title": "Lava Yuva 3 Pro with 50MP AI camera launched at Rs 8,999 - Zee Business",
-              "description": "",
-              "url": "https://www.zeebiz.com/technology/news-lava-yuva-3-pro-budget-smartphone-50mp-ai-camera-launched-at-rs-8999-269046",
-              "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/17/272887-lavayuva3.jpg",
-              "publishedAt": "2023-12-17T06:29:11Z",
-              "content": "Lava International, the homegrown smartphone manufacturer, has launched the Yuva 3 Pro smartphone. According to the company, the smartphone has been launched keeping in mind young Indian customers wh… [+1538 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Apple settles Family Sharing lawsuit, agrees to pay $25 million - Times of India",
-              "description": "Apple has agreed to pay $25 million in a lawsuit settlement related to Family Sharing. The lawsuit, \"Walter Peters v. Apple Inc.,\" alleged that Apple",
-              "url": "https://timesofindia.indiatimes.com/gadgets-news/apple-settles-family-sharing-lawsuit-agrees-to-pay-25-million/articleshow/106059553.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106059529,width-1070,height-580,imgsize-12926,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T06:23:00Z",
-              "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "How to star your favourite photos in Google Photos - Times of India",
-              "description": "This article discusses how to mark favourites and organise cherished memories by starring photos in Google Photos. Open the app or website, find the p",
-              "url": "https://timesofindia.indiatimes.com/gadgets-news/how-to-star-your-favourite-photos-in-google-photos/articleshow/106059447.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106059410,width-1070,height-580,imgsize-57548,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T06:17:14Z",
-              "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Tapatrisha Das",
-              "title": "Identifying invisible triggers from childhood trauma - Hindustan Times",
-              "description": "From receiving feedback to disagreements, here are a few invisible triggers from childhood trauma that can make us anxious. | Health",
-              "url": "https://www.hindustantimes.com/lifestyle/health/identifying-invisible-triggers-from-childhood-trauma-101702782489312.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/b4_1_1702782523896_1702782524201.jpg",
-              "publishedAt": "2023-12-17T06:16:10Z",
-              "content": "When we are brought up in dysfunctional homes, we grow up with fear of abandonment, rejection and childhood trauma. Childhood trauma can show up in our adult relationships as well in different forms.… [+1903 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Tech Desk",
-              "title": "DuckDuckGo browser can prevent apps from tracking you: Here’s how to enable the feature - The Indian Express",
-              "description": "DuckDuckGo browser for Android has a new feature called 'App Tracking Protection' that lets users block third party trackers in apps.",
-              "url": "https://indianexpress.com/article/technology/techook/duckduckgo-browser-can-prevent-apps-from-tracking-you-heres-how-to-enable-the-feature-9071455/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/DuckDuckGo-App-Tracking-Protection.jpg",
-              "publishedAt": "2023-12-17T06:13:48Z",
-              "content": "The browser app of DuckDuckGo, a search engine that prioritizes user privacy, has a new feature for Android users that allows them to block third-party trackers in apps and games.Called ‘App Tracking… [+1413 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India Today"
-              },
-              "author": "India Today Information Desk",
-              "title": "Garena Free Fire MAX Redeem Codes for December 17, 2023: How to redeem the codes - India Today",
-              "description": "Here is all you need to know about the new active codes for the list of New Garena Free Fire MAX Redeem codes and the steps to redeem them.",
-              "url": "https://www.indiatoday.in/information/story/garena-free-fire-redeem-codes-december-17-garena-free-fire-redeem-codes-december-17-garena-free-fire-max-redeem-codes-for-december-17-2023-how-to-redeem-the-codes-2476939-2023-12-17",
-              "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/garena-free-fire-max-130356711-16x9_0.png?VersionId=DJmShDWoOjJiD0URJ_sPsA16HohVOsuM",
-              "publishedAt": "2023-12-17T06:02:24Z",
-              "content": "Garena Free Fire Max, a popular mobile battle royale game, was released in 2020 as an updated version of the original Garena Free Fire. The game boasts enhanced graphics, controls, gameplay mechanics… [+1615 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Aarnesh Shrivastava",
-              "title": "Adin Ross accuses Twitch of view-botting popular streamers, says having 150k viewers is not \"realistic\" - Sportskeeda",
-              "description": "During a livestream on December 16, 2023, Kick star Adin Ross accused Twitch of view-botting popular streamers.",
-              "url": "https://www.sportskeeda.com/esports/news-adin-ross-accuses-twitch-view-botting-popular-streamers-says-150k-viewers-realistic",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/c9d1c-17027903762147-1920.jpg",
-              "publishedAt": "2023-12-17T05:55:00Z",
-              "content": "During a livestream on December 16, 2023, Kick star Adin Ross accused Twitch of view-botting popular streamers. While browsing submissions on his official Discord server, the content creator came acr… [+2284 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT News Desk",
-              "title": "Apple recommends non-usage of ‘uncertified’ chargers for Watch. Here's why - Hindustan Times",
-              "description": "The tech giant made the recommendation in a recent support document update, where it also listed ways to identify an Apple charger made for Watch.",
-              "url": "https://www.hindustantimes.com/technology/apple-recommends-non-usage-of-uncertified-chargers-for-watch-heres-why-101702788155420.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/e56cd83a-3a44-11ed-8cba-ba7ad76ffd07_1663830343094_1702788182821.jpg",
-              "publishedAt": "2023-12-17T05:31:38Z",
-              "content": "Apple has recommended non-usage of uncertified chargers for Watch, saying in a recent support document update, that only in-house chargers or select non-company ones, must be used for the purpose.\r\nA… [+1406 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Cheryl King",
-              "title": "What is the best brand of TV for 2023? - TickerTV News",
-              "description": "What is the best brand of TV for 2023? - TickerTV News",
-              "url": "https://ticker.tv/news/what-is-the-best-brand-of-tv-for-2023/343273/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_mens_using_smartphone_or_computer_on_outdoor_a570845a-27ab-4ada-8ec5-25e3f7efe07e.png",
-              "publishedAt": "2023-12-17T00:59:59Z",
-              "content": "As technology continues to advance at an unprecedented pace, the television industry is no exception. With new features, improved picture quality, and innovative designs, choosing the right TV brand … [+2267 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Tapatrisha Das",
-              "title": "Improve the moment: How this skill works in Dialectical Behavioural Therapy - Hindustan Times",
-              "description": "From relaxing the body to taking a break, here are a few ways by which this skill works.",
-              "url": "https://www.hindustantimes.com/photos/lifestyle/improve-the-moment-how-this-skill-works-in-dialectical-behavioural-therapy-101702711055463.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/d0jytd_1702711070553_1702711097179.jpg",
-              "publishedAt": "2023-12-17T00:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Deccan Herald"
-              },
-              "author": "DH Web Desk",
-              "title": "Gadgets Weekly: Asus Chromebook Plus and more - Deccan Herald",
-              "description": null,
-              "url": "https://www.deccanherald.com/technology/gadgets/gadgets-weekly-asus-chromebook-plus-and-more-2811127",
-              "urlToImage": "https://images.deccanherald.com/deccanherald%2F2023-12%2Fb3d1788c-bb50-4555-9d56-dd90018cc35c%2FAsus_Chromebook_Plus_CX34_CS_1.jpg?rect=0%2C40%2C1070%2C562&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
-              "publishedAt": "2023-12-16T23:23:00Z",
-              "content": "Technology companies Asus, Lava, Realime, Goldmedal Electricals, and more launched new laptop, smartphones, and more this week (December 11-17).\r\nDH's Gadgets Weekly edition lists the latest personal… [+987 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ticker.tv"
-              },
-              "author": "Tanya King",
-              "title": "Instagram Introduces New Video Note Feature and Privacy Controls - TickerTV News",
-              "description": "Instagram Introduces New Video Note Feature and Privacy Controls - TickerTV News",
-              "url": "https://ticker.tv/news/instagram-allows-users-to-share-two-second-looping-video-notes-how-to-use-here/335902/",
-              "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_man_or_men_using_smartphone_or_computer_ffce874d-006b-4d9e-9e43-8691d3985e66.png",
-              "publishedAt": "2023-12-16T21:46:46Z",
-              "content": "Instagram continues to innovate with the introduction of its latest feature, Video Notes. Users can now share short, looping videos through their status updates, adding another layer of expression to… [+1764 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "GSMArena.com"
-              },
-              "author": "Peter",
-              "title": "Samsung US drops the Galaxy S23 FE to its lowest price yet - GSMArena.com news - GSMArena.com",
-              "description": "It's part of the Discover Samsung Winter Sale and it is a daily deal, so it will be gone tomorrow. The Discover Samsung Winter Sale ends this Sunday, but...",
-              "url": "https://www.gsmarena.com/samsung_us_drops_the_galaxy_s23_fe_to_its_lowest_price_yet-news-60925.php",
-              "urlToImage": "https://fdn.gsmarena.com/imgroot/news/23/12/weekly-deals-15/-952x498w6/gsmarena_0000.jpg",
-              "publishedAt": "2023-12-16T20:31:01Z",
-              "content": "The Discover Samsung Winter Sale ends this Sunday, but there are still a couple of good offers to be had. The Samsung Galaxy S23 FE has been discounted during the whole week, but todays daily deal dr… [+838 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cult of Mac"
-              },
-              "author": "Lewis Wallace, Lewis Wallace",
-              "title": "Best (and worst) gear of 2023 [The CultCast] - Cult of Mac",
-              "description": "This week on Cult of Mac's podcast: We get down to business with our picks for the best and worst tech and entertainment of 2023.",
-              "url": "https://www.cultofmac.com/840458/best-gear-2023-the-cultcast-episode-625/",
-              "urlToImage": "https://www.cultofmac.com/wp-content/uploads/2023/12/best-gear-2023-CultCast-episode-625.jpg",
-              "publishedAt": "2023-12-16T19:01:09Z",
-              "content": "This week on Cult of Macs podcast: After a quick spin through the news of the week, we get down to business with our second round of picks for the best and worst tech and entertainment of 2023.\r\nAlso… [+3151 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Free Press Journal"
-              },
-              "author": "Hariom Seth",
-              "title": "Know How Immersive 3D Simulation Cultivates Critical Thinking - Free Press Journal",
-              "description": "Immersive simulations unlocks a new dimension of learning and cognitive prowess",
-              "url": "https://www.freepressjournal.in/weekend/know-how-immersive-3d-simulation-cultivates-critical-thinking",
-              "urlToImage": "https://media.assettype.com/freepressjournal/2023-12/936a427e-5acb-4339-9738-3f5490ac77b4/LS_anchor_dec_17.jpg",
-              "publishedAt": "2023-12-16T18:29:00Z",
-              "content": "Among innovations, immersive 3D simulations emerge as catalysts for cultivating critical thinking in three-dimensional spaces. \r\nA cognitive shift\r\nTraditional learning methods struggle to capture th… [+2509 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "Unwrap Innovation! Sony INZONE H5 Headset, Samsung Galaxy Z Fold 5 to Apple AirPods Pro, 6 tech gifts to explore - HT Tech",
-              "description": "It's the season of gifting joy to the tech enthusiasts in your life! Dive into this guide featuring cutting-edge gadgets guaranteed to amaze this holiday season. Sony INZONE H5 Headset, Samsung Galaxy Z Fold 5 to Apple AirPods Pro, these innovative tech gifts…",
-              "url": "https://tech.hindustantimes.com/photos/unwrap-innovation-sony-inzone-h5-headset-samsung-galaxy-z-fold-5-to-apple-airpods-pro-6-tech-gifts-to-explore-71702573196530.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/16/1600x900/tgcfjjjjjjjjjjj_1702714819077_1702714845833.jpg",
-              "publishedAt": "2023-12-16T18:27:44Z",
-              "content": "Top SectionsExplore Tech Copyright © HT Media Limited All rights reserved."
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "9 top smartwatches under 25000: A comprehensive comparison of affordable tech on your wrist - HT Tech",
-              "description": "9 top smartwatches under 25000: Discover the perfect blend of style, functionality, and affordability with our in-depth comparison of smartwatches priced under Rs. 25000.",
-              "url": "https://tech.hindustantimes.com/wearables/news/9-top-smartwatches-under-25000-a-comprehensive-comparison-of-affordable-tech-on-your-wrist-71702572316316.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/14/1600x900/daniel-haaf-FZVu2JI0VeY-unsplash_1702572765798_1702572790577.jpg",
-              "publishedAt": "2023-12-16T17:08:43Z",
-              "content": "In the rapidly evolving world of wearable technology, smartwatches have become essential companions for individuals seeking to monitor their health, stay connected, and enhance their daily livesall w… [+10680 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Forbes"
-              },
-              "author": "Paul Monckton",
-              "title": "New Samsung Leak Reveals Important Galaxy S24 Ultra Photo Quality Upgrade - Forbes",
-              "description": "Samsung Galaxy S24 Ultra owners will enjoy much higher photo quality on social media platforms, according to a new report.",
-              "url": "https://www.forbes.com/sites/paulmonckton/2023/12/16/new-samsung-leak-reveals-important-galaxy-s24-ultra-photo-quality-upgrade/",
-              "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6578b0a8767df43bcbc1134f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-              "publishedAt": "2023-12-16T16:39:00Z",
-              "content": "Samsung is reportedly adding HDR photo support to its flagship smartphones when posting on Instagram ... [+] and Facebook.\r\nAFP via Getty Images\r\nSamsung Galaxy S24 Ultra owners will enjoy much highe… [+3508 chars]"
-            },
-            {
-              "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-              },
-              "author": "Zack Whittaker",
-              "title": "Google moves to end geofence warrants, a surveillance problem it largely created - TechCrunch",
-              "description": "The practice of law enforcement tapping Google and other tech giants' banks of users' location data was first revealed in 2019.",
-              "url": "https://techcrunch.com/2023/12/16/google-geofence-warrants-law-enforcement-privacy/",
-              "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/cityscape-location-data.jpg?resize=1200,675",
-              "publishedAt": "2023-12-16T16:34:53Z",
-              "content": "Google will soon allow users to store their location data on their devices rather than on Google’s servers, effectively ending a long-running surveillance practice that allowed police and law enforce… [+5232 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Zee Business"
-              },
-              "author": "ZeeBiz WebTeam",
-              "title": "Samsung Galaxy Book4 Series unveiled - Heres all you need to know - Zee Business",
-              "description": "The latest series, which comes with a new intelligent processor, will be made available in a phase-wise manner in select markets, starting with Korea in January 2024.",
-              "url": "https://www.zeebiz.com/technology/news-samsung-galaxy-book4-series-unveiled-heres-all-you-need-to-know-269036",
-              "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/16/272877-galaxybook4.jpg",
-              "publishedAt": "2023-12-16T15:32:52Z",
-              "content": "Samsung has unveiled its new PC series 'Galaxy Book4' and the company claims that it is by far the most intelligent lineup, which includes - Galaxy Book4 Ultra, Book4 Pro and Book4 Pro 360.\r\nThe late… [+1745 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "MacRumors"
-              },
-              "author": "MacRumors",
-              "title": "Top Stories: iOS 17.2 Released, iPhone 16 Design Leaks, and More - MacRumors",
-              "description": null,
-              "url": "https://www.macrumors.com/2023/12/16/top-stories-ios-17-2-released/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T14:00:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Affiliate Desk",
-              "title": "Top 10 smaller models to check out: Better than 11kg Samsung washing machine | Mint - Mint",
-              "description": "Top 10 smaller washing machine models to check out: We delve into top smaller models that offer a blend of efficiency, and compact design. This guide showcases a variety of models, highlighting that bigger isn't always better.",
-              "url": "https://www.livemint.com/technology/gadgets/top-10-smaller-models-to-check-out-better-than-11kg-samsung-washing-machine-11702722299933.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/samsung_washing_machine_1702723387740_1702723405326.jpg",
-              "publishedAt": "2023-12-16T13:29:13Z",
-              "content": "It is always wise to choose a washing machine that fits your family's size and laundry needs. While an 11kg Samsung Washing Machine may be a popular choice, it's not necessarily the best fit for ever… [+27414 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Smestreet.in"
-              },
-              "author": "SMEStreet Edit Desk",
-              "title": "Noise Launches India's First 4G Calling Smartwatch, Noise Voyage - SMEStreet",
-              "description": "The smartwatch is an innovative addition to the brand’s celebrated premium round dial smartwatch portfolio. Driven by the virtue of being the first mover in the segment, Noise has elevated the calling experience by introducing 4G eSIM capabilities.",
-              "url": "https://smestreet.in/technology/noise-launches-indias-first-4g-calling-smartwatch-noise-voyage-2026206",
-              "urlToImage": "https://img-cdn.thepublive.com/fit-in/1200x675/smstreet/media/media_files/4yu0E1uo06waNbnnyG24.jpg",
-              "publishedAt": "2023-12-16T11:59:38Z",
-              "content": "Driven by the virtue of being the first to bring meaningful innovation to people, Noise, Indias leading connected lifestyle smartwatch brand, today has launched Noise Voyage, Indias first* 4G calling… [+2397 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Dtnext.in"
-              },
-              "author": "IANS",
-              "title": "Microsoft’s Bing Chat made up false scandals about EU elections: Researchers - DTNEXT",
-              "description": "“Errors include wrong election dates, outdated candidates, or even invented scandals concerning candidates. The chatbot’s safeguards are unevenly applied, leading to evasive answers 40 per cent of...",
-              "url": "https://www.dtnext.in/technology/microsofts-bing-chat-made-up-false-scandals-about-eu-elections-researchers-754865",
-              "urlToImage": "https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/12/16/787005-bing.jpg",
-              "publishedAt": "2023-12-16T11:13:39Z",
-              "content": "NEW DELHI: Microsofts AI chatbot Bing Chat, recently rebranded as Copilot, made up false scandals about real politicians and invents polling numbers, human rights organisation AlgorithmWatch has reve… [+2690 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Investing.com"
-              },
-              "author": "IANS",
-              "title": "US news publisher sues Google for 'siphoning off' ad revenue via AI tech - Investing.com India",
-              "description": "The Financial News section features stock market news in addition to stories about bonds, forex, commodities and economic releases.",
-              "url": "https://in.investing.com/news/us-news-publisher-sues-google-for-siphoning-off-ad-revenue-via-ai-tech-3940472",
-              "urlToImage": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/akapi-images/800x450/cb92fdb333133c5a9a9c97aca8ae0004_w_800_h_450.jpg",
-              "publishedAt": "2023-12-16T10:47:13Z",
-              "content": "San Francisco, Dec 16 (IANS) A US-based news publisher has filed a class-action antitrust lawsuit against Google (NASDAQ:\r\nGOOGL\r\n), alleging that the tech giant is \"siphoning off\" news publishers' c… [+1811 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Investing.com"
-              },
-              "author": "IANS",
-              "title": "Noise launches Open Wireless Stereo 'Pure Pods' with AirWave tech - Investing.com India",
-              "description": "The Financial News section features stock market news in addition to stories about bonds, forex, commodities and economic releases.",
-              "url": "https://in.investing.com/news/noise-launches-open-wireless-stereo-pure-pods-with-airwave-tech-3940462",
-              "urlToImage": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/akapi-images/800x450/9dad1ee353d5b697a33108fed4dcda28_w_800_h_450.jpg",
-              "publishedAt": "2023-12-16T10:17:10Z",
-              "content": "New Delhi, Dec 16 (IANS) Connected lifestyle brand Noise on Saturday launched India's first Open Wireless Stereo (OWS) -- Noise Pure Pods with AirWave technology.Available in two colours -- Power Bla… [+1601 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Tech With TG: The Evolution of Rockstar's Grand Theft Auto Series and Other Popular Titles - NDTV",
-              "description": "Rockstar Games is one of the world's most popular video game publishers with several titles released over the years. The Grand Theft Auto (GTA) series is arg...",
-              "url": "https://www.youtube.com/watch?v=eX3PuVSZd8g",
-              "urlToImage": "https://i.ytimg.com/vi/eX3PuVSZd8g/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T10:00:09Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Forbes"
-              },
-              "author": "Adrian Bridgwater",
-              "title": "Google Shapes Gemini AI Tools For Developers - Forbes",
-              "description": "AI is changing and it will continue to do so - although this year of generative AI stands out as a seminal moment in time - now we need the right developer tools.",
-              "url": "https://www.forbes.com/sites/adrianbridgwater/2023/12/16/google-shapes-gemini-ai-tools-for-developers/",
-              "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/657d683b20807ddde92b89ef/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-              "publishedAt": "2023-12-16T09:09:49Z",
-              "content": "Google MedLM is a family of foundation models fine-tuned for the healthcare industry on Google ... [+] Cloud.\r\nGoogle\r\nArtificial Intelligence (AI) is changing. But lets not forget where weve come fr… [+6336 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Vikas Yadav",
-              "title": "Flipkart December Year End Sale 2023: Last Chance To Grab Rs 24,000 Off On Google Pixel 7 Pro Without Bank Offers: Details Inside - Jagran English",
-              "description": "Flipkart Mobile Sale 2023: Pixel 7 Pro is available at massive discounts compared to its latest successor. The icing on the cake is that you do not need to apply any bank or exchange offers. Here are the price, bank offers, exchange discounts and specs of the…",
-              "url": "https://english.jagran.com/technology/flipkart-mobile-sale-offers-2023-google-pixel-7-pro-price-specifications-big-year-end-sale-2023-rs-24000-off-bank-offers-exchange-discount-10120783",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/pixel-7-pro-price-flipkart1702717143525.jpg",
-              "publishedAt": "2023-12-16T08:50:00Z",
-              "content": "Flipkart Big Year End Sale 2023: Search giant Google announced the Pixel 8 Pro smartphone in India in October this year. While it currently costs over Rs 1 lakh, you can get the one-year flagship - P… [+2134 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Flipkart Year End Sale ends today: Top 5 deals on smartphones - iPhone 14, Nothing Phone (2) and more | Mint - Mint",
-              "description": "Flipkart's Year-End Sale offers deals and discounts on smartphones, including the SAMSUNG Galaxy S23 Ultra 5G, APPLE iPhone 14, Nothing Phone (2), Google Pixel 7a, and MOTOROLA Edge 40 Neo.",
-              "url": "https://www.livemint.com/technology/flipkart-year-end-sale-ends-today-top-5-deals-on-smartphones-iphone-14-nothing-phone-2-and-more-11702715709797.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/iphone_14_1684930317685_1702715786293.png",
-              "publishedAt": "2023-12-16T08:39:11Z",
-              "content": "The holiday season kicked off with Flipkart launching its much-anticipated Year-End Sale, a yearly extravaganza that promises an array of deals and discounts. Running from December 9th to 16th, this … [+3034 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Samsung, Apple phone users get security warnings from CERT-In - The Economic Times",
-              "description": "In has warned against multiple security-related vulnerabilities in the products and operating systems of Samsung and Apple devices which could allow hackers ...",
-              "url": "https://www.youtube.com/watch?v=b8ViIZv34FA",
-              "urlToImage": "https://i.ytimg.com/vi/b8ViIZv34FA/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T08:27:33Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Innovation-village.com"
-              },
-              "author": "Tapiwa Matthew Mutisi",
-              "title": "Google Chrome's third-party cookie phaseout begins on January 4 - Innovation Village",
-              "description": "Google as part of its upcoming \"Privacy Sandbox\" initiative, it will begin restricting third-party cookies in Chrome from January 4, 2024.",
-              "url": "https://innovation-village.com/google-chromes-third-party-cookie-phaseout-begins-on-january-4/",
-              "urlToImage": "https://innovation-village.com/wp-content/uploads/2023/12/google-third-party-cookies-2023.jpg",
-              "publishedAt": "2023-12-16T07:46:20Z",
-              "content": "Google recently confirmed that, as part of its upcoming “Privacy Sandbox” initiative, it will begin restricting third-party cookies in Chrome from January 4, 2024. Initially, only a random one percen… [+1158 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Beebom"
-              },
-              "author": "Vanshika Malhotra",
-              "title": "Nothing Phone (2) Gets Stable Android 14-Based Nothing OS 2.5 - Beebom",
-              "description": "Nothing has started rolling out the stable Android 14-based Nothing OS 2.5 update for the Phone (2) users after the recent release of its beta update.",
-              "url": "https://beebom.com/nothing-phone-2-stable-android-14-nothing-os-2-5/",
-              "urlToImage": "https://beebom.com/wp-content/uploads/2023/12/Nothing-phone-2-stable-Android-14-update.jpg",
-              "publishedAt": "2023-12-16T07:41:20Z",
-              "content": "Nothing released the beta version of Nothing OS 2.5 based on Android 14 for the Phone (2) in October and almost two months later, its stable version has now started rolling out to users. Nothing OS 2… [+2037 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "msnNOW"
-              },
-              "author": null,
-              "title": "Top 10 43-inch Android TVs for smart, versatile viewing - MSN",
-              "description": null,
-              "url": "https://www.msn.com/en-in/lifestyle/shopping/top-10-43-inch-android-tvs-for-smart-versatile-viewing/ar-AA1lAiq1",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T07:29:06Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "GSMArena.com"
-              },
-              "author": "Ivan",
-              "title": "Realme GT5 Pro in for review - GSMArena.com news - GSMArena.com",
-              "description": "As solid a flagship as it gets. Realme makes its most powerful phones under the GT lineup for a few years now, but before the GT5 Pro, there hasn't been a...",
-              "url": "https://www.gsmarena.com/realme_gt5_pro_in_for_review-news-60898.php",
-              "urlToImage": "https://fdn.gsmarena.com/imgroot/news/23/12/realme-gt5-pro-ifr/-952x498w6/gsmarena_000.jpg",
-              "publishedAt": "2023-12-16T07:26:01Z",
-              "content": "Realme makes its most powerful phones under the GT lineup for a few years now, but before the GT5 Pro, there hasn't been a true Realme flagship in the series.\r\nThere is now - the GT5 Pro adds the fin… [+1077 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Financial Express"
-              },
-              "author": "The Financial Express",
-              "title": "OnePlus 12, 12R, Redmi Note 13 and more: The most highly anticipated smartphones to launch in January 2024 - The Financial Express",
-              "description": null,
-              "url": "https://www.financialexpress.com/life/technology-oneplus-12-12r-redmi-note-13-and-more-the-most-highly-anticipated-smartphones-to-launch-in-january-2024-3340176/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T07:15:06Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "gizmochina"
-              },
-              "author": "gizmochina",
-              "title": "Mark Zuckerberg showcases the AI capabilities of the Ray-Ban Meta smart glasses - gizmochina",
-              "description": null,
-              "url": "https://www.gizmochina.com/2023/12/16/mark-zuckerberg-showcases-ai-capabilities-ray-ban-meta-smart-glasses/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T06:38:23Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Vikas Yadav",
-              "title": "Redmi 13C 5G Sale Get Budget Phone For Under Rs 10,000 On Amazon, Micom; Check Price, Bank Offers, Specs - Jagran English",
-              "description": "Redmi 13C 5G Price: The Redmi 13C 5G is now up for grabs on Amazon and Xiaomi Indias official website. If you plan to buy a smartphone in the sub Rs 10,000-12,000 bracket, here are the prices, offers and specifications of the Redmi 13C 5G that you should know.",
-              "url": "https://english.jagran.com/technology/redmi-13c-5g-price-in-india-amazon-sale-budget-phone-for-under-rs-10000-mi-com-bank-offers-discounts-specifications-6-128-launch-date-10120752",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/redmi-13c-5g-price-in-india1702708851989.jpg",
-              "publishedAt": "2023-12-16T06:33:00Z",
-              "content": "Redmi 13C 5G Price In India: Chinese smartphone maker Redmi announced the Redmi 13C series in India recently. While the Redmi 13C 4G was already on sale, the Redmi 13C 5G is now up for grabs during t… [+1936 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Editorji.com"
-              },
-              "author": "Editorji News Desk",
-              "title": "Quordle 691 hints and answer for December 16, 2023: Simplified guidelines for puzzle solving - Editorji",
-              "description": "Quordle sets itself apart in the word puzzle gaming genre by introducing a groundbreaking concept that includes four interconnected word puzzles, departing from the conventional single puzzle format.",
-              "url": "https://www.editorji.com/tech-news/quordle-691-hints-and-answer-for-december-16-2023-simplified-guidelines-for-puzzle-solving-1702706425171",
-              "urlToImage": "https://cdn.editorji.com/QERLPgy4zS.jpg",
-              "publishedAt": "2023-12-16T06:00:25Z",
-              "content": "The unique design of Quordle 691 continues to captivate and engage players.\r\nUnlike traditional word games that offer isolated puzzles, Quordle's interconnected challenges add an extra layer of excit… [+1435 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "gizmochina"
-              },
-              "author": "gizmochina",
-              "title": "Realme C67 5G Early Access sale at Noon today on Flipkart, Check out the offers - gizmochina",
-              "description": null,
-              "url": "https://www.gizmochina.com/2023/12/16/realme-c67-5g-early-access-sale-india/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T05:26:22Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "HT Tech",
-              "title": "5 best flagship smartphones of 2023: From iPhone 15 Pro Max to Google Pixel 8 Pro, check the full list - HT Tech",
-              "description": "5 best flagship smartphones of 2023 From iPhone 15 Pro Max to Google Pixel 8 Pro check the full list 5 best flagship smartphones of 2023 Know the best smartphones of the year. The list includes iPhone 15 Pro Max Google Pixel 8 Pro and more. iPhone 15 Pro Max …",
-              "url": "https://tech.hindustantimes.com/web-stories/5-best-flagship-smartphones-of-2023-from-iphone-15-pro-max-to-google-pixel-8-pro-check-the-full-list-71702720151453.html",
-              "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/16/1600x900/iPhone_15_1693132789020_1702720865708.jpg/",
-              "publishedAt": "2023-12-16T05:03:11Z",
-              "content": "Photo Credit: HT Tech\r\n 5 best flagship smartphones of 2023: Know the best smartphones of the year. The list includes iPhone 15 Pro Max, Google Pixel 8 Pro, and more. \r\nPhoto Credit: Pexels\r\n iPhone … [+1575 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "CNBCTV18"
-              },
-              "author": "Vijay Anand",
-              "title": "A decade after debut, OnePlus has its most significant year in 2023 - CNBCTV18",
-              "description": "In 2023, OnePlus celebrated nearly a decade in the smartphone industry with a return to form through the release of the OnePlus 11. This flagship device marked a significant shift for the company, which had faced criticism for losing focus in previous years. …",
-              "url": "https://www.cnbctv18.com/technology/oneplus-yearender-2023-flagship-smartphones-foldable-oneplus-open-18537861.htm",
-              "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2023/02/oneplus-1-1019x573.jpeg",
-              "publishedAt": "2023-12-16T03:20:32Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Apple may switch to OLED displays for iPads, MacBooks starting next year - Times of India",
-              "description": "Reports suggest that Apple plans to switch from LCD to OLED displays for iPads and MacBooks. High-end iPads will get OLED screens in 2024, while OLED",
-              "url": "https://timesofindia.indiatimes.com/gadgets-news/apple-may-switch-to-oled-displays-for-ipads-macbooks-starting-next-year/articleshow/106036797.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106036751,width-1070,height-580,imgsize-25830,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T02:53:43Z",
-              "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "MacRumors"
-              },
-              "author": "Juli Clover",
-              "title": "Here's How Apple Plans to Display Vision Pro in Retail Stores - MacRumors",
-              "description": "As early 2024 approaches, so does the launch date of Apple's first headworn wearable, the Apple Vision Pro. Apple has promised that the headset...",
-              "url": "https://www.macrumors.com/2023/12/15/apple-vision-pro-retail-store-display/",
-              "urlToImage": "https://images.macrumors.com/t/e40vDS58fugJ33eWPgi8rYw5Uqk=/2000x/article-new/2023/12/vision-pro-display-1.jpg",
-              "publishedAt": "2023-12-15T20:34:33Z",
-              "content": "As early 2024 approaches, so does the launch date of Apple's first headworn wearable, the Apple Vision Pro. Apple has promised that the headset will come out in the early months of the year, with cur… [+2264 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Android Central"
-              },
-              "author": "Vishnu Sarangapurkar",
-              "title": "WhatsApp users can now pin important messages in conversations - Android Central",
-              "description": "The feature is currently limited to individual and group chats.",
-              "url": "https://www.androidcentral.com/apps-software/whatsapp-brings-pin-chat-feature",
-              "urlToImage": "https://cdn.mos.cms.futurecdn.net/BZVmNLfmeQ2hAUyxJ7aCjN-1200-80.jpg",
-              "publishedAt": "2023-12-15T17:43:52Z",
-              "content": "<ul><li>WhatsApp has announced a new feature, allowing users to pin their messages in individual and group chats.</li><li>Users can set a time limit for pinned messages, although the feature is curre… [+2354 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Boudhaditya Sanyal",
-              "title": "10 best 55-inch TV for grand viewing experience at home | Mint - Mint",
-              "description": "10 best 55-inch TVs ensure that you have ample choice and options while choosing the right television set for your home. We have curated a list of multiple brands and models, so you get to choose from the absolute best. Get the most value for your money with …",
-              "url": "https://www.livemint.com/technology/gadgets/10-best-55-inch-tv-for-grand-viewing-experience-at-home-11702632630137.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/15/1600x900/best_55_inch_Tv_1702633323651_1702633323877.jpg",
-              "publishedAt": "2023-12-15T14:39:07Z",
-              "content": "Selecting the best 55-inch TV for your home can transform your living space into a mini-theatre, offering a grand viewing experience right in the comfort of your own home. Today's market is brimming … [+21182 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India Today"
-              },
-              "author": "Aman Rashid",
-              "title": "Redmi Note 13 series: 13 big changes we expect from the Redmi flagship phones - India Today",
-              "description": "Here are the 13 major changes coming to the upcoming Redmi Note 13 series in India.",
-              "url": "https://www.indiatoday.in/technology/features/story/redmi-note-13-series-13-big-changes-we-expect-from-the-redmi-flagship-phones-2476526-2023-12-15",
-              "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/redmi-note-13-pro-155505550-16x9_0.png?VersionId=O9ZivoBaq6y2tP0FBvG6dDhvLd..7LzC",
-              "publishedAt": "2023-12-15T14:01:39Z",
-              "content": "Redmi Note phones are one of the most popular smartphone series in India and so, the excitement around the upcoming Redmi Note 13 phones is palpable. By the way, for those who don’t know, the Redmi N… [+3918 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Affiliate Desk",
-              "title": "10 Most affordable 60-inch+ smart tvs: From Samsung, LG, Sony and more for large-scale viewing | Mint - Mint",
-              "description": "Explore our handpicked selection of the top 10 most affordable 60-inch smart TVs, tailored for those seeking a large smart TV experience without overspending. This guide focuses on the best 60-inch smart TVs, ensuring a grand viewing experience on a budget.",
-              "url": "https://www.livemint.com/technology/gadgets/10-most-affordable-60-inch-smart-tvs-from-samsung-lg-sony-and-more-for-large-scale-viewing-11702622675509.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/15/1600x900/60_inch_smart_tv_1702631917864_1702631932459.jpg",
-              "publishedAt": "2023-12-15T13:29:08Z",
-              "content": "In today's tech-savvy world, a 60-inch smart TV has become a household staple, merging the allure of large-scale viewing with the convenience of modern technology. As the demand for bigger screens an… [+27615 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Nivedita Mishra",
-              "title": "10 best phones under Rs. 25000: Here are top choices for you - Hindustan Times",
-              "description": "10 best phones under Rs. 25000: Get best options in this category that ensure you get state of the art smartphone features on a budget.",
-              "url": "https://www.hindustantimes.com/technology/10-best-phones-under-rs-25000-here-are-top-choices-for-you-101702606105933.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/15/1600x900/best_phones_under_rs_25000_1702625926349_1702625949012.jpg",
-              "publishedAt": "2023-12-15T08:29:05Z",
-              "content": "Best phones priced under Rs. 25000 offer a myriad of advantages that make them an appealing choice for users seeking both affordability and quality. Despite being considered budget-friendly, these de… [+19554 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Netflix.com"
-              },
-              "author": null,
-              "title": "GTA: San Andreas – The Definitive Edition - Game Support - Netflix",
-              "description": "Getting started, gameplay questions, and troubleshooting info about GTA: San Andreas – The Definitive Edition.",
-              "url": "https://help.netflix.com/en/node/133166",
-              "urlToImage": null,
-              "publishedAt": "2023-12-14T15:15:14Z",
-              "content": "Content rating: See the game's app store page\r\nLanguages: Chinese (Simplified), Chinese (Traditional), English (US), French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, S… [+69 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Gadgets360.com"
-              },
-              "author": "David Delima, Sheldon Pinto",
-              "title": "iQoo 12 First Impressions: Mature Design Meets Flagship Specifications - Gadgets 360",
-              "description": "iQoo 12 is the company's latest flagship phone and the phone maker beat Xiaomi, OnePlus, and other OEMs to launch the first phone with Qualcomm’s flagship Snapdragon 8 Gen 3 in the country. We've spent two weeks with iQoo's latest smartphone and here's what w…",
-              "url": "https://www.gadgets360.com/mobiles/reviews/iqoo-12-first-look-hands-on-review-launch-price-in-india-specifications-vivo-amazon-4660505",
-              "urlToImage": "https://i.gadgets360cdn.com/large/iqoo_12_rear_view_1702383433308.jpg",
-              "publishedAt": "2023-12-12T14:19:51Z",
-              "content": "iQoo 12 was launched by the company in India today and is the company's latest flagship phone to debut in the country. The Chinese smartphone maker beat Xiaomi, OnePlus, and other OEMs to launch the … [+3499 chars]"
-            }
-          ]
-        },
-        {
-          "business": [
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Moneycontrol News",
-              "title": "Two PSU Bank mergers on cards? Government issues clarification after doc fuels speculation - Moneycontrol",
-              "description": "The Finance Ministry has issued a clarification, saying that this is a parliamentary committee on subordinate legislation, and it has no connection whatsoever with the policies of bank mergers.",
-              "url": "https://www.moneycontrol.com/news/business/stocks/psu-bank-mergers-document-fuels-talks-about-uco-bank-union-bank-bank-of-india-bank-of-maharashtra-11915951.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2020/12/merger-and-acquisition-770x433.jpg",
-              "publishedAt": "2023-12-17T10:58:51Z",
-              "content": "A government document shared on social media has triggered speculation about possible PSU bank mergers between Union Bank and UCO Bank, and Bank of India and Bank of Maharashtra. The document, whose … [+4399 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "GaadiWaadi.com"
-              },
-              "author": "Team GaadiWaadi",
-              "title": "Kia Hits New Record In America In 2023: Surpasses 7 Lakh Sales In Nov - GaadiWaadi.com",
-              "description": "Achieving all-time high annual sales record, Kia has surpassed the 7 lakh units mark in the U.S. market for the year 2023",
-              "url": "https://gaadiwaadi.com/kia-hits-new-record-in-america-in-2023-surpasses-7-lakh-sales-in-nov/",
-              "urlToImage": "https://gaadiwaadi.com/wp-content/uploads/2023/12/kia-forte-4.jpg",
-              "publishedAt": "2023-12-17T10:08:41Z",
-              "content": "We all know that Kia is on a roll in the Indian market as it received a very warm response from customers after its debut in the year 2019. In a very short time period, the Korean carmaker got hold o… [+1792 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Stocks to Buy: Here’s why Wipro and IDFC are looking attractive | Mint - Mint",
-              "description": "Stocks to buy: Wipro, SBIN and IDFC Ltd. The prevailing sentiment appears strongly in favor of the bulls, as indicated by the absence of any reversal signals on the technical charts.",
-              "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-here-s-why-wipro-and-idfc-are-looking-attractive-11702803304672.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/stock_1702804000048_1702804000257.jpg",
-              "publishedAt": "2023-12-17T09:07:44Z",
-              "content": "Indian stock market: The Nifty's upward momentum persists with the bulls maintaining control in the market. Achieving a new all-time high, the index has marked its seventh consecutive weekly gain. Th… [+2911 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TOI Business Desk",
-              "title": "Infosys salary hikes announced ahead of holiday season; here’s the likely average hike - IndiaTimes",
-              "description": "India Business News: Infosys, a leading IT services company, has announced salary revisions effective from November 1, 2023, in a show appreciation for employees' dedicati",
-              "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-salary-hikes-announced-ahead-of-holiday-season-heres-the-likely-average-hike/articleshow/106060806.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106061629,width-1070,height-580,imgsize-27084,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T08:24:19Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "PTI",
-              "title": "Reliance, Adani Enterprises India's biggest wealth creators from 2018-23: Study - Hindustan Times",
-              "description": "The study, conducted by Motilal Oswal Financial Services, is based on stock market performance of companies.",
-              "url": "https://www.hindustantimes.com/business/reliance-adani-enterprises-indias-biggest-wealth-creators-from-2018-23-study-101702797940763.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/gautam_adani_and_mukesh_ambani_net_worth_164429619_1702798033438_1702798033562.webp",
-              "publishedAt": "2023-12-17T07:31:24Z",
-              "content": "Reliance Industries Ltd was the biggest wealth creator during the five-year period from 2018 to 2023 while Adani Enterprises Ltd was the top all-round wealth creator, according to a study by Motilal … [+2969 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Vaamanaa Sethi",
-              "title": "Sovereign Gold Bonds 2023-24 Series III to open tomorrow; Should you invest? | Mint - Mint",
-              "description": "The valuation of these bonds is established by calculating the straightforward average of the closing price of gold with 999 purity, as per India Bullion and Jewellers Association (IBJA).",
-              "url": "https://www.livemint.com/money/personal-finance/sovereign-gold-bonds-2023-24-series-iii-to-open-tomorrow-should-you-invest-11702797312819.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/Gold_bond_1702797912264_1702797912460.jpg",
-              "publishedAt": "2023-12-17T07:27:28Z",
-              "content": "The Reserve Bank of India (RBI) announced the Sovereign Gold Bond (SGB) Scheme Series III for the fiscal year 2023-2024, which is scheduled to open on December 18 and will close on December 22. This … [+4559 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Ankita Sengupta",
-              "title": "Jeff Bezos invests $42 million to build clock that will last 10,000 years, tick once a year: Report - Moneycontrol",
-              "description": "The clock is being built in a mountain and will be 500 feet tall. It will be 'powered by mechanical energy harvested from sunlight as well as the people that visit it'.",
-              "url": "https://www.moneycontrol.com/news/trends/jeff-bezos-invests-42-million-to-build-clock-that-will-last-10000-years-tick-once-a-year-report-11915681.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/MixCollage-17-Dec-2023-12-41-PM-340-770x433.jpg",
-              "publishedAt": "2023-12-17T07:16:52Z",
-              "content": "Jeff Bezos has invested $42 million to build a clock that would run for 10,000 years. The clock--being constructed inside a mountain in Texas, US--would tick only once a year, bong once a century, an… [+1520 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Sun Pharma, Lupin recall drugs in US over manufacturing issues: USFDA | Mint - Mint",
-              "description": "Lupin is also recalling an unspecified number of penicillamine tablets in the US due to failed dissolution specifications..Sun Pharma is recalling 96,192 bottles of Liothyronine Sodium Tablets in the US due to failed impurities/degradation specifications.",
-              "url": "https://www.livemint.com/companies/news/sun-pharma-lupin-recall-drugs-in-us-over-manufacturing-issues-usfda-11702795716102.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/pharma_1702796315613_1702796315895.jpg",
-              "publishedAt": "2023-12-17T07:04:56Z",
-              "content": "Leading drugmakers Sun Pharma and Lupin have recalled their products in the US market over manufacturing issues, as per the US Food and Drug Administration (USFDA).  Mumbai-based Sun Pharmaceutical I… [+2197 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Mypunepulse.com"
-              },
-              "author": null,
-              "title": "Infosys inaugurates new development center in Nagpur; to accommodate 3,000 employees - Pune Pulse",
-              "description": "The development center provides an opportunity for employees to engage with next-gen technologies such as cloud, AI, and digital, spanning industries like telecommunications, banking, retail, aerospace, automobile, logistics, and manufacturing Infosys , a glo…",
-              "url": "https://www.mypunepulse.com/infosys-inaugurates-new-development-center-in-nagpur-to-accommodate-3000-employees/",
-              "urlToImage": "https://www.mypunepulse.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-12.10.24-PM-jpeg.webp",
-              "publishedAt": "2023-12-17T06:43:40Z",
-              "content": "Infosys , a global leader in next-generation digital services and consulting, announced the inauguration of a new state-of-the-art development center (DC) at the Mihan-SEZ in Nagpur, Maharashtra. Spr… [+2907 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "\"Blue Origin Needs Me\": Jeff Bezos On Stepping Down As Amazon CEO - NDTV",
-              "description": "Jeff Bezos, the founder of e-commerce giant Amazon, has shared the reason behind his decision to step down as the CEO of the company two years ago.",
-              "url": "https://www.ndtv.com/world-news/jeff-bezos-blue-origin-amazon-jeff-bezos-reveals-why-he-stepped-down-as-amazon-ceo-4689705",
-              "urlToImage": "https://c.ndtvimg.com/2022-07/ri0hq7i_jeff-bezos_650x400_04_July_22.jpg",
-              "publishedAt": "2023-12-17T06:39:39Z",
-              "content": "Jeff Bezos is the founder of e-commerce giant Amazon (File)\r\nJeff Bezos, the founder of e-commerce giant Amazon, has shared the reason behind his decision to step down as the CEO of the company two y… [+1988 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Team-BHP"
-              },
-              "author": "Ananth Iyer",
-              "title": "A Close Look: All the Car Facelifts launched in 2023 - Team-BHP",
-              "description": "BHPian MotorDev recently shared this with other enthusiasts. Hyundai Grand i10 Nios Facelift",
-              "url": "https://www.team-bhp.com/news/close-look-all-car-facelifts-launched-2023",
-              "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/8_5.png",
-              "publishedAt": "2023-12-17T06:38:12Z",
-              "content": "BHPian MotorDev recently shared this with other enthusiasts.\r\nHyundai Grand i10 Nios Facelift\r\nWhat you'll like:\r\n<ul><li>A well-rounded, fun-to-drive hatchback. This Hyundai will leave you grinning.… [+8760 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Soumya Sarkar",
-              "title": "Small-cap vs large-cap mutual funds: Unpacking the potential for high returns in India | Mint - Mint",
-              "description": "The Indian equity market presents investors with a choice between small-cap and large-cap stocks, each offering unique potential for returns.",
-              "url": "https://www.livemint.com/money/personal-finance/smallcap-vs-large-cap-mutual-funds-unpacking-the-potential-for-high-returns-in-india-11702376567553.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/15/1600x900/rupixen-com-Cz0kKadR9Co-unsplash_1702640231437_1702640238520.jpg",
-              "publishedAt": "2023-12-17T06:23:48Z",
-              "content": "Small-cap stocks represent companies with relatively smaller market capitalization, often in the early stages of growth. While they carry higher risk due to their size and volatility, they also prese… [+5878 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Business Standard"
-              },
-              "author": "Bloomberg",
-              "title": "Zee directors lose vote as clock ticks down on Sony deal deadline - Business Standard",
-              "description": "Independent directors Sasha Mirchandani and Vivek Mehra \"failed to get the requisite majority of votes,\" the company said in an exchange filing",
-              "url": "https://www.business-standard.com/companies/news/zee-directors-lose-vote-as-clock-ticks-down-on-sony-deal-deadline-123121700220_1.html",
-              "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-10/26/full/1666801916-3358.jpg",
-              "publishedAt": "2023-12-17T06:21:46Z",
-              "content": "Independent directors Sasha Mirchandani and Vivek Mehra \"failed to get the requisite majority of votes,\" the company said in an exchange filing\r\nShares of Zee Entertainment slid as much as 8.9% on Fr… [+1310 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Market-cap of top -10 most valued firms surges by ₹2.26 lakh crore; TCS, Infosys biggest gainers | Mint - Mint",
-              "description": "Mcap of nine of top-10 most valued firms jumps  ₹2.26 lakh cr; TCS, Infosys biggest gainers",
-              "url": "https://www.livemint.com/market/marketcap-of-top-10-most-valued-firms-surges-by-rs-2-26-lakh-crore-tcs-infosys-biggest-gainers-11702791830380.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/market_cap_1702792862485_1702792862703.jpg",
-              "publishedAt": "2023-12-17T06:05:48Z",
-              "content": "The collective market capitalization of nine out of the top-10 most valued companies witnessed a substantial surge of 2.26 lakh crore last week, driven by an overall bullish trend in the equity marke… [+2264 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Yash Sharma",
-              "title": "Maruti Suzuki's upcoming cars in 2024: Next-gen Swift, eVX electric SUV and more - IndiaTimes",
-              "description": "Cars News: Maruti Suzuki is set for a big year in 2024 with a series of new launches planned for India. One of the highly anticipated launches is the next-gen Sw",
-              "url": "https://timesofindia.indiatimes.com/auto/cars/maruti-suzukis-upcoming-cars-in-2024-next-gen-swift-evx-electric-suv-and-more/articleshow/106058922.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106058950,width-1070,height-580,imgsize-106768,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T05:52:15Z",
-              "content": "Royal Enfield Shotgun 650 in pics: Expected price, launch date, specs, features"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NDTV News"
-              },
-              "author": null,
-              "title": "Royal Enfield Faces Fresh Challenge From Harley In India's Biker Paradise - NDTV",
-              "description": "Like Triumph, US giant Harley-Davidson Inc. is also renewing efforts in India, where Royal Enfield is revered to a similar extent as Harley is in the US.",
-              "url": "https://www.ndtv.com/india-news/royal-enfield-faces-fresh-challenge-from-harley-in-indias-biker-paradise-4689468",
-              "urlToImage": "https://c.ndtvimg.com/2023-11/7mtglccg_royal-enfield-bike_625x300_04_November_23.jpg",
-              "publishedAt": "2023-12-17T05:35:01Z",
-              "content": "Royal Enfield was acquired by India's Eicher Motors Ltd. in 1994.\r\nSajneet Sandhu grew up riding on her father's Royal Enfield around Goa's palm-fringed roads, taking in endless beaches and rice padd… [+4717 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Deepali Nandwani",
-              "title": "New Air India uniforms by Manish Malhotra: Debut of the saree gown & saree pantsuit - Moneycontrol",
-              "description": "Once, Air India’s air hostess sarees offered cues to urban Indian women on how to drape theirs to look on-trend. Designer Manish Malhotra’s trendy saree gowns and pantsuits may add another sartorial look to the working Indian women’s wardrobe choices.",
-              "url": "https://www.moneycontrol.com/news/trends/lifestyle/new-air-india-uniforms-by-manish-malhotra-debut-of-the-saree-gown-on-the-runway-11915331.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/Air-India_Cabin-Crew-and-Pilots-Uniforms-770x433.jpg",
-              "publishedAt": "2023-12-17T05:32:19Z",
-              "content": "Thirty years after Bollywood designer Bhanu Athaiya styled an Air India calendar just before she went on to collect an Oscar for designing the costumes for the movie Gandhi, another Bollywood designe… [+6011 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "howindialives.com",
-              "title": "India's surging share valuations enter a demanding zone | Mint - Mint",
-              "description": "On PE ratio, India is the most richly valued among major markets. Its market cap-to-GDP ratio, too, is at an all-time high, having crossed 100%. Can companies justify such high valuations with supernormal earnings growth?",
-              "url": "https://www.livemint.com/market/indias-surging-share-valuations-enter-a-demanding-zone-11702789088800.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/26de40aa-fb8b-11eb-9351-32be236c0b91_1630581868515_1702790429959.jpg",
-              "publishedAt": "2023-12-17T05:29:04Z",
-              "content": "As Indias leading share index sails past another numerical milestone, lifting boats of all sizes and makes around it, it raises the question of fair valuations. In the here and now, share prices are … [+4139 chars]"
-            },
-            {
-              "source": {
-                "id": "financial-times",
-                "name": "Financial Times"
-              },
-              "author": "Harriet Clarfelt, Kate Duguid",
-              "title": "Investors ditch notion that interest rates will stay 'higher for longer' - Financial Times",
-              "description": "Fed’s dovish message is being interpreted by the bond market as a full-speed ahead signal",
-              "url": "https://www.ft.com/content/5ce5a5a6-8788-4928-a9ee-cc828b0298fb",
-              "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Fd7bbc676-db68-4341-824e-9e97090e869d.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900",
-              "publishedAt": "2023-12-17T05:00:26Z",
-              "content": "This weeks rally in global bond markets has shattered investors months-long assumption that interest rates in the US and elsewhere will remain higher for longer.\r\nThe benchmark 10-year US Treasury yi… [+4652 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "CNBCTV18"
-              },
-              "author": "Asmita Pant",
-              "title": "From Muthoot Microfin to Azad Engineering, here are all the IPOs opening this week - CNBCTV18",
-              "description": "Seven companies will collectively be raising nearly ₹3,900 crore via the route of initial public offer.",
-              "url": "https://www.cnbctv18.com/market/muthoot-microfin-azad-engineering-list-of-ipo-opening-next-week-18580641.htm",
-              "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2021/02/IPO-2.jpg",
-              "publishedAt": "2023-12-17T04:52:22Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Architectural Digest India"
-              },
-              "author": "Aditi Shah-Bhimjyani",
-              "title": "This Bengaluru apartment spanning 3,560 square feet is a Balinese dream brought to life - Architectural Digest India",
-              "description": "A Bengaluru apartment by Studio Ipsa encapsulates the principles of classic Balinese tropical design.",
-              "url": "https://www.architecturaldigest.in/story/this-3560-square-foot-bengaluru-apartment-is-a-balinese-dream-brought-to-life-studio-ipsa/",
-              "urlToImage": "https://assets.architecturaldigest.in/photos/657a94fd577e75691738f372/16:9/w_1280,c_limit/3_Primary%20Living%20Room.jpg",
-              "publishedAt": "2023-12-17T04:30:00Z",
-              "content": "But the pièce de résistance is the tonal curtain wall of the living room, where curved shapes layered with gypsum extend through the entire area stretching till the balcony, an echo of fluidity withi… [+2449 chars]"
-            },
-            {
-              "source": {
-                "id": "reuters",
-                "name": "Reuters"
-              },
-              "author": "Reuters India",
-              "title": "India's love of homegrown single malts shakes up Pernod, Diageo - Reuters India",
-              "description": null,
-              "url": "https://www.reuters.com/world/india/indias-love-homegrown-single-malts-shakes-up-pernod-diageo-2023-12-17/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T04:21:05Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "CarToq.com"
-              },
-              "author": "CarToq Desk",
-              "title": "Tata Nexon EV now available with discounts of up to Rs. 2.6 lakh - CarToq.com",
-              "description": "Tata Motors is rolling out attractive discounts on its Nexon EV Prime and EV Max models, creating an enticing opportunity for potential buyers. With a facelift recently introduced for the Nexon EV, dealers are looking to clear their remaining inventory of the…",
-              "url": "https://www.cartoq.com/tata-nexon-ev-now-available-with-discounts-of-up-to-rs-2-6-lakh/",
-              "urlToImage": "https://www.cartoq.com/wp-content/uploads/2023/06/Tata-Nexon-EV-MAX-XZ-LUX.jpg",
-              "publishedAt": "2023-12-17T04:11:24Z",
-              "content": "Tata Motors is rolling out attractive discounts on its Nexon EV Prime and EV Max models, creating an enticing opportunity for potential buyers. With a facelift recently introduced for the Nexon EV, d… [+2499 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Gadgets Now"
-              },
-              "author": "Gadgets Now Bureau",
-              "title": "Reliance JioTV new plans, H-1B visa fee hike, RBI warning, Google Maps new feature and other top tech news of - Gadgets Now",
-              "description": "The week saw Google rollout new feature in Google Maps to help users save money. Reliance Jio announced paid plans for JioTV, government shut down more than 50 lakh phone numbers and other top tech news of the week.",
-              "url": "https://www.gadgetsnow.com/slideshows/reliance-jiotv-new-plans-h-1b-visa-fee-hike-rbi-warning-google-maps-new-feature-and-other-top-tech-news-of-the-week/photolist/106052679.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106052702,width-800,resizemode-4,imgsize-662597/share.jpg",
-              "publishedAt": "2023-12-17T03:01:00Z",
-              "content": "In January 2023, the US Citizenship and Immigration Services (USCIS), had issued an exhaustive document, running into 469 pages, relating to fee proposal hikes across a wide spectrum, including H-1B … [+581 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Jigar Patel",
-              "title": "Nifty may consolidate around 21,500 before extending northward journey, pick these 2 stock ideas - Moneycontrol",
-              "description": "A move above 21,500 might extend the rally towards 21,800 on the Nifty. On the data front, Nifty PCR is above 1.45, and this might result in some consolidation.",
-              "url": "https://www.moneycontrol.com/news/business/markets/nifty-may-consolidate-around-21500-before-extending-northward-journey-pick-these-2-stock-ideas-11914931.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/stocks5-1-770x433.jpg",
-              "publishedAt": "2023-12-17T02:30:08Z",
-              "content": "By Jigar S Patel, senior manager - equity research at Anand Rathi\r\nThe bulls rampage continued on the D-Street since the bulls extended their frenzy buying in the domestic markets. The benchmark inde… [+3749 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Sunil Shankar Matkar",
-              "title": "Daily Voice | FII will have no choice but to invest in Indian markets moving forward, says this market... - Moneycontrol",
-              "description": "New allocation by FIIs for emerging markets and India seems a certainty in the calendar year 2024, says Amit Jain.",
-              "url": "https://www.moneycontrol.com/news/business/markets/daily-voice-fii-will-have-no-choice-but-to-invest-in-indian-markets-moving-forward-says-this-market-veteran-11915021.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/10/Amit_JainAshika-770x433.jpg",
-              "publishedAt": "2023-12-17T02:00:01Z",
-              "content": "Amit Jain, who co-founded Ashika Global Family Office Services believes most of the global risk factors were ignored by the Indian market in the last month due to favourable States election results a… [+6352 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Moneycontrol News",
-              "title": "Dalal Street Week Ahead | BoJ decision, RBI MPC minutes among factors that will keep traders busy - Moneycontrol",
-              "description": "Going ahead, Bank of Japan's policy decision, minutes of RBI MPC meeting and primary market action will be key to monitor. All eyes are on whether markets can scale new highs and continue gaining streak for eighth consecutive week",
-              "url": "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-boj-decision-rbi-mpc-minutes-among-factors-that-will-keep-traders-busy-11913451.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/08/Stock-8-770x433.jpg",
-              "publishedAt": "2023-12-17T01:52:52Z",
-              "content": "With Indian markets rallying for seven consecutive weeks, all eyes are now on whether bulls can stay in charge one more week. Positive global as well as domestic cues, including dovish Fed stance, FI… [+7381 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "DNA India"
-              },
-              "author": "DNA Web Team",
-              "title": "Google CEO finally breaks silence on company's biggest layoff ever, says 'could have...' - DNA India",
-              "description": "Google and Alphabet CEO Sundar Pichai spoke about the layoff of nearly 12,000 employees last year by the tech giant.",
-              "url": "https://www.dnaindia.com/business/report-google-alphabet-ceo-finally-breaks-silence-on-company-s-biggest-layoff-ever-business-news-3071833",
-              "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/12/17/2620064-untitled-design-2023-12-17t071448.093.jpg",
-              "publishedAt": "2023-12-17T01:36:00Z",
-              "content": "Google and Alphabet CEO Sundar Pichai spoke about the layoff of nearly 12,000 employees last year by the tech giant. Google and Alphabet CEO Sundar Pichai spoke about the layoff of nearly 12,000 empl… [+1710 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Soumyarendra Barik",
-              "title": "Aadhaar-based consent for children to go online proposed in new data protection rules - The Indian Express",
-              "description": "Closed-door meeting with industry scheduled on Dec 19",
-              "url": "https://indianexpress.com/article/india/aadhaar-based-consent-for-children-to-go-online-9071238/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/Aadhaar-2col.jpg",
-              "publishedAt": "2023-12-16T22:30:29Z",
-              "content": "Using an Aadhaar-based system to verify childrens age for using online services and to gather their parents consent, and introducing a two-stage notification measure for tech companies to intimate us… [+3980 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Vaishnawi Sinha",
-              "title": "Akasa Air beats Air India, Indigo in Centre's on-time performance rankings - Hindustan Times",
-              "description": "Akasa Air, established by Rakesh Jhunjhunwala, has been placed as the top airline with on-time performance, beating out Air India in the race.",
-              "url": "https://www.hindustantimes.com/business/jhujhunwalas-akasa-air-beats-out-air-india-indigo-in-centres-on-time-performance-rankings-check-list-here-101702738286675.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/AKASA-INDIA-CRISIS-0_1696043149404_1702738334756.JPG",
-              "publishedAt": "2023-12-16T15:34:25Z",
-              "content": "Akasa Air has now beat top Indian airlines like Air India and Indigo for having the best on time performance, according to the ranking list released by the Ministry of Civil Aviation.\r\nAkasa Air tops… [+1777 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Moneycontrol News",
-              "title": "India's search behaviour takes centre stage in Google's strategic outlook, says VP Pandu Nayak - Moneycontrol",
-              "description": "Nayak said that they have found ways to automatically translate high-quality locally relevant English documents ranging from Wikipedia to other local sites and then surface them on the Hindi search experience.",
-              "url": "https://www.moneycontrol.com/news/technology/indias-search-behaviour-takes-centre-stage-in-googles-strategic-outlook-says-vp-pandu-nayak-11914581.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/pandu-770x372.jpg",
-              "publishedAt": "2023-12-16T15:33:43Z",
-              "content": "India's unique search needs are emerging as a key factor in shaping Google's future strategy for its search business, a top executive said at the CNBC-TV18 and Moneycontrol Global AI Conclave on Dece… [+3381 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Etnownews.com"
-              },
-              "author": "ET Now Digital",
-              "title": "Inox India IPO GMP: Grey market premium shoots up! Subscription to end on Monday, allotment date and other issue details - ET Now",
-              "description": "Inox India IPO GMP: Upcoming Monday, December 18 is the last day of subscription of the Initial Public Offering (IPO) of cryogenic tank maker INOX India. So, investors have just one day left to apply for subscribing to the IPO. According to data from several …",
-              "url": "https://www.etnownews.com/markets/inox-india-ipo-gmp-grey-market-premium-shoots-up-subscription-to-end-on-monday-allotment-date-and-other-issue-details-article-106049985",
-              "urlToImage": "https://etstatic.tnn.in/thumb/msid-106049985,width-1280,height-720,resizemode-75/106049985.jpg",
-              "publishedAt": "2023-12-16T14:26:22Z",
-              "content": "DOMS Industries IPO allotment status check online on BSE, Link Intime, latest GMP price and listing date Key dates to remember"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "BusinessLine"
-              },
-              "author": "Suresh P. Iyengar",
-              "title": "SIP inflows surge by 65% in four months amidst rise in new registrations - BusinessLine",
-              "description": "SIP inflows hit a new high of ₹9,058 crore in Dec, up 65% from July, with total SIP accounts jumping 23% to a record 7.44 crore.",
-              "url": "https://www.thehindubusinessline.com/markets/sip-inflows-surge-by-65-in-four-months-amidst-rise-in-new-registrations/article67644987.ece",
-              "urlToImage": "https://bl-i.thgim.com/public/incoming/c2rd3a/article67645361.ece/alternates/LANDSCAPE_1200/SIPs.jpg",
-              "publishedAt": "2023-12-16T14:04:56Z",
-              "content": "The net inflow through the Systematic Investment Plan at 9,058 crore accounted for 56 per cent gross inflow of 17,073 crore in July with the number of new SIP increasing at a faster pace. In fact, it… [+1987 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Mallika Soni",
-              "title": "Elon Musk's advice to Giorgia Meloni: ‘Italians, please make more Italians’ - Hindustan Times",
-              "description": "Elon Musk In Italy: Elon Musk said that some of the organisations which had abandoned X were infected by a “woke mind virus”. | World News",
-              "url": "https://www.hindustantimes.com/world-news/elon-musks-advice-to-giorgia-meloni-italians-please-make-more-italians-101702730732628.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/ITALY-POLITICS-PARTY-ATREJU-RIGHT-FDI-26_1702734552758_1702734600332.jpg",
-              "publishedAt": "2023-12-16T14:00:22Z",
-              "content": "Elon Musk claimed that advertisers were returning to X (formerly Twitter) after an exodus while warning that Italy's low birth rate could put off investors. At the Atreju political festival organised… [+1890 chars]"
-            },
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "The Hindu",
-              "title": "Volkswagen India ties up with Centre for its vehicle scheme - The Hindu",
-              "description": null,
-              "url": "https://www.thehindu.com/business/Industry/volkswagen-india-ties-up-with-centre-for-its-vehicle-scheme/article67645332.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T13:49:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "Oil prices drop over $1, settle lower on volatile session after US macro data, FOMC policy decision; Brent at $76/bbl | Mint - Mint",
-              "description": "US Federal Reserve Chairman Jerome Powell said interest rate hikes intended to curb inflation were likely at an end, but left open the possibility for further increases.",
-              "url": "https://www.livemint.com/market/commodities/oil-prices-drop-over-1-settle-lower-on-volatile-session-after-us-macro-data-fomc-policy-decision-brent-at-76bbl-11702733239891.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/opec_1702733275201_1702733275564.JPG",
-              "publishedAt": "2023-12-16T13:43:22Z",
-              "content": "Brent crude and US crude futures finished at a small loss following a see-saw session, in which prices fell more than $1 a barrel at one point on Friday, December 15, as traders tried to reconcile mi… [+4430 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Vaishnawi Sinha",
-              "title": "Lifestyle charged customer ₹7 for paper bag, now asked to pay ₹3,000: Report - Hindustan Times",
-              "description": "Fashion brand Lifestyle charged a man ₹7 for a paper bag without his knowledge, but ended up paying ₹3,000 in damages, as ordered by court.",
-              "url": "https://www.hindustantimes.com/business/lifestyle-pays-customer-rs-3-000-in-damages-after-charging-rs-7-for-paper-bag-without-his-knowledge-report-101702733546606.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/lifestyle-1571332827_1702733639217_1702733643387.jpg",
-              "publishedAt": "2023-12-16T13:43:09Z",
-              "content": "Fashion brand Lifestyle, one of the biggest clothing retail store chain in India, was left in a bind after it was asked to pay 3,000 in damages to a customer for charging him 7 for a paper bag withou… [+1853 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Etnownews.com"
-              },
-              "author": "ET Now Digital",
-              "title": "Sachin Tendulkar-backed IPO opens for subscription on December 20 - Check price band, important dates - ET Now",
-              "description": "Azad Engineering, a Telangana-based company is set to bring an IPO on December 20. The Hyderabad-headquartered company's IPO will open for subscription on December 20. Cricket legend Sachin Tendulkar made an undisclosed investment in Azad Engineering.",
-              "url": "https://www.etnownews.com/markets/sachin-tendulkar-backed-ipo-opens-for-subscription-on-december-20-check-price-band-important-dates-article-106049334",
-              "urlToImage": "https://etstatic.tnn.in/thumb/msid-106049334,width-1280,height-720,resizemode-75/106049334.jpg",
-              "publishedAt": "2023-12-16T13:33:16Z",
-              "content": "Sachin Tendulkar-backed IPO opens for subscription on December 20 - Check price band, important dates"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Pgurus.com"
-              },
-              "author": "Team PGurus",
-              "title": "Gautam Adani Takes Control of News Agency IANS - PGurus",
-              "description": "Industrialist Gautam Adani’s media company on Saturday announced taking control of news agency IANS, promoted by debt-ridden industrialist Anil Adani",
-              "url": "https://www.pgurus.com/gautam-adani-takes-control-of-anil-ambanis-promoted-news-agency-ians-4th-take-over-in-media/",
-              "urlToImage": "https://www.pgurus.com/wp-content/uploads/2023/12/Gautam-Adani-takes-control-of-Anil-Ambanis-promoted-news-agency-IANS-jpg.webp",
-              "publishedAt": "2023-12-16T13:28:29Z",
-              "content": "Industrialist Gautam Adanis media company on Saturday announced taking control of news agency IANS, promoted by debt-ridden industrialist Anil Ambani. As per both firms, Adanis firms acquired more th… [+1777 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "BusinessLine"
-              },
-              "author": "Gurumurthy K & BL Research Bureau",
-              "title": "Index Outlook: Santa Claus Rally Arrives Early for the Sensex, Nifty 50, Nifty Bank and the Dow Jones - BusinessLine",
-              "description": "Global equity markets rallied strongly last week, driven by the US Federal Reserve’s decision to keep interest rates unchanged. The Dow Jones Industrial Average, Sensex, Nifty 50, and Nifty Bank indices reached record highs. In India, the BSE IT index led gai…",
-              "url": "https://www.thehindubusinessline.com/portfolio/technical-analysis/index-outlook-santa-claus-rally-arrives-early-for-the-sensex-nifty-50-nifty-bank-and-the-dow-jones/article67644607.ece",
-              "urlToImage": "https://bl-i.thgim.com/public/incoming/l9qojx/article67645024.ece/alternates/LANDSCAPE_1200/PO17_Santa_chart.jpg",
-              "publishedAt": "2023-12-16T13:21:38Z",
-              "content": "The global equity markets have seen a strong rally last week. The rally in equities gained momentum after the US Federal Reserve meeting on Wednesday. The Fed kept the interest rates unchanged at 5.2… [+5632 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Affiliate Desk",
-              "title": "10 best electric ovens for home chefs: From Philips, Bajaj and more | Mint - Mint",
-              "description": "10 best electric ovens for home cooks are listed here, highlighting superior features, effectiveness, and culinary skills. Discover the top models to improve your culinary explorations and culinary expertise.",
-              "url": "https://www.livemint.com/technology/gadgets/10-best-electric-ovens-for-home-chefs-from-philips-bajaj-and-more-11702719398398.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/electric_oven_1702719878757_1702719901381.jpg",
-              "publishedAt": "2023-12-16T13:19:46Z",
-              "content": "An excellent oven has the power to elevate a dish from average to awesome. For home cooks who are enthusiastic about making culinary masterpieces, selecting an electric oven is crucial. We explore th… [+26582 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ipowatch.in"
-              },
-              "author": "IPOWatch Team",
-              "title": "India Shelter Finance IPO Allotment Status Check on KFintech - IPO Watch",
-              "description": "India Shelter Finance IPO Allotment Status will available on KFintech. Here is how to find India Shelter Finance IPO allotment status, date and time online and offline.",
-              "url": "https://ipowatch.in/india-shelter-finance-ipo-allotment-status/",
-              "urlToImage": "https://ipowatch.in/wp-content/uploads/2023/12/india-shelter-finance-ipo.jpeg",
-              "publishedAt": "2023-12-16T12:40:10Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Tradebrains.in"
-              },
-              "author": "Trade Brains",
-              "title": "Multibagger smallcap stocks with high dividend yield of up to 11% to keep an eye on - Trade Brains",
-              "description": null,
-              "url": "https://tradebrains.in/features/multibagger-smallcap-stocks-with-high-dividend-yield-of-up-to-11-to-keep-an-eye-on/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T12:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Etnownews.com"
-              },
-              "author": "ET Now Digital",
-              "title": "'Lottery... Sell IREDA': Nikunj Dalmia's recommendation on IREDA shares as stock zooms 4X - Watch - ET Now",
-              "description": "Indian Renewable Energy Development Agency Limited (IREDA) stock has become the talk of the town ever since it zoomed from Rs 50 to 120 in just 11 trading sessions. After opening at Rs 50 on November 29, the stock has more than doubled within just two trading…",
-              "url": "https://www.etnownews.com/markets/lottery-sell-ireda-nikunj-dalmias-recommendation-on-ireda-shares-as-stock-zooms-4x-watch-article-106048184",
-              "urlToImage": "https://etstatic.tnn.in/thumb/msid-106048184,width-1280,height-720,resizemode-75/106048184.jpg",
-              "publishedAt": "2023-12-16T12:27:22Z",
-              "content": "38:24\r\nTCS, Infosys Up Over 5% Each; Sensex Rallies 969 Points, Nifty Ends At 21456 | Closing Trades"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Highlandpost.com"
-              },
-              "author": "HP News Service",
-              "title": "FCI to sell extra wheat and rice in open market - Highland Post",
-              "description": "The Food Corporation of India, Regional Office will sell wheat and rice in the open market through the Open Market",
-              "url": "https://highlandpost.com/fci-to-sell-extra-wheat-and-rice-in-open-market/",
-              "urlToImage": "https://highlandpost.com/wp-content/uploads/2021/07/rice-sacks-283750_640.jpg",
-              "publishedAt": "2023-12-16T11:49:02Z",
-              "content": "The Food Corporation of India, Regional Office will sell wheat and rice in the open market through the Open Market Sale Scheme every week for price stabilisation in the market.\r\nA press statement sai… [+835 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Mypunepulse.com"
-              },
-              "author": null,
-              "title": "Mumbai customer orders food worth Rs 42.3 lakh from Swiggy in 2023 - Pune Pulse",
-              "description": "By: Pune Pulse December 16, 2023 Pune: In 2023, a resident of Mumbai placed an order with Swiggy worth Rs 42.3 lakh, the online meal delivery service revealed in its annual report released on December 14. Swiggy has released its annual food delivery report ‘H…",
-              "url": "https://www.mypunepulse.com/mumbai-customer-orders-food-worth-rs-42-3-lakh-from-swiggy-in-2023/",
-              "urlToImage": "https://www.mypunepulse.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-16-at-5.03.58-PM-jpeg.webp",
-              "publishedAt": "2023-12-16T11:37:23Z",
-              "content": "By: Pune Pulse\r\nDecember 16, 2023\r\nPune: In 2023, a resident of Mumbai placed an order with Swiggy worth Rs 42.3 lakh, the online meal delivery service revealed in its annual report released on Decem… [+1755 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Team-BHP"
-              },
-              "author": "Brij Gawde",
-              "title": "Test rode the Himalayan 450: Why I think it's better than KTM 390 ADV - Team-BHP",
-              "description": "BHPian masterChief007 recently shared this with other enthusiasts. I did a test ride on my targeted color Kaza Brown. There were a lot of customers thronging the showroom, so I had to wait a little. During this, I was told that the delivery date pricing would…",
-              "url": "https://www.team-bhp.com/news/test-rode-himalayan-450-why-i-think-its-better-ktm-390-adv",
-              "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/WhatsApp Image 2023-12-15 at 10.07.45 AM.jpeg",
-              "publishedAt": "2023-12-16T11:30:00Z",
-              "content": "BHPian masterChief007 recently shared this with other enthusiasts.\r\nI did a test ride on my targeted color Kaza Brown. There were a lot of customers thronging the showroom, so I had to wait a little.… [+2526 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Nikita Prasad",
-              "title": "FPIs turn net buyers, pump ₹42,733 in Indian equities; Inflows rise after US Fed signals end of tightening cycle | Mint - Mint",
-              "description": "FPIs have bought  ₹42,733 crore worth of Indian equities and the total inflow stands at  ₹51,787 crore as of December 15, taking into account debt, hybrid, debt-VRR, and equities",
-              "url": "https://www.livemint.com/market/stock-market-news/fpis-turn-net-buyers-pump-rs-42-733-in-indian-equities-inflows-rise-after-us-fed-signals-end-of-tightening-cycle-11702725129563.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/FPIs_1702725143279.jpg",
-              "publishedAt": "2023-12-16T11:21:31Z",
-              "content": "Foreign portfolio investors (FPIs) started December on a cheerful note after finally having reversed their selling streak in November, emerging net buyers in the Indian stock market. The inflow has i… [+4494 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Motilal Oswal's Raamdeo Agrawal On Will PSU Stocks To Lead The Bull Run | CNBC TV18 - CNBC-TV18",
-              "description": "Raamdeo Agrawal of Motilal Oswal shares his market outlook and where the Indian equity market is headed.#raamdeoagrawal #motilaloswal #sensex #nifty #marketo...",
-              "url": "https://www.youtube.com/watch?v=IGbb3mkgWwI",
-              "urlToImage": "https://i.ytimg.com/vi/IGbb3mkgWwI/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T11:00:08Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Team-BHP"
-              },
-              "author": "Tushar Kelshikar",
-              "title": "Bharat NCAP to announce crash test results this month - Team-BHP",
-              "description": "According to a media report, Bharat NCAP is likely to publish the crash test results for the first batch of cars before the end of December 2023. Mahmood Ahmed, Additional Secretary, Ministry of Road Transport and Highways, has revealed that the BNCAP program…",
-              "url": "https://www.team-bhp.com/news/bharat-ncap-announce-crash-test-results-month",
-              "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/MahindraScorpio-N-pole.jpg",
-              "publishedAt": "2023-12-16T09:58:24Z",
-              "content": "According to a media report, Bharat NCAP is likely to publish the crash test results for the first batch of cars before the end of December 2023.\r\nMahmood Ahmed, Additional Secretary, Ministry of Roa… [+932 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "PTI",
-              "title": "21 firms bid for incentives for electrolyser manufacturing; 14 cos for green hydrogen production - Moneycontrol",
-              "description": "According to an official statement, the bids came in response to a tender by Solar Energy Corporation of India (SECI) inviting players for setting up 1.5 GW manufacturing capacity for electrolyser manufacturing. Bids for electrolyser manufacturers were invite…",
-              "url": "https://www.moneycontrol.com/news/business/21-firms-bid-for-incentives-for-electrolyser-manufacturing-14-cos-for-green-hydrogen-production-11913671.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/01/green-hydrogen-MC-770x433.jpg",
-              "publishedAt": "2023-12-16T09:54:55Z",
-              "content": "Reliance Electrolyser Manufacturing, Adani New Industries, L&amp;T Electrolysers and Bharat Heavy Electricals are among 21 companies that have bid for government's incentives to set up 3.4 GW of annu… [+2697 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Asit Manohar",
-              "title": "Muthoot Microfin IPO raises ₹285 crore from anchor investors | Mint - Mint",
-              "description": "Muthoot Microfin IPO will open for bidding on Monday next week and it will remain open till 20th December 2023",
-              "url": "https://www.livemint.com/market/ipo/muthoot-microfin-ipo-raises-rs-285-crore-from-anchor-investors-11702716691674.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/Muthoot_Microfin_IPO_anchor_investor_1702716755946_1702716756225.jpg",
-              "publishedAt": "2023-12-16T08:57:05Z",
-              "content": "Muthoot Microfin IPO: The initial public offering of Muthoot Microfin Limited has raised 284.99 crore from abchor investors. The microfinance company raised this money by allotting 97,93,812 equity s… [+2218 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Team-BHP"
-              },
-              "author": "Tushar Kelshikar",
-              "title": "India emerges as Kia's 4th largest global market - Team-BHP",
-              "description": "India has emerged as the fourth largest market for Kia, with local sales contributing to 10% of the brand's global sales.  Tae-Jin Park, MD of Kia India, recently revealed that India was among the top 5 markets for Kia, after South Korea, the US and Europe.  …",
-              "url": "https://www.team-bhp.com/news/india-emerges-kias-4th-largest-global-market",
-              "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/GBO1949bAAA8IwN.jpg",
-              "publishedAt": "2023-12-16T08:13:23Z",
-              "content": "India has emerged as the fourth largest market for Kia, with local sales contributing to 10% of the brand's global sales. \r\nTae-Jin Park, MD of Kia India, recently revealed that India was among the t… [+1100 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ndtvprofit.com"
-              },
-              "author": "CK Narayan",
-              "title": "Nifty This Week In Technical Charts: A Runaway Market! - NDTV Profit",
-              "description": "Beginning last week of December, it may be prudent to have nearer stops and begin taking some money off the table.",
-              "url": "https://www.ndtvprofit.com/markets/nifty-this-week-in-technical-charts-a-runaway-market",
-              "urlToImage": "https://media.assettype.com/bloombergquint%2F2019-07%2F0eb63a2c-2d0f-4a96-a641-9398fcff8659%2FAP19192235356419.jpg?rect=0%2C0%2C2376%2C1247&w=1200&auto=format%2Ccompress&ogImage=true",
-              "publishedAt": "2023-12-16T08:03:35Z",
-              "content": "And for sure, the profits are indeed being made. It is another warning signal when money making becomes too easy. As it is now. Eventually, this too will change. That point will dawn on you when you … [+3961 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Entrackr"
-              },
-              "author": "Shashank Pathak & Md Salman Ashrafi",
-              "title": "Funding and acquisitions in Indian startups this week [11-16 Dec] - Entrackr",
-              "description": "This week as many as 19 Indian startups secured a total funding of approximately $548 million comprising 7 growth and 10 early-stage deals",
-              "url": "https://entrackr.com/2023/12/funding-and-acquisitions-in-indian-startups-this-week-11-16-dec/",
-              "urlToImage": "https://entrackr.com/storage/2023/12/image-16-dec.jpg",
-              "publishedAt": "2023-12-16T07:32:34Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Adda247.com"
-              },
-              "author": "Akansha Arora",
-              "title": "Ola’s Bhavish Aggarwal Unveils ‘Made for India’ Krutrim AI - Adda247",
-              "description": "Krutrim SI Designs, the new artificial intelligence venture founded by Bhavish Aggrawal, co-founder of Ola, has introduced a family of multilingual AI models specifically tailored to address the distinctive requirements of the Indian ecosystem. The models, na…",
-              "url": "https://currentaffairs.adda247.com/olas-bhavish-aggarwal-unveils-made-for-india-krutrim-ai/",
-              "urlToImage": "https://adda247-wp-multisite-assets.s3.ap-south-1.amazonaws.com/wp-content/uploads/multisite/sites/5/2023/12/16130146/Olas-Bhavish-Aggarwal-Unveils-%E2%80%98Made-for-India-Krutrim-AI.png",
-              "publishedAt": "2023-12-16T07:31:59Z",
-              "content": "Krutrim SI Designs, the new artificial intelligence venture founded by Bhavish Aggrawal, co-founder of Ola, has introduced a family of multilingual AI models specifically tailored to address the dist… [+3488 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Dsij.in"
-              },
-              "author": "Mandar Wagh",
-              "title": "IPO Analysis: Suraj Estate Developers Limited - Dalal Street Investment Journal",
-              "description": "IPO Rating: Apply for the long-term",
-              "url": "https://www.dsij.in/dsijarticledetail/ipo-analysis-suraj-estate-developers-limited-35250-1",
-              "urlToImage": "https://www.dsij.in/Portals/0/EasyDNNnews/35250/image_287.jpg",
-              "publishedAt": "2023-12-16T06:49:19Z",
-              "content": "IPO Rating: Apply for the long-term\r\nAbout the Issue:\r\nThe company has been actively engaged in the real estate industry since 1986, specializing in the development of properties in both residential … [+7506 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Financial Express"
-              },
-              "author": null,
-              "title": "Kia Sonet old vs new: Design, specs, features compared - The Financial Express",
-              "description": "Bookings for Kia Sonet facelift are slated to begin on 20 December while deliveries are expected to commence from January 2024.",
-              "url": "https://www.financialexpress.com/auto/car-news/kia-sonet-old-vs-new-design-specs-features-compared/3340137/",
-              "urlToImage": "https://www.financialexpress.com/wp-content/uploads/2023/12/Kia-Sonet-old-vs-new-feature.jpg",
-              "publishedAt": "2023-12-16T05:27:52Z",
-              "content": "2024 Kia Sonet facelift recently broke covers. This was the first major upgrade to the subcompact SUV ever since it was first launched in August 2020. The facelift involves quite a few noticeable sty… [+2917 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Yashaswini",
-              "title": "Bengaluru & Mumbai see most steep rental hikes: Report - Times of India",
-              "description": "Rising rentals in Bengaluru and Mumbai have been confirmed by a realty portal's report. The two cities saw a high incidence of steep rise in rentals, with 7% of landlords increasing rents by 30% and above. Find out the cause and effect of high rentals in Beng…",
-              "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-mumbai-rental-hikes-nobroker-report-2023/articleshow/106036648.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106037030,width-1070,height-580,imgsize-25980,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T02:47:47Z",
-              "content": "10 foods that claim to be healthy but are not"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Business Standard"
-              },
-              "author": "BS Web Team",
-              "title": "Gold price rises Rs 110 to Rs 63,000, silver climbs Rs 1,000 to Rs 78,700 - Business Standard",
-              "description": "The price of 22-carat gold rose Rs 100, with the yellow metal selling at Rs 57,750",
-              "url": "https://www.business-standard.com/markets/commodities/gold-price-rises-rs-110-to-rs-63-000-silver-climbs-rs-1-000-to-rs-78-700-123121600103_1.html",
-              "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-11/01/full/1667282568-4041.jpg",
-              "publishedAt": "2023-12-16T02:15:04Z",
-              "content": "In Delhi, Bengaluru, and Chennai, ten grams of 22-carat gold are selling at Rs 57,900, Rs 57,750, and Rs 58,300, respectively. | Photo: Bloomberg"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Goodreturns.in"
-              },
-              "author": "Goodreturns",
-              "title": "Bulls Thrilled In IT Stocks: 9 Dividend Paying Tech Giants Hit New 1-Year Highs In 1 Day; TCS, HCL Big Winners - Goodreturns",
-              "description": null,
-              "url": "https://www.goodreturns.in/personal-finance/bulls-drive-it-stocks-9-dividend-paying-tech-giants-at-new-1-year-highs-in-1-day-tcs-hcl-big-winners-1318537.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T01:00:14Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TNN",
-              "title": "Adani Ports to sell its 49% in group co - IndiaTimes",
-              "description": "India Business News: Adani Ports is divesting its 49% stake in Adani Ennore Container Terminal (AECTPL) to Terminal Investment (TiL) for Rs 247 crore. The box terminal loc",
-              "url": "https://timesofindia.indiatimes.com/business/india-business/adani-ports-to-sell-its-49-in-group-co/articleshow/106035442.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106035467,width-1070,height-580,imgsize-1630945,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T00:40:25Z",
-              "content": "FD Calculator\r\nWhen investing in a fixed deposit, the amount you deposit earns interest as per the prevailing...\r\nCalculate Now"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Rishi Tejpal",
-              "title": "The never-ending war - The Economic Times",
-              "description": "While delegates from across the globe were debating the allocation of 6GHz spectrum for international mobile telecommunications at the World Radiocommunication Conference this week, Indian stakeholders have been at loggerheads over it as well.",
-              "url": "https://economictimes.indiatimes.com/prime/prime-vantage/the-never-ending-war/primearticleshow/106030516.cms",
-              "urlToImage": "https://img.etimg.com/thumb/msid-106030491,width-1070,height-580,imgsize-106658/photo.jpg",
-              "publishedAt": "2023-12-15T23:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Kitco NEWS"
-              },
-              "author": "Kitco NEWS",
-              "title": "Gold prices could be a little too hot as the Fed cools down rate cut expectations - Kitco NEWS",
-              "description": null,
-              "url": "https://www.kitco.com/news/2023-12-15/Gold-prices-could-be-a-little-too-hot-as-the-Fed-cools-down-rate-cut-expectations.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-15T20:49:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Hemanta Pradhan",
-              "title": "Bhubaneswar airport to be covered with Digi Yatra in 2024 - Times of India",
-              "description": "BHUBANESWAR: The ministry of civil aviation has taken several measures to reduce congestion at airports across the country including the city airport .",
-              "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/bhubaneswar-airport-to-be-covered-with-digi-yatra-in-2024/articleshow/106031291.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106031432,width-1070,height-580,imgsize-40386,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-15T17:00:02Z",
-              "content": "10 foods that claim to be healthy but are not"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Moneycontrol"
-              },
-              "author": "Moneycontrol News",
-              "title": "Mufti Menswear IPO: 10 things to know before subscribing to Rs 549-crore issue - Moneycontrol",
-              "description": "Mufti Menswear IPO: The public issue a purely an offer for sale of 1.96 crore shares",
-              "url": "https://www.moneycontrol.com/news/business/ipo/mufti-menswear-ipo-10-things-to-know-before-subscribing-to-rs-549-crore-issue-11910111.html",
-              "urlToImage": "https://images.moneycontrol.com/static-mcnews/2019/11/mufti-770x433.jpg",
-              "publishedAt": "2023-12-15T13:03:32Z",
-              "content": "Mufti Menswear parent Credo Brands Marketing Limited's initial public offering (IPO) will open for subscription on December 19. The Rs 549.78-crore public issue is an offer for sale of 1.96 crore sha… [+3515 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Livemint"
-              },
-              "author": "Livemint",
-              "title": "India's forex reserves at 4-month high; jump $2.8 billion to $607 billion: RBI | Mint - Mint",
-              "description": "For the week ended December 8, the foreign currency assets -- a major component of the reserves -- increased by $3.089 billion to $536.699 billion, the data said.",
-              "url": "https://www.livemint.com/economy/indias-forex-reserves-hits-over-4-month-high-jumps-2-8-billion-to-607-billion-rbi-11702642179113.html",
-              "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/15/1600x900/rupee-4395553_1280_1701234273734_1702642183126.jpg",
-              "publishedAt": "2023-12-15T12:12:56Z",
-              "content": "India's foreign exchange (forex) reserves jumped $2.816 billion to hit over four-month high mark of $606.859 billion in the week ended December 8, the Reserve Bank of India (RBI) said on Friday, Dece… [+2288 chars]"
-            },
-            {
-              "source": {
-                "id": "google-news",
-                "name": "Google News"
-              },
-              "author": null,
-              "title": "Gainers and Losers: 10 stocks that moved the most on December 15 - Moneycontrol",
-              "description": null,
-              "url": "https://families.google.com/service-restricted",
-              "urlToImage": null,
-              "publishedAt": "2023-12-15T11:14:09Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Quint"
-              },
-              "author": "Raajwrita Dutta",
-              "title": "Yamaha YZF-R3 & MT-03 Launch in India Today, 15 December: Expected Price & Specs - The Quint",
-              "description": "The Yamaha YZF-R3 and MT-03 will be launched in India today, Friday, 15 December 2023. Know the specifications, design, expected price range, and important details here.",
-              "url": "https://www.thequint.com/tech-and-auto/car-and-bike/yamaha-yzf-r3-and-yamaha-mt-03-launch-in-india-today-know-the-expected-price-specifications-and-details",
-              "urlToImage": "https://images.thequint.com/thequint%2F2023-12%2F5cff6960-74f6-4aa8-b551-f4b25ba81592%2FYamaha_R3_6665088c9d.jpg",
-              "publishedAt": "2023-12-15T06:56:20Z",
-              "content": "In a move to amp up the Indian two-wheeler market, Yamaha is gearing up to reveal the upcoming motorcycles, which include the Yamaha YZF-R3 and the Yamaha MT-03. One should note that the motorcycles … [+624 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Team-BHP"
-              },
-              "author": "Utkarsh Chaudhary",
-              "title": "Layman's views about Honda Elevate: 8 points after a long test drive - Team-BHP",
-              "description": "BHPian sapien recently shared this with other enthusiasts. After multiple attempts, was able to get a long test drive of the Honda Elevate - I'm no car expert but sharing observations from a layman's perspective after a 15 km city + highway test drive. Highli…",
-              "url": "https://www.team-bhp.com/news/laymans-views-about-honda-elevate-8-points-after-long-test-drive",
-              "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/20231014_181831_1.jpg",
-              "publishedAt": "2023-12-14T07:02:00Z",
-              "content": "For those who drive sedately, this can be a good car. Anyone looking for sportiness will be disappointed.\r\nBHPian sapien recently shared this with other enthusiasts.\r\nAfter multiple attempts, was abl… [+1763 chars]"
-            }
-          ]
-        },
-        {
-          "health": [
-            {
-              "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-              },
-              "author": "The Hindu",
-              "title": "Four test positive for H1N1 in Tiruvarur - The Hindu",
-              "description": null,
-              "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/four-test-positive-for-h1n1-in-tiruvarur/article67644936.ece",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T12:31:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Investing.com"
-              },
-              "author": "IANS",
-              "title": "Flu infections in Japan soar to warning level at fastest pace in 10 years - Investing.com India",
-              "description": "The Financial News section features stock market news in addition to stories about bonds, forex, commodities and economic releases.",
-              "url": "https://in.investing.com/news/flu-infections-in-japan-soar-to-warning-level-at-fastest-pace-in-10-years-3940957",
-              "urlToImage": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/akapi-images/800x450/cb92fdb333133c5a9a9c97aca8ae0004_w_800_h_450.jpg",
-              "publishedAt": "2023-12-17T12:19:58Z",
-              "content": "Tokyo, Dec 17 (IANS) The average number of influenza patients per regularly monitored medical institution in Japan had hit warning levels at the fastest pace in 10 years, the health ministry has anno… [+1245 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Lymphoma in children: What causes it? What is the diagnosis process and pediatric care? - IndiaTimes",
-              "description": "The lymphatic system is a vast network of lymphatic vessels and lymph nodes which carry lymphocytes and lymph. Lymphocytes are the cells that protect us against various microbes like bacteria and viruses by forming antibodies and destroying them. These lympho…",
-              "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/lymphoma-in-children-what-causes-it-what-is-the-diagnosis-process-and-pediatric-care/photostory/106058349.cms",
-              "urlToImage": "https://static.toiimg.com/photo/106058358.cms",
-              "publishedAt": "2023-12-17T11:30:00Z",
-              "content": "Lymphoma presents as a swollen, painless lymph node under the skin. Swollen lymph nodes are usually in the neck, above the collar bone, or in the armpit or groin.Lymph nodes deeper in the body can al… [+1150 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Ophthalmologytimes.com"
-              },
-              "author": "David Hutton",
-              "title": "Machine learning sees into the future to prevent sight loss in humans - Ophthalmology Times",
-              "description": "A team of researchers from Tokyo Medical and Dental University have developed models based on machine learning that predict long-term visual acuity in patients with high myopia, one of the top three causes of irreversible blindness in many regions of the worl…",
-              "url": "https://www.ophthalmologytimes.com/view/machine-learning-sees-into-the-future-to-prevent-sight-loss-in-humans",
-              "urlToImage": "https://cdn.sanity.io/images/0vv8moc6/ophtalmology/4da0fa4b2ef3a52f6fec315d8bb6dfb723c0bd52-1200x675.jpg?fit=crop&auto=format",
-              "publishedAt": "2023-12-17T11:12:19Z",
-              "content": "As machine learning has been refined, it has been used to predict the outcomes of many health conditions. A team of researchers from Japan has found a way to predict whether people with severe shorts… [+3255 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "https://www.india.com/author/lifestylestaff/",
-              "title": "Pre-Bridal Glow up: Try These 5 Natural Drinks For Wedding-Ready Skin - India.com",
-              "description": "Begin your pre-bridal beauty regime with the calming notes of these homemade drinks and see the results!",
-              "url": "https://www.india.com/health/pre-bridal-glow-up-try-these-5-natural-drinks-for-wedding-ready-skin-6592528/",
-              "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-4.00.08-PM.jpeg",
-              "publishedAt": "2023-12-17T10:30:58Z",
-              "content": "Begin your pre-bridal beauty regime with the calming notes of these homemade drinks and see the results!\r\nPre-Bridal Glow up: Try These 5 Natural Drinks For Wedding-Ready Skin\r\nAs you embark on the e… [+1892 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Herbal remedies for relief from seasonal flu - IndiaTimes",
-              "description": "While herbal remedies are a pure cure for seasonal flu, they offer a natural way to fight influenza or flu. Try these remedies to get relief from influenza as  they might be enough to treat it.",
-              "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/herbal-remedies-for-relief-from-seasonal-flu/photostory/106049207.cms",
-              "urlToImage": "https://static.toiimg.com/photo/106049215.cms",
-              "publishedAt": "2023-12-17T10:30:00Z",
-              "content": "A hot herbal tea drink, commonly referred to as kadha can be very effective in offering relief to your throat and sinuses. To make your herbal tea healthy as well as tasty, you can sweeten it with ho… [+219 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Prerna Targhotra",
-              "title": "How Waking Up Early Enhances Healthy Eating Habits In Individuals | Doctor Explains - Jagran English",
-              "description": "Benefits Of Waking Up Early: Waking up early gives one enough time to make and have a healthy breakfast. It stabilises overall metabolic functions and gives a great head start for the day, keeping one active.",
-              "url": "https://english.jagran.com/lifestyle/how-waking-up-early-enhances-healthy-eating-habits-in-individuals-doctor-explains-10120961",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/benefits-of-waking-up-early (2)1702807405441.jpg",
-              "publishedAt": "2023-12-17T09:54:00Z",
-              "content": "Benefits Of Waking Up Early: It is our habits that define us. Usually, when you wake up, you experience an urge to eat or drink something. During the nighttime, our body rests and rejuvenates while b… [+2924 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "SocialNews.XYZ"
-              },
-              "author": "Gopi",
-              "title": "Study finds blood biomarkers linked to suicidal thoughts - Social News XYZ",
-              "description": "New York, Dec 17 (SocialNews.XYZ) A simple blood test may soon be on the anvil to detect people with depression and those vulnerable to suicidal ideation, according to a study that identified blood biomarkers linked... - Social News XYZ",
-              "url": "https://www.socialnews.xyz/2023/12/17/study-finds-blood-biomarkers-linked-to-suicidal-thoughts/",
-              "urlToImage": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/12/17/202312173095767.jpg?fit=329%2C209&quality=80&zoom=1&ssl=1?v=1702804885",
-              "publishedAt": "2023-12-17T09:28:54Z",
-              "content": "Home » General » Health » Study finds blood biomarkers linked to suicidal thoughts\r\nNew York, Dec 17 (SocialNews.XYZ) A simple blood test may soon be on the anvil to detect people with depression and… [+3140 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Newstracklive.com"
-              },
-              "author": "EMMANUAL",
-              "title": "Benefits of sunlight in winter - News Track English",
-              "description": "As winter blankets the world in a frosty embrace, there's more to the shimmering sunlight than meets the eye. Beyond its obvious warmth, the winter sun brings forth an array of benefits that are often overlooked. Let's dive into the invigorating advantages th…",
-              "url": "https://english.newstracklive.com/news/benefits-of-sunlight-in-winter-sc53-nu371-ta371-1306030-1.html",
-              "urlToImage": "https://media.newstrack.in/uploads/lifestyle-health/health-tips/Dec/17/big_thumb/rtrt_657e9a84469a8.jpg",
-              "publishedAt": "2023-12-17T08:40:26Z",
-              "content": "As winter blankets the world in a frosty embrace, there's more to the shimmering sunlight than meets the eye. Beyond its obvious warmth, the winter sun brings forth an array of benefits that are ofte… [+4834 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Prerna Targhotra",
-              "title": "5 Simple Tips To Reduce Wrinkles And Fine Lines - Jagran English",
-              "description": "Ways To Reduce Wrinkles: With some simple and effective steps, one can make a huge difference to their skin health. Here are easy ways to get rid of wrinkles and fine lines at home.",
-              "url": "https://english.jagran.com/lifestyle/5-simple-tips-to-reduce-wrinkles-and-fine-lines-10120945",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/tips-to-reduce-wrinkles1702802598332.jpg",
-              "publishedAt": "2023-12-17T08:39:00Z",
-              "content": "Ways To Reduce Wrinkles: As we age, our body begins to show signs of ageing that include fine lines and wrinkles. Wrinkles are creases, folds or ridges in the skin that appear naturally as we grow ol… [+2417 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Onmanorama.com"
-              },
-              "author": "Onmanorama Staff",
-              "title": "Master these skin health tips in your 40s, to be young again | Lifestyle Beauty | English Manorama - Onmanorama",
-              "description": "By steering clear of common pitfalls and addressing skin concerns appropriately, one can effortlessly maintain healthy skin.",
-              "url": "https://www.onmanorama.com/lifestyle/beauty-and-fashion/2023/12/17/master-these-skin-health-tips-your-40s-young-again.html",
-              "urlToImage": "https://img.onmanorama.com/content/dam/mm/en/lifestyle/beauty-and-fashion/images/2023/12/17/skin-care-post-40-c.jpg",
-              "publishedAt": "2023-12-17T08:33:02Z",
-              "content": "New Delhi: Following a skincare regimen after entering your 40s requires a different approach. The fine lines, changes in skin texture, and other signs of ageing pave the need for a shift in skincare… [+3053 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Healthshots.com"
-              },
-              "author": "Natalia Ningthoujam",
-              "title": "Stop plucking grey hair or be ready to face these side effects - Health shots",
-              "description": "Spotted your first grey hair and tempted to pull out it out? Try not to, as plucking grey hair has side effects.",
-              "url": "https://www.healthshots.com/beauty/hair-care/side-effects-of-plucking-grey-hair/",
-              "urlToImage": "https://images.healthshots.com/healthshots/en/uploads/2023/12/15185139/grey-hair.jpg",
-              "publishedAt": "2023-12-17T08:30:26Z",
-              "content": "People generally start going grey in their 30s, though some may begin experiencing the process earlier than that. Most women like to cover it up with the help of hair colour or cutting off the affect… [+5259 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Parmita Uniyal",
-              "title": "Year Ender 2023: 6 weight loss diets that we were tempted to try - Hindustan Times",
-              "description": "The wellness trends of 2023 suggest that people are prioritizing eating patterns with a long-term focus to achieve sustainable weight loss. | Health",
-              "url": "https://www.hindustantimes.com/lifestyle/health/year-ender-2023-6-weight-loss-diets-that-we-were-tempted-to-try-101702801018550.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/weight-loss-diets_1702801174068_1702801174395.jpg",
-              "publishedAt": "2023-12-17T08:26:40Z",
-              "content": "Amid the growing threat of obesity and a range of chronic diseases that can impact our well-being, it is crucial to work towards fitness goals. Alongside regular workouts, nutrition plays a vital rol… [+4019 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Newstracklive.com"
-              },
-              "author": "EMMANUAL",
-              "title": "What is PCOD? Does it last a lifetime? - News Track English",
-              "description": "Polycystic Ovary Syndrome, commonly known as PCOD, is a prevalent hormonal disorder among women. Let's delve into this complex condition, exploring its nature, symptoms, and the crucial question - does it last a lifetime?\r\n\r\nDeciphering PCOD\r\n\r\nPCOD is a mult…",
-              "url": "https://english.newstracklive.com/news/what-is-pcod-does-it-last-a-lifetime-sc53-nu371-ta371-1306028-1.html",
-              "urlToImage": "https://media.newstrack.in/uploads/lifestyle-health/health-tips/Dec/17/big_thumb/sdf_657e9972914ec.jpg",
-              "publishedAt": "2023-12-17T08:10:26Z",
-              "content": "Polycystic Ovary Syndrome, commonly known as PCOD, is a prevalent hormonal disorder among women. Let's delve into this complex condition, exploring its nature, symptoms, and the crucial question - do… [+3623 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "The Indian Express",
-              "title": "Why Omega-3 and Omega-6 fatty acids need to be balanced via diet to avoid heart attacks, diabetes and body fat - The Indian Express",
-              "description": null,
-              "url": "https://indianexpress.com/article/health-wellness/omega-3-omega-6-fatty-acids-balanced-diet-9071638/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-17T08:09:39Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "[Removed]"
-              },
-              "author": null,
-              "title": "[Removed]",
-              "description": "[Removed]",
-              "url": "https://removed.com",
-              "urlToImage": null,
-              "publishedAt": "1970-01-01T00:00:00Z",
-              "content": "[Removed]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Newsdrum.in"
-              },
-              "author": "NewsDrum Desk",
-              "title": "Diverse gut microbiomes give better protection against harmful bugs - now we know why - NewsDrum",
-              "description": "In the last decade, it has become increasingly clear that a gut full of friendly microbes (the microbiome) is vital for our go...",
-              "url": "https://www.newsdrum.in/international/diverse-gut-microbiomes-give-better-protection-against-harmful-bugs-now-we-know-why-2026869",
-              "urlToImage": "https://img-cdn.thepublive.com/fit-in/1200x675/newsdrum-in/media/media_files/kq4ed2XMdYvXZdhYVNSH.jpg",
-              "publishedAt": "2023-12-17T06:40:36Z",
-              "content": "Oxford: In the last decade, it has become increasingly clear that a gut full of friendly microbes (the microbiome) is vital for our good health.\r\nIt has also become clear that a healthy microbiome is… [+3427 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Cgtn.com"
-              },
-              "author": "CGTN",
-              "title": "Chinese researchers develop new dry-powder inhalable vaccine platform - CGTN",
-              "description": "Chinese researchers have developed a single-dose dry-powder inhalable vaccine platform featuring a nano-micro composite multilevel structure, making a significant contribution to the prevention and treatment of respiratory infectious diseases in the future.",
-              "url": "https://news.cgtn.com/news/2023-12-17/Chinese-researchers-develop-new-dry-powder-inhalable-vaccine-platform-1pBsFJtvF7O/index.html",
-              "urlToImage": "https://news.cgtn.com/news/2023-12-17/Chinese-researchers-develop-new-dry-powder-inhalable-vaccine-platform-1pBsFJtvF7O/img/47a0bae8be6b4b2dae38b2a5af9f3feb/47a0bae8be6b4b2dae38b2a5af9f3feb-250.png",
-              "publishedAt": "2023-12-17T05:53:07Z",
-              "content": "Chinese researchers have developed a single-dose dry-powder inhalable vaccine platform featuring a nano-micro composite multilevel structure, making a significant contribution to the prevention and t… [+3371 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": null,
-              "title": "Are carrots good for diabetic patients? - IndiaTimes",
-              "description": "Carrots have sugar and carbohydrates and are sweet, but they contain glycemic index which is good for blood sugar levels.",
-              "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/are-carrots-good-for-diabetic-patients/photostory/105999170.cms",
-              "urlToImage": "https://static.toiimg.com/photo/105999207.cms",
-              "publishedAt": "2023-12-17T05:30:00Z",
-              "content": "Carrots are sweet-flavoured in nature, but they are non-starchy vegetables and have low saturated cholesterol and fat. Having a good source of minerals and vitamins, it is also a good source of diet … [+189 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Is it safe to consume Beetroot in diabetes? - IndiaTimes",
-              "description": "There’s a common belief that the starch content and glycemic index of this root vegetable makes it unfit for diabetics. Here’s all you need to know about beetroot and is it safe for people with high sugar levels? Read on to find out…",
-              "url": "https://timesofindia.indiatimes.com/life-style/food-news/is-it-safe-to-consume-beetroot-in-diabetes/photostory/106052460.cms",
-              "urlToImage": "https://static.toiimg.com/photo/106052486.cms",
-              "publishedAt": "2023-12-17T05:30:00Z",
-              "content": "Beetroot is rich in essential nutrients, including folate, potassium, and vitamin C, supporting overall immune health. Its high nitrate content may help lower blood pressure and enhance cardiovascula… [+351 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "https://www.india.com/author/lifestylestaff/",
-              "title": "Winter Fat Burn: 7 Antioxidant-Rich Foods For Effective Weight Loss - India.com",
-              "description": "Here is a list of 7 antioxidant-rich foods that promote weight loss and improve your overall health in winter",
-              "url": "https://www.india.com/lifestyle/winter-fat-burn-7-antioxidant-rich-foods-for-effective-weight-loss-6591884/",
-              "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-10.27.02-AM.jpeg",
-              "publishedAt": "2023-12-17T04:59:07Z",
-              "content": "Here is a list of 7 antioxidant-rich foods that promote weight loss and improve your overall health in winter\r\nWinter Fat Burn: 7 Antioxidant-Rich Foods For Effective Weight Loss \r\nEmbracing the wint… [+2169 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News9live.com"
-              },
-              "author": "Sneha Kumari",
-              "title": "Is abdominal fat responsible for unmanageable diabetes? Expert comments - News9 LIVE",
-              "description": "According to expert, as Indians, we are ethnically prone to develop Diabetes Mellitus and its complications at an earlier age as compared to Caucasians. This is partly because we tend to accumulate fat more easily around our waist. Know the link between diabe…",
-              "url": "https://www.news9live.com/health/health-conditions/is-abdominal-fat-responsible-for-unmanageable-diabetes-expert-comments-2379464",
-              "urlToImage": "https://images.news9live.com/wp-content/uploads/2023/12/Diabetes-and-fat.jpg",
-              "publishedAt": "2023-12-17T04:29:32Z",
-              "content": "New Delhi: In India, the rate of annual rise of adult obesity is ‘very high’ at 5.2 per cent, while the rate of annual increase of child obesity is also high at 9.1 per cent. According to reports, a … [+1747 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagran.com"
-              },
-              "author": "Prerna Targhotra",
-              "title": "5 Incredible Benefits Of Drinking Barley Water For Diabetes Management - Jagran English",
-              "description": "Barley Water Benefits: It is important to keep a check on your blood sugar levels regularly to manage diabetes. Eating nutritious foods and drinks is also an effective way to manage diabetes.",
-              "url": "https://english.jagran.com/lifestyle/5-incredible-benefits-of-drinking-barley-water-for-diabetes-management-10120896",
-              "urlToImage": "https://imgeng.jagran.com/images/2023/dec/barley-water-benefits1702786196869.jpg",
-              "publishedAt": "2023-12-17T04:05:00Z",
-              "content": "Barley Water Benefits: Barley water is a detoxifying drink known for its cooling and antioxidant properties. It is an easy-to-make healthy drink with only two ingredients, barley and water. The drink… [+2455 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Rujuta Diwekar",
-              "title": "Don’t obsess about protein. Take a leaf out of grandma’s book instead - IndiaTimes",
-              "description": "Many parents are trying to foster healthier ideas about food and weight than the ones they grew up with.",
-              "url": "https://timesofindia.indiatimes.com/life-style/parenting/dont-obsess-about-protein-take-a-leaf-out-of-grandmas-book-instead/articleshow/106057334.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106057383,width-1070,height-580,imgsize-1127495,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T03:58:55Z",
-              "content": "10 indoor fun activities for kids"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Tapatrisha Das",
-              "title": "Tiny habits that will transform your nervous system: Nutritionist shares tips - Hindustan Times",
-              "description": "From spending time in nature to limiting phone notifications, here are a few tiny habits that can transform the nervous system in weeks. | Health",
-              "url": "https://www.hindustantimes.com/lifestyle/health/tiny-habits-that-will-transform-your-nervous-system-nutritionist-shares-tips-101702781733869.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/ss_1682477117050_1702781769358.jpg",
-              "publishedAt": "2023-12-17T03:34:22Z",
-              "content": "The way we deal with stress, anxiety and other negative emotions is strongly rooted to how relaxed and calm the nervous system is. \"A flexible nervous system, characterized by high vagal tone, can ad… [+2052 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Medical Dialogues"
-              },
-              "author": "Kajal Rajput",
-              "title": "Indian docs support WHO ban on vapes, call on govt to take action - Medical Dialogues",
-              "description": "New Delhi: A day after the World Health Organization (WHO) urged governments to treat e-cigarettes akin to tobacco and impose a ban on all flavours, health experts in India have called on the...",
-              "url": "https://medicaldialogues.in/news/health/indian-docs-support-who-ban-on-vapes-call-on-govt-to-take-action-121686",
-              "urlToImage": "https://medicaldialogues.in/h-upload/2023/12/16/228003-cigarettes.jpg",
-              "publishedAt": "2023-12-17T03:30:27Z",
-              "content": "New Delhi: A day after the World Health Organization (WHO) urged governments to treat e-cigarettes akin to tobacco and impose a ban on all flavours, health experts in India have called on the governm… [+2904 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India.com"
-              },
-              "author": "Pallavi Mehra",
-              "title": "How To Stay Young And Fit: 7 Healthy Habits For A Longer Life - Zee News",
-              "description": "Menstrual Cycles Can Spur Daily Suicide Risk: Study Balanced Nutrition: Embrace a diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. A balanced diet provides essential nutrients, supports optimal organ function, and helps maintain…",
-              "url": "https://zeenews.india.com/health/how-to-stay-young-and-fit-7-healthy-habits-for-a-longer-life-2699771",
-              "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337331-healthy-couple.jpg",
-              "publishedAt": "2023-12-17T03:21:28Z",
-              "content": "In our fast-paced world, where time seems to slip away effortlessly, the pursuit of a longer and healthier life has become a universal goal. While genetics play a role, adopting certain lifestyle hab… [+2754 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TNN",
-              "title": "Docs, staff honoured for tackling AIDS - Times of India",
-              "description": "Madurai: In observation of ‘World AIDS Day’ this month, a programme was organised at Government Rajaji Hospital (GRH) on Saturday to honour doctors an.",
-              "url": "https://timesofindia.indiatimes.com/city/madurai/docs-staff-honoured-for-tackling-aids/articleshow/106056570.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-47529300,width-1070,height-580,imgsize-110164,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-17T03:04:33Z",
-              "content": "10 foods that claim to be healthy but are not"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Tapatrisha Das",
-              "title": "5 signs of Vitamin D deficiency - Hindustan Times",
-              "description": "From bone pain to hair loss, here are the signs of Vitamin D deficiency in the body. Take a look.",
-              "url": "https://www.hindustantimes.com/photos/lifestyle/5-signs-of-vitamin-d-deficiency-101702779856715.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/v0hytd_1702779873047_1702779906585.jpg",
-              "publishedAt": "2023-12-17T02:28:04Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Indian Express"
-              },
-              "author": "Lifestyle Desk",
-              "title": "5 superfoods to eat if you want a healthier, faster brain - The Indian Express",
-              "description": "Ekta Singhwal, Dietician, Ujala Cygnus Group of Hospitals, explained that maintaining optimal brain health involves incorporating a balanced and nutrient-rich diet. She recommends the following strategies:",
-              "url": "https://indianexpress.com/article/lifestyle/food-wine/superfoods-faster-brain-health-9069681/",
-              "urlToImage": "https://images.indianexpress.com/2023/12/brain-health.jpg",
-              "publishedAt": "2023-12-17T01:30:51Z",
-              "content": "In the pursuit of a healthy and vibrant life, nourishing the brain is a crucial aspect often overlooked. As the epicentre of our cognitive functions, emotions, and vitality, the brain requires specia… [+2779 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TIMESOFINDIA.COM",
-              "title": "Why you should focus on keeping a healthy stomach in winters and tips to follow - IndiaTimes",
-              "description": "​As the winter chill settles in, our stomachs may experience a dip in vitality, leading to various digestive issues. The winter season is notorious for causing respiratory illnesses such as colds and flu. You may be unaware that cold weather can cause a varie…",
-              "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/why-you-should-focus-on-keeping-a-healthy-stomach-in-winters-and-tips-to-follow/photostory/106038335.cms",
-              "urlToImage": "https://static.toiimg.com/photo/106038354.cms",
-              "publishedAt": "2023-12-17T01:30:00Z",
-              "content": "Maintain a well-balanced diet by including winter vegetables rich in vitamin C, such as sweet potatoes, pumpkin, carrots, and beets. Include green leafy vegetables like kale and spinach to regulate b… [+372 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Sridhar Vivan",
-              "title": "BM Health: Karnataka’s health push: Tackling childhood pneumonia - Bangalore Mirror",
-              "description": "Outlining the key objectives, Rao said, “The main goal of the SAANS campaign is to include the adoption and adherence to National Childhood Pneumonia Management guidelines, creating awareness and mob",
-              "url": "https://bangaloremirror.indiatimes.com/bangalore/others/karnatakas-health-push-tackling-childhood-pneumonia/articleshow/106052948.cms",
-              "urlToImage": "https://bangaloremirror.indiatimes.com/photo/52761249.cms",
-              "publishedAt": "2023-12-17T00:30:00Z",
-              "content": "With an alarming rise in pneumonia-related deaths among children, the health department has initiated an awareness program. Health Minister Dinesh Gundu Rao articulated the objective, stating that th… [+3181 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India TV News"
-              },
-              "author": "Written by India TV Lifestyle Desk",
-              "title": "Eating meals early may lower cardiovascular risk: Study - India TV News",
-              "description": "Researchers have discovered that eating meals early could reduce the risk of cardiovascular diseases.",
-              "url": "https://www.indiatvnews.com/health/eating-meals-early-may-lower-cardiovascular-risk-2023-12-16-907618",
-              "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/health-1702747208.jpg",
-              "publishedAt": "2023-12-16T23:30:01Z",
-              "content": "In a study published in the journal Nature Communications, the researchers used data from 103,389 participants in the NutriNet-Sante cohort (79 percent of whom were women, with an average age of 42) … [+1969 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Financial Express"
-              },
-              "author": null,
-              "title": "Winter & your ticker: How to keep the heart healthy in colder months - The Financial Express",
-              "description": "Additionally, cold weather can prompt physiological responses such as increased heart rate and blood clotting tendencies, both of which can exacerbate the risk of heart attacks or strokes.",
-              "url": "https://www.financialexpress.com/life/winter-amp-your-ticker-how-to-keep-the-heart-healthy-in-colder-months-3340444/",
-              "urlToImage": "https://www.financialexpress.com/wp-content/uploads/2023/11/Soup-Freepik.jpg",
-              "publishedAt": "2023-12-16T21:00:00Z",
-              "content": "Do winter months pose a higher risk for cardiac events? Dr Varun Bansal, senior consultant, cardiology and cardiothoracic surgery, Indraprastha Apollo Hospital, says winter months often present incre… [+3685 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "Prisha",
-              "title": "7 Foods Which Appear To Be Healthy But Are Not - WION",
-              "description": "7 Foods Which Appear To Be Healthy But Are Not",
-              "url": "https://www.wionews.com/web-stories/trending/7-foods-which-appear-to-be-healthy-but-are-not-1702757782978",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T20:32:58Z",
-              "content": "Dec 17, 2023, 02:02AM IST"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "WION"
-              },
-              "author": "Prisha",
-              "title": "6 Health Benefits of Drinking Guava Leaf Tea in Winters - WION",
-              "description": "6 Health Benefits of Drinking Guava Leaf Tea in Winters",
-              "url": "https://www.wionews.com/web-stories/trending/6-health-benefits-of-drinking-guava-leaf-tea-in-winters-1702757236489",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T20:15:34Z",
-              "content": "As per studies, lycopene which is found in guava is a powerful antioxidant which reduces the risk of cancer, especially the one afflicting breast, oral and prostate."
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "China Pneumonia Outbreak: Rising COVID cases and pneumonia outbreak in China | WION Pulse - WION",
-              "description": "China claims a new local mystery illness outbreak on the 13th and the 15th of December at a school and all 30 children reportedly got infected and also devel...",
-              "url": "https://www.youtube.com/watch?v=UG-i8DsWnjU",
-              "urlToImage": "https://i.ytimg.com/vi/UG-i8DsWnjU/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T19:19:56Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Free Press Journal"
-              },
-              "author": "Dr Avishek Mishra",
-              "title": "How To Change Your Food And Lifestyle For Winters - Free Press Journal",
-              "description": "Discover ways to stay overall healthy during the cold weather",
-              "url": "https://www.freepressjournal.in/weekend/how-to-change-your-food-and-lifestyle-for-winters",
-              "urlToImage": "https://media.assettype.com/freepressjournal/2023-12/add8db0f-24d7-44c4-a281-a6b7d4a8e132/portrait_young_woman_wrapped_shawl_holding_herbal_tea_cup.jpg",
-              "publishedAt": "2023-12-16T18:29:00Z",
-              "content": "Now its time to change our lifestyle and food according to the cold weather. \r\nDominant dosha\r\nDigestive fire is strong. Body strength is also good compare to other seasons. Body needs food which are… [+2185 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Medical Xpress"
-              },
-              "author": "Elana Gotkine",
-              "title": "Changes in biochemical, hematological parameters seen before IBD diagnosis - Medical Xpress",
-              "description": "Changes in multiple biochemical and hematological parameters occur up to eight years before diagnosis of Crohn disease and up to three years before diagnosis of ulcerative colitis, according to a study published in the Nov. 21 issue of Cell Reports Medicine.",
-              "url": "https://medicalxpress.com/news/2023-12-biochemical-hematological-parameters-ibd-diagnosis.html",
-              "urlToImage": "https://scx2.b-cdn.net/gfx/news/2023/changes-in-biochemical.jpg",
-              "publishedAt": "2023-12-16T18:00:01Z",
-              "content": "Changes in multiple biochemical and hematological parameters occur up to eight years before diagnosis of Crohn disease and up to three years before diagnosis of ulcerative colitis, according to a stu… [+1741 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "ANI News"
-              },
-              "author": "ANI News",
-              "title": "Here is why chemotherapy becomes less effective, finds study - ANI News",
-              "description": null,
-              "url": "https://www.aninews.in/news/health/here-is-why-chemotherapy-becomes-less-effective-finds-study20231216231723",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T17:52:28Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Nagalandpost.com"
-              },
-              "author": null,
-              "title": "Eating a lot of bakery items, processed snacks resulting in constipation cases for children: Experts - Nagaland Post",
-              "description": "As Constipation Awareness Month is being observed, experts opined that eating a lot of bakery items and processed snacks is attributed to increased cases of constipation among children above the age of 5 years in Bengaluru.",
-              "url": "https://nagalandpost.com/index.php/eating-a-lot-of-bakery-items-processed-snacks-resulting-in-constipation-cases-for-children-experts/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T16:12:28Z",
-              "content": "As Constipation Awareness Month is being observed, experts opined that eating a lot of bakery items and processed snacks is attributed to increased cases of constipation among children above the age … [+3433 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagrantv.com"
-              },
-              "author": "ayushee joshi",
-              "title": "Winter Health Tips: How To Stay Protected From Cold and Cough in Cold Weather - Jagran TV",
-              "description": "Cold and Cough in Winters: Reducing the amount of dry air in the house by adding humidity can help people breathe easier. Including foods high in vitamins and minerals that ...",
-              "url": "https://www.jagrantv.com/en-show/winter-health-tips-cold-and-cough-home-remedies-and-treatment-in-cold-weather-rc1048276",
-              "urlToImage": "https://i.ytimg.com/vi/Fb5HqXe2RQg/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T15:31:26Z",
-              "content": "Cold-Cough in Winters: The winter season is a common time for cold and cough conditions, so getting well requires either finding a good treatment or doing some home remedies. Including foods that str… [+844 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Jagrantv.com"
-              },
-              "author": "ayushee joshi",
-              "title": "Amla Benefits: Know Various Health Benefits of Amla in Winters - Jagran TV",
-              "description": "Amla in Winters: Amla is high in antioxidants, which help to combat oxidative stress, which is a common side effect of being exposed to harsh winter elements. This not only ...",
-              "url": "https://www.jagrantv.com/en-show/amla-benefits-know-various-health-benefits-of-eating-amla-in-winters-rc1048275",
-              "urlToImage": "https://i.ytimg.com/vi/66x-724Hn14/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T15:18:22Z",
-              "content": "Amla in Winters: Indian gooseberry, or amla, is usually known as a winter superfood with numerous health advantages. Almas potent immune-boosting qualities are useful in the winter season when the ch… [+830 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "SciTechDaily"
-              },
-              "author": null,
-              "title": "This One Simple Diet Change Could Transform Your Blood Pressure - SciTechDaily",
-              "description": "Research reveals that a low-sodium diet significantly lowers blood pressure, benefiting individuals with or without hypertension and those on blood pressure medications. Lowering sodium intake significantly reduced blood pressure in most people, even those wh…",
-              "url": "https://scitechdaily.com/this-one-simple-diet-change-could-transform-your-blood-pressure/",
-              "urlToImage": "https://scitechdaily.com/images/Happy-Young-Woman-Eating.jpg",
-              "publishedAt": "2023-12-16T14:53:39Z",
-              "content": "New research shows that reducing dietary sodium significantly lowers blood pressure in individuals, regardless of whether they have hypertension or are on medication. The study, involving 213 partici… [+4472 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Newstracklive.com"
-              },
-              "author": "EMMANUAL",
-              "title": "Start eating dates soaked in ghee on an empty stomach from today itself, benefits will be visible within a week - News Track English",
-              "description": "In the quest for a healthier lifestyle, we often stumble upon ancient remedies that promise significant benefits. One such practice gaining traction is consuming dates soaked in ghee on an empty stomach. Let's delve into this age-old tradition and explore the…",
-              "url": "https://english.newstracklive.com/news/start-eating-dates-soaked-in-ghee-on-an-empty-stomach-from-today-itself-benefits-will-be-visible-within-a-week-sc53-nu371-ta371-1305995-1.html",
-              "urlToImage": "https://media.newstrack.in/uploads/lifestyle-health/health-tips/Dec/16/big_thumb/gfhh_657d8cbc6ece8.JPG",
-              "publishedAt": "2023-12-16T13:53:47Z",
-              "content": "In the quest for a healthier lifestyle, we often stumble upon ancient remedies that promise significant benefits. One such practice gaining traction is consuming dates soaked in ghee on an empty stom… [+4358 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Sportskeeda"
-              },
-              "author": "Saima Khan",
-              "title": "Cocoa extract benefits for brain health - Sportskeeda",
-              "description": "The plant that produces cocoa extract, one of the most consumed delicacies worldwide, is called cocoa. It's likely that you have had some cocoa extract this week in some form or the other.",
-              "url": "https://www.sportskeeda.com/health-and-fitness/cocoa-extract-benefits-brain-health",
-              "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/41816-17026675314318-1920.jpg",
-              "publishedAt": "2023-12-16T13:24:00Z",
-              "content": "The plant that produces cocoa extract, one of the most consumed delicacies worldwide, is called cocoa. It's likely that you have had some cocoa extract this week in some form or the other.\r\nIt has be… [+4150 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Herzindagi.com"
-              },
-              "author": "Akshita Jolly",
-              "title": "Winter Delights: Best Healthy And Classic Recipes Made From Peas! - HerZindagi",
-              "description": "Winter Delights: Best Healthy And Classic Recipes Made From Peas: \nWant to try some peas recipes for this winter season to satisfy your cravings? Try these healthy recipes made with peas. Tap to see.",
-              "url": "https://www.herzindagi.com/web-stories/food-diary/winter-delights-best-healthy-and-classic-recipes-made-from-peas-ws-21821",
-              "urlToImage": "https://images.herzindagi.info/webstories/21821/social-media-akshita--10--1702708557.jpeg",
-              "publishedAt": "2023-12-16T11:30:00Z",
-              "content": "<ul>Want to try some peas recipes for this winter season to satisfy your cravings? Try these healthy recipes made with peas. Tap to see. </ul>\r\nClassic pea soup \r\n<ul>Start your morning with this hot… [+763 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "msnNOW"
-              },
-              "author": null,
-              "title": "Is the increasing heart attack rate an indication of Post Covid effect? | Abp News - MSN",
-              "description": null,
-              "url": "https://www.msn.com/en-in/news/world/is-the-increasing-heart-attack-rate-an-indication-of-post-covid-effect-abp-news/vi-AA1lAqIq",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T10:32:22Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "DNA India"
-              },
-              "author": "Aayushi",
-              "title": "Kidney health: 4 superfoods to eat everyday - DNA India",
-              "description": "Here are four superfoods one must consume every day for better kidney health.",
-              "url": "https://www.dnaindia.com/web-stories/lifestyle/kidney-health-4-superfoods-to-eat-everyday-1702719262785",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T10:26:50Z",
-              "content": "They also contain other minerals, colour, flavour, fibre, folic acid, vitamins C, B6, and A, and lycopene, an antioxidant that protects against some types of cancer."
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "THE WEEK"
-              },
-              "author": "Shyla Jovitha Abraham",
-              "title": "Intermittent fasting can help obese people with type 2 diabetes lose weight - The Week",
-              "description": "intermittent fasting can help obese people with type 2 diabetes lose weight and control their blood sugar levels. People with type 2 diabetes",
-              "url": "https://www.theweek.in/news/health/2023/12/16/intermittent-fasting-and-people-with-type-2-diabetes.html",
-              "urlToImage": "https://www.theweek.in/content/dam/week/news/2023/images/2023/7/10/Intermittent-fasting-food-eat.jpg",
-              "publishedAt": "2023-12-16T10:25:37Z",
-              "content": "A study published in JAMA Network Open has found that intermittent fasting can help obese people with type 2 diabetes lose weight and control their blood sugar levels. People with type 2 diabetes are… [+1587 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "News9live.com"
-              },
-              "author": "Ayra Imam",
-              "title": "Eat your greens: Discover the amazing health benefits of green beans - News9 LIVE",
-              "description": "Green beans are a must-have in Indian kitchens. Learn about the health perks of this nutritious green vegetable!",
-              "url": "https://www.news9live.com/lifestyle/fitness/eat-your-greens-discover-the-amazing-health-benefits-of-green-beans-2379333",
-              "urlToImage": "https://images.news9live.com/wp-content/uploads/2023/12/pexels-yulia-rozanova-3004798.jpg",
-              "publishedAt": "2023-12-16T10:11:51Z",
-              "content": "New Delhi: Green beans, often overlooked in the realm of superfoods, are a nutritional powerhouse packed with health benefits. These also known as string beans or snap beans, are not only delicious b… [+2504 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "India TV News"
-              },
-              "author": "Rahul Pratyush",
-              "title": "7 types of flours that help in weight loss - India TV News",
-              "description": "Uncover the weight-loss benefits of 7 flours, including almond, coconut, and chickpea. Boost your wellness with these nutritious alternatives for effective results. at India TV News",
-              "url": "https://www.indiatvnews.com/web-stories/lifestyle/7-types-of-flours-that-help-in-weight-loss-2023-12-16-907566",
-              "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1080_-/2023/12/1-flour-1702716834.jpg",
-              "publishedAt": "2023-12-16T09:02:58Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Timesofindia.com"
-              },
-              "author": "Kritika Pushkarna",
-              "title": "10 best foods to eat on an empty stomach - Recipes",
-              "description": "Jump-starting your day with the right foods can set the tone for better digestion, sustained energy, and overall well-being. Take a look at 10 such foods that are best enjoyed on an empty stomach for a healthy and fulfilling start to your day.",
-              "url": "https://recipes.timesofindia.com/web-stories/10-best-foods-to-eat-on-an-empty-stomach/photostory/106041346.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106041359,imgsize-145354,width-900,height-1200,resizemode-6/106041359.jpg",
-              "publishedAt": "2023-12-16T08:30:00Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "Khushi Pal",
-              "title": "5 antioxidant-rich foods for glowing skin in winters - Hindustan Times",
-              "description": "Here are 5 foods rich in antioxidants for glowing skin in winters.",
-              "url": "https://www.hindustantimes.com/web-stories/lifestyle/5-antioxidant-rich-foods-for-glowing-skin-in-winters-101702705013407.html",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T08:20:07Z",
-              "content": "By Khushi PalPublished Dec 16, 2023\r\nHindustan TimesLifestylePhoto Credits: Unsplash"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Hindustan Times"
-              },
-              "author": "ANI",
-              "title": "Potential treatment target for genetic type of epilepsy: Research - Hindustan Times",
-              "description": "Developmental and epileptic encephalopathies are rare forms of epilepsy that can begin in childhood. The patients are treated with generic antiepileptic drugs. | Health",
-              "url": "https://www.hindustantimes.com/lifestyle/health/potential-treatment-target-for-genetic-type-of-epilepsy-research-101702713930449.html",
-              "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/seizure_1653058791309_1702714067215.jpg",
-              "publishedAt": "2023-12-16T08:10:17Z",
-              "content": "A team of researchers discovered a possible target for treating a hereditary form of epilepsy. The findings of the study published in Nature Communications, Francis Crick Institute, UCL and MSD resea… [+3727 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "THE WEEK"
-              },
-              "author": "PTI",
-              "title": "Influenza symptoms can linger like long Covid: Lancet study - The Week",
-              "description": "People hospitalised with seasonal influenza can suffer long-term, negative health effects, especially involving their lungs and airways",
-              "url": "https://www.theweek.in/news/health/2023/12/16/influenza-symptoms-can-linger-like-long-covid--lancet-study.html",
-              "urlToImage": "https://www.theweek.in/content/dam/week/news/sci-tech/2019/June/Influenza-Virus-H1N1-Swine-Flu-shut.jpg",
-              "publishedAt": "2023-12-16T06:57:28Z",
-              "content": "People hospitalised with seasonal influenza can suffer long-term, negative health effects, especially involving their lungs and airways, much like the effects of long Covid, according to a study.\r\nTh… [+2709 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "The Weather Channel"
-              },
-              "author": "The Weather Channel",
-              "title": "Blood Type O May Be Associated with Higher Stroke Risk After COVID-19 Vaccination: Study | Weather.com - The Weather Channel",
-              "description": "Blood group 'O' was more prevalent in patients who had suffered a venous stroke after receiving the Oxford-AstraZeneca vaccine (43%) than in unvaccinated venous stroke patients (17%).",
-              "url": "https://weather.com/en-IN/india/coronavirus/news/2023-12-16-blood-type-o-linked-to-higher-stroke-risk-after-covid19-vaccine",
-              "urlToImage": "https://s.w-x.co/in-vaccine_corbevax.jpg",
-              "publishedAt": "2023-12-16T05:36:28Z",
-              "content": "People with blood group 'O' face increased risks of cerebral venous thrombosis (CVT), or venous stroke, after taking the Oxford-AstraZeneca vaccine, administered as Covishield in India, claimed a lar… [+2045 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Mypunepulse.com"
-              },
-              "author": null,
-              "title": "Why jaggery is the perfect winter superfood, know health benefits of jaggery - Pune Pulse",
-              "description": "Indulge in the delectable taste of jaggery while reaping numerous benefits for your body and mind. As winter brings forth the joy of til gur laddoos, gur halwa, and peanut gur chikki, discover the common ingredient that adds not only deliciousness but also nu…",
-              "url": "https://www.mypunepulse.com/why-jaggery-is-the-perfect-winter-superfood-know-health-benefits-of-jaggery/",
-              "urlToImage": "https://www.mypunepulse.com/wp-content/uploads/2023/12/Main-jaggeryvssugar-jpg.webp",
-              "publishedAt": "2023-12-16T05:03:24Z",
-              "content": "Indulge in the delectable taste of jaggery while reaping numerous benefits for your body and mind. As winter brings forth the joy of til gur laddoos, gur halwa, and peanut gur chikki, discover the co… [+2735 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Tennews.in"
-              },
-              "author": "TenNews Team",
-              "title": "US records over 2300 deaths from flu this season - tennews.in - Ten News",
-              "description": "Los Angeles, Dec 16 (IANS) There have been at least 3.7 million illnesses, 38,000 hospitalizations and 2,300 deaths from flu so far this season in the US, according to the latest estimates released Friday by the Centers for Disease Control and Preven",
-              "url": "https://tennews.in/us-records-over-2300-deaths-from-flu-this-season/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T04:55:51Z",
-              "content": "Los Angeles, Dec 16 (IANS) There have been at least 3.7 million illnesses, 38,000 hospitalizations and 2,300 deaths from flu so far this season in the US, according to the latest estimates released F… [+643 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "NBC4 Washington"
-              },
-              "author": "Eun Yang, News4 Anchor, Patricia Fantis",
-              "title": "Cold weather increases risk of stroke, but there are steps you can take to protect yourself - NBC4 Washington",
-              "description": "Every 40 seconds, someone in the U.S. has a stroke. While age and health are major risk factors for a stroke, falling temperatures can also increase your risk.",
-              "url": "http://www.nbcwashington.com/news/local/cold-weather-increases-risk-of-stroke-but-there-are-steps-you-can-take-to-protect-yourself/3495641/",
-              "urlToImage": "https://media.nbcwashington.com/2023/12/27712520436-1080pnbcstations.jpg?quality=85&strip=all&resize=1200%2C675",
-              "publishedAt": "2023-12-16T03:13:19Z",
-              "content": "Every 40 seconds, someone in the U.S. has a stroke. While age and health are major risk factors for a stroke, falling temperatures can also increase your risk.\r\nEven if you're not clearing like a sno… [+1447 chars]"
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "Ipsita Pati",
-              "title": "More kids coming to OPDs with bronchitis: Docs - Times of India",
-              "description": "Gurgaon: Hospitals across the city have been reporting a spike in the number of patients with respiratory ailments such as cough, chest pain and breat.",
-              "url": "https://timesofindia.indiatimes.com/city/gurgaon/more-kids-coming-to-opds-with-bronchitis-docs/articleshow/106036519.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-47529300,width-1070,height-580,imgsize-110164,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T02:42:36Z",
-              "content": "Princess of Jaipur and Deputy CM of Rajasthan, Diya Kumari is the most stylish royal"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Greekreporter.com"
-              },
-              "author": "Greek Reporter",
-              "title": "Woman Gives Birth in a Rare Abdominal Ectopic Pregnancy - Greek Reporter",
-              "description": null,
-              "url": "https://greekreporter.com/2023/12/16/woman-gives-birth-abdominal-ectopic-pregnancy/",
-              "urlToImage": null,
-              "publishedAt": "2023-12-16T02:11:31Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "VDH urges more people to get vaccinated - WAVY TV 10",
-              "description": "Not enough people are rolling up their sleeves for vaccinations against the flu, RSV and COVID-19 according to the Centers For Disease Control and Prevention...",
-              "url": "https://www.youtube.com/watch?v=fe7lVKBoQTQ",
-              "urlToImage": "https://i.ytimg.com/vi/fe7lVKBoQTQ/maxresdefault.jpg",
-              "publishedAt": "2023-12-16T00:51:08Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-              },
-              "author": "TNN",
-              "title": "IISc team finds ways to boost immunotherapy in cancer cells - Times of India",
-              "description": "IISc researchers found that only some types of cancer cells respond well to Interferon-gamma (IFN) activation, which is crucial for immunotherapy. The",
-              "url": "https://timesofindia.indiatimes.com/city/bengaluru/iisc-team-finds-ways-to-boost-immunotherapy-in-cancer-cells/articleshow/106035374.cms",
-              "urlToImage": "https://static.toiimg.com/thumb/msid-106035384,width-1070,height-580,imgsize-611868,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-              "publishedAt": "2023-12-16T00:29:22Z",
-              "content": "Princess of Jaipur and Deputy CM of Rajasthan, Diya Kumari is the most stylish royal"
-            },
-            {
-              "source": {
-                "id": "cnn",
-                "name": "CNN"
-              },
-              "author": "Deidre McPhillips, CNN",
-              "title": "Respiratory virus activity is high or increasing in most parts of the US and it still hasn't peaked - Yahoo Singapore News",
-              "description": "Respiratory virus season is well underway in the United States, and the US Centers for Disease Control and Prevention warns that the peak is still to come...",
-              "url": "https://www.cnn.com/2023/12/15/health/high-respiratory-virus-activity-cdc-data/index.html",
-              "urlToImage": "https://media.zenfs.com/en/cnn_articles_875/19bfa5e985547f9f46fba32d3890b8f5",
-              "publishedAt": "2023-12-16T00:25:00Z",
-              "content": "Respiratory virus season is well underway in the United States, and the US Centers for Disease Control and Prevention warns that the peak is still to come. Low vaccination rates leave many people at … [+3963 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Northwestern.edu"
-              },
-              "author": null,
-              "title": "Unstable 'Fluttering' Predicts Aortic Aneurysm | News | Northwestern Engineering - Northwestern Engineering",
-              "description": "With 98 percent accuracy, a new metric developed by Professor Neelesh Patankar predicted the development of an aneurysm on average three years prior to occurrence.",
-              "url": "https://www.mccormick.northwestern.edu/news/articles/2023/12/unstable-fluttering-predicts-aortic-aneurysm/",
-              "urlToImage": "https://www.mccormick.northwestern.edu/images/news/2023/12/unstable-fluttering-predicts-aortic-aneurysm-social.jpg",
-              "publishedAt": "2023-12-15T21:48:18Z",
-              "content": "An expert on fluid dynamics, Patankar is a professor of mechanical engineering at the McCormick School of Engineering. He co-led the study with Tom Zhao, who specializes in first principles biomechan… [+5531 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "YouTube"
-              },
-              "author": null,
-              "title": "Microsoft’s Chief Questions Officer Trevor Noah on how AI can help improve breast cancer detection - Microsoft",
-              "description": "Breast cancer is the second leading cause of cancer related death in women, and detecting it early is critical for improving treatment outcomes. Although mam...",
-              "url": "https://www.youtube.com/watch?v=YUoqR4XBmqA",
-              "urlToImage": "https://i.ytimg.com/vi/YUoqR4XBmqA/maxresdefault.jpg",
-              "publishedAt": "2023-12-15T17:00:28Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "msnNOW"
-              },
-              "author": null,
-              "title": "Maharashtra, Telangana report alarming surge in mumps cases – Know symptoms, preventive tips - MSN",
-              "description": null,
-              "url": "https://www.msn.com/en-in/health/health-news/maharashtra-telangana-report-alarming-surge-in-mumps-cases-know-symptoms-preventive-tips/ar-AA1lyOLa",
-              "urlToImage": null,
-              "publishedAt": "2023-12-15T16:37:55Z",
-              "content": null
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Medscape"
-              },
-              "author": "Megan Brooks",
-              "title": "Shift Workers Prone to a Plethora of Sleep Disorders - Medscape",
-              "description": "Shift work is tied to a plethora of sleep disorders, including insomnia and sleep-related breathing disorders. These problems are worse in individuals who work night shifts.",
-              "url": "https://www.medscape.com/viewarticle/shift-workers-prone-plethora-sleep-disorders-2023a1000vjo",
-              "urlToImage": "https://img.medscapestatic.com/vim/live/professional_assets/medscape/images/thumbnail_library/gty_231215_night_shift_employment_800x450.jpg",
-              "publishedAt": "2023-12-15T16:06:52Z",
-              "content": "TOPLINE:\r\nShift workers are more prone to short sleep and a range of sleep disorders, a large Belgian study finds. The problem was worse among night shift workers, about half of whom sleep 6 hours or… [+2315 chars]"
-            },
-            {
-              "source": {
-                "id": null,
-                "name": "Northeast Now"
-              },
-              "author": null,
-              "title": "Mistakes not to repeat after surviving a heart attack - Northeast Now",
-              "description": "Mistakes not to repeat after surviving a heart attack",
-              "url": "https://nenow.in/web-stories/mistakes-not-to-repeat-after-surviving-a-heart-attack",
-              "urlToImage": "https://nenow.in/wp-content/uploads/2023/12/cropped-Heart-Attack-Cardiac-Arrest.webp",
-              "publishedAt": "2023-12-15T14:19:16Z",
-              "content": "Surviving a heart attack is not easy and common\r\nSurviving a heart attack is not easy and common \r\nStop smoking, consuming alcohol and drugs, that can decrease sperm quality and impact egg developmen… [+1425 chars]"
-            }
-          ]
-        }
-      ]
+      {
+        "general": [
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "Parliament Winter Session 2023 Live Updates: 33 Opposition MPs suspended from Lok Sabha for remainder of Winter Session - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/india/parliament-winter-session-2023-live-news-updates-stalement-9072430/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T10:23:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Fact-Checking Viral Dawood Ibrahim News Attributed To Pak's Caretaker PM - NDTV",
+            "description": "Reports widely circulated on social media about fugitive gangster Dawood Ibrahim's death have not been confirmed.",
+            "url": "https://www.ndtv.com/world-news/fact-checking-viral-dawood-ibrahim-news-attributed-to-paks-caretaker-pm-4696343",
+            "urlToImage": "https://c.ndtvimg.com/2022-05/otcfh25g_dawood-ibrahim_625x300_10_May_22.jpg",
+            "publishedAt": "2023-12-18T09:59:15Z",
+            "content": "Dawood Ibrahim allegedly planned the series of bomb blasts that rocked Mumbai (then Bombay) in 1993.\r\nInternet was abuzz with the news of the death of Dawood Ibrahim in Karachi. The report, circulate… [+1865 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Mallika Soni",
+            "title": "Videos: Heavy rains in Australia strands families on roofs, crocodiles seen - Hindustan Times",
+            "description": "Australia Floods: Authorities warned flood-hit Queensland residents to be wary of snakes and crocodiles in the floodwaters. | World News",
+            "url": "https://www.hindustantimes.com/world-news/australia-heavy-rainfall-australia-floods-australia-cyclone-jasper-updates-101702891946587.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/AUSTRALIA-WEATHER-FLOODS-1_1702893136124_1702893189485.jpg",
+            "publishedAt": "2023-12-18T09:54:30Z",
+            "content": "Australia's northern region witnessed its heaviest rain in decades as families were left stranded on rooftops overnight. Crocodiles swept into one town while the weather forecasters predicted more de… [+2146 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "Tech Desk",
+            "title": "Microsoft silently fixes annoying bug on Windows 11 OS - The Indian Express",
+            "description": "Microsoft has finally fixed a bug that caused Windows 11 File Explorer to randomly pop-up in the foreground when using other apps or playing games.",
+            "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-windows-11-file-explorer-randomly-popping-up-bug-fixed-9072786/",
+            "urlToImage": "https://images.indianexpress.com/2023/12/Windows-11-Microsoft-2-1.jpg",
+            "publishedAt": "2023-12-18T09:52:31Z",
+            "content": "Microsoft introduced tabbed File Explorer last year with the Windows 11 Moment 2 update. However, soon after users installed the update, many started complaining that the File Explorer window was ran… [+1299 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": "The Financial Express",
+            "title": "Share Market Live: Nifty trades below 21,450, Sensex almost down by 150 points; Media and Metal index gains over 1% - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/market/share-market-today-live-updates-sensex-nifty-rupee-vs-dollar-share-market-live-sensex-nifty-may-open-flat-gift-nifty-up-asian-markets-trade-mixed-december-18-2023-monday-3340879/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T09:33:29Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "NASA solves mystery of missing tomatoes aboard International Space Station - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/trending/trending-globally/nasa-solves-mystery-missing-tomatoes-aboard-international-space-station-9072807/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T09:24:33Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Pathi Venkata Thadhagath",
+            "title": "Karnataka health min advises senior citizens to wear masks, amid Covid surge - Hindustan Times",
+            "description": "Karnataka health minister assures state's preparedness as Covid cases increase in neighboring Kerala | Bengaluru News",
+            "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-health-minister-advices-senior-citizens-to-wear-masks-amid-covid-surge-in-kerala-101702891110505.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/Residents-of-Delhi-NCR-have-started-wearing-masks-_1700116756980_1702891253014.jpg",
+            "publishedAt": "2023-12-18T09:23:31Z",
+            "content": "Karnataka health minister Dinesh Gundu Rao suggested the senior citizens of the state with co-morbidities to wear masks as the number of Covid cases see a rise in neighboring Kerala. He also said tha… [+1518 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Gyanvapi Mosque Survey Report Submitted In Court By Archaeological Body - NDTV",
+            "description": "The Gyanvapi mosque survey report - in a sealed white cloth - was submitted to a district court in Uttar Pradesh's Varanasi Monday.",
+            "url": "https://www.ndtv.com/india-news/gyanvapi-mosque-survey-report-submitted-in-court-by-archaeological-body-4696081",
+            "urlToImage": "https://c.ndtvimg.com/2022-05/jefcejic_gyanvapi-mosque-varanasi-gyanvapi-masjid-varanasi-pti_625x300_14_May_22.jpg",
+            "publishedAt": "2023-12-18T09:13:22Z",
+            "content": "New Delhi: The Gyanvapi mosque 'scientific survey' report has been submitted to a court of the district judge in Uttar Pradesh's Varanasi by the Archaeological Survey of India. The report was submitt… [+2095 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Arti Singh",
+            "title": "Ebix Files for Chapter 11 Bankruptcy in Texas | Mint - Mint",
+            "description": "CEO Robin Raina is the largest shareholder in the company owning 13.9% stake; and as of 31 December, 2022, Ebix Inc. had outstanding borrowings of $639.3 mn",
+            "url": "https://www.livemint.com/companies/ebix-files-for-chapter-11-bankruptcy-in-texas-11702886194656.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/2-0-1309431910-robin-raina-0_1679981990059_1702890069912.jpg",
+            "publishedAt": "2023-12-18T09:04:17Z",
+            "content": "Indian-born American Robin Raina-led Ebix Inc. has filed for Chapter 11 bankruptcy in Northern District of Texas. \r\nOn 17 December, Nasdaq-listed Ebix Inc. and certain of its US subsidiaries filed a … [+3918 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "iPhone 16 could have a ‘Capture Button,’ here’s what it’ll do - Times of India",
+            "description": "Apple replaced the mute switch on the iPhone 15 Pro with the Action Button, which can be customised for various functions. Apple is working on bringin",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/iphone-16-could-have-a-capture-button-heres-what-itll-do/articleshow/106086157.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106086106,width-1070,height-580,imgsize-26310,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T08:53:43Z",
+            "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Video: Joe Biden Whisked Away After Car Crashes Into His Security Convoy - NDTV",
+            "description": "A car crashed into a vehicle attached to Joe Biden's motorcade on Sunday, with the security scare startling the US president as he left his campaign headquarters in Delaware.",
+            "url": "https://www.ndtv.com/world-news/car-collides-with-president-joe-bidens-security-motorcade-4694376",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/hilcn6i_joe-biden-_625x300_18_December_23.jpeg",
+            "publishedAt": "2023-12-18T07:45:00Z",
+            "content": "Joe Biden arrived safely at his family home without further incident.\r\nWilmington: A car crashed into a Secret Service vehicle attached to Joe Biden's motorcade on Sunday, with the security scare sta… [+1643 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "Aishwarya Rai Bachchan's reaction to Aaradhya's stage performance goes viral; netizens say, 'Better than all 'Archies' actors' - Times of India",
+            "description": "Actor couple Aishwarya Rai Bachchan and Abhishek Bachhchan's daughter Aaradhya Bachchan performed at her school's annual day and the videos and pictures from it have gone viral on social media. Videos of proud mommy Aishwarya smiling at Aaradhya's performance…",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/aishwarya-rai-bachchans-reaction-to-aaradhyas-stage-performance-goes-viral-netizens-say-better-than-all-archies-actors/videoshow/106082772.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106082772,imgsize-30346.cms",
+            "publishedAt": "2023-12-18T07:34:57Z",
+            "content": "Dec 18, 2023, 01:04PM ISTSource: etimes.inActor couple Aishwarya Rai Bachchan and Abhishek Bachhchan's daughter Aaradhya Bachchan performed at her school's annual day and the videos and pictures from… [+598 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Muthoot Microfin IPO booked 29%, retail portion 51% so far on launch - Moneycontrol",
+            "description": "Muthoot Microfin IPO: The price band of the offer, which will close on December 20, has been fixed at Rs 277-291 per share",
+            "url": "https://www.moneycontrol.com/news/business/ipo/muthoot-microfin-ipo-day-1-subscription-updates-rs-960-crore-issue-closes-on-20-december-11920221.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/11/stock-photo-double-exposure-of-graph-and-rows-of-coins-for-finance-and-business-concept-530884738-770x433.jpg",
+            "publishedAt": "2023-12-18T07:32:00Z",
+            "content": "The Muthoot Microfin IPO has been subscribed 45 percent so far on the first day of bidding, December 18, with bids coming in for 1.09 crore shares as against an issue size of 2.43 crore shares.\r\nReta… [+2740 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "In A First, AI-Based Tool Used To Translate PM Modi's Speech - NDTV",
+            "description": "Prime Minister Narendra Modi's speech at an event in Uttar Pradesh's Varanasi yesterday was translated in real-time using artificial intelligence (AI) technology.",
+            "url": "https://www.ndtv.com/india-news/in-a-first-ai-based-tool-used-to-translate-pm-modis-speech-4695483",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/t74bqm3g_pm-modi-varanasi-1200-_625x300_17_December_23.jpeg",
+            "publishedAt": "2023-12-18T07:12:01Z",
+            "content": "PM Modi said AI will help him reach out to more people\r\nNew Delhi/Varanasi: Prime Minister Narendra Modi's speech at an event in Uttar Pradesh's Varanasi yesterday was translated in real-time using a… [+1360 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Jagran.com"
+            },
+            "author": "Vikas Yadav",
+            "title": "Redmi 13C Alternative POCO C65 Flipkart Sale Is Now Live In India; Check Price, Bank Offers, Specifications - Jagran English",
+            "description": "POCO C65 Price: The core specifications of the budget handset are similar to the newly launched Redmi 13C 4G handset that is also available in India. If you plan to buy a budget 4G smartphone in India in the sub-Rs 10,000 bracket, here are the price, bank off…",
+            "url": "https://english.jagran.com/technology/poco-c65-price-in-india-flipkart-sale-now-live-bank-offers-exchange-discount-specifications-processor-camera-10121119",
+            "urlToImage": "https://imgeng.jagran.com/images/2023/dec/poco-c65-price-in-india-flipkart1702884195342.jpg",
+            "publishedAt": "2023-12-18T07:10:00Z",
+            "content": "POCO C65 Price In India: POCO, a Chinese smartphone maker, launched the POCO C65 handset in India for buyers. The device ships with a MediaTek Helio G85 chipset and a 5,000mAh battery. The core speci… [+1880 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "From Cummins to Brook, top cricketers anticipate big bids in IPL 2024 auction - IndiaTimes",
+            "description": "Cricket News: The Indian Premier League (IPL) auction will take place in Dubai on Tuesday, featuring top cricketers with bids starting from a base price of Rs 2 cro",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/from-cummins-to-brook-top-cricketers-anticipate-big-bids-in-ipl-2024-auction/articleshow/106079288.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106080036,width-1070,height-580,imgsize-57834,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T06:28:42Z",
+            "content": "Arshdeep, Avesh on fire as India crush Proteas in 1st ODI"
+          },
+          {
+            "source": {
+              "id": "al-jazeera-english",
+              "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "North Korea resumes missile launches in ‘threat to peace and stability’ - Al Jazeera English",
+            "description": "Pyongyang launched ‘ICBM-class’ missile on Monday, hours after a short-range weapon amid record year of testing.",
+            "url": "https://www.aljazeera.com/news/2023/12/17/south-korea-says-north-fired-short-range-ballistic-missile-into-sea",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/12/34867MD-highres-1702868909.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-12-18T05:26:15Z",
+            "content": "North Korea has resumed its record year of missile tests launching a long-range ballistic missile capable of hitting the United States hours after firing a short-range weapon in actions its neighbour… [+4956 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "gizmochina"
+            },
+            "author": "gizmochina",
+            "title": "Samsung Galaxy S24 Series Leak Sheds Light on Storage and Color Variants - gizmochina",
+            "description": null,
+            "url": "https://www.gizmochina.com/2023/12/18/samsung-galaxy-s24-series-leak-sheds-light-on-storage-and-color-variants/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:16:14Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dtnext.in"
+            },
+            "author": "IANS",
+            "title": "Flu infections in Japan soar to warning level at fastest pace in 10 years - DTNEXT",
+            "description": "The National Institute of Infectious Diseases estimated that the number of patients nationwide totaled around 1,118,000 during the seven-day period.",
+            "url": "https://www.dtnext.in/news/world/flu-infections-in-japan-soar-to-warning-level-at-fastest-pace-in-10-years-755178",
+            "urlToImage": "https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/12/18/787355-202312153095031.jpg",
+            "publishedAt": "2023-12-18T04:53:10Z",
+            "content": "TOKYO: The average number of influenza patients per regularly monitored medical institution in Japan had hit warning levels at the fastest pace in 10 years, the health ministry has announced.\r\nAbout … [+1220 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Chennai Weather Live Updates: Heavy rains lashes Tamil Nadu; School colleges shut today | Mint - Mint",
+            "description": "Chennai Weather Live Updates: After a stormy beginning with heavy rainfall in December, Tamil Nadu (and parts of Kerala) are set to receive another episode of heavy rainfall over next two days. According to IMD Chennai, parts of Tamil Nadu are likely to witne…",
+            "url": "https://www.livemint.com/news/india/chennai-weather-live-updates-tamil-nadu-news-kerala-heavy-rainfall-imd-weather-updates-orange-alert-rain-alert-11702804286062.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/Tamil_Nadu_rains_live_update_1702804322947_1702804323322.jpg",
+            "publishedAt": "2023-12-18T04:23:57Z",
+            "content": "Chennai Weather Live Updates: The Indian Meteorological Department (IMD) has predicted heavy to very heavy rainfall over Tamil Nadu and Kerala during the next 2-3 days. As per IMD Chennai, heavy to v… [+18806 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Samudrayaan mission: India's deep ocean mission- a challenge beyond space exploration - HT Tech",
+            "description": "Samudrayaan mission Indias deep ocean mission a challenge beyond space exploration Samudrayaan mission The Deep Ocean Mission DOM is an ambitious initiative by India to explore and exploit the depths of the ocean. Approved by the Union Cabinet in 2021 the mis…",
+            "url": "https://tech.hindustantimes.com/web-stories/samudrayaan-mission-indias-deep-ocean-mission-a-challenge-beyond-space-exploration-71702892334898.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/Samudrayaan_mission_1702892471550_1702892967183.jpg/",
+            "publishedAt": "2023-12-18T04:19:35Z",
+            "content": "Photo Credit: @KirenRijiju\r\n Samudrayaan mission: The Deep Ocean Mission (DOM) is an ambitious initiative by India to explore and exploit the depths of the ocean. Approved by the Union Cabinet in 202… [+2435 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BusinessLine"
+            },
+            "author": "Madhu Balaji",
+            "title": "IRB Infrastructure receives ₹1,683 cr contract from NHAI - BusinessLine",
+            "description": "IRB Infrastructure Trust receives ₹1,683-crore contract from NHAI for two projects, increasing IRB's share in North-South connectivity to 12%.",
+            "url": "https://www.thehindubusinessline.com/markets/irb-infrastructure-receives-1683-cr-contract-from-nhai/article67649571.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/todays-paper/tp-others/tp-states/rzhdvn/article66757456.ece/alternates/LANDSCAPE_1200/NHAI-to-develop%2BGQVB4NFAV.4.jpg.jpg",
+            "publishedAt": "2023-12-18T04:18:33Z",
+            "content": "IRB Infrastructure Trust, private InvIT of IRB Infrastructure Developers Ltd, has received 1,683-crore contract from the National Highways Authority of India (NHAI) for TOT-13 comprising Gwalior-Jhan… [+952 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Israel Hostages Killed By Own Army Put Out 'SOS' Sign With Leftover Food - NDTV",
+            "description": "Signs reading \"S.O.S.\" and \"help, three hostages\" in Hebrew were found on the walls of a Gaza building where three Israeli hostages had been hiding before they were mistakenly killed, Israel's military said on Sunday.",
+            "url": "https://www.ndtv.com/world-news/help-3-hostages-sos-sign-found-on-killed-hostages-hideout-israel-4694660",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/c0ghrmj8_protest-on-israeli-hostages-killing_625x300_18_December_23.jpeg?ver-20231203.06",
+            "publishedAt": "2023-12-18T04:05:21Z",
+            "content": "More than 100 Israeli hostages remain in Gaza.\r\nJerusalem: Signs reading \"SOS.\" and \"help, three hostages\" in Hebrew were found on the walls of a Gaza building where three Israeli hostages had been h… [+2153 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "Salaar vs Dunki advance box office: Prabhas-starrer trails behind Shah Rukh Khan’s film, sells 150000 tickets - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/entertainment/telugu/salaar-vs-dunki-advance-box-office-prabhas-starrer-trails-behind-shah-rukh-khans-film-9072390/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T03:43:28Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "On Nathan Lyon Completing 500 Test Wickets, Ravichandran Ashwin's Massive 'GOAT' Reaction - NDTV Sports",
+            "description": "Director Comey says the probe into last year's US election would assess if crimes were committed.",
+            "url": "https://www.bbc.com/news/world-us-canada-39324587",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/44EC/production/_95244671_mediaitem95244670.jpg",
+            "publishedAt": "2023-12-18T03:22:44Z",
+            "content": "Media caption, 'Putin hates Clinton' and other things the FBI learned about Russia\r\nFBI director James Comey has confirmed for the first time that the FBI is investigating alleged Russian interferenc… [+5942 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Delhi's air quality moves from 'very poor' to 'poor' category, AQI stands at 296 | Mint - Mint",
+            "description": "The AQI at Anand Vihar was not given, it stated, insufficient data for computing AQI.",
+            "url": "https://www.livemint.com/news/india/delhi-aqi-air-quality-temperature-gurugram-noida-rk-puram-central-up-haryana-category-aqi-pollution-cold-news-latest-11702862184042.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/20231207-DLI-PK-MN-Morning-Weather-013-0_1702866000656_1702866034879.jpg",
+            "publishedAt": "2023-12-18T02:38:28Z",
+            "content": "Delhi woke up to foggy conditions on Monday morning as the air quality in the national capital persisted in the 'poor' category, according to the System of Air Quality and Weather Forecasting And Res… [+2416 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Bigg Boss 17: Munawar Faruqui goes through a mental breakdown after Ayesha Khan accuses him of double dat - Times of India",
+            "description": "Ayesha confronts Munawar in the Bigg Boss Archive room about his relationship with gf Nazila and accuses him of double dating. Munawar apologizes for",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-17-munawar-faruqui-goes-through-a-mental-breakdown-after-ayesha-khan-accuses-him-of-double-dating-says-if-bigg-boss-opens-the-door-ill-walk-out/articleshow/106069498.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106069495,width-1070,height-580,imgsize-22632,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T02:30:00Z",
+            "content": "Ajwain garlic oil: Perfect remedy for cough, cold and chest congestion"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Statetimes.in"
+            },
+            "author": "statetimes_editor",
+            "title": "Preventing heart disease by healthy heart diet-Cheap and non pharmacological modality: Dr Sushil - State Times",
+            "description": "STATE TIMES NEWSJAMMU: To strengthen their campaign further to aware the common masses about the ill effects of Cardiovascular Diseases, Head of Department (HoD) of Cardiology, Dr Sushil Sharma held a day long Cardiac awareness-cum-health check up ca",
+            "url": "https://statetimes.in/preventing-heart-disease-by-healthy-heart-diet-cheap-and-non-pharmacological-modality-dr-sushil/",
+            "urlToImage": "https://statetimes.in/wp-content/uploads/2023/12/Dr-Sushilfff-1.jpg",
+            "publishedAt": "2023-12-18T02:12:55Z",
+            "content": "STATE TIMES NEWS\r\nJAMMU: To strengthen their campaign further to aware the common masses about the ill effects of Cardiovascular Diseases, Head of Department (HoD) of Cardiology, Dr Sushil Sharma hel… [+3722 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/lifestylestaff/",
+            "title": "Weight Loss With Intermittent Fasting: How to Stay on Track on With 10-Hour Eating Window? 5 Tips - India.com",
+            "description": "Intermittent fasting is basically setting time window for your meals. It helps with weight loss and here is how one maybe able to stay on track and maintain the regime.",
+            "url": "https://www.india.com/lifestyle/weight-loss-with-intermittent-fasting-how-to-stay-on-track-on-with-10-hour-eating-window-5-tips-6593481/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/intermittent-fasting-weight-los.jpg",
+            "publishedAt": "2023-12-18T01:57:33Z",
+            "content": "Intermittent fasting is basically setting time window for your meals. It helps with weight loss and here is how one maybe able to stay on track and maintain the regime. \r\nWeight Loss With Intermitten… [+2967 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Jigar Shah",
+            "title": "Prashanth Neel : Courted Prabhas for 4 months for Salaar - IndiaTimes",
+            "description": "Prashanth Neel, renowned for the KGF franchise, discusses his film \"Salaar\" with Prabhas, emphasizing that violence in the movie is emotionally driven",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prashanth-neel-courted-prabhas-for-4-months-for-salaar/articleshow/106072502.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106072496,width-1070,height-580,imgsize-50218,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T01:55:32Z",
+            "content": "Salaar | Song - Sooraj Hi Chhaon Banke (Lyrical)"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "PM Modi to flag off 2nd Vande Bharat train on Varanasi-New Delhi route | 10 things to know | Mint - Mint",
+            "description": "Varanasi-New Delhi Vande Bharat train: The train has superior passenger amenities such as onboard Wi-Fi infotainment, GPS-based passenger information system, plush interiors, bio-vacuum toilets, among other features.",
+            "url": "https://www.livemint.com/news/pm-modi-to-flag-off-2nd-vande-bharat-train-on-varanasi-new-delhi-route-10-things-to-know-11702861936588.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/orange_vande_bharat_1692413227913_1702864007970.jpg",
+            "publishedAt": "2023-12-18T01:52:06Z",
+            "content": "Vande Bharat Express Trains: Prime Minister Narendra Modi will flag off the second Vande Bharat Express train running between Varanasi and New Delhi today i.e. on 18 December. The train will be flagg… [+3760 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Deccan Chronicle"
+            },
+            "author": "DC Correspondent",
+            "title": "Revanth to Unearth All Data on Kaleshwaram - Deccan Chronicle",
+            "description": "Revanth to Unearth All Data on Kaleshwaram",
+            "url": "https://www.deccanchronicle.com/nation/in-other-news/181223/revanth-to-unearth-all-data-on-kaleshwaram.html",
+            "urlToImage": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-r6qji1vtc7n4u0821p1vto4bd7-20231218011908.Medi.jpeg",
+            "publishedAt": "2023-12-17T19:02:30Z",
+            "content": "According to an official press release, Revanth Reddy also wanted to know the full details pertaining to the irrigation projects built after 2014, including details of their design and the expenditur… [+51 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "Zee News Desk",
+            "title": "Highlights | IND Vs SA, 1st ODI Cricket Scorecard: Sai Sudharsan Scores Fifty As India Beat South Af - Zee News",
+            "description": "Highlights | IND Vs SA, 1st ODI Cricket Scorecard: Sai Sudharsan Scores Fifty As India Beat South Af",
+            "url": "https://zeenews.india.com/cricket/highlights/live-cricket-score-ind-vs-sa-1st-odi-match-cricket-match-today-india-vs-south-africa-cricket-live-score-updates-new-wanderers-stadium-johannesburg-kl-rahul-aiden-markram-117-runs-2nd-innings-target-for-ind-2699695",
+            "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337625-nz-7.png",
+            "publishedAt": "2023-12-17T18:38:40Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Sai Sudharsan, bought by Gujarat Titans for ₹20 lakh, shines in his ODI debut | Mint - Mint",
+            "description": "He made the chase look like a cakewalk. Sai Sudharsanreached his maiden ODI fifty in 41 balls, with eight fours in his debut ODI match",
+            "url": "https://www.livemint.com/sports/cricket-news/meet-sai-sudharsan-gts-rising-star-who-made-odi-debut-for-india-in-series-opener-vs-south-africa-11702818086744.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/ANI-20231217228-0_1702818086266_1702818175291.jpg",
+            "publishedAt": "2023-12-17T14:57:51Z",
+            "content": "Sai Sudharsan was acquired by Gujarat Titans for his base price of Rs20 lakh. Southpaw Sai Sudharsan burst onto the scene in the local domestic T20 league in Chennai with his nonchalant batting amass… [+5150 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Vaibhav Tiwari",
+            "title": "On PM Modi's 'probe not debate' remark, Jairam Ramesh takes 'running away' dig - Hindustan Times",
+            "description": "In his first reaction, PM Modi told a national daily that there was a need for a probe into the incident, not a debate. | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/congress-running-away-to-save-jab-on-pm-narendra-modis-first-remark-on-lok-sabha-security-breach-101702810863683.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/ANI-20231215159-0_1702811005202_1702811029757.jpg",
+            "publishedAt": "2023-12-17T11:05:40Z",
+            "content": "New Delhi: Congress general secretary Jairam Ramesh on Sunday hinted that the Opposition's impasse with the government over the Lok Sabha security breach will continue until home minister Amit Shah m… [+2442 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Herbal remedies for relief from seasonal flu - IndiaTimes",
+            "description": "While herbal remedies are a pure cure for seasonal flu, they offer a natural way to fight influenza or flu. Try these remedies to get relief from influenza as  they might be enough to treat it.",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/herbal-remedies-for-relief-from-seasonal-flu/photostory/106049207.cms",
+            "urlToImage": "https://static.toiimg.com/photo/106049215.cms",
+            "publishedAt": "2023-12-17T10:30:00Z",
+            "content": "A hot herbal tea drink, commonly referred to as kadha can be very effective in offering relief to your throat and sinuses. To make your herbal tea healthy as well as tasty, you can sweeten it with ho… [+219 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "YouTube"
+            },
+            "author": null,
+            "title": "Scientists sound alarm on global consequences as Antarctic ice melt accelerates - AP Archive",
+            "description": "(12 Dec 2023) RESTRICTION SUMMARY: ++MUSIC CLEARED FOR EDITORIAL USE++ASSOCIATED PRESSIsabel Riquelme Islet, Antarctic Peninsula - 24 November 20231. Drone s...",
+            "url": "https://www.youtube.com/watch?v=flFwlftFBIo",
+            "urlToImage": "https://i.ytimg.com/vi/flFwlftFBIo/maxresdefault.jpg",
+            "publishedAt": "2023-12-17T04:02:34Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Vicky Stavropoulou",
+            "title": "How will Aditya-L1 not burn? - CityLife",
+            "description": "How will Aditya-L1 not burn? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/how-will-aditya-l1-not-burn/533872/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_6444ced6-17ee-45d7-8449-174bf1d49b40.jpeg",
+            "publishedAt": "2023-12-16T15:32:15Z",
+            "content": "Summary:The Aditya-L1 mission, India’s first solar mission, is set to launch in the near future. One of the major concerns surrounding this mission is how the spacecraft will not burn when it gets cl… [+3412 chars]"
+          }
+        ]
+      },
+      {
+        "sports": [
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Watch: How MI beat the odds to sign Rohit Sharma at IPL auction - Hindustan Times",
+            "description": "Rohit Sharma was Mumbai Indians' record signing when the franchise roped in the Indian batter for $2,000,000 (INR 13 crore) at the IPL auction. | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/mi-signed-rohit-sharma-ipl-2011-auction-explained-overprized-kkr-csk-snub-watch-viral-video-usd-2-million-mumbai-indians-101702870727923.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/MixCollage-18-Dec-2023-02-15-PM-3062_1702891737601_1702891743090.jpg",
+            "publishedAt": "2023-12-18T09:30:21Z",
+            "content": "Rohit Sharma was already an Indian Premier League (IPL) winner before he joined Mumbai Indians (MI) for the 2011 edition of the cash-rich league. The premier batter was roped in by Mumbai Indians for… [+2659 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "Rajat Patidar or Rinku Singh - India face batting conundrum ahead of second ODI against South Africa - IndiaTimes",
+            "description": "Cricket News: Team India faces a selection dilemma over the batting spot for the second ODI against South Africa, with left-hander Rinku Singh and right-hander Raja",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/india-in-south-africa/rajat-patidar-or-rinku-singh-india-face-batting-conundrum-ahead-of-second-odi-against-south-africa/articleshow/106086107.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106086286,width-1070,height-580,imgsize-67864,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T08:58:54Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Memes galore as driver shuts door just as Ruturaj Gaikwad is about to enter bus - Hindustan Times",
+            "description": "There was no shortage of memes after a hilarious incident involving Ruturaj Gaikwad and the Indian team bus emerged on the internet. | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/watch-memes-flood-the-internet-as-driver-shuts-door-just-when-ruturaj-gaikwad-is-about-to-enter-bus-101702886303253.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/gaikwad-bus_1702888023736_1702888028750.jpg",
+            "publishedAt": "2023-12-18T08:13:30Z",
+            "content": "Ruturaj Gaikwad was in for a rude surprise when the India batter was denied entry into the team bus ahead of India's eight-wicket-win over South Africa in the 1st ODI at Johannesburg on Sunday. Gaikw… [+1850 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "'We have got a strong core...': RCB reveal their strategy ahead of IPL auction - IndiaTimes",
+            "description": "Cricket News: Royal Challengers Bangalore are focusing on acquiring additional bowling options to support pace leader Mohammad Siraj during the upcoming IPL auction",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/we-have-got-a-strong-core-rcb-reveal-their-strategy-ahead-of-ipl-auction/articleshow/106083668.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106083762,width-1070,height-580,imgsize-72418,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T08:09:33Z",
+            "content": "Arshdeep, Avesh on fire as India crush Proteas in 1st ODI"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Managing Madrid"
+            },
+            "author": "Lucas Navarrete",
+            "title": "Injury update: Real Madrid confirm Alaba's ACL tear - Managing Madrid",
+            "description": "Devastating news for the defender.",
+            "url": "https://www.managingmadrid.com/2023/12/18/24005893/alaba-knee-injury-2023-news",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/_IYfet8aXhPaEn8E1hIYwPlCips=/0x169:3000x1740/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25170719/1863157180.jpg",
+            "publishedAt": "2023-12-18T07:54:29Z",
+            "content": "Real Madrid have published a medical report confirming that defender David Alaba suffered a torn ACL during Sunday's match against Villarreal. \r\nFollowing tests carried out on our player David Alaba,… [+538 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sydneythunder.com.au"
+            },
+            "author": "sydney-thunder",
+            "title": "Sydney Thunder share 14-player squad in gear up to Adelaide Strikers match - Sydney Thunder",
+            "description": "Enjoy the fun and excitement of the KFC T20 Big Bash League with international stars playing alongside Australia’s best home grown talent.",
+            "url": "https://www.sydneythunder.com.au/news/3827988/sydney-thunder-share-14-player-squad-in-gear-up-to-adelaide-strikers-match",
+            "urlToImage": "https://resources.sydney-thunder.pulselive.com/sydney-thunder/photo/2023/12/18/482a733d-a324-409c-a153-1a0412a2805d/Web.png",
+            "publishedAt": "2023-12-18T07:01:06Z",
+            "content": "Sydney Thunder will face Adelaide Strikers at Adelaide Oval tomorrow at 7:15PM ACDT. \r\nThunder lost out by 20 runs to Brisbane Heat in their first game of the competition last week, whereas Strikers … [+816 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "‘Hope Hardik does not…’: Manjrekar's honest take on Rohit's replacement at MI - Hindustan Times",
+            "description": "Sanjay Manjrekar has shared his views about Mumbai Indians (MI) replacing Rohit Sharma with Hardik Pandya as the captain of the IPL franchise.  | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/hope-hardik-pandya-does-not-sanjay-manjrekar-honest-take-mi-announce-rohit-sharma-successor-ipl-2024-mumbai-indians-101702879779870.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/MixCollage-18-Dec-2023-11-42-AM-1472_1702882555542_1702882564337.jpg",
+            "publishedAt": "2023-12-18T06:57:17Z",
+            "content": "Days before the mini-auction of the Indian Premier League (IPL) for season 2024, record-time winners Mumbai Indians (MI) announced the successor of captain Rohit Sharma. All-rounder Hardik Pandya was… [+2155 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "Amitabh Bachchan joins Indian Street Premier League as Mumbai team owner - IndiaTimes",
+            "description": "Cricket News: Amitabh Bachchan has signed a partnership with the Indian Street Premier League (ISPL), the country's first T10 cricket tournament, as the owner of th",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/amitabh-bachchan-joins-indian-street-premier-league-as-mumbai-team-owner/articleshow/106080986.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106081125,width-1070,height-580,imgsize-29546,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T06:51:01Z",
+            "content": "After Shah Rukh Khan, Akshay Kumar becomes a proud owner of a cricket team; details inside"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "From Cummins to Brook, top cricketers anticipate big bids in IPL 2024 auction - IndiaTimes",
+            "description": "Cricket News: The Indian Premier League (IPL) auction will take place in Dubai on Tuesday, featuring top cricketers with bids starting from a base price of Rs 2 cro",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/from-cummins-to-brook-top-cricketers-anticipate-big-bids-in-ipl-2024-auction/articleshow/106079288.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106080036,width-1070,height-580,imgsize-57834,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T06:28:42Z",
+            "content": "Arshdeep, Avesh on fire as India crush Proteas in 1st ODI"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "There's no doubt Pakistan can beat Australia in Australia: Hafeez | Cricbuzz.com - Cricbuzz - Cricbuzz",
+            "description": "Pakistan suffered a humbling defeat in Perth but Team Director Mohammad Hafeez reckons they have the talent to win a Test in Australia",
+            "url": "https://www.cricbuzz.com/cricket-news/128854/theres-no-doubt-pakistan-can-beat-australia-in-australia-hafeez",
+            "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c366298/shan-masoods-side-capitulated.jpg",
+            "publishedAt": "2023-12-18T05:28:28Z",
+            "content": "Shan Masood's side capitulated on a crumbling Day 4 pitch in Perth. © AFP\r\nDespite the humbling Pakistan were handed in Perth, team director Mohammad Hafeez reckoned they have the talent to beat Aust… [+3560 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "Srimoyee Chowdhury",
+            "title": "Viral video: Even 2 snakes couldn't stop this Australian man from playing golf - India Today",
+            "description": "A video taken in Australia's Brisbane shows a man playing golf casually beside two huge snakes.",
+            "url": "https://www.indiatoday.in/trending-news/story/australian-man-plays-golf-casually-as-two-snakes-fight-beside-him-2477257-2023-12-18",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/snake-181834559-16x9_0.jpg?VersionId=ETFE7hxTf4sJMhLtplUR7fsQRCDfNBre",
+            "publishedAt": "2023-12-18T05:20:17Z",
+            "content": "A golfer has become the subject of a viral video for his calm demeanour in the presence of two snakes on a Brisbane golf course. The clip captures the man continuing his game of golf, unbothered by t… [+1185 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Adelaidestrikers.com.au"
+            },
+            "author": "adelaide-strikers",
+            "title": "Leading Premier Cricket all-rounder joins Strikers - Adelaide Strikers",
+            "description": "Take your family to an Adelaide Strikers match and enjoy an affordable, fun and entertaining night out during the school holidays.",
+            "url": "https://www.adelaidestrikers.com.au/news/3827946/leading-premier-cricket-all-rounder-joins-strikers",
+            "urlToImage": "https://resources.adelaide-strikers.pulselive.com/adelaide-strikers/photo/2023/12/18/d13e641a-24a7-467b-8f9d-17ae7af95ba1/Kann-Signing-1200x675.jpg",
+            "publishedAt": "2023-12-18T03:41:51Z",
+            "content": "After being the leading run-scorer and leading wicket-taker in SACA Premier Crickets West End Twenty20 Cup this season, Northern Districts all-rounder Josh Kann has been signed as a local replacement… [+1850 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "On Nathan Lyon Completing 500 Test Wickets, Ravichandran Ashwin's Massive 'GOAT' Reaction - NDTV Sports",
+            "description": "Director Comey says the probe into last year's US election would assess if crimes were committed.",
+            "url": "https://www.bbc.com/news/world-us-canada-39324587",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/44EC/production/_95244671_mediaitem95244670.jpg",
+            "publishedAt": "2023-12-18T03:22:44Z",
+            "content": "Media caption, 'Putin hates Clinton' and other things the FBI learned about Russia\r\nFBI director James Comey has confirmed for the first time that the FBI is investigating alleged Russian interferenc… [+5942 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "ESPNcricinfo staff",
+            "title": "Jamieson rested for remainder of Bangladesh ODI series - ESPNcricinfo",
+            "description": "Finn Allen, meanwhile, will miss the second ODI to do duty for Auckland Aces in the Super Smash",
+            "url": "https://www.espncricinfo.com/story/nz-vs-ban-kyle-jamieson-rested-for-remainder-of-bangladesh-odi-series-1413337",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/370500/370556.6.jpg",
+            "publishedAt": "2023-12-18T03:08:19Z",
+            "content": "NewsFinn Allen, meanwhile, will miss the second ODI to do duty for Auckland Aces in the Super Smash"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bavarian Football Works"
+            },
+            "author": "TomAdams71",
+            "title": "Thomas Müller delighted to have played a crucial role in Bayern Munich’s 3-0 win over Stuttgart - Bavarian Football Works",
+            "description": "Thomas Müller was back in the starting lineup and he was as effective as ever.",
+            "url": "https://www.bavarianfootballworks.com/2023/12/18/24005334/bayern-munich-vfb-stuttgart-thomas-muller-harry-kane-kim-bundesliga-win-reaction-frankfurt-response",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/UU7cjGsp2WNRrSrvjQNdUuivD6g=/0x0:5125x2683/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25169654/1855949258.jpg",
+            "publishedAt": "2023-12-18T02:00:00Z",
+            "content": "Bayern Munich put the residual hangover from last weekends crushing 5-1 defeat at Eintracht Frankfurt to bed with their complete, dominant performance in beating VfB Stuttgart 3-0 in front of their h… [+2367 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "Alex Malcolm",
+            "title": "Morris released from Australia Test squad to play BBL - ESPNcricinfo",
+            "description": "There has been some tension about availability of fringe Australia players for the tournament",
+            "url": "https://www.espncricinfo.com/story/australia-news-lance-morris-released-from-test-squad-to-play-bbl-for-perth-scorchers-1413334",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/352700/352795.6.jpg",
+            "publishedAt": "2023-12-18T01:05:11Z",
+            "content": "NewsThere has been some tension about availability of fringe Australia players for the tournament\r\nLance Morris will have a chance to return to Perth Scorchers  •  Getty Images\r\nLance Morris has been… [+2202 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "YouTube"
+            },
+            "author": null,
+            "title": "Inter Milan may be BETTER than last season! 😮 - Gab Marcotti | ESPN FC - ESPN UK",
+            "description": null,
+            "url": "https://www.youtube.com/watch?v=vfDkdE5qy0A",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T23:38:33Z",
+            "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Goal.com"
+            },
+            "author": "Alex Brotherton",
+            "title": "Revealed: Virgil van Dijk fumes with Andre Onana in the tunnel over alleged time wasting as Man Utd goalkeeper winds up Liverpool captain with hilarious response - GOAL English",
+            "description": "Andre Onana gave a hilarious reponse when Virgil van Dijk accused the goalkeeper of time-wasting during Man Utd's 0-0 draw with Liverpool.",
+            "url": "https://www.goal.com/en-in/lists/man-utd-andre-onana-liverpool-van-dijk-premier-league/blt630cfe534537c877",
+            "urlToImage": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt21e142a63f6d7eac/656863b2f6c6c8040a2fd969/GOAL_-_Blank_WEB_-_Facebook.jpg",
+            "publishedAt": "2023-12-17T22:49:18Z",
+            "content": "Andre Onana gave a hilarious reponse when Virgil van Dijk accused the goalkeeper of time-wasting during Man Utd's 0-0 draw with Liverpool.\r\nArticle continues below\r\nArticle continues below\r\nArticle c… [+154 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sporting News"
+            },
+            "author": null,
+            "title": "PSG player ratings vs Lille: Kylian Mbappe can’t spare his side’s blushes from the spot as Jonathan David scores last-gasp equaliser to extend 15-game unbeaten run - GOAL English",
+            "description": "Get all the latest Soccer news, highlights, scores, schedules, standings and more from Sporting News Canada.",
+            "url": "https://www.sportingnews.com/ca/soccer",
+            "urlToImage": "https://static.sportingnews.com/1.40.1.1/themes/custom/tsn/logo.jpg",
+            "publishedAt": "2023-12-17T22:02:46Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "Zee News Desk",
+            "title": "Highlights | IND Vs SA, 1st ODI Cricket Scorecard: Sai Sudharsan Scores Fifty As India Beat South Af - Zee News",
+            "description": "Highlights | IND Vs SA, 1st ODI Cricket Scorecard: Sai Sudharsan Scores Fifty As India Beat South Af",
+            "url": "https://zeenews.india.com/cricket/highlights/live-cricket-score-ind-vs-sa-1st-odi-match-cricket-match-today-india-vs-south-africa-cricket-live-score-updates-new-wanderers-stadium-johannesburg-kl-rahul-aiden-markram-117-runs-2nd-innings-target-for-ind-2699695",
+            "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/17/1337625-nz-7.png",
+            "publishedAt": "2023-12-17T18:38:40Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "YouTube"
+            },
+            "author": null,
+            "title": "WORK & EFFORT IN TRAINING SESSION | FC Barcelona training 🔵🔴 - FC Barcelona",
+            "description": "After picking up a point in Mestalla on Saturday, the blaugrana squad carry out a typical post game workout. On Sunday the available first team players took ...",
+            "url": "https://www.youtube.com/watch?v=-pVL6bnXAMU",
+            "urlToImage": "https://i.ytimg.com/vi/-pVL6bnXAMU/maxresdefault.jpg",
+            "publishedAt": "2023-12-17T18:22:57Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ESPN India"
+            },
+            "author": "James Olley",
+            "title": "Classy Arsenal end bad run vs. Brighton to capitalise on Man City's stumble in title race - ESPN India",
+            "description": "Arsenal's title hopes rest on improving on last season, and so Sunday's 2-0 win over Brighton is an important step in that search for marginal gains.",
+            "url": "https://www.espn.in/football/story/_/id/39132920/arsenal-end-bad-run-vs-brighton-capitalise-man-city-stumble-premier-league-title-race",
+            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1217%2Fr1267487_1296x729_16%2D9.jpg",
+            "publishedAt": "2023-12-17T17:30:00Z",
+            "content": "LONDON -- Arsenal's Premier League title hopes rest on finding improvements from last season, so Sunday's 2-0 win over Brighton &amp; Hove Albion is an important step in that search for marginal gain… [+5591 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Gametube",
+            "title": "BMPS 2023 Grand Finals: Winners, prize pool distribution, MVP, overall standings, and more - Sportskeeda",
+            "description": "Blind Esports has been crowned as the champions of BMPS 2023 after the Manya-led superstar roster single-handedly dominated the three-day Grand Finals.",
+            "url": "https://www.sportskeeda.com/bgmi/news-bmps-2023-grand-finals-winners-prize-pool-distribution-mvp-overall-standings",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/894b9-17028316882275-1920.jpg",
+            "publishedAt": "2023-12-17T17:23:48Z",
+            "content": "Blind Esports has been crowned as the champions of BMPS 2023 after the Manya-led superstar roster single-handedly dominated the three-day Grand Finals. They came out victorious in three out of 18 mat… [+2461 chars]"
+          },
+          {
+            "source": {
+              "id": "the-hindu",
+              "name": "The Hindu"
+            },
+            "author": "Sportstar",
+            "title": "PKL 2023, Match Day 15 Highlights: Mumba secures dominant 46-33 win over Thalaivas; Jaipur comes back to win 29-28 vs Patna Pirates - Sportstar",
+            "description": null,
+            "url": "https://sportstar.thehindu.com/kabaddi/pro-kabaddi-league-live-score-pkl-10-updates-streaming-patna-vs-jaipur-mumba-v-thalaivas-highlights-news/article67647789.ece",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T17:03:45Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Venkatesh Ravichandran",
+            "title": "\"Don't see Mahendra Singh Dhoni changing his opening combination\" - Sanjay Manjrekar on why CSK wouldn't plunge for Rachin Ravindra at the IPL auction - Sportskeeda",
+            "description": "Former Indian batter Sanjay Manjrekar reckons the Chennai Super Kings (CSK) won't invest in the New Zealand batter Rachin Ravindra in the upcoming IPL 2024 auction on December 19.",
+            "url": "https://www.sportskeeda.com/cricket/news-don-t-see-mahendra-singh-dhoni-changing-opening-combination-sanjay-manjrekar-csk-plunge-rachin-ravindra-ipl-auction",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/3443e-17028291502585-1920.jpg",
+            "publishedAt": "2023-12-17T17:03:23Z",
+            "content": "Former Indian batter Sanjay Manjrekar reckons the Chennai Super Kings (CSK) won't invest in the New Zealand batter Rachin Ravindra in the upcoming IPL 2024 auction on December 19.\r\nDespite being pric… [+2580 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Sandip Sikdar",
+            "title": "What Lucknow Super Giants need to do at IPL 2024 Auction - Hindustan Times",
+            "description": "Having made the playoffs in their first two IPL seasons, their fresh auction strategy is also likely to have the imprint of new coach Justin Langer | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/strategic-buys-will-be-key-for-well-balanced-lsg-what-lucknow-super-giants-need-to-do-at-ipl-2024-auction-101702827697566.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/PTI04-14-2023-000290A-0_1684642735196_1702827856121.jpg",
+            "publishedAt": "2023-12-17T15:48:00Z",
+            "content": "In its two years of existence, Lucknow Super Giants have already made a mark in the Indian Premier League (IPL). One of the two new outfits with Gujarat Titans, the KL Rahul-led side made the playoff… [+3741 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ESPN India"
+            },
+            "author": null,
+            "title": "29-day FIFA Club World Cup in U.S. set for '25 - ESPN India",
+            "description": "FIFA's revamped Club World Cup planned for 2025 and set to feature 32 teams will be played from June 15 to July 13 in the U.S., Gianni Infantino confirmed on Sunday.",
+            "url": "https://www.espn.in/football/story/_/id/39132546/fifa-announces-29-day-schedule-2025-club-world-cup-us",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1217%2Fr1267485_1296x729_16%2D9.jpg",
+            "publishedAt": "2023-12-17T15:33:00Z",
+            "content": "FIFA's revamped Club World Cup planned for 2025 and set to feature 32 teams will be played from June 15 to July 13, while a new Intercontinental Cup will be played annually starting next year, Gianni… [+1772 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Gavaskar's verdict on Rohit-led India's chances of maiden Test series win in SA - Hindustan Times",
+            "description": "India are slated to play two Test matches against South Africa following, starting with the Boxing Day game on December 26 | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/they-missed-out-big-time-in-2018-but-now-if-they-can-sunil-gavaskar-on-india-chances-of-maiden-test-series-win-in-sa-101702822083660.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/final_friontier_1702823477507_1702823483396.jpg",
+            "publishedAt": "2023-12-17T15:04:35Z",
+            "content": "The era of Sunil Gavaskar never travelled to South Africa for a Test series. But he sure has watched Indian teams, under various captains, and umpteen match-winners, travel to the Rainbow nation over… [+2679 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "Danyal Rasool",
+            "title": "Pakistan arrange a two-day practice game before second Test - ESPNcricinfo",
+            "description": "This wasn't part of the original schedule, but concerns around lack of match practice led to Pakistan requesting for an extra game",
+            "url": "https://www.espncricinfo.com/story/pakistan-to-play-a-two-day-practice-game-before-second-test-1413313",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/372700/372715.6.jpg",
+            "publishedAt": "2023-12-17T15:03:24Z",
+            "content": "NewsThis wasn't part of the original schedule, but concerns around lack of match practice led to Pakistan requesting for an extra game\r\nDanyal Rasool is ESPNcricinfo's Pakistan correspondent. @Danny6… [+3 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "BCCI to incentivise international appearances for uncapped IPL players | Cricbuzz.com - Cricbuzz - Cricbuzz",
+            "description": "An uncapped player's league fee will no longer be constant for three years if he breaks through in international cricket",
+            "url": "https://www.cricbuzz.com/cricket-news/128850/bcci-to-incentivise-international-appearances-for-uncapped-ipl-players",
+            "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c366251/an-uncapped-players-league-fe.jpg",
+            "publishedAt": "2023-12-17T15:00:38Z",
+            "content": "An uncapped player's league fee will no longer be constant for three years if he breaks through in international cricket © BCCI\r\nThe BCCI are set to announce an incentive plan for uncapped players ah… [+3063 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Sai Sudharsan, bought by Gujarat Titans for ₹20 lakh, shines in his ODI debut | Mint - Mint",
+            "description": "He made the chase look like a cakewalk. Sai Sudharsanreached his maiden ODI fifty in 41 balls, with eight fours in his debut ODI match",
+            "url": "https://www.livemint.com/sports/cricket-news/meet-sai-sudharsan-gts-rising-star-who-made-odi-debut-for-india-in-series-opener-vs-south-africa-11702818086744.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/ANI-20231217228-0_1702818086266_1702818175291.jpg",
+            "publishedAt": "2023-12-17T14:57:51Z",
+            "content": "Sai Sudharsan was acquired by Gujarat Titans for his base price of Rs20 lakh. Southpaw Sai Sudharsan burst onto the scene in the local domestic T20 league in Chennai with his nonchalant batting amass… [+5150 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Chessbase.in"
+            },
+            "author": "Shahid Ahmed",
+            "title": "Chennai Grand Masters 2023 R3: Arjun Erigaisi pulverizes Predke - ChessBase India",
+            "description": "Arjun Erigaisi scored his first win of the event against...",
+            "url": "https://www.chessbase.in/news/Chennai-Grand-Masters-2023-Round-3-report",
+            "urlToImage": "https://cbin.b-cdn.net/img/AR/Arjun%20Erigaisi_R80P7_1000x750.jpeg?size=800",
+            "publishedAt": "2023-12-17T14:31:57Z",
+            "content": "Arjun Erigaisi scored his first win of the event\r\nChennai Grand Masters 2023 Official logo\r\nHarikrishna - Eljanov: 0.5-0.5\r\nThe sole rated game played earlier this year between GM Pentala Harikirshna… [+4532 chars]"
+          },
+          {
+            "source": {
+              "id": "the-hindu",
+              "name": "The Hindu"
+            },
+            "author": "Sportstar",
+            "title": "India should think of hosting few matches of 2034 World Cup in Saudi: AIFF president to members - Sportstar",
+            "description": null,
+            "url": "https://sportstar.thehindu.com/football/indian-football/india-hosting-2034-fifa-world-cup-matches-saudi-arabia-aiff-president-kalyan-chaubey/article67648065.ece",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T14:30:20Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Olympics.com"
+            },
+            "author": "Olympics.com",
+            "title": "Badminton, BWF World Tour Finals: All winners - complete list - Olympics",
+            "description": "Viktor Axelsen and Tai Tzu-ying claimed record-breaking victories at the 2023 BWF World Tour Finals in Hangzhou, People's Republic of China. Find out all winners of the season-ending event here.",
+            "url": "https://olympics.com/en/news/badminton-bwf-world-tour-finals-all-winners-complete-list",
+            "urlToImage": "https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/frubikvqwokvgp9ptq4q",
+            "publishedAt": "2023-12-17T14:26:00Z",
+            "content": "The 2023 BWF World Tour Finals were played in Hangzhou, People's Republic of China from 13 to 17 December.\r\nTokyo 2020 Olympic champion Viktor Axelsen beat Shi Yuqi in the men's singles final, winnin… [+222 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "cricket.com.au"
+            },
+            "author": "Laura Jolly",
+            "title": "Healy, Mooney hit fifties as Aussies warm up for India Test | cricket.com.au - cricket.com.au",
+            "description": "Alyssa Healy, Beth Mooney and Lauren Cheatle were among those to impress as Australia got an early…",
+            "url": "https://www.cricket.com.au/news/3826054/australia-women-test-practice-match-india-mumbai-xi-report-scores-mooney-healy-cheatle-litchfield-king",
+            "urlToImage": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2023/12/17/15c9916e-cdb8-461e-8379-5b3d89bdadf5/17healy-batting.jpg",
+            "publishedAt": "2023-12-17T13:39:08Z",
+            "content": "Alyssa Healy, Beth Mooney and Lauren Cheatle were among those to impress as Australia got an early look at the Wankhede conditionsAlyssa Healy has made a successful return from injury with the bat, s… [+6807 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "Vijay Hazare Trophy: Haryana's Perfect Ten and Menaria's revenge | Cricbuzz.com - Cricbuzz - Cricbuzz",
+            "description": "Menaria was a part of the victorious side against a side he represented for fourteen years",
+            "url": "https://www.cricbuzz.com/cricket-news/128849/vijay-hazare-trophy-haryanas-perfect-ten-and-menarias-revenge",
+            "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c366250/menaria-was-a-part-of-the-vict.jpg",
+            "publishedAt": "2023-12-17T13:18:31Z",
+            "content": "Menaria was a part of the victorious side against a side he represented for fourteen years ©BCCI \r\nAshok Menaria boasts two Ranji titles, having been part of the triumphant Rajasthan team in the 2010… [+4667 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BBC News"
+            },
+            "author": null,
+            "title": "Bangladesh vs UAE, U19 Asia Cup Final Highlights: Bangladesh Bag Maiden Title With Big Win - NDTV Sports",
+            "description": "UAE vs Bangladesh, U19 Asia Cup 2023 Final Highlights: After setting a target of 283 for their opponents, Bangladesh bundled out UAE for 87 runs.",
+            "url": "http://www.bbc.com/news/world-us-canada-39324587",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/ivuurg4o_bangladesh-u19-x_625x300_17_December_23.jpg",
+            "publishedAt": "2023-12-17T11:54:00Z",
+            "content": "Under-19 Asia Cup 2023 Final, UAE vs Bangladesh Highlights: Bangladesh thrashed UAE by 195 runs at Dubai International Cricket Stadium on Sunday to claim their maiden U19 Asia Cup title. After settin… [+396 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Worldathletics.org"
+            },
+            "author": null,
+            "title": "Ebenyo and Kebede set world bests for stand-alone 25km in Kolkata | REPORTS - World Athletics",
+            "description": "Sutume Asefa Kebede and Daniel Ebenyo set course records to win in Kolkata, achieving two of the fastest 25km performances of all time",
+            "url": "https://worldathletics.org/competitions/world-athletics-label-road-races/news/tata-steel-kolkata-25km-kebede-ebenyo",
+            "urlToImage": "https://assets.aws.worldathletics.org/large/657ed95d86766970c5e1f696.JPG",
+            "publishedAt": "2023-12-17T11:31:26Z",
+            "content": "Daniel Ebenyo and Sutume Asefa Kebede set course records to win at the Tata Steel Kolkata 25K, a World Athletics Elite Label road race, on Sunday (17), achieving two of the fastest 25km performances … [+2747 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "ESPNcricinfo staff",
+            "title": "Shami and Kishan to miss South Africa Tests, Chahar unavailable for ODIs - ESPNcricinfo",
+            "description": "Shreyas Iyer, meanwhile, will leave the ODI squad after the first game to prepare for the Test series",
+            "url": "https://www.espncricinfo.com/story/india-in-south-africa-mohammed-shami-ishan-kishan-to-miss-tests-deepak-chahar-unavailable-for-odis-1413015",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/361300/361324.6.jpg",
+            "publishedAt": "2023-12-17T11:04:57Z",
+            "content": "NewsShreyas Iyer, meanwhile, will leave the ODI squad after the first game to prepare for the Test series"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Sports Desk",
+            "title": "Ishan Kishan pulls out of South Africa Test series, KS Bharat named replacement - IndiaTimes",
+            "description": "Cricket News: Indian team's premier wicketkeeper-batter Ishan Kishan will not be a part of the upcoming two-Test series against South Africa as he has flown back ho",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/india-in-south-africa/ishan-kishan-pulls-out-of-south-africa-test-series-ks-bharat-named-replacement/articleshow/106064133.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106064146,width-1070,height-580,imgsize-30196,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T11:03:06Z",
+            "content": "Arshdeep, Avesh on fire as India crush Proteas in 1st ODI"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Farzan Mohamed",
+            "title": "Pro Kabaddi 2023 Points Table: Updated standings on Day 14 after PUN vs BEN PKL 2023 match - Sportskeeda",
+            "description": "Puneri Paltan (previously sixth) have moved to the third position in the Pro Kabaddi 2023 points table with a 30-point victory over table-toppers Bengal Warriors.",
+            "url": "https://www.sportskeeda.com/kabaddi/news-pro-kabaddi-2023-points-table-updated-standings-day-14-pun-vs-ben-pkl-2023-match",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/d6477-17028092639360-1920.jpg",
+            "publishedAt": "2023-12-17T10:36:50Z",
+            "content": "Puneri Paltan (previously sixth) have moved to the third position in the Pro Kabaddi 2023 points table with a 30-point victory over table-toppers Bengal Warriors.\r\nThey have 16 points from four match… [+1535 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Sydney Morning Herald"
+            },
+            "author": "Daniel Brettig",
+            "title": "Pakistan’s capitulation should see Perth become Australia’s new ‘Gabbatoir’ - Sydney Morning Herald",
+            "description": "Australia’s destruction of Pakistan showed why Perth has a strong case to host the opening Test each summer, and why Pat Cummins’ team would be happy for that to happen.",
+            "url": "https://www.smh.com.au/sport/cricket/demolition-of-pakistan-shows-why-perth-is-perfect-place-to-test-tourists-20231217-p5es0n.html",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.883%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_jpg/t_smh_analysis_no_age_social_wm/1c4e82c396d15ee2369e8f624f2d914ae184fd94",
+            "publishedAt": "2023-12-17T09:31:46Z",
+            "content": "All that remained was for Nathan Lyon to scoop his 500th wicket, something he did with typical precision to win an lbw verdict via DRS against Saud Shakeel. A small Sunday crowd in Perth duly deliver… [+2871 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Wisden.com"
+            },
+            "author": "Abhishek Mukherjee",
+            "title": "Perth Stadium evicts spectators for banner matching Usman Khawaja’s message - Wisden",
+            "description": "The Perth Stadium authorities evicted spectators who carried a banner matching the message Usman Khawaja had to remove from his shoes.",
+            "url": "https://wisden.com/series-stories/australia-v-pakistan-2023-24/perth-stadium-evicts-spectators-banner-matching-usman-khawajas-message-aus-v-pak",
+            "urlToImage": "https://cdn.wisden.com/wp-content/uploads/2023/12/GettyImages-1445653687.jpg",
+            "publishedAt": "2023-12-17T09:22:11Z",
+            "content": "The Perth Stadium authorities evicted spectators who carried a banner matching the message Usman Khawaja had to remove from his shoes.\r\nAhead of the first Test match against Pakistan, Usman Khawaja w… [+2109 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "International Cricket Council"
+            },
+            "author": "ICC",
+            "title": "Australia set Pakistan imposing target as key batter is cleared of injury - ICC Cricket",
+            "description": "Australian No.3 batter Marnus Labuschagne has been cleared of serious damage after being struck on the hand in the first Test against Pakistan in Perth.",
+            "url": "https://www.icc-cricket.com/news/3825773",
+            "urlToImage": "https://resources.pulse.icc-cricket.com/ICC/photo/2023/12/17/828b29ba-1979-49b6-b872-ed14baf60903/MarnusLabuschagne.png",
+            "publishedAt": "2023-12-17T09:14:09Z",
+            "content": "Australian No.3 batter Marnus Labuschagne has been cleared of serious damage after being struck on the hand in the first Test against Pakistan in Perth.Labuschagne was hit by fast bowler Khurram Shah… [+1949 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "Young ton, Latham 92 power NZ to victory in ODI opener | Cricbuzz.com - Cricbuzz - Cricbuzz",
+            "description": "Bangladesh falter despite a bright start to the game",
+            "url": "https://www.cricbuzz.com/cricket-news/128845/young-ton-latham-92-power-nz-to-victory-in-odi-opener",
+            "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c366142/will-young-hit-14-fours-and-4.jpg",
+            "publishedAt": "2023-12-17T08:28:18Z",
+            "content": "Will Young hit 14 fours and 4 sixes in his 84-ball knock of 104 © Getty\r\nWill Young's second ODI ton and a quickfire 92 from captain Tom Latham helped New Zealand prevail in the rain-hit opening one-… [+3108 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Madriduniversal.com"
+            },
+            "author": "Anas Ali",
+            "title": "Possible opponents Real Madrid could face in the Champions League round of 16 - Madrid Universal",
+            "description": "As we approach the end of the year, top clubs across Europe are awaiting the draw for the UEFA Champions League Round of 16. Real Madrid are among the clubs to have claimed the top position in the recently-concluded group stages and are hoping for a favourabl…",
+            "url": "https://madriduniversal.com/possible-opponents-real-madrid-could-face-in-the-champions-league-round-of-16/",
+            "urlToImage": "https://madriduniversal.com/wp-content/uploads/2023/10/newcastle-united-fc-v-paris-saint-germain-group-f-uefa-champions-league-2023-24-2-1000x600.jpg",
+            "publishedAt": "2023-12-17T08:01:36Z",
+            "content": "As we approach the end of the year, top clubs across Europe are awaiting the draw for the UEFA Champions League Round of 16.\r\nReal Madrid are among the clubs to have claimed the top position in the r… [+1581 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Manjrekar's crucial advice for KL Rahul as India meet SA in 1st ODI - Hindustan Times",
+            "description": "Sanjay Manjrekar shared his views about KL Rahul's batting position in the lead-up to the 1st ODI between India and South Africa.  | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/sanjay-manjrekar-crucial-advice-for-kl-rahul-as-india-meet-sa-in-1st-odi-you-would-not-want-to-change-101702795459679.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/MixCollage-17-Dec-2023-12-46-PM-582_1702799967823_1702799976156.jpg",
+            "publishedAt": "2023-12-17T08:00:38Z",
+            "content": "Sanjay Manjrekar shared his views about KL Rahul's batting position(AFP-Getty Images)\r\nMoving on from the One Day International (ODI) World Cup 2023 heartbreak, Team India has returned to the 50-over… [+2321 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "International Cricket Council"
+            },
+            "author": "ICC",
+            "title": "New Zealand boosted by the return of Williamson in T20Is - ICC Cricket",
+            "description": "Kane Williamson returns as New Zealand captain for the T20Is against Bangladesh, beginning 27 December.",
+            "url": "https://www.icc-cricket.com/news/3825814",
+            "urlToImage": "https://resources.pulse.icc-cricket.com/ICC/photo/2023/12/17/1ec7d473-5f86-435d-9bf2-38bcd152629d/GettyImages-1442937586.jpg",
+            "publishedAt": "2023-12-17T07:45:57Z",
+            "content": "Kane Williamson returns as New Zealand captain for the T20Is against Bangladesh, beginning 27 December.Williamson will be playing the format after a gap of more than a year, having last participated … [+2064 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "Abhimanyu Bose",
+            "title": "Recent Match Report - Zimbabwe vs Ireland 3rd ODI 2023/24 - ESPNcricinfo",
+            "description": "It was their first ODI series victory in Zimbabwe",
+            "url": "https://www.espncricinfo.com/series/ireland-in-zimbabwe-2023-24-1408099/zimbabwe-vs-ireland-3rd-odi-1408108/match-report",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/372700/372767.6.jpg",
+            "publishedAt": "2023-12-17T07:22:35Z",
+            "content": "ReportIt was their first ODI series victory in Zimbabwe\r\nCurtis Campher and Andy Balbirnie added 70 runs for the second wicket  •  Zimbabwe Cricket\r\nIreland 204 for 3 (Balbirnie 82*, Campher 40, Mavu… [+3786 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Urvi Mehra",
+            "title": "\"Much better than Rafael Nadal expected\" - Spaniard 'convinced' of competitive edge after training with Arthur Fils in Kuwait, says coach Carlos Moya - Sportskeeda",
+            "description": "Rafael Nadal's coach, Carlos Moya, has shared that Nadal's practice sessions with rising star Arthur Fils have delivered very promising results.",
+            "url": "https://www.sportskeeda.com/tennis/news-much-better-rafael-nadal-expected-spaniard-convinced-competitive-edge-training-arthur-fils-kuwait-says-coach-carlos-moya",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/3b915-17027755120983-1920.jpg",
+            "publishedAt": "2023-12-17T06:23:00Z",
+            "content": "Rafael Nadal's coach, Carlos Moya, has shared that Nadal's practice sessions with rising star Arthur Fils have delivered very promising results.\r\nNadal is set to make his highly anticipated comeback … [+3251 chars]"
+          },
+          {
+            "source": {
+              "id": "espn-cric-info",
+              "name": "ESPN Cric Info"
+            },
+            "author": "ESPNcricinfo staff",
+            "title": "Recent Match Report - S Africa (W) vs BDESH (W) 1st ODI 2023/24 - ESPNcricinfo",
+            "description": "It was Bangladesh's first victory in the format over the hosts since 2017, as they registered their biggest win by runs",
+            "url": "https://www.espncricinfo.com/series/bangladesh-women-in-south-africa-2023-24-1398249/south-africa-women-vs-bangladesh-women-1st-odi-1398258/match-report",
+            "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/372700/372755.6.jpg",
+            "publishedAt": "2023-12-17T05:57:24Z",
+            "content": "ReportIt was Bangladesh's first victory in the format over the hosts since 2017, as they registered their biggest win by runs"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Wisden.com"
+            },
+            "author": "Abhishek Mukherjee",
+            "title": "Heather Knight labels conditions for India Test ‘extreme’ - Wisden",
+            "description": "England captain Heather Knight expressed her opinion after India trounced England by a record 347 runs in the Navi Mumbai Test match,",
+            "url": "https://wisden.com/series-stories/india-women-v-england-women-2023-24/heather-knight-pitch-conditions-india-england-womens-test-extreme-ind-w-v-eng-w",
+            "urlToImage": "https://cdn.wisden.com/wp-content/uploads/2023/12/GettyImages-1500338302.jpg",
+            "publishedAt": "2023-12-17T05:51:39Z",
+            "content": "England captain Heather Knight expressed her opinion after India trounced England by a record 347 runs in the Navi Mumbai Test match,\r\nPlaying their first Test match on home soil after nine years, In… [+3355 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Crictracker.com"
+            },
+            "author": "Akshit Bhatnagar",
+            "title": "NZ-W vs PAK-W Match Prediction – Who will win today's 3rd ODI match between New Zealand Women vs Pakistan Women? - CricTracker",
+            "description": "New Zealand Women and Pakistan Women are all set to continue their ongoing ODI series by taking on each other in the third and final ODI of the series. The White Ferns have already won the first two O",
+            "url": "https://www.crictracker.com/cricket-match-predictions/nz-w-vs-pak-w-match-prediction-who-will-win-todays-3rd-odi-match-between-new-zealand-women-vs-pakistan-women-6299/",
+            "urlToImage": "https://media.crictracker.com/media/attachments/1702794854800_New-Zeland-Women-vs-Pakistan-Women.jpeg",
+            "publishedAt": "2023-12-17T05:43:00Z",
+            "content": "New Zealand Women and Pakistan Women are all set to continue their ongoing ODI series by taking on each other in the third and final ODI of the series. The White Ferns have already won the first two … [+2565 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Khelnow.com"
+            },
+            "author": "Author Name",
+            "title": "PAT vs JAI Dream11 Prediction, Dream11 Starting 7, Match 27, PKL 10 - Khel Now",
+            "description": "Dream11 fantasy XI tips and guide for match 27 of the PKL 2023 between PAT vs JAI to be played in Pune.",
+            "url": "https://khelnow.com/kabaddi/2023-12-pkl-10-pat-vs-jai-dream11-predictions",
+            "urlToImage": "https://assets-webp.khelnow.com/news/uploads/2023/12/23-PKL-2023-24-Fantasy-16-copy.jpg.webp",
+            "publishedAt": "2023-12-17T05:25:03Z",
+            "content": "It is the third week of season 10 of the Pro Kabaddi League and every team has played around four games. The position of the teams in the points table goes through rapid changes after every game. Tha… [+2956 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "4,6,6,2,6: Harry Brook speed dials KKR star to raise IPL stocks for IPL auction - Hindustan Times",
+            "description": "Harry Brook batted at an incredible strike rate of 442.86 in the 3rd T20I against the West Indies. | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/harry-brook-speed-dials-kkr-russell-raise-ipl-stocks-dubai-ipl-2024-auction-eng-vs-wi-3rd-t20i-watch-4-6-6-6-srh-101702784687768.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/West-Indies-England-Cricket-36_1702789214848_1702789242633.jpg",
+            "publishedAt": "2023-12-17T05:02:59Z",
+            "content": "Holding Harry Brook would have been a good option for Sunrisers Hyderabad (SRH) before the Indian Premier League (IPL) 2024 auction. Brook's crucial cameo powered England to a thrilling win over the … [+2847 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Venkatesh Ravichandran",
+            "title": "\"Rode his luck early on and it could have gone either way\" - Mitchell Johnson amplifies his earlier take on David Warner - Sportskeeda",
+            "description": "Mitchell Johnson continued to validate his claims on David Warner despite the opener scoring a masterful century on Day 1 of the ongoing first Test against Pakistan in Perth.",
+            "url": "https://www.sportskeeda.com/cricket/news-rode-luck-early-gone-either-way-mitchell-johnson-amplifies-earlier-take-david-warner",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/3fe23-17027848578415-1920.jpg",
+            "publishedAt": "2023-12-17T04:25:24Z",
+            "content": "Mitchell Johnson continued to validate his claims on David Warner despite the opener scoring a masterful century on Day 1 of the ongoing first Test against Pakistan in Perth.\r\nIn an earlier column, J… [+3137 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "Australia vs Pakistan, 1st Test, Pakistan tour of Australia, 2023-24 - Cricbuzz",
+            "description": "Follow Australia vs Pakistan, 1st Test, Dec 14, Pakistan tour of Australia, 2023-24 with live Cricket score, ball by ball commentary updates on Cricbuzz",
+            "url": "https://www.cricbuzz.com/cricket-commentary/70305/aus-vs-pak-1st-test-pakistan-tour-of-australia-2023-24",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T03:56:17Z",
+            "content": "Mitchell Marsh | Player of the Match - My first Test match at this stadium, first at Perth in six years, so it's a nice feeling. When I went out, the lead was big and so the pressure was off, but thi… [+226 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cricbuzz"
+            },
+            "author": null,
+            "title": "Nowhere to hide against Australia's attack quadrant | Cricbuzz.com - Cricbuzz - Cricbuzz",
+            "description": "Despite a plucky batting effort, Pakistan found themselves well behind the game after the first innings was done in Perth",
+            "url": "https://www.cricbuzz.com/cricket-news/128839/nowhere-to-hide-against-australias-attack-quadrant",
+            "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c366054/pat-cummins-worked-over-babar.jpg",
+            "publishedAt": "2023-12-17T01:10:59Z",
+            "content": "Pat Cummins worked over Babar Azam before Mitchell Marsh delivered the coup de grace. ©AFP \r\nWhat do you do when Pat Cummins is steaming in before landing every single ball on that Pat Cummins length… [+4396 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Sahil Malhotra",
+            "title": "Rishabh Pant Update: BCCI, NCA Follow Patient Approach, Focus on “Complete Fitness” - News18",
+            "description": "For the past few weeks, Rishabh Pant has been doing afternoon sessions under the watch of specialists at the National Cricket Academy.",
+            "url": "https://www.news18.com/cricket/rishabh-pant-update-bcci-nca-follow-patient-approach-focus-on-complete-fitness-8706280.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/rishabh-pant-weightlifting-2023-12-b16f44016ee9b667a12ada68361df3ef-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-16T22:12:00Z",
+            "content": "Its been 356 days since Rishabh Pant last played for India. The Test vs Bangladesh in Mirpur was the last time he donned the Indian jersey as a horrific car crash on December 30, 2022 made his career… [+4779 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ESPN India"
+            },
+            "author": "Reuters",
+            "title": "Pep blasts careless City: Didn't deserve to win - ESPN India",
+            "description": "Manchester City manager Pep Guardiola blasted his team after their careless defending and a needless late-game penalty cost them a much-needed victory in a 2-2 draw with Crystal Palace on Saturday, saying they deserved the result.",
+            "url": "https://www.espn.in/football/story/_/id/39126313/guardiola-careless-manchester-city-didnt-deserve-win-crystal-palace",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1216%2Fr1267193_1296x729_16%2D9.jpg",
+            "publishedAt": "2023-12-16T21:16:00Z",
+            "content": "Manchester City manager Pep Guardiola blasted his team after their careless defending and a needless late-game penalty cost them a much-needed victory in a 2-2 draw with Crystal Palace on Saturday, s… [+1818 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hockeyindia.org"
+            },
+            "author": null,
+            "title": "Indian Men's Hockey Team goes down against Belgium in 5 Nations Tournament Valencia 2023 - Hockey India",
+            "description": "The Indian Men’s Hockey Team lost to Belgium 2-7 in their second match of the 5 Nations Tournament Valencia 2023 on Saturday. Abhishek and Jugraj Singh were the two goal scorers for India.",
+            "url": "https://www.hockeyindia.org/news/indian-mens-hockey-team-goes-down-against-belgium-in-5-nations-tournament-valencia-2023",
+            "urlToImage": "https://www.hockeyindia.org/static-assets/waf-images/0c/1e/66/16-9/796-597/PK7fhijgO7.jpg",
+            "publishedAt": "2023-12-16T18:19:22Z",
+            "content": "~Abhishek and Jugraj Singh scored for India~ \r\nValencia, 16th December 2023: The Indian Men’s Hockey Team lost to Belgium 2-7 in their second match of the 5 Nations Tournament Valencia 2023 on Saturd… [+1245 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Revsportz.in"
+            },
+            "author": "S Kannan",
+            "title": "FIH Jr. Men's World Cup: Junior Teams’ Flop Shows Reflect Poorly on Hockey’s Succession Planning - RevSportz",
+            "description": "Success has many fathers, and failure none. Cliched as that may sound, the performance of India’s junior hockey teams, boys and girls, at the FIH Junior World Cups has been…",
+            "url": "https://revsportz.in/junior-teams-flop-shows/",
+            "urlToImage": "https://revsportz.in/wp-content/uploads/2023/12/hockeyind.jpeg",
+            "publishedAt": "2023-12-16T18:09:12Z",
+            "content": "The Indian team after their defeat against Spain in the Bronze medal match in the FIH Jr. Men’s World Cup 2023 (Image: Indian Hockey)\r\nSuccess has many fathers, and failure none. Cliched as that may … [+4376 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ESPN India"
+            },
+            "author": "Reuters",
+            "title": "Lockyer 'stable' after having cardiac arrest vs. Bournemouth - ESPN - ESPN India",
+            "description": "The Premier League game between Bournemouth and Luton Town was suspended in the 65th minute after Luton captain Tom Lockyer collapsed on the pitch Saturday.",
+            "url": "https://www.espn.in/football/story/_/id/39125011/bournemouth-luton-abandoned-lockyer-collapses",
+            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1216%2Fr1267093_1296x729_16%2D9.jpg",
+            "publishedAt": "2023-12-16T17:01:00Z",
+            "content": "Luton Town have confirmed defender and club captain Tom Lockyer is in a \"stable\" condition in hospital after going into cardiac arrest on the pitch during his team's match at Bournemouth.\r\nThe Premie… [+3222 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Abplive.com"
+            },
+            "author": "ABP News Bureau",
+            "title": "West Indies vs England 3rd T20I: Match Preview, Playing 11s, Weather Report, Live Streaming Telecast Info - ABP Live",
+            "description": "West Indies vs England 3rd T20I: Here's everything you need to know about WI vs ENG 3rd T20I on Saturday, December 16, 2023 at Grenada's National Cricket Stadium.",
+            "url": "https://news.abplive.com/sports/cricket/west-indies-vs-england-3rd-t20i-preview-playing-11s-weather-report-live-streaming-telecast-1650432",
+            "urlToImage": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/12/16/aac9fc9a3e37ee82db9d982b87d3d3ec170272956192524_original.jpg?impolicy=abp_cdn&imwidth=1200&imheight=628",
+            "publishedAt": "2023-12-16T12:26:35Z",
+            "content": null
+          }
+        ]
+      },
+      {
+        "business": [
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Motisons Jewellers IPO sees over 11-fold subscription, retail portion booked 17.74 times on debut - Moneycontrol",
+            "description": "Motisons Jewellers IPO: Ahead of the IPO, the company mobilised Rs 36.3 crore from 2 anchor investors",
+            "url": "https://www.moneycontrol.com/news/business/ipo/motisons-jewellers-ipo-subscription-updates-rs-151-crore-issue-closes-on-20-december-11920781.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/11/Gold-jewellery-770x433.jpg",
+            "publishedAt": "2023-12-18T10:27:09Z",
+            "content": "Motisons Jewellers' Rs 151.09-crore public issue was subscribed 11.45 times so far on the first day of bidding on December 18. The issue received bids for 23.89 crore shares against an issue size of … [+1675 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "SpiceJet, 2 others in race to bid for bankrupt Go First; share price surges 20% - Moneycontrol",
+            "description": "Last week, SpiceJet announced a plan to raise over Rs 2,250 crore by issuing up to 130 million convertible warrants. This capital infusion could support the airline in its potential acquisition of Go First, sources have said",
+            "url": "https://www.moneycontrol.com/news/business/spicejet-2-others-in-race-to-bid-for-bankrupt-go-first-11920271.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/05/go-first-rep-770x433.jpg",
+            "publishedAt": "2023-12-18T09:38:01Z",
+            "content": "India's budget airline Spicejet, Sharjah-based Sky One company, and Africa-focused Safrik Investments have reportedly shown interest in buying the bankrupt carrier Go First.\r\nThe three have requested… [+2820 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": "The Financial Express",
+            "title": "Share Market Live: Nifty trades below 21,450, Sensex almost down by 150 points; Media and Metal index gains over 1% - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/market/share-market-today-live-updates-sensex-nifty-rupee-vs-dollar-share-market-live-sensex-nifty-may-open-flat-gift-nifty-up-asian-markets-trade-mixed-december-18-2023-monday-3340879/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T09:33:29Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SamMobile"
+            },
+            "author": "SamMobile, Asif Iqbal Shaik",
+            "title": "China bans Apple and Samsung phones from government offices and firms - SamMobile - Samsung news",
+            "description": "As tensions between China and the US escalate, the two countries are trying to counter each other through certain measures. ...",
+            "url": "https://www.sammobile.com/news/china-bans-apple-iphone-samsung-phones-government-offices-firms/",
+            "urlToImage": "https://www.sammobile.com/wp-content/uploads/2023/08/Samsung-Galaxy-Z-Flip-5-Fold-5-China-720x405.jpg",
+            "publishedAt": "2023-12-18T09:07:00Z",
+            "content": "As tensions between China and the US escalate, the two countries are trying to counter each other through certain measures. The USA banned US-based chipmakers from exporting advanced chips and chip m… [+2001 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Arti Singh",
+            "title": "Ebix Files for Chapter 11 Bankruptcy in Texas | Mint - Mint",
+            "description": "CEO Robin Raina is the largest shareholder in the company owning 13.9% stake; and as of 31 December, 2022, Ebix Inc. had outstanding borrowings of $639.3 mn",
+            "url": "https://www.livemint.com/companies/ebix-files-for-chapter-11-bankruptcy-in-texas-11702886194656.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/2-0-1309431910-robin-raina-0_1679981990059_1702890069912.jpg",
+            "publishedAt": "2023-12-18T09:04:17Z",
+            "content": "Indian-born American Robin Raina-led Ebix Inc. has filed for Chapter 11 bankruptcy in Northern District of Texas. \r\nOn 17 December, Nasdaq-listed Ebix Inc. and certain of its US subsidiaries filed a … [+3918 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "Srimoyee Chowdhury",
+            "title": "Anand Mahindra shares video of man making giant paratha. Abhishek Bachchan reacts - India Today",
+            "description": "Anand Mahindra's recent share showing a gigantic paratha got a thumbs-up from Abhishek Bachchan.",
+            "url": "https://www.indiatoday.in/trending-news/story/anand-mahindra-giant-paratha-video-abhishek-bachchan-reaction-2477352-2023-12-18",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/anand-mahindra-183130269-16x9_0.jpg?VersionId=UIyje35Z9VG4cuMgCWVcXKk85LRfCC2i",
+            "publishedAt": "2023-12-18T08:32:51Z",
+            "content": "Anand Mahindra recently shared a video on X that showcased the making of a giant paratha. Along with the video, Mahindra started quite a debate about which one is better - paratha and pizza. Actor Ab… [+1081 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT News Desk",
+            "title": "Nitin Gadkari again says will not allow driverless cars in India - Hindustan Times",
+            "description": "Driverless vehicles are appropriate only for countries with small populations, but not for India, as per the Union minister.",
+            "url": "https://www.hindustantimes.com/car-bike/around-80-lakh-drivers-will-become-jobless-gadkari-again-says-will-not-allow-autonomous-cars-in-india-101702884761198.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/Union-transport-minister-Nitin-Gadkari-chaired-the_1674969588746_1702884842759.jpg",
+            "publishedAt": "2023-12-18T08:27:50Z",
+            "content": "Union minister Nitin Gadkari has once again asserted he will not allow driverless cars in India, saying that if autonomous vehicles are brought to the country, 'up to 80 lakh drivers would be left un… [+1321 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Nishant Kumar",
+            "title": "Stocks to buy this week: ICICI Bank, Kotak Mahindra Bank, YES Bank, Wipro, Tata Steel among 9 technical picks | Mint - Mint",
+            "description": "Experts recommend buying stocks like IRCTC, Kotak Mahindra Bank, YES Bank, KRBL, ICICI Bank, Mahindra and Mahindra Financial Services, Wipro, Tata Steel, and RBL Bank for healthy returns in the short term.",
+            "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-this-week-icici-bank-kotak-mahindra-bank-yes-bank-wipro-tata-steel-among-9-technical-picks-11702884666754.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/adam-smigielski-K5mPtONmpHM-unsplash_1700479308572_1702885312549.jpg",
+            "publishedAt": "2023-12-18T07:45:50Z",
+            "content": "The domestic market is teeming with positivity. Equity benchmark Nifty 50 is up about 7 per cent in December so far on account of strong buying by foreign portfolio investors amid robust macro number… [+8050 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Dhanya Nagasundaram",
+            "title": "Inox India IPO LIVE subscription status: Issue subscribed 15.75 times so far on day 3; GMP drops | Mint - Mint",
+            "description": "Inox India IPO has been oversubscribed on its third day, with a subscription of 15.75 times at 13:00 IST. Inox India IPO received overwhelming responses from both retail and non-institutional investors, with a subscription of 2.79 times on day 1 and 7.07 time…",
+            "url": "https://www.livemint.com/market/ipo/inox-india-ipo-live-subscription-status-issue-subscribed-15-75-times-so-far-on-day-3-gmp-drops-11702882708196.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/INOX_LNG_1702224996875_1702884619476.jpg",
+            "publishedAt": "2023-12-18T07:43:14Z",
+            "content": "Inox India IPO subscription status: Inox India IPO has been oversubscribed on its third day after continuing to receive overwhelming responses from both retail and non-institutional investors (NIIs).… [+4244 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Muthoot Microfin IPO booked 60%, retail portion fully subscribed - Moneycontrol",
+            "description": "Muthoot Microfin IPO: The price band of the offer, which will close on December 20, has been fixed at Rs 277-291 per share",
+            "url": "https://www.moneycontrol.com/news/business/ipo/muthoot-microfin-ipo-day-1-subscription-updates-rs-960-crore-issue-closes-on-20-december-11920221.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/11/stock-photo-double-exposure-of-graph-and-rows-of-coins-for-finance-and-business-concept-530884738-770x433.jpg",
+            "publishedAt": "2023-12-18T07:32:00Z",
+            "content": "The Muthoot Microfin IPO has been subscribed 60 percent so far on the first day of bidding, December 18, with bids coming in for 1.45 crore shares as against an issue size of 2.43 crore shares.\r\nReta… [+2735 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ibm.com"
+            },
+            "author": null,
+            "title": "IBM to Acquire StreamSets and webMethods Platforms from Software AG - IBM Newsroom",
+            "description": "IBM announced that it has entered into a definitive agreement with Software AG to purchase StreamSets and webMethods, Software AG's Super iPaaS (integration platform-as-a-service) enterprise technology platforms, for €2.13 billion in cash.",
+            "url": "https://newsroom.ibm.com/2023-12-18-IBM-to-Acquire-StreamSets-and-webMethods-Platforms-from-Software-AG",
+            "urlToImage": "https://mma.prnewswire.com/media/95470/ibm_logo.jpg?p=facebook",
+            "publishedAt": "2023-12-18T07:25:57Z",
+            "content": "ARMONK, N.Y., Dec. 18, 2023 /PRNewswire/ -- IBM (NYSE: IBM) today announced that it has entered into a definitive agreement with Software AG (FRA: SOW), a company majority owned by Silver Lake, to pu… [+5244 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Bhavya Dilipkumar",
+            "title": "Hyderabad auto, taxi drivers hitch ride on ONDC to launch ride-hailing app Yaary - Moneycontrol",
+            "description": "Similar to Bengaluru's Namma Yatri platform, ONDC-backed Yaary also promises not to charge any commission from drivers on its platform",
+            "url": "https://www.moneycontrol.com/news/business/startup/hyderabad-auto-taxi-drivers-hitch-ride-on-ondc-to-launch-ride-hailing-app-yaary-11919711.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/WhatsApp-Image-2023-12-18-at-12.15.22-1-580x435.jpeg",
+            "publishedAt": "2023-12-18T07:23:25Z",
+            "content": "The Hyderabad Auto and Taxi Drivers Association on December 18 announced the launch of Yaary, a ride-hailing app built on the governments Open Network for Digital Commerce (ONDC) protocols, that will… [+3035 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "India Today Business Desk",
+            "title": "DOMS Industries IPO share allotment: Step-by-step guide to check status - India Today",
+            "description": "Investors eagerly awaiting the outcome of their applications can check the IPO allotment status through the registrar's portal, managed by Link Intime India Private Ltd, in addition to the Bombay Stock Exchange and the National Stock Exchange.",
+            "url": "https://www.indiatoday.in/business/story/doms-industries-ipo-share-allotment-finalised-today-step-by-step-guide-to-check-application-status-2477314-2023-12-18",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/doms-ipo-132237463-16x9_3.png?VersionId=IKKK.XAQn5soEzD9RDnXTQq9t770Q1gY",
+            "publishedAt": "2023-12-18T07:21:31Z",
+            "content": "The share allotment date for DOMS Industries IPO is all set to be finalised on Monday, December 18th. Investors eagerly awaiting the outcome of their applications can check the IPO allotment status t… [+2032 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Tradebrains.in"
+            },
+            "author": "Trade Brains",
+            "title": "Mulitbagger defence stock jumps up to 5% after it received an order worth $42 Million - Trade Brains",
+            "description": "The share price of one of India’s leading warship builders gained 4.5 percent to an intraday high of Rs 2,176.85 per share after the company received an overseas order worth USD 42 million.",
+            "url": "https://tradebrains.in/features/mulitbagger-defence-stock-jumps-up-to-5-after-it-received-an-order-worth-42-million/",
+            "urlToImage": "https://tradebrains.in/features/wp-content/uploads/2023/06/Naval-Ship.jpg",
+            "publishedAt": "2023-12-18T07:15:00Z",
+            "content": "The share price of one of Indias leading warship builders gained 4.5 percent to an intraday high of Rs 2,176.85 per share after the company received an overseas order worth USD 42 million. \r\nAt 11:51… [+2820 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cardekho.com"
+            },
+            "author": "Rohit",
+            "title": "3 New Kia Cars Confirmed For India Launch In 2024 - CarDekho",
+            "description": "Although Kia only had one big launch in 2023, it is ready to go big with some flagship offerings lined up for India in 2024  In 2023, Kia India’s only launch was the facelifted Kia Seltos. As significant as that SUV is to Kia’s roster, it did seem like a slow…",
+            "url": "https://www.cardekho.com/india-car-news/3-new-kia-cars-confirmed-for-india-launch-in-2024-31829.htm",
+            "urlToImage": "https://stimg2.cardekho.com/images/carNewsimages/userimages/650X420/31828/1702885328595/ElectricCar.jpg",
+            "publishedAt": "2023-12-18T07:12:00Z",
+            "content": "Although Kia only had one big launch in 2023, it is ready to go big with some flagship offerings lined up for India in 2024\r\nIn 2023, Kia Indias only launch was the facelifted Kia Seltos. As signific… [+2268 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Team-BHP"
+            },
+            "author": "Tushar Kelshikar",
+            "title": "2024 Maruti WagonR facelift spied in India ahead of launch? - Team-BHP",
+            "description": "A test mule of what is believed to be the 2024 Maruti WagonR facelift has been spotted testing for the first time. The spy image shared on social media reveals an updated version of the WagonR that could be introduced sometime next year. It features a new rea…",
+            "url": "https://www.team-bhp.com/news/2024-maruti-wagonr-facelift-spied-india-ahead-launch",
+            "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/maruti-suzuki-wagon-r-rear-view0.jpg",
+            "publishedAt": "2023-12-18T07:08:51Z",
+            "content": "A test mule of what is believed to be the 2024 Maruti WagonR facelift has been spotted testing for the first time.\r\nThe spy image shared on social media reveals an updated version of the WagonR that … [+690 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Business Desk",
+            "title": "Will BSE Sensex, Nifty50 rally sustain? What historical data on 7-weeks of continuous upside suggests - IndiaTimes",
+            "description": "India Business News: BSE Sensex, Nifty50 rally: The recent bullish trend in Indian equities, with seven consecutive weeks of gains, has market watchers speculating on a po",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/will-bse-sensex-nifty50-rally-sustain-what-historical-data-on-7-weeks-of-continuous-upside-suggests/articleshow/106080507.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106081121,width-1070,height-580,imgsize-57600,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T06:51:59Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "From Demat Nomination To Aadhaar Update, Changes Coming Into Effect From January 1 - NDTV",
+            "description": "These changes will impact the day-to-day lives of individuals across the country.",
+            "url": "https://www.ndtv.com/india-news/from-demat-nomination-to-aadhaar-update-changes-coming-into-effect-from-january-1-4695285",
+            "urlToImage": "https://c.ndtvimg.com/2023-02/u9t5oaqo_trading-generic_625x300_04_February_23.jpg",
+            "publishedAt": "2023-12-18T06:35:30Z",
+            "content": "Aadhaar Update Online: Starting January 1, a wave of changes will sweep across various sectors.\r\nThe year 2023 is soon going to end. And with the onset of the new year, several changes will come into… [+2474 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Adani Group To Invest $723 Million In Green Energy Projects - NDTV",
+            "description": "Ambuja Cements Ltd., controlled by billionaire Gautam Adani, said it will invest 60 billion rupees ($723 million) to build 1,000 megawatt of renewable power projects as the Indian conglomerate seeks to move rapidly toward its net zero goals.",
+            "url": "https://www.ndtv.com/india-news/adani-group-to-invest-723-million-in-green-energy-projects-4695199",
+            "urlToImage": "https://c.ndtvimg.com/2023-07/qoii90kg_adani-generic_625x300_06_July_23.jpg",
+            "publishedAt": "2023-12-18T06:14:50Z",
+            "content": "It will reduce the cost of green energy generation by 20%.\r\nAmbuja Cements Ltd., controlled by billionaire Gautam Adani, said it will invest 60 billion rupees ($723 million) to build 1,000 megawatt o… [+1954 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "FXStreet"
+            },
+            "author": "Haresh Menghani",
+            "title": "Gold price bulls have the upper hand amid dovish Fed outlook, bearish US Dollar - FXStreet",
+            "description": "Gold price (XAU/USD) edges higher during the Asian session on Monday and for now, seems to have stalled last week's modest pullback from the vicinity of the $2,050 area.",
+            "url": "https://www.fxstreet.com/news/gold-price-bulls-have-the-upper-hand-amid-dovish-fed-outlook-bearish-us-dollar-202312180403",
+            "urlToImage": "https://editorial.fxstreet.com/images/Markets/Commodities/Metals/Gold/gold-nuggets-7636265_Large.jpg",
+            "publishedAt": "2023-12-18T05:56:36Z",
+            "content": "<ul><li>Gold price attracts some dip-buying on Monday amid a modest US Dollar downtick.</li><li>Geopolitical tensions and looming recession risks also benefit the safe-haven metal.</li><li>The preval… [+8430 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zee Business"
+            },
+            "author": "ZeeBiz WebTeam",
+            "title": "Sovereign Gold Bond 2023-24 series 3 scheme opens: Issue price, interest rate, tax implications, other key... - Zee Business",
+            "description": "SGB 2023–24 issue price: The Government of India, in consultation with the RBI, has decided to allow discount of Rs 50 per gram from the issue price to those investors who apply online and the payment is made through digital mode.",
+            "url": "https://www.zeebiz.com/personal-finance/news-sgb-2023-issue-price-december-sovereign-gold-bond-series-iii-tranche-opens-today-december-18-interest-rate-return-calculator-maturity-269095",
+            "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/18/272934-sgb-dec-2023-price.jpg",
+            "publishedAt": "2023-12-18T05:35:48Z",
+            "content": "SGB 202324: A third series of the Sovereign Gold Bond (202324) scheme opened on Monday, December 18. The subscription window for the gold bond scheme, wherein the RBI issues bonds linked with the mar… [+2354 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Entrackr"
+            },
+            "author": "Entrackr",
+            "title": "Udaan laid off over 100 employees after restructuring in September - Entrackr",
+            "description": null,
+            "url": "https://entrackr.com/2023/12/udaan-laid-off-over-100-employees-after-restructuring-in-september/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:33:31Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Asit Manohar",
+            "title": "Stock market today: Yes Bank shares hit 52-week high. Buy, hold or book profit? | Mint - Mint",
+            "description": "Stock market today: Yes Bank shares today opened upside and went on to hit new 52-week high of  ₹23 apiece on NSE",
+            "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-yes-bank-shares-hit-52-week-high-buy-hold-or-book-profit-11702875973615.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/Yes_Bank_share_Stock_market_News_Today_1702876112569_1702876112773.JPG",
+            "publishedAt": "2023-12-18T05:32:22Z",
+            "content": "Stock market today:Yes Bank shares have been in uptrend for near one month. However, it seems that the private bank stock is still not in mood to stop its rally. Yes Bank share price today opened ups… [+3658 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Investing.com"
+            },
+            "author": "IANS",
+            "title": "FIIs turn big buyers with Rs 20000 cr of stocks in two weeks - Investing.com India",
+            "description": "The Financial News section features stock market news in addition to stories about bonds, forex, commodities and economic releases.",
+            "url": "https://in.investing.com/news/fiis-turn-big-buyers-with-rs-20000-cr-of-stocks-in-two-weeks-3941311",
+            "urlToImage": "https://i-invdn-com.investing.com/news/https://i-invdn-com.investing.com/akapi-images/800x450/26765bc8a3d976d25045053aee068be1_w_800_h_450.jpg",
+            "publishedAt": "2023-12-18T05:16:41Z",
+            "content": "New Delhi, Dec 18 (IANS) FIIs, who have made a 'U' turn in their strategy, have turned big buyers having invested around Rs 20,000 crore, including bulk purchase, in the last two weeks, says V K Vija… [+1077 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "CNBCTV18"
+            },
+            "author": "Kanishka Sarkar",
+            "title": "This underperforming IT stock may see more downside due to a grim Q3 earnings outlook - CNBCTV18",
+            "description": "Wipro has remained an underperforming stock this year when compared to peers (except Infosys) as well as the sectoral Nifty IT index. The stock has given a return of nearly 14% to its investors in 2023 (year-to-date) as against the benchmark Nifty 50 which ha…",
+            "url": "https://www.cnbctv18.com/earnings/wipro-share-price-it-stock-may-see-more-downside-due-to-a-grim-q3-earnings-outlook-citi-sell-call-18589081.htm",
+            "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2023/09/wipro-1-1019x573.jpg",
+            "publishedAt": "2023-12-18T05:02:12Z",
+            "content": "Wipro shares were in focus in the trading session on Monday, December 18. This comes on the back of global brokerage Citi pointing out that the IT services firms CFO meet takeaways show that there is… [+2845 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "India Shelter IPO: GMP, how to check status as focus shifts on allotment date after closure of subscription | Mint - Mint",
+            "description": "The India Shelter IPO registrar is Kfin Technologies Ltd. The initial public offering (IPO) of India Shelter Finance opened for subscription on December 13 and closed on December 15.",
+            "url": "https://www.livemint.com/market/ipo/india-shelter-ipo-gmp-how-to-check-status-as-focus-shifts-on-allotment-date-after-closure-of-subscription-11702874472948.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/3-0-97431674-iStock-834792042-0_1679787577110_1702874954363.jpg",
+            "publishedAt": "2023-12-18T04:53:21Z",
+            "content": "India Shelter Finance IPO Allotment Status: The India Shelter Finance IPO share allotment is likely to be finalised today, Monday, December 18. The investors who applied for the issue can check India… [+3827 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "No respite for TCS, Infosys & other IT firms in near term, Citi sticks to 'sell' calls - Moneycontrol",
+            "description": "Foreign banking giant Citi has re-iterated its &quot;sell&quot; or &quot;neutral&quot; calls on all the IT stocks in Nifty 50, especially as they go through a seasonally weak quarter and due to low visibility of large projects",
+            "url": "https://www.moneycontrol.com/news/business/markets/no-respite-for-tcs-infosys-other-it-firms-in-near-term-citi-sticks-to-sell-calls-11918571.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/stocks5-1-770x433.jpg",
+            "publishedAt": "2023-12-18T04:50:18Z",
+            "content": "The Nifty IT index rallied more than 7 percent in the previous week on hopes of expected interest rate cuts in 2024 spurring discretionary demand and large deals. While that maybe in distant future, … [+4269 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Gold and silver prices Today on 18-12-2023 : Check latest rates in your city | Mint - Mint",
+            "description": "Gold and Silver Prices Today: 10 gm of 24 carat gold was priced at Rs.62660.0 in Delhi, while 1 kg of silver was priced at Rs.77700.0 in Delhi.",
+            "url": "https://www.livemint.com/market/commodities/gold-and-silver-prices-today-on-18-12-2023-check-latest-rates-in-your-city-11702874719276.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/09/20/1600x900/Gold_Silver_1695188117170_1695188150826.webp",
+            "publishedAt": "2023-12-18T04:45:18Z",
+            "content": "Gold and Silver Prices Today: Gold prices saw a slight decrease on Monday. The cost of 24 carat gold is Rs.6266.0 per gm, down by Rs.490.0. The cost of 22 carat gold is Rs.5745.0 per gm, down by Rs.4… [+1783 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Bank of India, Union Bank other PSU bank stocks fall after govt clarifies on merger speculation - Moneycontrol",
+            "description": "Amid the merger buzz, Bank of Maharashtra shares fell 1.3 percent to Rs 47, Union Bank of India tanked nearly 4 percent to Rs 123 per share and Bank of India stock slipped 0.8 percent to Rs 111",
+            "url": "https://www.moneycontrol.com/news/business/markets/bank-of-india-bank-of-maharashtra-2-other-stocks-in-focus-on-psu-bank-merger-talk-11918211.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/stocks_sensex_nifty-2-770x433.jpg",
+            "publishedAt": "2023-12-18T04:31:17Z",
+            "content": "PSU bank shares, which rallied the previous session, remained under pressure on December 18 after a government document doing rounds on social media triggered speculation of possible mergers between … [+2591 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Infosys stock falls as investors book profit; IT major unveils development centre in Nagpur - Moneycontrol",
+            "description": "The new center will also give employees the opportunity to work on next-gen technologies like cloud, AI, and digital across multiple industries",
+            "url": "https://www.moneycontrol.com/news/business/markets/infosys-stock-falls-as-investors-book-profit-it-major-unveils-development-centre-in-nagpur-11918121.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/Infosys-770x433.jpg",
+            "publishedAt": "2023-12-18T04:20:45Z",
+            "content": "Shares of Infosys slipped 1 percent to Rs 1,560 per share on December 18 morning trade as investors booked profit after the stock closed 5 percent higher in the previous trading session. Additionally… [+2425 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Deborshi Chaki",
+            "title": "Exclusive | Prataap snacks promoters in talks with potential buyers for sale of controlling stake - Moneycontrol",
+            "description": "The stake sale could also see the exit of the company's founders, the Mehta and Kumat families, which control a 22 percent stake.",
+            "url": "https://www.moneycontrol.com/news/business/exclusive-prataap-snacks-promoters-in-talks-with-potential-buyers-for-sale-of-controlling-stake-11918871.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2017/11/IMAGEPRATAAP-770x433.jpg",
+            "publishedAt": "2023-12-18T04:20:26Z",
+            "content": "The promoters of Prataap Snacks Limited (PSL), the company behind 'Yellow Diamond Chips,' are reportedly in discussions to sell a controlling stake in the listed company, people familiar with the mat… [+2295 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BusinessLine"
+            },
+            "author": "Madhu Balaji",
+            "title": "IRB Infrastructure receives ₹1,683 cr contract from NHAI - BusinessLine",
+            "description": "IRB Infrastructure Trust receives ₹1,683-crore contract from NHAI for two projects, increasing IRB's share in North-South connectivity to 12%.",
+            "url": "https://www.thehindubusinessline.com/markets/irb-infrastructure-receives-1683-cr-contract-from-nhai/article67649571.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/todays-paper/tp-others/tp-states/rzhdvn/article66757456.ece/alternates/LANDSCAPE_1200/NHAI-to-develop%2BGQVB4NFAV.4.jpg.jpg",
+            "publishedAt": "2023-12-18T04:18:33Z",
+            "content": "IRB Infrastructure Trust, private InvIT of IRB Infrastructure Developers Ltd, has received 1,683-crore contract from the National Highways Authority of India (NHAI) for TOT-13 comprising Gwalior-Jhan… [+952 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Cardekho.com"
+            },
+            "author": "Rohit",
+            "title": "Get A Good Look At The New Kia Sonet’s HTX+ Variant In These 7 Pics - CarDekho",
+            "description": "The HTX+ is the fully loaded variant under the Tech (HT) Line of the Kia Sonet and gets a few exterior styling differences to set it apart from the GT Line and X-Line trims  The Kia Sonet facelift has premiered in India, and the carmaker confirmed that the ne…",
+            "url": "https://www.cardekho.com/india-car-news/get-a-good-look-at-the-new-kia-sonets-htx-variant-in-these-7-pics-31828.htm",
+            "urlToImage": "https://stimg2.cardekho.com/images/carNewsimages/userimages/650X420/31827/1702874290624/GeneralNew.jpg",
+            "publishedAt": "2023-12-18T04:08:00Z",
+            "content": "The HTX+ is the fully loaded variant under the Tech (HT) Line of the Kia Sonet and gets a few exterior styling differences to set it apart from the GT Line and X-Line trims\r\nThe Kia Sonet facelift ha… [+2452 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Tata Power gains after green energy arm bags NTPC contract for Rajasthan project - Moneycontrol",
+            "description": "TPSSL’s Solar Cell and Module Manufacturing plant in Bengaluru will supply 152 MWp DCR Solar PV Modules for this project.",
+            "url": "https://www.moneycontrol.com/news/business/stocks/tata-power-gains-after-green-energy-arm-bags-ntpc-contract-for-rajasthan-project-11914491.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/10/tata-power-company-770x433.jpg",
+            "publishedAt": "2023-12-18T04:02:21Z",
+            "content": "The Tata Power Company shares were up nearly 1 percent at Rs 335.70 in the opening trade on December 18 after a subsidiary company signed a contract with NTPC.\r\n\"Tata Power Solar Systems Limited (TPS… [+1512 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Sangeeta Ojha",
+            "title": "The downsides of floating-rate fixed deposits (FDs). Better invest in this for now | Mint - Mint",
+            "description": "Interest rates on floating rate fixed deposits (FDs) are variable and revised based on a benchmark reference rate. Experts recommend locking money into high-return FDs now before rates decrease",
+            "url": "https://www.livemint.com/money/personal-finance/the-downsides-of-floating-rate-bank-fixed-deposits-fds-better-invest-in-this-for-now-11702868239194.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/FD_1702871512347_1702871512544.png",
+            "publishedAt": "2023-12-18T04:00:59Z",
+            "content": "The interest rates on floating rate fixed deposits (FDs) are linked to a benchmark instrument's reference rate. Thus, they are variable during the tenure and are revised following the underlying refe… [+2771 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zee Business"
+            },
+            "author": "ZeeBiz WebTeam",
+            "title": "Vedanta dividend board meeting today; shares to remain in focus - Zee Business",
+            "description": "Vedanta board meeting results today: Vedanta shares will remain on investors radar on Monday, December 18, ahead of the scheduled board meeting of the Anil Agarwal-backed company to consider and approve a second interim dividend for the current financial year…",
+            "url": "https://www.zeebiz.com/markets/stocks/news-vedanta-share-dividend-history-news-2023-24-date-announcement-board-meeting-results-today-update-record-date-news-latest-269073",
+            "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/18/272915-vedanta-share-price-nse.jpg",
+            "publishedAt": "2023-12-18T03:45:34Z",
+            "content": "Vedanta dividend record date 2023, Vedanta board meeting results today: Vedanta shares will remain on investors' radar on Monday, December 18, ahead of the scheduled board meeting of the Anil Agarwal… [+1588 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Edelweiss plans to sell up to 20% stake in subsidiary Edelweiss Alternative Asset Management - Moneycontrol",
+            "description": "The company is looking to raise Rs 1,500-2,000 crore through the sale and will use the funds to pare debt and establish the market value of the business",
+            "url": "https://www.moneycontrol.com/news/business/announcements/edelweiss-plans-to-sell-up-to-20-stake-in-subsidiary-edelweiss-alternative-asset-management-11918491.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2020/12/shareholders-660x435.png",
+            "publishedAt": "2023-12-18T03:43:03Z",
+            "content": "Edelweiss Financial Services has announced a plan to sell a 10 to 20 percent stake in subsidiary Edelweiss Alternative Asset Management and has started the process of equity monetisation, the company… [+1136 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol Research",
+            "title": "MC Pro New Year Portfolio: 17 stocks for a rewarding 2024 - Moneycontrol",
+            "description": "These stocks have been picked from a variety of sectors. Ami Organics, Bharat Dynamics, GAIL and SBI are some of them",
+            "url": "https://www.moneycontrol.com/news/business/moneycontrol-research/a-portfolio-of-17-stocks-for-a-rewarding-2024-11918411.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/11/market-770x433.jpg",
+            "publishedAt": "2023-12-18T03:42:24Z",
+            "content": "PRO Only Highlights- \r\n Quarterly performance largely backed by improved realisations- \r\n Medium-term triggers China plus and protectionist measures for tyre industry- \r\n Valuations not inexpensive; … [+512 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT News Desk",
+            "title": "Suraj Estate Developers IPO opens today: Check GMP, issue price, other details - Hindustan Times",
+            "description": "The public issue, through which the company aims to raise ₹400 crore, is open for bidding till Wednesday.",
+            "url": "https://www.hindustantimes.com/business/suraj-estate-developers-ipo-opens-today-check-gmp-issue-price-other-details-101702865618753.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/Sona_Comstars_IPO__1702865627136_1702865627260.png",
+            "publishedAt": "2023-12-18T02:58:20Z",
+            "content": "Suraj Estate Developers Limited's IPO (initial public offering) opens for subscription on Monday, and Wednesday is the last day to subscribe to the issue. The offering is worth 400 crore; i.e., the M… [+1643 chars]"
+          },
+          {
+            "source": {
+              "id": "financial-times",
+              "name": "Financial Times"
+            },
+            "author": null,
+            "title": "India's assault on unsecured loans hits Paytm and other fintech companies - Financial Times",
+            "description": "Country’s central bank raises capital requirements in move to curb rising delinquencies",
+            "url": "https://www.ft.com/content/1fe45b1e-94c5-49e0-9590-a6ef0c46e428",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T01:59:02Z",
+            "content": "Keep abreast of significant corporate, financial and political developments around the world. Stay informed and spot emerging risks and opportunities with independent global reporting, expert comment… [+30 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Dhuraivel Gunasekaran",
+            "title": "Sensex @ 71,000; How larger asset equity MF schemes tweaked their portfolio - Moneycontrol",
+            "description": "The schemes with larger asset size barring smallcap funds have followed buy and hold strategy and deployed the incremental corpus within their existing stocks holdings",
+            "url": "https://www.moneycontrol.com/news/photos/business/personal-finance/sensex-71000-how-larger-asset-equity-mf-equity-schemes-tweaked-their-portfolio-11917761.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/Feat-1-770x433.jpg",
+            "publishedAt": "2023-12-18T01:49:01Z",
+            "content": "When equity markets climb to new highs, it poses different challenges to large-sized equity funds, depending on what their mandates are. The S&amp;P BSE Sensex index crossed the 71,000-point mark for… [+3140 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Rakesh Patil",
+            "title": "Stock Market Today: Top 10 things to know before the market opens - Moneycontrol",
+            "description": "Trends in the GIFT Nifty indicate a flat start for the broader index in India, with a gain of 4 points. The Nifty futures were trading around the 21,478 level.",
+            "url": "https://www.moneycontrol.com/news/business/markets/stock-market-today-top-10-things-to-know-before-the-market-opens-191-11914561.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/stocks4-7-770x433.jpg",
+            "publishedAt": "2023-12-18T01:37:33Z",
+            "content": "The benchmark Sensex and Nifty indices are likely to see a flat start on December 18 as trends in the GIFT Nifty indicate a muted start for the broader index with a gain of 4 points.\r\nDalal Street sc… [+6544 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Investing.com"
+            },
+            "author": "Reuters",
+            "title": "Oil climbs on drop in Russia exports, Red Sea jitters By Reuters - Investing.com",
+            "description": "Oil climbs over 1% on drop in Russia exports, Red Sea jitters",
+            "url": "https://www.investing.com/news/commodities-news/oil-climbs-nearly-1-on-drop-in-russia-exports-red-sea-jitters-3258364",
+            "urlToImage": "https://i-invdn-com.investing.com/news/LYNXMPEBBT0BW_L.jpg",
+            "publishedAt": "2023-12-18T01:30:00Z",
+            "content": "By Florence Tan and Emily Chow\r\nSINGAPORE (Reuters) -Oil prices rose over 1% in Asian trade on Monday, supported by lower exports from Russia and as attacks by the Houthis on ships in the Red Sea rai… [+2041 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Infosys announces long-awaited salary hike: Read what increment letter says - Times of India",
+            "description": "Infosys rolls out salary hike letters to employees ahead of Stellar Saturday Culture Carnival. The hike is effective from November 1, 2023. The averag",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/infosys-announces-long-awaited-salary-hike-read-what-increment-letter-says/articleshow/106072283.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106072276,width-1070,height-580,imgsize-27084,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T01:26:26Z",
+            "content": "<ul><li>News</li>\r\n<li>Infosys announces long-awaited salary hike: Read what increment letter says</li></ul>"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Nilesh Shah",
+            "title": "Nilesh Shah of Kotak MF lines up 7 themes for every investor in 2024 - Moneycontrol",
+            "description": "Despite the global challenges, the Indian market offers stability to investors due to its large and diversified economy, robust domestic demand and ongoing economic reforms, says Nilesh Shah of Kotak Mutual Fund.",
+            "url": "https://www.moneycontrol.com/news/business/markets/nilesh-shah-of-kotak-mf-lines-up-7-themes-for-every-investor-in-2024-11917511.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/10/Nilesh-Shah-1-770x433.jpg",
+            "publishedAt": "2023-12-18T01:04:52Z",
+            "content": "As we approach 2024, India looks poised to create new milestones and play its role as the north star to the global economy. With the 3Gs of growth, governance and green squarely on its side, India st… [+10176 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dsij.in"
+            },
+            "author": "Kiran Shroff",
+            "title": "Madhusudan Kela bought 2161384 shares and Sunil Singhania bought 4468228 shares of this civil construction company; scrip hit upper circuit & 52-week high! - Dalal Street Investment Journal",
+            "description": "The stock is up by 75 per cent from its 52-week low of Rs 253.40 per share.",
+            "url": "https://www.dsij.in/dsijarticledetail/madhusudan-kela-bought-2161384-shares-and-sunil-singhania-bought-4468228-shares-of-this-civil-construction-company-scrip-hit-upper-circuit-52-week-high-35271",
+            "urlToImage": "https://www.dsij.in/Portals/0/EasyDNNnews/35271/image_1320.jpg",
+            "publishedAt": "2023-12-18T01:01:52Z",
+            "content": "As of September 30, 2023, the company's order book stands at Rs 6,835 crore. \r\nFriday, December 15, 2023, saw the Indian stock market explode in green, with both the Sensex and Nifty reaching unprece… [+4744 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": null,
+            "title": "Stocks to watch: Mankind Pharma, Mazagon Dock, NBCC, Adani Green, Indian Bank, Tata Power - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/market/stocks-to-watch-mankind-pharma-mazagon-dock-nbcc-adani-green-indian-bank-tata-power-3340843/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T00:42:38Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Agencies",
+            "title": "Generative AI can add $1.5 trillion to India's GDP by FY30: Report - IndiaTimes",
+            "description": "​Generative AI has the potential to add a cumulative $1.2-1.5 trillion to India's GDP over the next seven years, according to a report by Ernst & Youn",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/generative-ai-can-add-1-5-trillion-to-indias-gdp-by-fy30-report/articleshow/106069663.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106069711,width-1070,height-580,imgsize-27232,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T20:41:26Z",
+            "content": "Koel Mallick's sarees are a captivating journey to ethereal ethnic beauty"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Sidhartha",
+            "title": "Electric 2-wheelers may see end of subsidy soon - IndiaTimes",
+            "description": "India Business News: The subsidy for electric two-wheelers is expected to end in a few weeks as the government is not keen on introducing the third phase of Faster Adoptio",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/electric-2-wheelers-may-see-end-of-subsidy-soon/articleshow/106069376.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106069544,width-1070,height-580,imgsize-121378,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T19:19:24Z",
+            "content": "FD Calculator\r\nWhen investing in a fixed deposit, the amount you deposit earns interest as per the prevailing...\r\nCalculate Now"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Nehal Chaliawala, Varun Sood",
+            "title": "Zee seeks time on Sony deal as two directors voted out | Mint - Mint",
+            "description": "Some of the largest foreign investors, which own a third of Zee, voted against the resolutions",
+            "url": "https://www.livemint.com/companies/news/zee-entertainment-requests-sony-india-to-extend-the-deadline-for-merger-11702821279407.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/Zee_entertainment_1691142028464_1702821289325.JPG",
+            "publishedAt": "2023-12-17T18:22:20Z",
+            "content": "Zee Entertainment Enterprises Ltd has sought more time from Sony Pictures Networks India to close their $10 billion merger, even as the countrys largest listed entertainment company witnesses rising … [+5118 chars]"
+          },
+          {
+            "source": {
+              "id": "reuters",
+              "name": "Reuters"
+            },
+            "author": "Reuters India",
+            "title": "India's love of homegrown single malts shakes up Pernod, Diageo - Reuters India",
+            "description": null,
+            "url": "https://www.reuters.com/world/india/indias-love-homegrown-single-malts-shakes-up-pernod-diageo-2023-12-17/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T18:13:28Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Deccan Herald"
+            },
+            "author": "Bloomberg",
+            "title": "Deloitte is looking to AI to help avoid mass layoffs in future - Deccan Herald",
+            "description": null,
+            "url": "https://www.deccanherald.com/business/companies/deloitte-is-looking-to-ai-to-help-avoid-mass-layoffs-in-future-2814904",
+            "urlToImage": "https://images.deccanherald.com/deccanherald%2F2023-12%2F6d2c71ce-26a1-433a-83eb-2a718de0a9d8%2F2023newsmlRC2O91AXFCQ91277211995.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+            "publishedAt": "2023-12-17T15:46:25Z",
+            "content": "It is obviously a great objective to be able to avoid large swings of hirings and layoffs, said Stevan Rolls, global chief talent officer at Deloitte. You could always be more efficient and effective… [+1110 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "CNBCTV18"
+            },
+            "author": "Hormaz Fatakia",
+            "title": "Trade Setup for December 18: What next for the Nifty 50 after best weekly run in six years? - CNBCTV18",
+            "description": "Since the last week of October when the index began to rally, the Nifty has gained nearly 2,500 points.",
+            "url": "https://www.cnbctv18.com/market/trade-setup-december-18-nifty-50-key-levels-nifty-bank-it-zee-jsw-mazagon-shares-18587821.htm",
+            "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2023/05/TRADE_SETUP_BG-1019x573.jpg",
+            "publishedAt": "2023-12-17T14:12:57Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TOI Business Desk",
+            "title": "Travelling for Xmas, New Year? How Delhi, Mumbai, Bengaluru & Hyderabad airports have ramped up infrastru - IndiaTimes",
+            "description": "India Business News: Indian airports, including Delhi, Mumbai, Bengaluru, and Hyderabad, have increased their infrastructure to accommodate the surge in winter travel. The",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/travelling-for-xmas-new-year-how-delhi-mumbai-bengaluru-hyderabad-airports-have-ramped-up-infrastructure-to-handle-winter-rush/articleshow/106064384.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106065662,width-1070,height-580,imgsize-71608,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T13:11:25Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Inshorts.com"
+            },
+            "author": "Hiral Goyal",
+            "title": "Which Indian cities saw the highest rent hikes this year? | 'Rental values to soon stabilise in most cities' | Inshorts - Inshorts",
+            "description": "Bengaluru saw the highest increase in rental prices this year as more people moved to the city, according to s",
+            "url": "https://inshorts.com/en/news/which-indian-cities-saw-the-highest-rent-hikes-this-year-1702817821735",
+            "urlToImage": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/12_dec/17_sun/img_1702816277113_186.jpg?",
+            "publishedAt": "2023-12-17T13:07:30Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": "the-hindu",
+              "name": "The Hindu"
+            },
+            "author": "The Hindu",
+            "title": "Kakrapar-4 nuclear reactor attains criticality - The Hindu",
+            "description": null,
+            "url": "https://www.thehindu.com/sci-tech/science/kapp-4-nuclear-reactor-critical-commercial-electricity/article67647745.ece",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T13:02:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Business Standard"
+            },
+            "author": "Business Standard",
+            "title": "Hospitals see 7-8% surge in patient footfall, new investments in 2023 - Business Standard",
+            "description": null,
+            "url": "https://www.business-standard.com/industry/news/hospitals-see-7-8-surge-in-patient-footfall-new-investments-in-2023-123121700461_1.html",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T12:58:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Entrackr"
+            },
+            "author": "Gyan Vardhan",
+            "title": "Farmley raises $6.7 Mn in new round led by BC Jindal Group - Entrackr",
+            "description": "Farmley has raised $6.7 Mn in a pre-Series B round led by BC Jindal Group with participation from existing investors DSG, Omnivore and Alkemi",
+            "url": "https://entrackr.com/2023/12/farmley-raises-6-7-mn-in-new-round-led-by-bc-jindal-group/",
+            "urlToImage": "https://entrackr.com/storage/2023/12/Farmley-2.jpg",
+            "publishedAt": "2023-12-17T12:35:19Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dsij.in"
+            },
+            "author": "Kiran Shroff",
+            "title": "Shankar Sharma's portfolio multibagger stock: This drone company secures a pivotal contract from the Ministry of Defence; scrip gains over 10 per cent! - Dalal Street Investment Journal",
+            "description": "The stock is up over 100 per cent from its 52-week low of Rs 96.90 per share.",
+            "url": "https://www.dsij.in/dsijarticledetail/shankar-sharmas-portfolio-multibagger-stock-this-drone-company-secures-a-pivotal-contract-from-the-ministry-of-defence-scrip-gains-over-10-per-cent-35261",
+            "urlToImage": "https://www.dsij.in/Portals/0/EasyDNNnews/35261/DRONE-STOCKS-800X400.jpg",
+            "publishedAt": "2023-12-17T10:52:30Z",
+            "content": "The stock is up over 100 per cent from its 52-week low of Rs 96.90 per share. \r\nOn Friday, shares of Droneacharya Aerial Innovations Ltd gained 10.9 per cent to an intraday high of Rs 217.95 per shar… [+3383 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Business Standard"
+            },
+            "author": "Press Trust of India",
+            "title": "LIC to play key role in achieving 'Insurance For All by 2047': Chairman - Business Standard",
+            "description": "In a bid to achieve 'Insurance For All by 2047', LIC will play a significant role and to meet that objective it is planning to launch a product especially designed for rural areas.",
+            "url": "https://www.business-standard.com/companies/news/lic-to-play-key-role-in-achieving-insurance-for-all-by-2047-chairman-123121700411_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-11/23/full/1700736727-4867.jpg",
+            "publishedAt": "2023-12-17T10:11:28Z",
+            "content": "\"The focus would be how to cover maximum rural masses who actually need insurance. In coming days, rural share will also go up to our total business kitty,\" LIC Chairman Siddhartha Mohanty said\r\nIn t… [+3362 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": "The Financial Express",
+            "title": "Yamaha R3, MT-03 first ride review: Performance comes at a high price - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/auto/reviews/yamaha-r3-mt-03-first-ride-review-performance-comes-at-a-high-price/3340609/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T07:41:54Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Yash Sharma",
+            "title": "Honda sells 200 Elevate SUVs per day since launch: Price to be hiked on this date - IndiaTimes",
+            "description": "Cars News: Honda's all-new Elevate SUV has sold 20,000 units in 100 days since its launch in India, averaging 200 units per day. The SUV, available in four varia",
+            "url": "https://timesofindia.indiatimes.com/auto/cars/honda-sells-200-elevate-suvs-per-day-since-launch-price-to-be-hiked-on-this-date/articleshow/106059780.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106059788,width-1070,height-580,imgsize-32106,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T06:37:16Z",
+            "content": "Royal Enfield Shotgun 650 in pics: Expected price, launch date, specs, features"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Soumya Sarkar",
+            "title": "Small-cap vs large-cap mutual funds: Unpacking the potential for high returns in India | Mint - Mint",
+            "description": "The Indian equity market presents investors with a choice between small-cap and large-cap stocks, each offering unique potential for returns.",
+            "url": "https://www.livemint.com/money/personal-finance/smallcap-vs-large-cap-mutual-funds-unpacking-the-potential-for-high-returns-in-india-11702376567553.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/15/1600x900/rupixen-com-Cz0kKadR9Co-unsplash_1702640231437_1702640238520.jpg",
+            "publishedAt": "2023-12-17T06:23:48Z",
+            "content": "Small-cap stocks represent companies with relatively smaller market capitalization, often in the early stages of growth. While they carry higher risk due to their size and volatility, they also prese… [+5878 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "howindialives.com",
+            "title": "India's surging share valuations enter a demanding zone | Mint - Mint",
+            "description": "On PE ratio, India is the most richly valued among major markets. Its market cap-to-GDP ratio, too, is at an all-time high, having crossed 100%. Can companies justify such high valuations with supernormal earnings growth?",
+            "url": "https://www.livemint.com/market/indias-surging-share-valuations-enter-a-demanding-zone-11702789088800.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/17/1600x900/26de40aa-fb8b-11eb-9351-32be236c0b91_1630581868515_1702790429959.jpg",
+            "publishedAt": "2023-12-17T05:29:04Z",
+            "content": "As Indias leading share index sails past another numerical milestone, lifting boats of all sizes and makes around it, it raises the question of fair valuations. In the here and now, share prices are … [+4139 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TNN",
+            "title": "Rooftop solar: 'Power bill of 43% of homes down by Rs 1,000' - Times of India",
+            "description": "Gujarat leads in solar rooftop installations in the residential segment. 43% of households in the state experienced a minimum reduction of Rs 1,000 pe",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/rooftop-solar-power-bill-of-43-of-homes-down-by-rs-1000/articleshow/106057731.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106057755,width-1070,height-580,imgsize-1168756,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T04:22:23Z",
+            "content": "Meet the star kids who are alumni of Dhirubhai Ambani International School"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "Soumyarendra Barik",
+            "title": "Aadhaar-based consent for children to go online proposed in new data protection rules - The Indian Express",
+            "description": "Closed-door meeting with industry scheduled on Dec 19",
+            "url": "https://indianexpress.com/article/india/aadhaar-based-consent-for-children-to-go-online-9071238/",
+            "urlToImage": "https://images.indianexpress.com/2023/12/Aadhaar-2col.jpg",
+            "publishedAt": "2023-12-16T22:30:29Z",
+            "content": "Using an Aadhaar-based system to verify childrens age for using online services and to gather their parents consent, and introducing a two-stage notification measure for tech companies to intimate us… [+3980 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Moneycontrol News",
+            "title": "Global AI Conclave: Tens of thousands of Bengaluru's chip designers give India an edge in semiconductor... - Moneycontrol",
+            "description": "&quot;If you look at the chip industry today, most of the value still lies in chip design. If you speak to TSMC, they might say we would rather be like Nvidia,&quot; Chip War author Chris Miller said",
+            "url": "https://www.moneycontrol.com/news/technology/global-ai-conclave-tens-of-thousands-of-bengalurus-chip-designers-give-india-an-edge-in-semiconductor-industry-says-chip-war-author-11914511.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/chris-miller-770x369.jpg",
+            "publishedAt": "2023-12-16T14:56:19Z",
+            "content": "Tens of thousands of chip designers in Bengaluru give India an extraordinary base to build on for its goal of becoming a significant part of the global value chain of semiconductors, Chip War author … [+1437 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Affiliate Desk",
+            "title": "10 best electric ovens for home chefs: From Philips, Bajaj and more | Mint - Mint",
+            "description": "10 best electric ovens for home cooks are listed here, highlighting superior features, effectiveness, and culinary skills. Discover the top models to improve your culinary explorations and culinary expertise.",
+            "url": "https://www.livemint.com/technology/gadgets/10-best-electric-ovens-for-home-chefs-from-philips-bajaj-and-more-11702719398398.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/16/1600x900/electric_oven_1702719878757_1702719901381.jpg",
+            "publishedAt": "2023-12-16T13:19:46Z",
+            "content": "An excellent oven has the power to elevate a dish from average to awesome. For home cooks who are enthusiastic about making culinary masterpieces, selecting an electric oven is crucial. We explore th… [+26582 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Etnownews.com"
+            },
+            "author": "ET Now Digital",
+            "title": "Vodafone Idea share price target 2024: 75% RETURN in 2023; BUY, SELL or HOLD? - ET Now",
+            "description": "Vodafone Idea Share Price Target 2024, 2025: Although Idea shares have climbed 75 per cent in 2023 so far, it has emerged as on of the top wealth destroyers on the Dalal Street. Idea shares have eroded 86 per cent of investors' money in the last 10 years. Ide…",
+            "url": "https://www.etnownews.com/markets/vodafone-idea-share-price-target-2024-2025-75-per-cent-return-in-2023-buy-sell-or-hold-article-106048282",
+            "urlToImage": "https://etstatic.tnn.in/thumb/msid-106048282,width-1280,height-720,resizemode-75/106048282.jpg",
+            "publishedAt": "2023-12-16T12:36:47Z",
+            "content": "38:24\r\nTCS, Infosys Up Over 5% Each; Sensex Rallies 969 Points, Nifty Ends At 21456 | Closing Trades"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Etnownews.com"
+            },
+            "author": "ET Now Digital",
+            "title": "Indian Oil share price target 2024, 2025: Anand Rathi assigns BUY rating - check IOC dividend yield and history - ET Now",
+            "description": "Indian Oil Share Price Target 2024, 2025: IOC shares have delivered a positive return of 35 per cent in the last three months and 58 per cent on YTD basis. IOC Dividend History, IOC Dividend Yield, IOC Share Price History - check here",
+            "url": "https://www.etnownews.com/markets/indian-oil-share-price-target-2024-2025-anand-rathi-assigns-buy-rating-check-ioc-dividend-yield-and-history-article-106044395",
+            "urlToImage": "https://etstatic.tnn.in/thumb/msid-106044395,width-1280,height-720,resizemode-75/106044395.jpg",
+            "publishedAt": "2023-12-16T09:25:14Z",
+            "content": "Indian Oil share price target 2024, 2025: Anand Rathi assigns BUY rating - check IOC dividend yield and history (Pic: Freepik/ET NOW News)"
+          }
+        ]
+      },
+      {
+        "entertainment": [
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Anurag Verma",
+            "title": "Meme Rewind 2023: 25 Hilarious Memes That Broke the Desi Internet - News18",
+            "description": "Need a quick recap on the best Indian memes of 2023? We got you.",
+            "url": "https://www.news18.com/viral/meme-rewind-2023-25-hilarious-memes-that-broke-the-desi-internet-8699014.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/best-memes-2023-2023-12-1c765ac63f02e6ffad30dbdca7220537-16x9.png?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T10:22:43Z",
+            "content": "January 2023 was just yesterday, right? And with a blink, we are here, bidding our goodbyes to 2023. Where did the entire year go? As Ratna Pathak Shahs character Savitri hilariously informs Aditi in… [+6797 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Ranveer Singh poses with his wax statues. Can you guess which one is real - Hindustan Times",
+            "description": "Ranveer Singh has got 2 statues at the Madame Tussauds wax museum in London, with one in traditional and the other in a western look. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/ranveer-singh-gets-2-wax-statues-at-madame-tussauds-london-reflects-on-his-journey-101702888888087.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/madame_tussauds_1702889040298_1702889040460.jpg",
+            "publishedAt": "2023-12-18T09:15:30Z",
+            "content": "Ranveer Singh has unveiled not one but two wax statues of himself at Madame Tussauds wax museum in London. The actor shared a few pictures from the museum as he posed alongside his wax statues and as… [+2435 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "123telugu.com"
+            },
+            "author": null,
+            "title": "Mega daughter joins the cast of Manchu Manoj’s What The Fish - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/mega-daughter-joins-the-cast-of-manchu-manojs-what-the-fish.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-12-18T08:37:00Z",
+            "content": "Rocking Star Manchu Manoj is currently captivating audiences as the host of the exclusive OTT celebrity game show Ustaad on ETV Win. The recently premiered show started with a bang, featuring Hi Nann… [+1495 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "‘Animal’ actor Triptii Dimri sparks dating rumors with Sam Merchant post her alleged breakup with Anushka - IndiaTimes",
+            "description": "Rumors circulate about Triptii Dimri dating model-turned-businessman Sam Merchant, sparking dating rumors. Sam Merchant, a businessman based in Goa, p",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/animal-actor-triptii-dimri-sparks-dating-rumors-with-sam-merchant-post-her-alleged-breakup-with-anushka-sharmas-brother-karnesh-ssharma/articleshow/106085253.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106085340,width-1070,height-580,imgsize-80254,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T08:33:58Z",
+            "content": "Triptii Dimri praises Ranbir Kapoor's 'caring behaviour' during 'Animal' bold scenes: 'Are you okay, are you comfortable?'"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "PINKVILLA"
+            },
+            "author": "Khushboo Ratda",
+            "title": "EXCLUSIVE: Prithviraj Sukumaran says Prabhas doesn't 'realize the kind of aura and stardom that we carry' - PINKVILLA",
+            "description": "In An Exclusive Chat With Pinkvilla, The Lucifer Director Shared That The Camaraderie Between Him And Prabhas In Salaar gives A glimpse Of The Exceptional Bond They Share Off-screen.",
+            "url": "https://www.pinkvilla.com/entertainment/south/exclusive-prithviraj-sukumaran-says-prabhas-doesnt-realize-the-kind-of-aura-and-stardom-that-we-carry-1265965",
+            "urlToImage": "https://www.pinkvilla.com/images/2023-12/2090747143_prithviraj-sukumaran-interview-about-prabhas-salaar-1.jpg",
+            "publishedAt": "2023-12-18T08:32:05Z",
+            "content": "It's always a great treat to see actors from different industries come together and build a good rapport. Salaar revolves around Prabhas and Prithviraj Sukumaran's character, named Vardharaja Mannaar… [+3969 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Sam Bahadur worldwide box office collection: Vicky Kaushal film crosses ₹100 cr - Hindustan Times",
+            "description": "While Sam Bahadur has slowly and surely touched the ₹100 crore mark globally, Animal has made over eight times in the same time. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/sam-bahadur-worldwide-box-office-collection-vicky-kaushal-film-crosses-100-cr-in-17-days-101702885224337.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/vicky_1701575193538_1702885482512.jfif",
+            "publishedAt": "2023-12-18T08:13:46Z",
+            "content": "Meghna Gulzar's Sam Bahadur, the biopic of India's first field marshal, Sam Manekshaw, has been slowly but steadily making waves at the global box office. The Vicky Kaushal film has now crossed the c… [+2237 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "Aishwarya Rai Bachchan's reaction to Aaradhya's stage performance goes viral; netizens say, 'Better than all 'Archies' actors' - Times of India",
+            "description": "Actor couple Aishwarya Rai Bachchan and Abhishek Bachhchan's daughter Aaradhya Bachchan performed at her school's annual day and the videos and pictures from it have gone viral on social media. Videos of proud mommy Aishwarya smiling at Aaradhya's performance…",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/aishwarya-rai-bachchans-reaction-to-aaradhyas-stage-performance-goes-viral-netizens-say-better-than-all-archies-actors/videoshow/106082772.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106082772,imgsize-30346.cms",
+            "publishedAt": "2023-12-18T07:34:57Z",
+            "content": "Dec 18, 2023, 01:04PM ISTSource: etimes.inActor couple Aishwarya Rai Bachchan and Abhishek Bachhchan's daughter Aaradhya Bachchan performed at her school's annual day and the videos and pictures from… [+598 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Koffee With Karan: Ajay Devgn recalls the time Karan Johar was his 'sworn enemy' - Hindustan Times",
+            "description": "The promo of the upcoming episode of Koffee With Karan season 8 shows Ajay Devgn sharing the couch with Singham director Rohit Shetty. | Web Series",
+            "url": "https://www.hindustantimes.com/entertainment/web-series/koffee-with-karan-promo-ajay-devgn-recalls-the-time-karan-johar-was-his-sworn-enemy-101702880398813.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/koffee_with_karan_8_1702882152276_1702882152520.jpg",
+            "publishedAt": "2023-12-18T07:24:21Z",
+            "content": "Koffee With Karan season 8 continues to have never-seen-before dynamic pairson the couch and the new promo shows Ajay Devgn and Rohit Shetty as guests. Ajay, who had earlier graced the show with wife… [+2447 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Viral: Shah Rukh Khan Lit Up The Dubai Event With His Chaiya Chaiya Moves - NDTV Movies",
+            "description": "Shah Rukh Khan also danced to Lutt Putt Gaya and O Maahi at the event",
+            "url": "https://www.ndtv.com/entertainment/viral-shah-rukh-khan-lit-up-the-dubai-event-with-his-chaiya-chaiya-moves-4695277",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/snl9al8_srk-_625x300_18_December_23.jpg",
+            "publishedAt": "2023-12-18T06:31:15Z",
+            "content": "Shah Rukh Khan dancing at the event. (courtesy: Shah RukhKhanUniverse)\r\nNew Delhi: Shah Rukh Khan went to Dubai for the promotions of his third release of the year - Dunki. Needless to say, Shah Rukh… [+2482 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "'Trying to control...': Alia Bhatt opens up on how she battles anxiety; reveals daughter Raha’s nicknames - Times of India",
+            "description": "Alia Bhatt recently held an Ask Me Anything session on Instagram and talked about different aspects of her life. While she revealed her daughter Raha's nicknames, Alia also opened up about her struggles with anxiety on how she deals with them. The actress, wh…",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/trying-to-control-alia-bhatt-opens-up-on-how-she-battles-anxiety-reveals-daughter-rahas-nicknames/videoshow/106078150.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106078150,imgsize-60338.cms",
+            "publishedAt": "2023-12-18T05:28:02Z",
+            "content": "Dec 18, 2023, 10:58AM ISTSource: etimes.inAlia Bhatt recently held an Ask Me Anything session on Instagram and talked about different aspects of her life. While she revealed her daughter Raha's nickn… [+1254 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "In Pics: Navya Naveli Nanda Attends Rumoured Boyfriend Siddhant Chaturvedi's Kho Gaye Hum Kahan Screening - NDTV Movies",
+            "description": "Kho Gaye Hum Kahan will stream on Netflix from December 26",
+            "url": "https://www.ndtv.com/entertainment/in-pics-navya-naveli-nanda-attends-rumoured-boyfriend-siddhant-chaturvedis-kho-gaye-hum-kahan-screening-4694981",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/s7s8nq48_siddhant-_625x300_18_December_23.jpg",
+            "publishedAt": "2023-12-18T05:25:57Z",
+            "content": "Navya and Siddhant at the screening\r\nNew Delhi: The makers of Kho Gaye Hum Kahan hosted a special screening of the film on Sunday night in Mumbai. The lead actors of the film Ananya Panday, Siddhant … [+1977 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Koreaboo.com"
+            },
+            "author": null,
+            "title": "Label Responds To 14-Year-Old Idol's Alleged Illegal Relationship With Stylist - Koreaboo",
+            "description": "Label Responds To Alleged Illegal Relationship Between FANTASY BOYS' Kim Gyurae And Stylist",
+            "url": "https://www.koreaboo.com/news/fantasy-boys-kim-gyurae-pocketdol-responds-dating-allegation-stylist/",
+            "urlToImage": "https://lh3.googleusercontent.com/jTS3jL9Uz6vCVwe6LwtEsGcordfWrDp01y5f1Sr1YAk6l8jW1WKoi5pS-Iv7DOnps5meoS0meTYKD2ZIOsfkI3kTf8hWolKStPI_DGh0eNYjEZ4=w1200-h630-rj-pp-e365",
+            "publishedAt": "2023-12-18T04:33:52Z",
+            "content": "FANTASY BOYS‘ label Pocketdol released a statement regarding Kim Gyurae.\r\nKim Gyurae | Pinterest\r\nOn December 18, Pocketdol responded to the allegations that 14-year-old idol Kim Gyurae was dating a … [+1663 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Greatandhra.com"
+            },
+            "author": "Venkat",
+            "title": "Rao Ramesh's Maruti Nagar Completes Filming - Greatandhra",
+            "description": "Senior artist Rao Ramesh is one of the extremely talented actors in Tollywood. He has turned the main lead for his upcoming film which has been titled Maruti Nagar Subramanyam.",
+            "url": "https://www.greatandhra.com/movies/news/rao-rameshs-maruti-nagar-completes-filming-134408",
+            "urlToImage": "https://www.greatandhra.com/newphotos10/maruthinagar11702873738.jpg",
+            "publishedAt": "2023-12-18T04:28:58Z",
+            "content": "Senior artist Rao Ramesh is one of the extremely talented actors in Tollywood. He has turned the main lead for his upcoming film which has been titled Maruti Nagar Subramanyam. \r\nThe latest news we a… [+722 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Koimoi"
+            },
+            "author": "Jishika Madaan",
+            "title": "Dunki Box Office Day 1 Advance Booking (3 Days To Go): Shah Rukh Khan Starrer Moving In The Right Direction, To Hit The 5 Crore Milestone Soon! - Koimoi",
+            "description": "Shah Rukh Khan led Dunki is witnessing an exponential growth in advance booking collections. Read latest update now!",
+            "url": "https://www.koimoi.com/box-office/dunki-box-office-day-1-advance-booking-3-days-to-go-shah-rukh-khan-starrer-moving-in-the-right-direction-to-hit-the-5-crore-milestone-soon/",
+            "urlToImage": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/12/dunki-box-office-day-1-advance-booking-3-days-to-go-shah-rukh-khans-film-grows-001.jpg",
+            "publishedAt": "2023-12-18T04:06:39Z",
+            "content": "Dunki Box Office Day 1 Advance Booking Updates!(Photo Credit IMDb)\r\nThe countdown has begun, and we can only imagine the pressure on Shah Rukh Khan right now. Dunki will be released on December 21, 2… [+2188 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Shah Rukh Khan roasts fans who mimic him: ‘Aese thodi na tha yaar’ - Hindustan Times",
+            "description": "Shah Rukh Khan was in Dubai when he showed the correct way of delivering the ‘I love you Kiran’ line from his hit movie Darr. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/shah-rukh-khan-roasts-fans-who-mimic-him-aese-thodi-na-tha-yaar-101702870106768.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/shah_rukh_khan_1702871923096_1702871923265.jpg",
+            "publishedAt": "2023-12-18T04:06:13Z",
+            "content": "Shah Rukh Khan has finally reacted to all those who say the famous I love you KKK Kiran line from Darr while mimicking him. The actor was in Dubai on Sunday for the promotion of his upcoming film Dun… [+2174 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "Salaar vs Dunki advance box office: Prabhas-starrer trails behind Shah Rukh Khan’s film, sells 150000 tickets - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/entertainment/telugu/salaar-vs-dunki-advance-box-office-prabhas-starrer-trails-behind-shah-rukh-khans-film-9072390/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T03:43:28Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Sanjay Dutt's twins spotted, fans think they look like their ‘dada dadi' - Hindustan Times",
+            "description": "Sanjay Dutt's wife and kids live in Dubai and flow down to India occasionally. Shahraan and Iqra are 13 now. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/sanjay-dutts-twins-shahraan-and-iqra-spotted-resemble-sunil-dutt-nargis-101702865509358.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/shahraan_dutt_iqra_dutt_1702868772411_1702868772569.jpg",
+            "publishedAt": "2023-12-18T03:20:59Z",
+            "content": "Sanjay Dutt's wife Manayata Dutt and twins Shahraan and Iqra were spotted in Mumbai on Sunday after a long time. The 13-year-old siblings had stepped out with their mom for a dinner outing. A video o… [+2133 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Telangana Today"
+            },
+            "author": "Telangana Today",
+            "title": "Tension at Annapurna Studios after Big Boss 7 Telugu winner declaration - Telangana Today",
+            "description": "A huge crowd was gathered outside the Annapurna studio where the final round of Big Boss 7 season was held. Soon after Pallavi Prashanth was declared the winner celebrations broke out.",
+            "url": "https://telanganatoday.com/tension-at-annapurna-studios-after-big-boss-7-telugu-winner-declaration",
+            "urlToImage": "https://cdn.telanganatoday.com/wp-content/uploads/2023/12/car-damage.jpg",
+            "publishedAt": "2023-12-18T03:15:27Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "India Today Entertainment Desk",
+            "title": "Veteran actor Tanuja, mother of Kajol, hospitalised in Mumbai - India Today",
+            "description": "Veteran actor and Kajol's mother Tanuja has been hospiatlised. According to PTI, the source said that Tanuja is currently under observation.",
+            "url": "https://www.indiatoday.in/movies/celebrities/story/veteran-actor-tanuja-kajol-mother-hospitalised-in-mumbai-age-releated-illness-2477210-2023-12-18",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/kajol-and-tanuja-181145808-16x9_0.jpg?VersionId=5_NGf5VQ_hiekgKLXfxZqf6J.3kPqCK0",
+            "publishedAt": "2023-12-18T03:11:58Z",
+            "content": "Veteran actor and Kajol's mother, Tanuja, has been hospitalised in Mumbai. As per news agency PTI, the actor was admitted to a private hospital on the evening of December 17, due to age-related issue… [+559 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Bigg Boss 17: Munawar Faruqui goes through a mental breakdown after Ayesha Khan accuses him of double dat - Times of India",
+            "description": "Ayesha confronts Munawar in the Bigg Boss Archive room about his relationship with gf Nazila and accuses him of double dating. Munawar apologizes for",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-17-munawar-faruqui-goes-through-a-mental-breakdown-after-ayesha-khan-accuses-him-of-double-dating-says-if-bigg-boss-opens-the-door-ill-walk-out/articleshow/106069498.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106069495,width-1070,height-580,imgsize-22632,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T02:30:00Z",
+            "content": "Ajwain garlic oil: Perfect remedy for cough, cold and chest congestion"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "123telugu.com"
+            },
+            "author": null,
+            "title": "Naga Vamsi – There are no internal issues in Guntur Kaaram team - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/naga-vamsi-there-are-no-internal-issues-in-guntur-kaaram-team.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-12-18T02:30:00Z",
+            "content": "This year has been a disappointment for Superstar Mahesh Babu’s fans as they didn’t get to see their demigod on screens. But what’s pleasing at the same time is they are going to witness him at the v… [+1224 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Disha Vakani and her daughter meet the cast of Taarak Mehta Ka Ooltah Chashmah at a wedding; Dayaben pose - Times of India",
+            "description": "Taarak Mehta Ka Ooltah Chashmah reintroduces Mrs Roshan Singh Sodhi in the show, played by Mona Mevawalla. However, fans are still awaiting the return",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/disha-vakani-and-her-daughter-meet-the-cast-of-taarak-mehta-ka-ooltah-chashmah-at-a-wedding-dayaben-poses-for-a-picture-with-them/articleshow/106072741.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106072804,width-1070,height-580,imgsize-1277915,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T02:22:42Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Titas Chowdhury",
+            "title": "Manoj Bajpayee Reacts to Impact of Animal on Joram, 'Box Office Obsession Has Ruined...' | Exclusive - News18",
+            "description": "Manoj Bajpayee believes the pressure to make money has made filmmakers come up with 'tricks' to 'fool audiences'. He also speaks about the hype surrounding Animal.",
+            "url": "https://www.news18.com/movies/manoj-bajpayee-reacts-to-impact-of-animal-on-joram-box-office-obsession-has-ruined-exclusive-8707605.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/fotojet-2023-12-17t195715.529-2023-12-1ee2dc337596f3c4dced50472a7da9ed-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T02:12:07Z",
+            "content": "2023 has been a year of blockbusters with films like Pathaan, Jawan, Gadar 3 and Animal creating havoc at the box office and shattering many previous records. However, Manoj Bajpayee rues that the ex… [+2615 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Jigar Shah",
+            "title": "Prashanth Neel : Courted Prabhas for 4 months for Salaar - IndiaTimes",
+            "description": "Prashanth Neel, renowned for the KGF franchise, discusses his film \"Salaar\" with Prabhas, emphasizing that violence in the movie is emotionally driven",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prashanth-neel-courted-prabhas-for-4-months-for-salaar/articleshow/106072502.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106072496,width-1070,height-580,imgsize-50218,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T01:55:32Z",
+            "content": "Ajwain garlic oil: Perfect remedy for cough, cold and chest congestion"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "When Richa recalled her reaction on being asked to text a married actor for date - Hindustan Times",
+            "description": "Talking about those who come into the industry from outside, Richa Chadha had said that “we don't have anyone guiding us about these things”. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/when-richa-chadha-recalled-her-reaction-on-being-asked-to-text-an-actor-for-a-date-but-he-is-married-101702822869261.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/therichachadha625320295838577n_1697203234777_1702824363365.jpg",
+            "publishedAt": "2023-12-18T00:50:01Z",
+            "content": "Actor Richa Chadha once recalled that when she entered the Hindi film industry she was asked to go on a date with a married actor. In an interview with news agency PTI in 2017, Richa had said that sh… [+2343 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "Woodstock Witch",
+            "title": "Pisces Horoscope Today: December 18, 2023 - VOGUE India",
+            "description": "Read VOGUE India's free daily Pisces horoscope for 18th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+            "url": "https://www.vogue.in/horoscope/product/pisces-horoscope-today-december-18-2023/",
+            "urlToImage": "https://media.vogue.in/wp-content/uploads/2022/06/Pisces-866x487.jpg",
+            "publishedAt": "2023-12-18T00:20:26Z",
+            "content": "What if we said the stars in the night sky are conspiring in your favour. That the divine forces are doing everything in their capacity to ensure you have a 5-star experience here on earth. So, snap … [+372 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "Woodstock Witch",
+            "title": "Sagittarius Horoscope Today: December 18, 2023 - VOGUE India",
+            "description": "Read VOGUE India's free daily Sagittarius horoscope for 18th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+            "url": "https://www.vogue.in/horoscope/product/sagittarius-horoscope-today-december-18-2023/",
+            "urlToImage": "https://media.vogue.in/wp-content/uploads/2019/12/Sagittarius.jpg",
+            "publishedAt": "2023-12-18T00:20:17Z",
+            "content": "Haters may call you delulu, and thats okay! You know that the law of attraction is always working in your favour, that the universe is always working in your favour, and that the things that arent wo… [+281 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "VOGUE India",
+            "title": "Aries Horoscope Today: December 18, 2023 - VOGUE India",
+            "description": null,
+            "url": "https://www.vogue.in/horoscope/product/aries-horoscope-today-december-18-2023/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T00:20:11Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "Woodstock Witch",
+            "title": "Aquarius Horoscope Today: December 18, 2023 - VOGUE India",
+            "description": "Read VOGUE India's free daily Aquarius horoscope for 18th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+            "url": "https://www.vogue.in/horoscope/product/aquarius-horoscope-today-december-18-2023/",
+            "urlToImage": "https://media.vogue.in/wp-content/uploads/2021/12/Aquarius-866x487.jpg",
+            "publishedAt": "2023-12-18T00:20:09Z",
+            "content": "Aquarius, youve had it! Youve had it with the energy vampires, the gossip mongers and the air-kissers! You want to surround yourself with your rainbow tribe, people who match your weird and wonderful… [+412 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Neeraj Dhankher",
+            "title": "Weekly Career Horoscope for December 18-24, 2023 - Hindustan Times",
+            "description": "Weekly Career Horoscope, December 18-24, 2023: Get daily career astrological predictions that will help you prosper at your workplace. | Horoscope",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/weekly-career-horoscope-for-december-18-24-2023-101702843654731.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/To-provide-career-guidance-as-well-as-help-student_1698348601166_1702844663124.jpg",
+            "publishedAt": "2023-12-17T21:30:07Z",
+            "content": "Aries: This week, your career options align with your objectives. Keep an eye out for great offers that will boost your career. You cannot do without networking. Therefore, attend a meeting or networ… [+5451 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "PINKVILLA"
+            },
+            "author": "Loveleen Kaur",
+            "title": "PICS: Janhvi Kapoor, Nysa Devgan, Orry’s London vacay is all about food and fun rides; Khushi Kapoor feels FOMO - PINKVILLA",
+            "description": "Orry Recently Shared A Photo Album Showcasing The Fun He Had With Janhvi Kapoor And Nysa Devgan During Their Vacation In London. The Archies Actress Khushi Kapoor Reacted To It.",
+            "url": "https://www.pinkvilla.com/entertainment/news/pics-janhvi-kapoor-nysa-devgan-orrys-london-vacay-is-all-about-food-and-fun-rides-khushi-kapoor-feels-fomo-1265901",
+            "urlToImage": "https://www.pinkvilla.com/images/2023-12/417840230_janhvi-kapoor-nysa-devgan-and-orhan-awatramani-min.jpg",
+            "publishedAt": "2023-12-17T20:27:52Z",
+            "content": "We all know that social media sensation Orry is friends with every youngster in Bollywood. Hes so close to them that they are often spotted vacationing together. Recently, Janhvi Kapoor and Nysa Devg… [+1992 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Dr J.N Pandey",
+            "title": "Capricorn Daily Horoscope Today, December 18, 2023 predicts good profit - Hindustan Times",
+            "description": "Read Capricorn daily horoscope for Dec 18, 2023 to know your astrological predictions. Financial prosperity ensures smart investments. | Horoscope",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/capricorn-daily-horoscope-today-december-18-2023-predicts-good-profit-101702804326553.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/capricorn_1690876442304_1702839361548.jpg",
+            "publishedAt": "2023-12-17T18:57:35Z",
+            "content": "Capricorn (22nd December to 19th January)\r\nDaily Horoscope Prediction says, Have a bright day\r\nCapricorn Daily Horoscope Today, December 18, 2023. Management would recognize your professional skills.… [+2923 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Dr J.N Pandey",
+            "title": "Scorpio Daily Horoscope Today, Dec 18, 2023 advices to avoid wild expenditures - Hindustan Times",
+            "description": "Read Scorpio daily horoscope for Dec 18, 2023 to know your astrological predictions. Avoid wild expenditures and save more. | Horoscope",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/scorpio-daily-horoscope-today-dec-18-2023-advices-to-avoid-wild-expenditures-101702804313733.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/scorpio_1690911129897_1702839073172.jpg",
+            "publishedAt": "2023-12-17T18:52:30Z",
+            "content": "Scorpio 23rd October to 21st November)\r\nDaily Horoscope Prediction says, You never fear troubles\r\nScorpio Daily Horoscope Today, Dec 18, 2023. Avoid wild expenditures and save more.\r\nHave a creative … [+3105 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "Ankita Bhandari",
+            "title": "Fighter`s Sher Khul Gaye Becomes Most-Watched Video, Collects 50 Million Views - Zee News",
+            "description": "Sher Khul Gaye - the first song from Sidharth Anands upcoming directorial Fighter has indeed come as a treat. The audience witnessed the fresh chemistry of Hrithik Roshan and Deepika Padukone in the party anthem of the season.  Well-studded with cool dance mo…",
+            "url": "https://zeenews.india.com/bollywood/fighters-sher-khul-gaye-becomes-most-watched-video-collects-50-million-views-2700047.html",
+            "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/18/1337635-deepika-sher-khul-gaye.gif",
+            "publishedAt": "2023-12-17T18:35:19Z",
+            "content": "NEW DELHI: 'Sher Khul Gaye' - the first song from Sidharth Anand's upcoming directorial 'Fighter' has indeed come as a treat. The audience witnessed the fresh chemistry of Hrithik Roshan and Deepika … [+2091 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Dr J.N Pandey",
+            "title": "Taurus Daily Horoscope Today, Dec 18, 2023 predicts professional opportunities - Hindustan Times",
+            "description": "Read Taurus daily horoscope for Dec 18, 2023 to know your astrological predictions. Resolve every past issue in the love life to make the day fabulous. | Horoscope",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/taurus-daily-horoscope-today-dec-18-2023-predicts-professional-opportunities-101702804287570.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/taurus_1690986384598_1702837991722.jpg",
+            "publishedAt": "2023-12-17T18:34:50Z",
+            "content": "Taurus (20th April to 20th May)\r\nDaily Horoscope Prediction says, Accomplish the dreams\r\nTaurus Daily Horoscope Today, Dec 18, 2023. Utilize professional opportunities to display your skills and hand… [+3104 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "123telugu.com"
+            },
+            "author": null,
+            "title": "Buzz: Vikram’s Thangalaan to get postponed - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/buzz-vikrams-thangalaan-to-get-postponed.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-12-17T16:30:00Z",
+            "content": "Versatile actor Vikram joined forces with the sensational filmmaker Pa Ranjith for the movie Thangalaan. The film is based on a few real-life incidents that happened in Kolar Gold Fields. The promoti… [+720 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "#CelebrityEvenings: From Nora Fatehi to Ananya Panday, Bollywood celebs spotted in Mumbai - Times of India",
+            "description": "The paparazzi captured Bollywood stars at different locations in Mumbai on December 17. Celebrities including  Nora Fatehi, Sonu Nigam, Ananya Panday, Sunil Grover, Suneil Shetty, and others were spotted as they stepped out in the city looking their usual bes…",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/celebrityevenings-from-nora-fatehi-to-ananya-panday-bollywood-celebs-spotted-in-mumbai/videoshow/106066140.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106066140,imgsize-39796.cms",
+            "publishedAt": "2023-12-17T15:45:00Z",
+            "content": "Dec 17, 2023, 09:15PM ISTSource: etimes.inThe paparazzi captured Bollywood stars at different locations in Mumbai on December 17. Celebrities including Nora Fatehi, Sonu Nigam, Ananya Panday, Sunil G… [+123 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Vijaya Tiwari",
+            "title": "Exclusive - Bigg Boss 17's Khanzaadi aka Feroza Khan on her relationship with Abhishek Kumar: 'Humare beech mein joh hai woh hum dono ko pata hai' - IndiaTimes",
+            "description": "Bigg Boss 17 contestant Khanzaadi aka Feroza Khan, who got evicted from the reality show spoke to ETimes TV about her journey. The rapper opened up about why she was praying to be out of the Bigg Boss 17 house, her love-hate relationship with Abhishek Kumar a…",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/exclusive-bigg-boss-17s-khanzaadi-aka-feroza-khan-on-her-relationship-with-abhishek-kumar-humare-beech-mein-joh-hai-woh-hum-dono-ko-pata-hai/photostory/106067240.cms",
+            "urlToImage": "https://static.toiimg.com/photo/msid-106067388.cms",
+            "publishedAt": "2023-12-17T15:34:21Z",
+            "content": "I don’t have hatred or enmity towards anyone. Calling someone my enemy is a big thing, it is a big word. I had my differences with Abhishek, we fought a lot but we shared a great friendship also. I f… [+161 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Mukti Mohan and 'Animal' actor Kunal Thakur dance their heart out at their wedding celebrations, Ayushman - IndiaTimes",
+            "description": "Mukti Mohan has dropped an unseen video from her wedding festivities with Kunal Thakur and it looks like a lot of fun! Kunal was last seen in 'Animal'",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/mukti-mohan-and-animal-actor-kunal-thakur-dance-their-heart-out-at-their-wedding-celebrations-ayushmann-khurrana-shakti-mohan-join-in-watch-unseen-video/articleshow/106067118.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106067158,width-1070,height-580,imgsize-39972,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T14:59:20Z",
+            "content": "10 morning habits thatll propel you to success"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "123telugu.com"
+            },
+            "author": null,
+            "title": "Promo of Salaar team’s special interview with Rajamouli is out now - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/promo-of-salaar-teams-special-interview-with-rajamouli-is-out-now.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-12-17T14:00:00Z",
+            "content": "Rajamouli, along with the Salaar team, shot for a special interview recently. The makers have now revealed that the full interview will be coming out on Wednesday, 19th December. The episode’s promo … [+1087 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Koimoi"
+            },
+            "author": "Oshine Koul",
+            "title": "Mr Bachchan Poster Unveiled! Ajay Devgn Shares The First Look Of Ravi Teja Starrer – An Official Adaptation Of Raid - Koimoi",
+            "description": "Ravi Teja starrer Mr. Bachchan's first look poster is out. The film is an official adaptation of Raid, starring Ajay Devgn in the lead. Read on",
+            "url": "https://www.koimoi.com/south-indian-cinema/mr-bachchan-poster-unveiled-ajay-devgn-shares-the-first-look-of-ravi-teja-starrer-an-official-adaptation-of-raid/",
+            "urlToImage": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/12/mr-bachchan-poster-unveiled-ajay-devgn-shares-the-first-look-of-ravi-teja-starrer-an-official-adaptation-of-raid.jpg",
+            "publishedAt": "2023-12-17T13:39:56Z",
+            "content": "Ravi Teja Starrer Mr. Bachchan Poster Out! (Picture Credit: IMDb)\r\nSince afternoon, south sensation Ravi Teja has been making headlines with the first-look poster of his latest film, Mr. Bachchan. Ea… [+2342 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "Kareena Kapoor, Saif Ali Khan jet off for a vacation along with Jeh and Taimur - Times of India",
+            "description": "Actor couple Kareena Kapoor and Saif Ali Khan recently jetted off for a vacation. The 'Jaane Jaan' actress and her husband were papped with their kids Taimur and Jeh at the Mumbai airport on December 17. Saif and Kareena wished 'Happy Christmas' to the shutte…",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/kareena-kapoor-saif-ali-khan-jet-off-for-a-vacation-along-with-jeh-and-taimur/videoshow/106065664.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106065664,imgsize-77656.cms",
+            "publishedAt": "2023-12-17T13:36:00Z",
+            "content": "Dec 17, 2023, 07:06PM ISTSource: etimes.inActor couple Kareena Kapoor and Saif Ali Khan recently jetted off for a vacation. The 'Jaane Jaan' actress and her husband were papped with their kids Taimur… [+161 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "Entertainment Desk",
+            "title": "It’s twin baby girls for Rubina Dilaik-Abhinav Shukla: Trainer congratulates new mom, edits post later - The Indian Express",
+            "description": "Rubina Dilaik's Pilates coach took to her Instagram to congratulate the new mom.",
+            "url": "https://indianexpress.com/article/entertainment/television/its-twin-baby-girls-for-rubina-dilaik-abhinav-shukla-trainer-congratulates-new-mom-edits-post-later-9071890/",
+            "urlToImage": "https://images.indianexpress.com/2023/12/Rubina-Dilaik-Abhinav-Shukla-1600.jpg",
+            "publishedAt": "2023-12-17T13:29:19Z",
+            "content": "Here’s a piece of happy news for fans of TV actors and couple Rubina Dilaik and Abhinav Shukla. Rubina has reportedly delivered twin girls recently. While the new parents are yet to share this news w… [+850 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Sunny Deol says audiences are watching his older films post Gadar 2 success: 'New generation got connected to me' - Hindustan Times",
+            "description": "Sunny Deol believes he has been able to establish a connection with younger audiences because of the huge success of Gadar 2. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/sunny-deol-says-audiences-are-watching-his-older-films-post-gadar-2-success-101702818205402.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/gadar_2_1692320794830_1702818437041.jpeg",
+            "publishedAt": "2023-12-17T13:20:27Z",
+            "content": "Sunny Deol delivered one of the biggest films of the year with Gadar 2. The actor has now opened up about how this has helped him connect with younger audiences. He said in an interview with PTI that… [+1853 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "A Khan-Tastic Airport Spotting: Shah Rukh Khan, Saif Ali Khan And Family - NDTV",
+            "description": "Shah Rukh Khan, Saif Ali Khan-Kareena Kapoor with their two sons were pictured at the airport",
+            "url": "https://www.ndtv.com/photos/entertainment/a-khan-tastic-airport-spotting-shah-rukh-khan-saif-ali-khan-and-family-106543",
+            "urlToImage": "https://drop.ndtv.com/albums/ENTERTAINMENT/a-khan-tastic-a_638384335592339801/638384335592339801_640x480.jpeg",
+            "publishedAt": "2023-12-17T12:42:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "India Today Entertainment Desk",
+            "title": "Samantha Prabhu was asked if she would ever marry again, here's how she reacted - India Today",
+            "description": "Samantha Ruth Prabhu was recently asked by a fan if she would ever marry again, here's how she responded. Samantha was previously married to Naga Chaitanya.",
+            "url": "https://www.indiatoday.in/movies/regional-cinema/story/samantha-prabhu-was-asked-if-she-would-ever-marry-again-after-naga-chaitanya-divorce-how-she-reacted-2477067-2023-12-17",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/samantha-ruth-prabhu-170640590-16x9_0.jpg?VersionId=qja_eUJE2d_K3z17W6HK.0x_Zktd8Gk0",
+            "publishedAt": "2023-12-17T12:13:27Z",
+            "content": "Actor Samantha Ruth Prabhu was recently asked by a fan on her social media handle if she would ever marry again.Samantha said that she would not as it would be a 'bad investment.'\r\nSAMANTHA REACTS AF… [+1336 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Quint"
+            },
+            "author": "Quint Entertainment",
+            "title": "Shreyas Talpade to be Discharged Soon From Hospital; Shares Filmmaker Sohum Shah - The Quint",
+            "description": "Actor Shreyas Talpade suffered a heart attack in Mumbai on 14 December, following which he underwent an angioplasty. According to filmmaker Sohum Shah, a close friend of Shreyas, the actor is expected to be discharged soon from the hospital.",
+            "url": "https://www.thequint.com/entertainment/celebrities/shreyas-talpade-to-be-discharged-soon-from-hospital-shares-filmmaker-sohum-shah",
+            "urlToImage": "https://images.thequint.com/thequint%2F2023-12%2F4f8fae84-2f67-4dbd-b595-4544d2c6fe5f%2Fshreyas_talpade_joins_welcome_to_the_jungle_i_have_always_enjoyed_doing_comedy.jpg?rect=0%2C0%2C1120%2C588",
+            "publishedAt": "2023-12-17T11:55:44Z",
+            "content": "Sharing an update on Shreyas' health, Shah told E Times, \"I visited him on the same night he was taken to the hospital, and I was there today. It was a big relief to see Shreyas smiling and talking w… [+616 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "India Today Entertainment Desk",
+            "title": "Watch: Triptii Dimri dances to ‘Animal’ co-star Ranbir Kapoor’s song - India Today",
+            "description": "Triptii Dimri has been winning hearts with her dance videos shared on Instagram. She grooved to Ranbir Kapoor’s song, ‘Ghaghra’ and to ‘Bole Churiyaan’, setting the dance floor on fire.",
+            "url": "https://www.indiatoday.in/movies/celebrities/story/bhabhi-2-triptii-dimri-dances-ranbir-kapoor-song-animal-2477047-2023-12-17",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/triptii-dimri-grooves-to-ranbir-kapoors-song-17030030-16x9_0.jpg?VersionId=3Rz4JIgLR396O73nIvoGVHk9bthsd.k.",
+            "publishedAt": "2023-12-17T11:13:36Z",
+            "content": "Triptii Dimri has emerged as the newest ‘National Crush’ after her performance in Sandeep Reddy Vanga’s ‘Animal’. In fact, just like in the film, people everywhere has been calling her ‘Bhabhi 2’. Th… [+1663 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Tracktollywood.com"
+            },
+            "author": "Aditya",
+            "title": "Jagadeesh, who played Keshava’s role in Pushpa, admits to his crime - TrackTollywood",
+            "description": "Jagadeesh, who starred in Allu Arjun's Pushpa The Rise, confesses to his crime regarding the suicide of a woman. Learn more about the case",
+            "url": "https://tracktollywood.com/jagadeesh-who-played-keshavas-role-in-pushpa-admits-to-his-crime/",
+            "urlToImage": "https://tracktollywood.com/wp-content/uploads/2023/12/Screenshot-2023-12-08-153315.png",
+            "publishedAt": "2023-12-17T10:53:07Z",
+            "content": "Jagadeesh, who played Keshava’s role in Pushpa, admits to his crime. It is widely known that Actor Jagadeesh Bandari was arrested in a female artist’s suicide case. The actor had become popular after… [+1659 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Mypunepulse.com"
+            },
+            "author": null,
+            "title": "Aishwarya Rai and Abhishek Bachchan Make Joint Appearance Amidst Divorce Rumors - Pune Pulse",
+            "description": "Putting aside ongoing rumors of marital discord, Aishwarya Rai and Abhishek Bachchan made a public appearance together at the Dhirubhai Ambani International School Annual Day event in Mumbai. The couple, who have been at the center of various speculations, we…",
+            "url": "https://www.mypunepulse.com/aishwarya-rai-and-abhishek-bachchan-make-joint-appearance-amidst-divorce-rumors/",
+            "urlToImage": "https://www.mypunepulse.com/wp-content/uploads/2023/12/aishwaryaraiabhishekbachchandivorce-11-1702641451-jpg.webp",
+            "publishedAt": "2023-12-17T10:39:13Z",
+            "content": "Putting aside ongoing rumors of marital discord, Aishwarya Rai and Abhishek Bachchan made a public appearance together at the Dhirubhai Ambani International School Annual Day event in Mumbai. The cou… [+1546 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Siasat Daily"
+            },
+            "author": "Mumtaz Hussain Bhat",
+            "title": "Tannaz Davoodi, viral Jamal Kudu girl from Animal: Pics, background & more - The Siasat Daily",
+            "description": "Mumbai: Director Sandeep Reddy Vanga's 'Animal' is running successfully at the box office and is close to crossing the 800 crore mark. The movie's various scenes and dialogues are circulating online and among them is the Persian song 'Jamal Kudu' which is Bob…",
+            "url": "https://www.siasat.com/tannaz-davoodi-viral-jamal-kudu-girl-from-animal-pics-background-more-2935365/",
+            "urlToImage": "https://cdn.siasat.com/wp-content/uploads/2023/12/tannaz-davoodi.jpg",
+            "publishedAt": "2023-12-17T09:47:56Z",
+            "content": "Mumbai: Director Sandeep Reddy Vanga’s ‘Animal’ is running successfully at the box office and is close to crossing the 800 crore mark. The movie’s various scenes and dialogues are circulating online … [+2010 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "Flight attendant gets her shirt signed by ‘Animal’ cast including Ranbir Kapoor, Bobby Deol - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/trending/trending-in-india/flight-attendant-gets-shirt-signed-animal-ranbir-kapoor-bobby-deol-9071652/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T09:46:12Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "Medha Chawla",
+            "title": "Alia Bhatt's Rs 2.5 lakh saree is fab, but her hairstyle is what you need to see - India Today",
+            "description": "Alia Bhatt wore a beautiful organza saree to her friend's wedding ceremony. However, it was her hairstyle that stole the show.",
+            "url": "https://www.indiatoday.in/lifestyle/fashion/story/alia-bhatt-yellow-saree-saree-friend-wedding-unique-braid-hairstyle-bridesmaids-2476996-2023-12-17",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/alia-bhatt-171443602-16x9_0.jpg?VersionId=L0vTlNriLc3LEwvV.KzLpTCtqevPVD1O",
+            "publishedAt": "2023-12-17T09:21:19Z",
+            "content": "Alia Bhatt turned a gorgeous bridesmaid as she attended her close friend Disha’s wedding ceremony in Mumbai. The actress also served a hearty dose of fashion inspiration for her fans with her super-s… [+1446 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Amidst pregnancy rumours, Anushka Sharma snapped in a baggy and chic jacket at the airport: pics inside - IndiaTimes",
+            "description": "The rumours have been doing the rounds that Anushka Sharma and Virat Kohli are apparently expecting their second child. On Saturday, the 'Zero' actres",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/amidst-pregnancy-rumours-anushka-sharma-snapped-in-a-baggy-and-chic-jacket-at-the-airport-pics-inside/articleshow/106062160.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106062160,width-1070,height-580,imgsize-50346,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T08:55:53Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gulte"
+            },
+            "author": "Satya B",
+            "title": "#2YearsOfPushpa: All Eyes On Next Big Bonanza - Gulte",
+            "description": "Icon star Allu Arjun and creative director Sukumar's mass spectacle, \"Pushpa: The Rise\", opened in theatres on 17th December 2021, and none expected that the film would deliver something Telugu cinema hadn't seen by that time. While fantasy and epic films do …",
+            "url": "https://www.gulte.com/movienews/272922/2yearsofpushpa-all-eyes-on-next-big-bonanza",
+            "urlToImage": "https://cdn.gulte.com/wp-content/uploads/2023/12/img_6915-1.jpg",
+            "publishedAt": "2023-12-17T08:20:11Z",
+            "content": "Icon star Allu Arjun and creative director Sukumar’s mass spectacle, “Pushpa: The Rise”, opened in theatres on 17th December 2021, and none expected that the film would deliver something Telugu cinem… [+1359 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Shubhi Mishra",
+            "title": "All you need to know about ketamine, the drug behind Matthew Perry's death - Moneycontrol",
+            "description": "According to AFP, Matthew Perry was also addicted to ketamine but had reportedly been clean for 19 months prior to his passing. The autopsy revealed that the 'Friends' actor died from an accidental ketamine overdose.",
+            "url": "https://www.moneycontrol.com/news/trends/all-you-need-to-know-about-ketamine-the-drug-behind-matthew-perrys-death-11915741.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/10/Chandler-3-770x433.jpg",
+            "publishedAt": "2023-12-17T07:47:24Z",
+            "content": "Matthew Perry, who played the role of Chandler on the superhit American sitcom Friends, died from an accidental ketamine overdose, medical examiners said on Friday after completing their investigatio… [+3179 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "123telugu.com"
+            },
+            "author": null,
+            "title": "Massy class teaser of Nagarjuna’s Naa Saami Ranga unveiled - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/massy-class-teaser-of-nagarjunas-naa-saami-ranga-unveiled.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-12-17T07:30:00Z",
+            "content": "Akkineni Nagarjuna has teamed up with director Vijay Binni, known for his background in choreography, for the upcoming film Naa Saami Ranga, slated for a Sankranthi release.\r\nThe much-anticipated tea… [+919 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "Karan Singh Grover and Bipasha Basu twin in black as they get spotted with daughter Devi at Mumbai airport - Times of India",
+            "description": "'Fighter' actor Karan Singh Grover was recently papped at Mumbai airport with his wife Bipasha Basu and little munchkin Devi. The star couple twinned in black as they got clicked walking towards the airport entry. Bipasha was holding the Devi in her arms and …",
+            "url": "https://timesofindia.indiatimes.com/videos/etimes/bollywood/karan-singh-grover-and-bipasha-basu-twin-in-black-as-they-get-spotted-with-daughter-devi-at-mumbai-airport/videoshow/106059521.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106059521,imgsize-63432.cms",
+            "publishedAt": "2023-12-17T06:21:16Z",
+            "content": "Dec 17, 2023, 11:51AM ISTSource: IANS'Fighter' actor Karan Singh Grover was recently papped at Mumbai airport with his wife Bipasha Basu and little munchkin Devi. The star couple twinned in black as … [+196 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "etimes.in",
+            "title": "Bigg Boss Tamil 7: Cool Suresh gets evicted from the house - Times of India",
+            "description": "Cool Suresh gets evicted from Bigg Boss Tamil 7, leaving viewers and housemates in shock. Kamal Haasan announces impending eviction, leading to intens",
+            "url": "https://timesofindia.indiatimes.com/tv/news/tamil/bigg-boss-tamil-7-cool-suresh-gets-evicted-from-the-house/articleshow/106059279.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106059279,width-1070,height-580,imgsize-37534,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T06:07:55Z",
+            "content": "From Natalie Portman to Margot Robbie: Best red carpet moments of 2023"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Inside Lin Laishram And Randeep Hooda's Mumbai Reception: \"And Then They Danced And Laughed\" - NDTV Movies",
+            "description": "Randeep and Lin got married last month in Imphal",
+            "url": "https://www.ndtv.com/entertainment/inside-lin-laishram-and-randeep-hoodas-mumbai-reception-and-then-they-danced-and-laughed-4689589",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/9tqv7e5g_randeep-_625x300_17_December_23.jpg",
+            "publishedAt": "2023-12-17T06:00:43Z",
+            "content": "Randeep Hooda shared this image. (courtesy: RandeepHooda)\r\nNew Delhi: New day, new post from Randeep Hooda and Lin Laishram's wedding festivities. The actors shared an adorable video from their Mumba… [+2301 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bollywood Hungama"
+            },
+            "author": "Bollywood Hungama",
+            "title": "Bagheera Teaser OUT! Srii Murali makes a roaring comeback in thrilling tale of justice, watch - Bollywood Hungama",
+            "description": "Hombale Films is gearing up for the grand release of their next biggest venture, Salaar Part 1: CeaseFire, starring Prabhas and directed by Prashanth Neel, on December 22, 2023. Ahead of the film’s grand release, the production house unveils another exciting …",
+            "url": "https://www.bollywoodhungama.com/news/south-cinema/bagheera-teaser-srii-murali-makes-roaring-comeback-thrilling-tale-justice-watch/",
+            "urlToImage": "https://media5.bollywoodhungama.in/wp-content/uploads/2023/12/Bagheera-Teaser-OUT-Srii-Murali-makes-a-roaring-comeback-in-thrilling-tale-of-justice.jpg",
+            "publishedAt": "2023-12-17T05:56:24Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "soompi"
+            },
+            "author": "eclipse01",
+            "title": "BTS's Jungkook Becomes 1st Korean Soloist To Spend 5 Weeks In Top 40 Of Billboard 200 - soompi",
+            "description": "BTS’s Jungkook Becomes 1st Korean Soloist To Spend 5 Weeks In Top 40 Of Billboard 200",
+            "url": "https://www.soompi.com/article/1632112wpp/btss-jungkook-becomes-1st-korean-soloist-to-spend-5-weeks-in-top-40-of-billboard-200",
+            "urlToImage": "https://6.soompi.io/wp-content/uploads/image/20231217014750_jungkook-1-.jpeg?s=900x600&e=t",
+            "publishedAt": "2023-12-17T01:54:39Z",
+            "content": "Even after enlisting in the military, BTSs Jungkook continues to break records on the Billboard charts!\r\nFor the week ending on December 16, Jungkooks first solo album GOLDEN held relatively steady a… [+1188 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Shruti Haasan says alcohol was a ‘big thing’ of her life: I was never into drugs - Hindustan Times",
+            "description": "Shruti Haasan in an interview talked about her journey to sobriety and recalled alcohol being a part of her life. She also said that she was never into drugs. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/shruti-haasan-recalls-always-wanting-to-drink-with-friends-alcohol-was-a-big-thing-in-my-life-i-was-never-into-drugs-101702775941150.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/6a7bc302-743d-11ec-a877-d9dc5eb1ebc2_1642075377558_1702777252065.jpg",
+            "publishedAt": "2023-12-17T01:42:54Z",
+            "content": "Shruti Haasan recently opened up about her journey to sobriety and shared why she decided to quit alcohol. Speaking to Untriggered with Aminjaz, she revealed that although she was never into drugs, s… [+2117 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "Meenakshi on shooting for Hero with high fever; fainting while filming in snow - Hindustan Times",
+            "description": "Hero, released in 1983, was directed by Subhash Ghai. The film starred Jackie Shroff and Meenakshi Seshadri. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/meenakshi-seshadri-recalls-shooting-for-hero-with-high-fever-how-she-fainted-while-filming-in-snow-101702732731536.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/16/1600x900/meenakshi_seshadri_1624249448035_1702733245600.JPG",
+            "publishedAt": "2023-12-17T00:56:52Z",
+            "content": "Actor Meenakshi Seshadri has spoken about how she fainted and had to be carried on a stretcher during the shoot for her first film Painter Babu. Speaking with News18 Showsha, Meenakshi also recalled … [+2414 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gulte"
+            },
+            "author": "Shree Ram",
+            "title": "Teaser: Rohith Shetty’s Copverse – Indian Police Force - Gulte",
+            "description": "Prime Video India has released the first teaser for its upcoming series, 'Indian Police Force,' featuring Sidharth Malhotra in the lead role. This series, helmed by Rohit Shetty, is an extension of his CopVerse and will be available on Prime Video worldwide s…",
+            "url": "https://www.gulte.com/movienews/272866/teaser-rohith-shettys-copverse-indian-police-force",
+            "urlToImage": "https://cdn.gulte.com/wp-content/uploads/2023/12/Indian-Police-Force.png",
+            "publishedAt": "2023-12-17T00:30:32Z",
+            "content": "Prime Video India has released the first teaser for its upcoming series, ‘Indian Police Force,’ featuring Sidharth Malhotra in the lead role. This series, helmed by Rohit Shetty, is an extension of h… [+874 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "Woodstock Witch",
+            "title": "Leo Horoscope Today: December 17, 2023 - VOGUE India",
+            "description": "Read VOGUE India's free daily Leo horoscope for 17th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+            "url": "https://www.vogue.in/horoscope/product/leo-horoscope-today-december-17-2023/",
+            "urlToImage": "https://media.vogue.in/wp-content/uploads/2022/02/Leo-866x487.jpg",
+            "publishedAt": "2023-12-17T00:20:37Z",
+            "content": "How do you want to say goodbye to 2023? Who do you want to kiss under the mistletoe whilst everybody around you is dancing to Santa Baby? Chop, chop, Leo! You dont want to wait until Christmas to let… [+378 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "VOGUE India"
+            },
+            "author": "Woodstock Witch",
+            "title": "Virgo Horoscope Today: December 17, 2023 - VOGUE India",
+            "description": "Read VOGUE India's free daily Virgo horoscope for 17th December, 2023 to learn more about what the stars have in store for you! Click here for our cosmic tips",
+            "url": "https://www.vogue.in/horoscope/product/virgo-horoscope-today-december-17-2023/",
+            "urlToImage": "https://media.vogue.in/wp-content/uploads/2019/12/Virgo.jpg",
+            "publishedAt": "2023-12-17T00:20:20Z",
+            "content": "*This* is the good part! This is the part where things start coming together in the most unexpected manner. So, look beyond the illusion of chaos, Virgo. At the same time, dont be in a rush to move f… [+390 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "Sundeep Kochar",
+            "title": "Horoscope Today, December 17 By Astrologer Sundeep Kochar: Avoid Overcomplicating Life, Gemini - Zee News",
+            "description": "",
+            "url": "https://zeenews.india.com/photos/entertainment/horoscope-today-december-17-by-astrologer-sundeep-kochar-avoid-overcomplicating-life-gemini-2699300",
+            "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/12/15/1336709-geminiastro.jpg",
+            "publishedAt": "2023-12-16T23:55:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Written by India TV Lifestyle Desk",
+            "title": "Horoscope Today, December 17: Favorable day for Virgo, know about other zodiac signs - India TV News",
+            "description": "Horoscope Today, December 17: Check what your zodiac sign has in store for you",
+            "url": "https://www.indiatvnews.com/astrology/horoscope-today-december-17-favorable-day-for-virgo-know-about-other-zodiac-signs-2023-12-16-907588",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/download-4-1702727488.jpg",
+            "publishedAt": "2023-12-16T23:45:01Z",
+            "content": "Today is the fifth day of Margashirsha Shukla Paksha and Sunday. Panchami Tithi will last till 5:34 pm today. Harshana Yoga will remain till tonight at 12:35. Also Dhanishtha Nakshatra will remain ti… [+6760 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Quint"
+            },
+            "author": "Saima Andrabi",
+            "title": "Wordle 911 Answer: Hints and Clues To Guess Word of the Day on 17 December 2023 - The Quint",
+            "description": "Wordle 911 Answer for Sunday, 17 December 2023: Today's answer may be tricky to guess. Use our hints and clues to guess the solution.",
+            "url": "https://www.thequint.com/tech-and-auto/tech-news/wordle-911-answer-hints-and-clues-to-guess-word-of-the-day-easily-latest-details",
+            "urlToImage": "https://images.thequint.com/thequint%2F2023-08%2F6066a4b3-8c1c-4dd5-bdcf-4cbaf8ddf5d7%2FWhatsApp_Image_2022_02_18_at_11_31_46_AM.jpeg?rect=0%2C48%2C1280%2C672",
+            "publishedAt": "2023-12-16T18:31:00Z",
+            "content": "Wordle Answer Today: Wordle is an online puzzle played by millions of users across the globe. Players have to guess a five letter word of the day in six attempts. Wordle answers are often tricky to g… [+473 chars]"
+          }
+        ]
+      },
+      {
+        "technology": [
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Affiliate Desk",
+            "title": "5 best and cheapest Apple smartwatches to suit your budget - Hindustan Times",
+            "description": "5 best and cheapest Apple smartwatches: Discover top 5 cheapest Apple smartwatches that blend style and technology without breaking the bank.",
+            "url": "https://www.hindustantimes.com/technology/5-best-and-cheapest-apple-smartwatches-to-suit-your-budget-101702881703516.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/daniel-canibano-JE3ASpuEld4-unsplash_1702883123843_1702883146281.jpg",
+            "publishedAt": "2023-12-18T10:34:26Z",
+            "content": "Apple is a brand that boasts unparalleled innovation and style, particularly evident in its range of smartwatches. Known for their sleek design, advanced features, and robust functionality, Apple sma… [+19533 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "DNA India"
+            },
+            "author": "DNA Web Team",
+            "title": "Humanity should have a moon base, cities on Mars: Elon Musk - DNA India",
+            "description": "Musk has bigger plans for traveling beyond Earth's orbit.",
+            "url": "https://www.dnaindia.com/science/report-humanity-should-have-a-moon-base-cities-on-mars-elon-musk-3071960",
+            "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/12/18/2620200-elon-musk.jpg",
+            "publishedAt": "2023-12-18T10:31:00Z",
+            "content": "Musk has bigger plans for traveling beyond Earth's orbit.\r\nHalf a century has passed since the last Moon landing, which is disappointing for humanity and we should now aim to have a living base in sp… [+1215 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Jagran Josh"
+            },
+            "author": "Nikhil Batra",
+            "title": "Google's New Tracking Protection in Chrome Blocks Third-Party Cookies - Jagran Josh",
+            "description": "Google will block third party cookies for 30 million people on January 4 2024 and it will improve privacy of users. Here are all the details about this new move.",
+            "url": "https://www.jagranjosh.com/general-knowledge/google-is-eliminating-cookies-in-the-new-year-1702895352-1",
+            "urlToImage": "https://img.jagranjosh.com/images/2023/December/18122023/chrome.jpg",
+            "publishedAt": "2023-12-18T10:29:02Z",
+            "content": "As a part of increasing online privacy, Google is blocking third-party cookies for 1% of Chrome users, roughly 30 million people. This move will be implemented on January 4, 2024, and marks a signifi… [+2364 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Affiliate Desk",
+            "title": "9 best Samsung 6.5 kg fully automatic washing machines: Choose from top models - Hindustan Times",
+            "description": "9 best Samsung 6.5 kg fully automatic washing machines: Elevate your laundry routine with Samsung's top fully automatic washing machines. Here's a buying guide.",
+            "url": "https://www.hindustantimes.com/technology/9-best-samsung-6-5-kg-fully-automatic-washing-machines-choose-from-top-models-101702882826617.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/MixCollage-18-Dec-2023-01-11-PM-610_1702885327709_1702885337154.jpg",
+            "publishedAt": "2023-12-18T10:27:26Z",
+            "content": "Introduction\r\n9 best Samsung 6.5 kg fully automatic washing machines: Experience convenience and performance in one sleek package!\r\nOur daily routines have undergone a transformative shift in recent … [+18659 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ANI News"
+            },
+            "author": "ANI News",
+            "title": "MediaTek Highlights Innovation in Next-Gen Smartphones, Smart Devices, Automotive and Connectivity Solutions - ANI News",
+            "description": null,
+            "url": "https://www.aninews.in/news/business/business/mediatek-highlights-innovation-in-next-gen-smartphones-smart-devices-automotive-and-connectivity-solutions20231218153805",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T10:08:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Boudhaditya Sanyal",
+            "title": "10 best dishwashers in India: Say goodbye to dirty dishes | Mint - Mint",
+            "description": "10 best dishwashers in India: Never encounter a sink full of dirty dishes. Bring home the best dishwashers that will take the burden of dirty dishes off your shoulders and ensure you get clean utensils. Check out the top options and add value to your kitchen.",
+            "url": "https://www.livemint.com/technology/gadgets/10-best-dishwashers-in-india-say-goodbye-to-dirty-dishes-11702880778812.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/best_dishwasher_in_India_1702882067265_1702882067456.jpg",
+            "publishedAt": "2023-12-18T09:55:22Z",
+            "content": "In the bustling rhythm of life in India, where each day brims with activity, the modern kitchen has become a hub of innovation, striving to balance traditional culinary practices with contemporary ne… [+19795 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Business Standard"
+            },
+            "author": "Business Standard",
+            "title": "Nothing to debut new smartphone series at the Mobile World Congress: Report - Business Standard",
+            "description": null,
+            "url": "https://www.business-standard.com/technology/tech-news/nothing-to-debut-new-smartphone-series-at-the-mobile-world-congress-report-123121800552_1.html",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T09:54:32Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Top Amazon year-end deals on smartphones: Apple iPhone 13, OnePlus 11R 5G and more | Mint - Mint",
+            "description": "Amazon is offering enticing deals on popular smartphones like iPhone 13, OnePlus Nord CE 3 Lite, iQOO Z7 Pro, Redmi 12 5G, and more. Enjoy discounts, no-cost EMI, and exchange offers, as the year end offers.",
+            "url": "https://www.livemint.com/technology/gadgets/top-amazon-year-end-deals-on-smartphones-apple-iphone-13-oneplus-11r-5g-and-more-11702892457448.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/12/18/1600x900/Apple-iPhone13_1646912229120_1702892818327.jpg",
+            "publishedAt": "2023-12-18T09:54:25Z",
+            "content": "Amazon is back with offerings and deals on the selection of latest smartphones. Customers can grab their favorite device from popular brands such as OnePlus, Samsung, realme narzo, Xiaomi, Apple, iQO… [+3571 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "Tech Desk",
+            "title": "Microsoft silently fixes annoying bug on Windows 11 OS - The Indian Express",
+            "description": "Microsoft has finally fixed a bug that caused Windows 11 File Explorer to randomly pop-up in the foreground when using other apps or playing games.",
+            "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-windows-11-file-explorer-randomly-popping-up-bug-fixed-9072786/",
+            "urlToImage": "https://images.indianexpress.com/2023/12/Windows-11-Microsoft-2-1.jpg",
+            "publishedAt": "2023-12-18T09:52:31Z",
+            "content": "Microsoft introduced tabbed File Explorer last year with the Windows 11 Moment 2 update. However, soon after users installed the update, many started complaining that the File Explorer window was ran… [+1299 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Dress Sharp: Explore Premium Brands in Formal Men's Shoes and Sandals, Now at up To 65% Off - NDTV",
+            "description": "Step into confidence and redefine your formal footwear game! Explore top picks in premium formal shoes from Amazon at up to 65% off.",
+            "url": "https://www.ndtv.com/shopping/dress-sharp-explore-premium-brands-in-formal-mens-shoes-and-sandals-now-at-up-to-65-off-4686293",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/u0c2s52o_mens-formal-shoes_625x300_16_December_23.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675?ver-20231203.06",
+            "publishedAt": "2023-12-18T09:41:59Z",
+            "content": "Hey there, shoppers! Welcome to a realm of sophistication and style. Our carefully curated lineup of formal men's shoes and sandals from top-notch brands is here to take your fashion game to new heig… [+9037 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "In Pics: From Google Pixel tablet to Samsung Galaxy Tab S9 Ultra, check out the best premium tablets of 2023 - HT Tech",
+            "description": "Throughout the year, we’ve seen the launch of several flagship tablets that pack great displays, powerful processors, and big batteries. Check out the best premium tablets of 2023 including Samsung Galaxy Tab S9 Ultra, Google Pixel tablet, OnePlus Pad, and mo…",
+            "url": "https://tech.hindustantimes.com/photos/in-pics-from-google-pixel-tablet-to-samsung-galaxy-tab-s9-ultra-check-out-the-best-premium-tablets-of-2023-71702891736046.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/pixel_1702037624040_1702891830909.jpg",
+            "publishedAt": "2023-12-18T09:39:54Z",
+            "content": "Top SectionsExplore Tech Copyright © HT Media Limited All rights reserved."
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SamMobile"
+            },
+            "author": "SamMobile, Asif Iqbal Shaik",
+            "title": "Samsung Galaxy F54 gets Android 14 and One UI 6.0 update in India - SamMobile - Samsung news",
+            "description": "Samsung has released the Android 14 update to one more mid-range device: Galaxy F54 5G. The new update is now ...",
+            "url": "https://www.sammobile.com/news/galaxy-54-android-14-one-ui-6-0-update/",
+            "urlToImage": "https://www.sammobile.com/wp-content/uploads/2023/06/Galaxy-F54-5G-review-11-720x405.jpg",
+            "publishedAt": "2023-12-18T09:23:00Z",
+            "content": "Samsung has released the Android 14 update to one more mid-range device: Galaxy F54 5G. The new update is now available in India, and it comes a few weeks after the Galaxy A54 and other Galaxy A5x se… [+1380 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "ET Telecom",
+            "title": "Apple to let app developers bundle subscription discounts for customers - ETTelecom",
+            "description": "Developers will be able to base this on subscriptions \"from one developer or two different developers\" as long as both subscriptions remain active.",
+            "url": "https://telecom.economictimes.indiatimes.com/news/devices/apple-to-let-app-developers-bundle-subscription-discounts-for-customers/106086600",
+            "urlToImage": "https://etimg.etb2bimg.com/thumb/msid-106086600,imgsize-79334,width-1200,height=765,overlay-ettelecom/devices/apple-to-let-app-developers-bundle-subscription-discounts-for-customers.jpg",
+            "publishedAt": "2023-12-18T09:11:04Z",
+            "content": "San Francisco: Apple has announced a programme called \"contingent pricing for subscriptions\" that will allow App Store developers offer discounts for customers with multiple subscriptions.The 'Contin… [+1331 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "iPhone 16 could have a ‘Capture Button,’ here’s what it’ll do - Times of India",
+            "description": "Apple replaced the mute switch on the iPhone 15 Pro with the Action Button, which can be customised for various functions. Apple is working on bringin",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/iphone-16-could-have-a-capture-button-heres-what-itll-do/articleshow/106086157.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106086106,width-1070,height-580,imgsize-26310,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T08:53:43Z",
+            "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": "The Financial Express",
+            "title": "Xiaomi teases “world first” feature for Redmi Note 13 Pro Plus ahead of January 4 launch in India - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/life/technology-xiaomi-teases-world-first-feature-for-redmi-note-13-pro-plus-ahead-of-january-4-launch-in-india-3341278/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T08:48:41Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Today"
+            },
+            "author": "India Today Education Desk",
+            "title": "Cracking the code: Common questions and challenges in Data Science interviews - India Today",
+            "description": "Data science interviews test machine learning understanding, coding skills, data interpretation, domain knowledge, and ethical AI comprehension. Overcoming challenges requires mastering statistics, staying updated, and improving communication for success in t…",
+            "url": "https://www.indiatoday.in/education-today/featurephilia/story/cracking-the-code-common-questions-and-challenges-in-data-science-interviews-2477353-2023-12-18",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/unlocking-success-4-ways-to-ace-your-job-search-310220-16x9.jpg?VersionId=zbCtAMjB6u7A_u5LXQP43QuSkPk8VKNH",
+            "publishedAt": "2023-12-18T08:42:06Z",
+            "content": "Data Science and data scientists are no longer just buzzwords; they drive our data-driven world. The allure of data science lies in understanding the patterns and insights concealed in numbers. With … [+4818 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "Tech News Today: WhatsApp pin multiple messages, Poco F5 HyperOS update, and more - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/technology/tech-news-today-whatsapp-to-soon-let-users-pin-multiple-messages-poco-f5-gets-hyperos-update-and-more-9072669/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T08:41:33Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Zeeshan Khan",
+            "title": "PUBG Mobile solo guide for December 2023 - Sportskeeda",
+            "description": "In the fiercely competitive battle royale game PUBG Mobile, survival demands cunning, skill, and fast thinking.",
+            "url": "https://www.sportskeeda.com/esports/pubg-mobile-solo-guide-december-2023",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/8591c-17028792776644-1920.jpg",
+            "publishedAt": "2023-12-18T08:30:00Z",
+            "content": "In the fiercely competitive battle royale game PUBG Mobile, survival demands cunning, skill, and fast thinking. Playing alone could be more challenging because you won't have others to rely on for as… [+3412 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Jagran.com"
+            },
+            "author": "Ashish Singh",
+            "title": "Upcoming Mobiles 2024: From Samsung Galaxy S24 Ultra To Redmi Note 13 Pro To ROG Phone 8, Phones That Will Launch In January - Jagran English",
+            "description": "Upcoming Phones 2024: Samsung Galaxy S24 series, OnePlus 12, Vivo X100 series along with Redmi Note 13 series and ASUS ROG Phone 8 are set to launch in India next month.",
+            "url": "https://english.jagran.com/technology/upcoming-mobiles-2024-redmi-note-13-pro-plus-price-note-13-pro-launch-date-samsung-galaxy-s24-ultra-price-rog-phone-launch-date-upcoming-phones-in-january2024-10121138",
+            "urlToImage": "https://imgeng.jagran.com/images/2023/dec/Upcoming Phone 20241702888214287.jpg",
+            "publishedAt": "2023-12-18T08:24:00Z",
+            "content": "Upcoming Mobiles 2024: Next month is quite exciting for tech fans as there are a lot of smartphones that are going to make their India debut. Brands like Samsung, Vivo, and OnePlus are going to intro… [+2433 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Jagran.com"
+            },
+            "author": "Tarin Hussain",
+            "title": "Best 8K And 4K Smart TV For 2024 - Jagran English",
+            "description": "Best 8K And 4K Smart TV For 2024: Thinking about kicking off 2024 with a shiny new 8K or 4K TV? Our list features the top online options, promising a smart, long-term investment for years of enjoying your favorite movies and shows. Imagine every guest in your…",
+            "url": "https://english.jagran.com/top-deals/electronics/television/best-8k-and-4k-smart-tv-10121122",
+            "urlToImage": "https://imgeng.jagran.com/images/2023/dec/chauhan-moniz-3A0bs74T8zc-unsplash1702884213184.jpg",
+            "publishedAt": "2023-12-18T08:16:37Z",
+            "content": "Best 8K And 4K Smart TV For 2024: As we enter 2024, why not gift yourself a new 8K or 4K smart TV? It's a perfect present for the New Year, promising years of enjoyment and a smart investment for the… [+9678 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Beebom"
+            },
+            "author": "Arjun Sha",
+            "title": "Google Gemini AI: Multimodal, GPT-4 Competitor, and More - Beebom",
+            "description": "Google Gemini AI models have set a new benchmark in the AI industry and it is being touted to outrank OpenAI's GPT-4 model.",
+            "url": "https://beebom.com/google-gemini-ai/",
+            "urlToImage": "https://beebom.com/wp-content/uploads/2023/12/google-gemini-logo.jpg",
+            "publishedAt": "2023-12-18T08:06:52Z",
+            "content": "At the Google I/O 2023 conference in June, the company showed us a glimpse of Gemini, its most-capable AI model. And finally, before the end of 2023, Google released the Gemini AI models to the publi… [+11560 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Mridul Dutta",
+            "title": "5 reasons to own Dinka Jester RR in GTA Online - Sportskeeda",
+            "description": "Since its introduction in July 2021, the Dinka Jester RR has remained a popular car in GTA Online. It is the latest and best Jester car in the multiplayer game.",
+            "url": "https://www.sportskeeda.com/gta/5-reasons-dinka-jester-rr-gta-online",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/601d8-17028792891767-1920.jpg",
+            "publishedAt": "2023-12-18T08:01:00Z",
+            "content": "Since its introduction in July 2021, the Dinka Jester RR has remained a popular car in GTA Online. It is the latest and best Jester car in the multiplayer game. The Jester RR has many characteristics… [+3581 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Garena Free Fire MAX Redeem Codes for December 18: Freebies on offer! Nab them this way - HT Tech",
+            "description": "Garena Free Fire MAX Redeem Codes for December 18: Want to get your hands on amazing freebies and make your character stand out from other players? Check out Garena Free Fire MAX Redeem Codes for December 18.",
+            "url": "https://tech.hindustantimes.com/how-to/garena-free-fire-max-redeem-codes-for-december-18-freebies-on-offer-nab-them-this-way-71702885861053.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/5fbbe765304d5e1a569da09fc4caaef7jpg_1643590442850_1702885930929.jpg",
+            "publishedAt": "2023-12-18T07:57:04Z",
+            "content": "Garena Free Fire MAX Redeem Codes for December 18: Garena Free Fire MAX is an extremely popular battle royale game with millions of players around the world. In the game, players must take part in ba… [+2518 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Top 5 YouTube channels to increase your knowledge in a spell-binding manner; check list - HT Tech",
+            "description": "Looking for some inspiring and knowledgeable YouTube channels? Check out the list of top 5 YouTube channels that may be useful to you as these enhance knowledge in an entertaining manner.",
+            "url": "https://tech.hindustantimes.com/photos/top-5-youtube-channels-to-increase-your-knowledge-in-a-spell-binding-manner-check-list-71702883622674.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/christian-wiediger-usWE9pOuTfE-unsplash_1699941530791_1702883670990.jpg",
+            "publishedAt": "2023-12-18T07:18:34Z",
+            "content": "Top SectionsExplore Tech Copyright © HT Media Limited All rights reserved."
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Jagran.com"
+            },
+            "author": "Vikas Yadav",
+            "title": "Redmi 13C Alternative POCO C65 Flipkart Sale Is Now Live In India; Check Price, Bank Offers, Specifications - Jagran English",
+            "description": "POCO C65 Price: The core specifications of the budget handset are similar to the newly launched Redmi 13C 4G handset that is also available in India. If you plan to buy a budget 4G smartphone in India in the sub-Rs 10,000 bracket, here are the price, bank off…",
+            "url": "https://english.jagran.com/technology/poco-c65-price-in-india-flipkart-sale-now-live-bank-offers-exchange-discount-specifications-processor-camera-10121119",
+            "urlToImage": "https://imgeng.jagran.com/images/2023/dec/poco-c65-price-in-india-flipkart1702884195342.jpg",
+            "publishedAt": "2023-12-18T07:10:00Z",
+            "content": "POCO C65 Price In India: POCO, a Chinese smartphone maker, launched the POCO C65 handset in India for buyers. The device ships with a MediaTek Helio G85 chipset and a 5,000mAh battery. The core speci… [+1880 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Wireless headphones, action cameras and more: How India shopped on Flipkart in 2023 - Times of India",
+            "description": "Flipkart releases FlipTrends Report highlighting trends in Indian online shopping; 7 hours spent on Flipkart by shoppers; 41 million new customers til",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/wireless-headphones-action-cameras-and-more-how-india-shopped-on-flipkart-in-2023/articleshow/106081770.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106081770,width-1070,height-580,imgsize-54076,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T07:08:20Z",
+            "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Spencer Whitworth",
+            "title": "10 best Minecraft mods that add similar features from the 1.21 update - Sportskeeda",
+            "description": "Minecraft's 1.",
+            "url": "https://www.sportskeeda.com/minecraft/10-best-minecraft-mods-add-similar-features-1-21-update",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/424c3-17028706489186-1920.jpg",
+            "publishedAt": "2023-12-18T07:07:00Z",
+            "content": "Minecraft's 1.21 update is still likely months away, but players have been able to get their hands on some upcoming features from recent betas, including the armadillo mod, the crafter block, trial c… [+9178 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Neeraj Bansal",
+            "title": "Is it worth getting Annis Remus in GTA Online in 2023 and beyond? - Sportskeeda",
+            "description": "The Annis Remus is one of the few forgotten cars in GTA Online in 2023.",
+            "url": "https://www.sportskeeda.com/gta/is-worth-getting-annis-remus-gta-online-2023-beyond",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/fed88-17028747465982-1920.jpg",
+            "publishedAt": "2023-12-18T06:59:00Z",
+            "content": "The Annis Remus is one of the few forgotten cars in GTA Online in 2023. The main reason behind it is the addition of so many new vehicles over the years that some are bound to go unnoticed under the … [+2975 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Deccan Herald"
+            },
+            "author": "DH Web Desk",
+            "title": "Instagram gets gen AI-powered editing tool with text-to-image generator - Deccan Herald",
+            "description": null,
+            "url": "https://www.deccanherald.com/technology/instagram-gets-gen-ai-powered-editing-tool-with-text-to-image-generator-2815371",
+            "urlToImage": "https://images.deccanherald.com/deccanherald%2F2023-12%2F46fc00df-a2ba-4fb3-819e-5f92e8da963b%2FInstagram_AI_text_to_photo_generator_tool_.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+            "publishedAt": "2023-12-18T06:58:29Z",
+            "content": "With over 2.35 billion active user base, Instagram is one of the most popular social media platforms, particularly among youth around the world. It is a tough job to keep people hooked to the platfor… [+993 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Geospatial World"
+            },
+            "author": "News Desk",
+            "title": "SpaceX Alums' Startup Sift Raises $7.5M for Telemetry Stack Growth - Geospatial World",
+            "description": "The end-to-end software stack accelerates hardware development and operations for machine-driven companies that range from transportation to space, and everything in between",
+            "url": "https://www.geospatialworld.net/news/spacex-alums-startup-sift-raises-7-5m-for-telemetry-stack-growth/",
+            "urlToImage": "https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2023/12/rsz_1sift_logs.jpg.webp",
+            "publishedAt": "2023-12-18T06:54:14Z",
+            "content": "Sift, a startup founded by former SpaceX software engineers, has recently secured $7.5 million in funding and is on a mission to revolutionize the way machine data is recorded, visualized, and interp… [+2276 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zoom"
+            },
+            "author": "Diana George",
+            "title": "How To Use Instagram’s New Video Notes Feature: Step-By-Step Guide - Times Now",
+            "description": "Instagram has rolled out a new upgrade to its Notes feature. Users of the photo sharing app can now post two-second short video clips that will play on loop for a period of 24 hours.",
+            "url": "https://www.timesnownews.com/technology-science/how-to/how-to-use-instagrams-new-video-notes-feature-step-by-step-guide-article-106080322",
+            "urlToImage": "https://static.tnn.in/thumb/msid-106080708,thumbsize-1097101,width-1280,height-720,resizemode-75/106080708.jpg",
+            "publishedAt": "2023-12-18T06:48:15Z",
+            "content": "Instagram has rolled out a new upgrade to its Notes feature. Users of the photo sharing app can now post two-second short video clips that will play on loop for a period of 24 hours. (Photo: Unsplash)"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Medha Jha",
+            "title": "Google Pixel 9 may pack advanced AI assistant 'Pixie'; will track your Gmail, Google Maps data - HT Tech",
+            "description": "According to a report, the Google Pixel 9 will come with an exclusive AI assistant known as 'Pixie' that will track your Gmail and Google Maps data.",
+            "url": "https://tech.hindustantimes.com/tech/news/google-pixel-9-may-pack-advanced-ai-assistant-pixie-will-track-your-gmail-google-maps-data-71702880605270.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/Google_Gemini_1701885704849_1702880799363.png",
+            "publishedAt": "2023-12-18T06:28:52Z",
+            "content": "Google released the Google Pixel 8 this year with great anticipation, now it is gearing up already for the launch of the Google Pixel 9 series in 2024. Various speculations and rumors have started to… [+2215 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Edited by Saumya Nigam",
+            "title": "Apple agrees to pay $25 million for settling Family Sharing lawsuit | Deets here - India TV News",
+            "description": "Although Apple has denied all the allegation on making any misleading misrepresentations or any allegations on wrongdoing.",
+            "url": "https://www.indiatvnews.com/technology/news/apple-agrees-to-pay-25-million-for-settling-family-sharing-lawsuit-deets-here-2023-12-18-907761",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/apple-file-1702880023.jpg",
+            "publishedAt": "2023-12-18T06:16:58Z",
+            "content": "Apple has reportedly agreed to pay USD 25 million to settle a lawsuit which was filed over its family-sharing feature. The lawsuit was filed in 2019 and alleged the tech giant misrepresented the abil… [+1356 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zee Business"
+            },
+            "author": "IANS",
+            "title": "Google to end geofence warrant requests for users location data - Zee Business",
+            "description": "Google has moved to end a long-running surveillance practice called “geofence warrants”, a practice that allowed law enforcement agencies to use Googles location data to identify potential criminals.",
+            "url": "https://www.zeebiz.com/companies/news-google-to-end-geofence-warrant-requests-for-users-location-data-269100",
+            "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/18/272942-u5l4xbxf3bjg3ervjwtocedbdq.jpg",
+            "publishedAt": "2023-12-18T06:06:01Z",
+            "content": "Google has moved to end a long-running surveillance practice called geofence warrants, a practice that allowed law enforcement agencies to use Google's location data to identify potential criminals.\r… [+2025 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gadgets360.com"
+            },
+            "author": "Sucharita Ganguly, Siddharth Suvarna",
+            "title": "Apple's 4th Generation AirPods to Get New Design, Updated Case, ANC Support: Mark Gurman - Gadgets 360",
+            "description": "Apple is expected to bring in significant upgrades including design changes to the purported fourth generation of Apple AirPods. Recent reports suggest that Apple will launch two versions of the AirPods (4th Generation) at two different price points. Apple an…",
+            "url": "https://www.gadgets360.com/audio/news/apple-airpods-fourth-generation-earbuds-design-updates-report-mark-gurman-4695013",
+            "urlToImage": "https://i.gadgets360cdn.com/large/airpods_3rd_gen_apple_1702875710133.jpg",
+            "publishedAt": "2023-12-18T06:02:24Z",
+            "content": "Apple is expected to introduce its next generation of truly wireless stereo (TWS) earphones in 2024. It is said to succeed the AirPods (3rd Generation) earbuds, which were launched in October 2021. T… [+2211 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Mastering the art of business promotion: A step-by-step guide on how to create a Facebook page - HT Tech",
+            "description": "In the ever-evolving landscape of online business, establishing a robust digital presence is paramount. One of the fundamental steps towards achieving this goal is by creating a Facebook Page. Here is how to create a Facebook page.",
+            "url": "https://tech.hindustantimes.com/how-to/mastering-the-art-of-business-promotion-a-step-by-step-guide-on-how-to-create-a-facebook-page-71702555103864.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/14/1600x900/hggggggggggggt_1702555267920_1702555283770.jpg",
+            "publishedAt": "2023-12-18T05:24:50Z",
+            "content": "Creating a Facebook Page for your business is an essential step in establishing an online presence and reaching a broader audience. Facebook Page offers a range of free business tools to help you ach… [+2338 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gadgets360.com"
+            },
+            "author": "Nithya P Nair, Siddharth Suvarna",
+            "title": "Vivo X100, Vivo X100 Pro With MediaTek Dimensity 9300 SoC Teased to Launch in India Soon - Gadgets 360",
+            "description": "Vivo X100 series has been teased to launch in India soon. The Chinese smartphone brand has created a dedicated microsite on its India website to tease the arrival of the new Vivo X series smartphones. The Vivo X100 and Vivo X100 Pro with brand-new MediaTek Di…",
+            "url": "https://www.gadgets360.com/mobiles/news/vivo-x100-pro-india-launch-teaser-microsite-price-specifications-expected-4694903",
+            "urlToImage": "https://i.gadgets360cdn.com/large/vivo_x100_white_moonlight_1699934990068.jpg",
+            "publishedAt": "2023-12-18T05:21:34Z",
+            "content": "Vivo X100 series has been teased to launch in India soon. The Chinese smartphone brand has created a dedicated microsite on its India website to tease the arrival of the new Vivo X series smartphones… [+2190 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "gizmochina"
+            },
+            "author": "gizmochina",
+            "title": "ROG Phone 8 series to feature gimbal stabilization for smoother videos - gizmochina",
+            "description": null,
+            "url": "https://www.gizmochina.com/2023/12/18/rog-phone-8-series-to-feature-gimbal-stabilization-for-smoother-videos/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:17:06Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "gizmochina"
+            },
+            "author": "gizmochina",
+            "title": "Samsung Galaxy S24 Series Leak Sheds Light on Storage and Color Variants - gizmochina",
+            "description": null,
+            "url": "https://www.gizmochina.com/2023/12/18/samsung-galaxy-s24-series-leak-sheds-light-on-storage-and-color-variants/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:16:14Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": null,
+            "title": "Microsoft Bing misleads election data: Report - The Financial Express",
+            "description": "Bing’s AI chatbot gave wrong answers 30% of the time",
+            "url": "https://www.financialexpress.com/business/digital-transformation-microsoft-bing-misleads-election-data-report-3341017/",
+            "urlToImage": "https://www.financialexpress.com/wp-content/uploads/2023/11/Untitled-design-2023-11-09T161142.732.jpg",
+            "publishedAt": "2023-12-18T05:15:15Z",
+            "content": "A study from two Europe-based nonprofits has found that Microsofts artificial intelligence (AI) Bing chatbot, now rebranded as Copilot, produces misleading results on election information and misquot… [+783 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Quint"
+            },
+            "author": "Shivangani Singh",
+            "title": "WhatsApp To Introduce Album Creation Feature For Channels Soon - The Quint",
+            "description": "the 'automatic album creation' feature will be tested by the beta users before being introduced to users across the world. Know more about the feature in detail below",
+            "url": "https://www.thequint.com/tech-and-auto/tech-news/whatsapp-to-introduce-album-creation-feature-for-channels-soon",
+            "urlToImage": "https://images.thequint.com/thequint%2F2023-02%2F847e387e-5997-417f-8a45-642f5c5809a5%2Fd893153be028e4844dc7fbf523494bbc.jpg",
+            "publishedAt": "2023-12-18T05:07:28Z",
+            "content": "The WhatsApp channel has introduced an automatic album which is sure to bring about a significant advantage to channel owners when it becomes available for the public.\r\nThis new WhatsApp functionalit… [+1020 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "10 top Dell Laptops: With Christmas coming, here is a great gadget gifting guide for you - HT Tech",
+            "description": "10 top Dell Laptops: With Christmas around the corner, you must be looking for special gifts. Check out this laptop gifting guide and pick the perfect one.",
+            "url": "https://tech.hindustantimes.com/laptops-pc/news/10-top-dell-laptops-with-christmas-coming-here-is-a-great-gadget-gifting-guide-for-you-71702873471120.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/Dell_1689238079598_1702874979346.png",
+            "publishedAt": "2023-12-18T05:00:26Z",
+            "content": "10 top Dell Laptops: With Christmas around the corner, you must be looking for special gifts for your loved ones or perhaps, even for yourself. So, if that is the case, check out this laptop gifting … [+16346 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Team-BHP"
+            },
+            "author": "Utkarsh Chaudhary",
+            "title": "Car facelifts that lacked the visual charm of their previous models - Team-BHP",
+            "description": "BHPian AYP recently shared this with other enthusiasts. This thread is to point out the instances of a manufacturer spoiling the looks of their car in the process of facelifting it. Let me do the honours:Skoda-: The Octavia MK2 (Laura) pre-facelift, was my fa…",
+            "url": "https://www.team-bhp.com/news/car-facelifts-lacked-visual-charm-their-previous-models",
+            "urlToImage": "https://www.team-bhp.com/sites/default/files/styles/large/public/2023-mg-hector-facelift-01_2.jpg",
+            "publishedAt": "2023-12-18T04:59:00Z",
+            "content": "Mahindra Bolero, when launched, had a very macho appeal and a crude, simple, yet elegant design. Now, I feel it has a chrome-filled cartoonish face.\r\nBHPian AYP recently shared this with other enthus… [+3081 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Mysmartprice.com"
+            },
+            "author": "https://www.facebook.com/basithrahmanpp",
+            "title": "iQOO Neo 9 Pro, Neo 9 China Launch Date Confirmed: iQOO Watch, iQOO TWS 1e to Debut Alongside - MySmartPrice",
+            "description": "iQOO has confirmed launch date of the iQOO Neo 9 and iQOO Neo 9 Pro smartphones in China.",
+            "url": "https://www.mysmartprice.com/gear/iqoo-neo-9-pro-neo-9-china-launch-date-confirmed-iqoo-watch-iqoo-tws-1e-to-debut-alongside/",
+            "urlToImage": "https://assets.mspimages.in/gear/wp-content/uploads/2023/12/iQOO-Neo-9-series-launch-MSP-feature.png",
+            "publishedAt": "2023-12-18T04:50:15Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "Google introduces 3 new features to make life of online shoppers easier - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-in/money/news/google-introduces-3-new-features-to-make-life-of-online-shoppers-easier/ar-AA1lCz8z?ocid=finance-verthp-feeds",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T04:48:42Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Greater Kashmir"
+            },
+            "author": "SHABIR IBN YUSUF",
+            "title": "CERT-In issues high-risk warning for Apple, Samsung users - greaterkashmir - Greater Kashmir",
+            "description": "Says vulnerabilities can put users’ sensitive information at risk",
+            "url": "https://www.greaterkashmir.com/tech/cert-in-issues-high-risk-warning-for-apple-samsung-users/",
+            "urlToImage": "https://www.greaterkashmir.com/wp-content/uploads/2023/08/iphone_830480_1280.jpg",
+            "publishedAt": "2023-12-18T04:10:54Z",
+            "content": "Srinagar, Dec 17: The Indian Computer Emergency Response Team (CERT-In) has flagged severe vulnerabilities in Apple and Samsung product users and said that the vulnerabilities could put users’ sensit… [+2505 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Tech Wire Asia"
+            },
+            "author": "Dashveenjit Kaur",
+            "title": "Can Intel AI chips challenge AMD and Nvidia? - Tech Wire Asia",
+            "description": "Intel ushered in the AI PC era with Core Ultra chips tailored for Windows laptops and PCs and introduced new 5th gen Xeon server processors.",
+            "url": "https://techwireasia.com/12/2023/how-will-intel-ai-chips-for-pcs-and-data-centers-challenge-amd-and-nvidia/",
+            "urlToImage": "https://techwireasia.com/wp-content/uploads/2023/12/GBVwD7YaYAAcY_5-scaled.jpg",
+            "publishedAt": "2023-12-18T01:33:20Z",
+            "content": "<ul><li>Intel ushered in the AI PC era with Core Ultra chips tailored for Windows laptops and PCs and introduced new fifth-generation Xeon server processors.</li><li>Intel CEO Pat Gelsinger also show… [+7848 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "GSMArena.com"
+            },
+            "author": "Sagar",
+            "title": "Samsung Galaxy S23 FE's Snapdragon variant could launch soon in India - GSMArena.com news - GSMArena.com",
+            "description": "The Snapdragon model is currently exclusive to the US. The Samsung Galaxy S23 FE unveiled in October comes in two versions - one powered by the Exynos 2200...",
+            "url": "https://www.gsmarena.com/samsung_galaxy_s23_fe_snapdragon_model_india_launch_expected-news-60938.php",
+            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/23/12/samsung-galaxy-s23-fe-snapdragon-model-india-launch-expected/-952x498w6/gsmarena_001.jpg",
+            "publishedAt": "2023-12-18T01:22:01Z",
+            "content": "The Samsung Galaxy S23 FEunveiled in October comes in two versions - one powered by the Exynos 2200 SoC and another having the Snapdragon 8 Gen 1 chip at the helm. The Snapdragon version is currently… [+1162 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Want to boost your task management and productivity skills? Know how Things 3 app can help - HT Tech",
+            "description": "Want to boost your task management and productivity skills Know how Things 3 app can help Want to stay on top of your daily tasks and improve productivity Check out this effective task management app called Things 3 to help you get ahead of colleagues and imp…",
+            "url": "https://tech.hindustantimes.com/web-stories/want-to-boost-your-task-management-and-productivity-skills-know-how-things-3-app-can-help-71702874702433.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/g635a2e6b289_1702875183702_1702875636880.jpg/",
+            "publishedAt": "2023-12-17T23:31:02Z",
+            "content": "Photo Credit: Pixabay\r\n Want to stay on top of your daily tasks and improve productivity? Check out this effective task management app called Things 3 to help you get ahead of colleagues and impress … [+1686 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Abplive.com"
+            },
+            "author": "ABP News Bureau",
+            "title": "Best Phones Under Rs 25,000 - ABP Live",
+            "description": "From OnePlus Nord CE 3 to Redmi Note 12 Pro, here are the best smartphones you can buy under Rs 25,000.",
+            "url": "https://news.abplive.com/web-stories/best-phones-under-rs-25000-iqoo-z7-pro-samsung-galaxy-a23-more-technology-gadgets-news-1650708",
+            "urlToImage": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/12/17/3c5a51d160a0fa98135956224cba00ee1702834743081555_original.png",
+            "publishedAt": "2023-12-17T17:41:27Z",
+            "content": "Top Phones Under Rs 30,000"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Android Authority"
+            },
+            "author": null,
+            "title": "The best phone of the year 2023: Editor's Choice — Our winner is... - Android Authority",
+            "description": "We test hundreds of phones every year, but only one can win Android Authority's Editor's Choice award for smartphone of the year.",
+            "url": "https://www.androidauthority.com/best-phone-2023-editors-choice-3394943/",
+            "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2023/10/google-pixel-8-pro-vs-samsung-galaxy-s23-ultra-rear-hero.jpg",
+            "publishedAt": "2023-12-17T15:41:25Z",
+            "content": "The age of the consistent upgrade cycle is over. As more and more smartphone users wait upwards of three or more years to upgrade their daily drivers, the fight to stand out and grab a slice of the d… [+8153 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "iPhone 15 Screen time will save you from weak eyesight; know how to manage it - step-by-step guide - HT Tech",
+            "description": "Apple iPhone 15 Screen time feature allows users to take control of their device. It offers tools to schedule breaks, set app usage limits, and prioritize essential contacts. It will likely save you from suffering from weak eyesight later in life.",
+            "url": "https://tech.hindustantimes.com/how-to/iphone-15-screen-time-will-save-you-from-weak-eyesight-know-how-to-manage-it-step-by-step-guide-71702819228729.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/17/1600x900/iPhone_15_Pro_1695025144029_1702819398154.jpg",
+            "publishedAt": "2023-12-17T13:28:23Z",
+            "content": "iPhone 15 screen time feature: In an era dominated by digital devices, managing screen time has become crucial for maintaining a healthy balance between our online and offline lives. Our daily screen… [+3396 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Videocardz.com"
+            },
+            "author": null,
+            "title": "Large European retailer mistakenly lists 24 GeForce RTX 4090 SUPER cards - VideoCardz.com",
+            "description": "There is no RTX 4090 SUPER (at least not yet) We were sent tips about European retailer Proshop, which is seemingly listing not one but 24 different RTX 4090 SUPER cards.  As reported yesterday, NVIDIA has imposed several embargoes on the RTX 40 SUPER cards s…",
+            "url": "https://videocardz.com/newz/large-european-retailer-mistakenly-lists-24-geforce-rtx-4090-super-cards",
+            "urlToImage": "https://cdn.videocardz.com/1/2023/12/NVIDIA-RTX-4090-SUPER-HERO.jpg",
+            "publishedAt": "2023-12-17T12:26:00Z",
+            "content": "We were sent tips about European retailer Proshop, which is seemingly listing not one but 24 different RTX 4090 SUPER cards. \r\nAs reported yesterday, NVIDIA has imposed several embargoes on the RTX 4… [+1392 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "ET Telecom",
+            "title": "Apple releases 1st public beta of iOS 17.3 with stolen device protection - ETTelecom",
+            "description": "When this is enabled, Face ID or Touch ID verification is required for reading iCloud Keychain passwords, turning off Lost Mode, wiping an iPhone's contents, using saved payment methods in Safari, and others, the report mentioned.",
+            "url": "https://telecom.economictimes.indiatimes.com/news/devices/apple-releases-1st-public-beta-of-ios-17-3-with-stolen-device-protection/106065244",
+            "urlToImage": "https://etimg.etb2bimg.com/thumb/msid-106065244,imgsize-6360,width-1200,height=765,overlay-ettelecom/devices/apple-releases-1st-public-beta-of-ios-17-3-with-stolen-device-protection.jpg",
+            "publishedAt": "2023-12-17T12:11:34Z",
+            "content": "San Francisco: Apple has begun seeding the first beta versions of iOS 17.3 and iPadOS 17.3 to public beta testers ahead of their official release. Beta testers can access the beta by going to the Set… [+1333 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Zeeshan Khan",
+            "title": "PUBG Mobile recoil-control guide for AKM (December 2023) - Sportskeeda",
+            "description": "The AKM is a lethal weapon in PUBG Mobile known for its high damage output and flexibility. However, its strong ammunition has a large recoil.",
+            "url": "https://www.sportskeeda.com/esports/pubg-mobile-recoil-control-guide-akm-december-2023",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/9a335-17027977502757-1920.jpg",
+            "publishedAt": "2023-12-17T10:20:00Z",
+            "content": "The AKM is a lethal weapon in PUBG Mobile known for its high damage output and flexibility. However, its strong ammunition has a large recoil. Recoil management is critical for getting the most out o… [+3234 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "10 best laptops for coding: From HP, Lenovo to Acer, unlock your programming potential - HT Tech",
+            "description": "Looking for the 10 best laptops for coding? Explore our top picks, from HP 15s to Lenovo Legion 5 Pro, ensuring a smooth programming experience.",
+            "url": "https://tech.hindustantimes.com/laptops-pc/news/10-best-laptops-for-coding-from-hp-lenovo-to-acer-unlock-your-programming-potential-71702802322926.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/17/1600x900/Best_laptops_for_coding_1702803062220_1702803062449.jpg",
+            "publishedAt": "2023-12-17T10:14:03Z",
+            "content": "10 best laptops for coding: Are you into coding? Choosing the right laptop is crucial for a smooth programming experience. You need power for running and testing code without being slowed down by you… [+16982 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Top 10 budget laptops: From Lenovo, Asus to Zebronics, try these pocket-friendly gadgets - HT Tech",
+            "description": "Top 10 budget laptops: Check out these budget laptops including renowned brands like Lenovo, HP, Asus, Zebronics and more.",
+            "url": "https://tech.hindustantimes.com/laptops-pc/news/top-10-budget-laptops-from-lenovo-asus-to-zebronics-try-these-pocket-friendly-gadgets-71702806084048.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/17/1600x900/untitled_1702806419709_1702806419981.jpg",
+            "publishedAt": "2023-12-17T10:03:48Z",
+            "content": "Top 10 budget laptops: Are you looking for a laptop that fits perfectly into your budget and provides you with the necessary features too? Budget laptops are an economical choice for users seeking fu… [+16934 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Newstracklive.com"
+            },
+            "author": "EMMANUAL",
+            "title": "Realme C67 5G launched, 5000 mAh battery and 50MP camera will be available cheaply, know the price - News Track English",
+            "description": "Realme, the innovative smartphone manufacturer, has recently introduced its latest marvel, the Realme C67 5G. Packed with impressive features, this budget-friendly smartphone is set to redefine the user experience in the mid-range segment.\r\n\r\nPowerful Battery…",
+            "url": "https://english.newstracklive.com/news/realme-c67-5g-launched-5000-mah-battery-and-50mp-camera-will-be-available-cheaply-know-the-price-sc14-nu371-ta371-1306049-1.html",
+            "urlToImage": "https://media.newstrack.in/uploads/technology-news/gadgets-news/Dec/17/big_thumb/fgfg_657eacd9d4105.JPG",
+            "publishedAt": "2023-12-17T09:34:52Z",
+            "content": "Realme, the innovative smartphone manufacturer, has recently introduced its latest marvel, the Realme C67 5G. Packed with impressive features, this budget-friendly smartphone is set to redefine the u… [+4754 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Aditi Srivastava",
+            "title": "Ray-Ban Meta glasses rule the TikTok trend with BTS’ Jungkook’s 3D complementing - Hindustan Times",
+            "description": "Ray-Ban Meta glasses bring back the cool factor for technology",
+            "url": "https://www.hindustantimes.com/entertainment/music/rayban-meta-glasses-rule-the-tiktok-trend-with-bts-jungkook-s-3d-complementing-it-101702795823939.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/jk_1702799795172_1702799809412.jpg",
+            "publishedAt": "2023-12-17T07:59:46Z",
+            "content": "Forget your cat ears and filter faces, TikTok has a new obsession: Ray Ban's Meta smart glasses. With millions of people wearing digital glasses and dancing to the same beat, what began as a single c… [+2218 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "How to star your favourite photos in Google Photos - Times of India",
+            "description": "This article discusses how to mark favourites and organise cherished memories by starring photos in Google Photos. Open the app or website, find the p",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/how-to-star-your-favourite-photos-in-google-photos/articleshow/106059447.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106059410,width-1070,height-580,imgsize-57548,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T06:17:14Z",
+            "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Trak.in"
+            },
+            "author": "Siddhi Phaltankar",
+            "title": "iOS 17.2 Released: Check Top 9 Updates For Your iPhone (And 10 Bonus Updates!) - Trak.in",
+            "description": "Exciting news! The iOS 17.2 update is here, and it’s bringing some awesome changes to your iPhone. From a cool new Journal app to better music and camera stuff,  explore what’s new. 1. The Cool Journal: Journal App iOS 17.2 has this amazing Journal app. It’s …",
+            "url": "https://trak.in/stories/ios-17-2-released-check-top-9-updates-for-your-iphone-and-10-bonus-updates/",
+            "urlToImage": "https://trak.in/stories/wp-content/uploads/2023/12/ify-7-1-1.png",
+            "publishedAt": "2023-12-17T03:56:15Z",
+            "content": "Exciting news! The iOS 17.2 update is here, and its bringing some awesome changes to your iPhone. From a cool new Journal app to better music and camera stuff,  explore whats new.\r\n1. The Cool Journa… [+3528 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Apple has a charger 'warning' for Apple Watch users, here's why - Times of India",
+            "description": "Apple warns users about safety hazards and performance issues with non-certified chargers for Apple Watch. Counterfeit or uncertified chargers can cau",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/apple-has-a-charger-warning-for-apple-watch-users-heres-why/articleshow/106052733.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106052733,width-1070,height-580,imgsize-16632,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T03:00:45Z",
+            "content": "Tinders top dating trends of 2023: Delulu, Love languages, NATO and more"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "BNN Correspondents",
+            "title": "Vivo Gears Up for the Indian Launch of the X100 and X100 Pro - BNN Breaking",
+            "description": "Vivo is gearing up to introduce the vivo X100 and X100 Pro in India, following their successful global debut and initial launch in China. A promotional page on Vivo's Indian website hints at the imminent arrival of these new smartphones, though the exact laun…",
+            "url": "https://bnnbreaking.com/tech/vivo-gears-up-for-the-indian-launch-of-the-x100-and-x100-pro/",
+            "urlToImage": "https://media.bnn.network/content/uploads/2023/12/vivo-x100-and-x100-pro-launch-20231216201558.jpg",
+            "publishedAt": "2023-12-16T20:16:15Z",
+            "content": "Vivo is gearing up to introduce the vivo X100 and X100 Pro in India, following their successful global debut and initial launch in China. A promotional page on Vivo’s Indian website hints at the immi… [+1688 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Unwrap Innovation! Sony INZONE H5 Headset, Samsung Galaxy Z Fold 5 to Apple AirPods Pro, 6 tech gifts to explore - HT Tech",
+            "description": "It's the season of gifting joy to the tech enthusiasts in your life! Dive into this guide featuring cutting-edge gadgets guaranteed to amaze this holiday season. Sony INZONE H5 Headset, Samsung Galaxy Z Fold 5 to Apple AirPods Pro, these innovative tech gifts…",
+            "url": "https://tech.hindustantimes.com/photos/unwrap-innovation-sony-inzone-h5-headset-samsung-galaxy-z-fold-5-to-apple-airpods-pro-6-tech-gifts-to-explore-71702573196530.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/16/1600x900/tgcfjjjjjjjjjjj_1702714819077_1702714845833.jpg",
+            "publishedAt": "2023-12-16T18:27:44Z",
+            "content": "Top SectionsExplore Tech Copyright © HT Media Limited All rights reserved."
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "Flipkart's year-end sale: Check attractive deals, discounts on smartphones - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-in/lifestyle/shopping/flipkart-s-year-end-sale-check-attractive-deals-discounts-on-smartphones/ar-AA1lBmbi",
+            "urlToImage": null,
+            "publishedAt": "2023-12-16T17:48:19Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zee Business"
+            },
+            "author": "ZeeBiz WebTeam",
+            "title": "Samsung Galaxy Book4 Series unveiled - Heres all you need to know - Zee Business",
+            "description": "The latest series, which comes with a new intelligent processor, will be made available in a phase-wise manner in select markets, starting with Korea in January 2024.",
+            "url": "https://www.zeebiz.com/technology/news-samsung-galaxy-book4-series-unveiled-heres-all-you-need-to-know-269036",
+            "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/12/16/272877-galaxybook4.jpg",
+            "publishedAt": "2023-12-16T15:32:52Z",
+            "content": "Samsung has unveiled its new PC series 'Galaxy Book4' and the company claims that it is by far the most intelligent lineup, which includes - Galaxy Book4 Ultra, Book4 Pro and Book4 Pro 360.\r\nThe late… [+1745 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Quordle 691 answer for December 16: Cruise through the weekend! Check Quordle hints, clues, solutions - HT Tech",
+            "description": "Quordle 691 answer for December 16: Today’s puzzle is going to prove itself an unfair adversary. Do not surrender. Check these Quordle hints, clues, and solutions to defeat it.",
+            "url": "https://tech.hindustantimes.com/how-to/quordle-691-answer-for-december-16-cruise-through-the-weekend-check-quordle-hints-clues-solutions-71702734402112.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/16/1600x900/Quordle_play_store_1674348098521_1702734461270.PNG",
+            "publishedAt": "2023-12-16T14:01:44Z",
+            "content": "Quordle 691 answer for December 16: We said yesterday that Quordle was uncharacteristically quiet this week and there were not enough difficult puzzles to excite and confuse the players. However, tod… [+2005 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Smestreet.in"
+            },
+            "author": "SMEStreet Edit Desk",
+            "title": "Noise Launches India's First 4G Calling Smartwatch, Noise Voyage - SMEStreet",
+            "description": "The smartwatch is an innovative addition to the brand’s celebrated premium round dial smartwatch portfolio. Driven by the virtue of being the first mover in the segment, Noise has elevated the calling experience by introducing 4G eSIM capabilities.",
+            "url": "https://smestreet.in/technology/noise-launches-indias-first-4g-calling-smartwatch-noise-voyage-2026206",
+            "urlToImage": "https://img-cdn.thepublive.com/fit-in/1200x675/smstreet/media/media_files/4yu0E1uo06waNbnnyG24.jpg",
+            "publishedAt": "2023-12-16T11:59:38Z",
+            "content": "Driven by the virtue of being the first to bring meaningful innovation to people, Noise, Indias leading connected lifestyle smartwatch brand, today has launched Noise Voyage, Indias first* 4G calling… [+2397 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gizbot"
+            },
+            "author": "Gizbot",
+            "title": "iQOO 12 vs OnePlus 11 vs Nothing Phone 2: Is the iQOO 12's New SD 8 Gen 3 Processor Worth the Hype? - Gizbot",
+            "description": null,
+            "url": "https://www.gizbot.com/mobile/features/iqoo-12-vs-oneplus-11-vs-nothing-phone-2-is-the-iqoo-12-s-new-sd-8-gen-3-processor-worth-the-hype-089071.html",
+            "urlToImage": null,
+            "publishedAt": "2023-12-16T10:30:17Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Netflix.com"
+            },
+            "author": null,
+            "title": "GTA: San Andreas – The Definitive Edition - Game Support - Netflix",
+            "description": "Getting started, gameplay questions, and troubleshooting info about GTA: San Andreas – The Definitive Edition.",
+            "url": "https://help.netflix.com/en/node/133166",
+            "urlToImage": null,
+            "publishedAt": "2023-12-14T15:15:14Z",
+            "content": "Content rating: See the game's app store page\r\nLanguages: Chinese (Simplified), Chinese (Traditional), English (US), French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, S… [+69 chars]"
+          }
+        ]
+      },
+      {
+        "health": [
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": "Dr. Rajesh B. Iyer",
+            "title": "Here's How Hypertension Increases The Risk Of Stroke In Winter Season - NDTV Doctor",
+            "description": "Seasonal and temperature fluctuations can influence cerebrovascular risk factors such as hypertension, hyperglycemia, hyperlipidemia, and atrial fibrillation.",
+            "url": "https://doctor.ndtv.com/living-healthy/heres-how-hypertension-increases-the-risk-of-stroke-in-winter-season-4696447",
+            "urlToImage": "https://c.ndtvimg.com/2022-05/t7f7utvo_blood-pressure_625x300_01_May_22.jpg",
+            "publishedAt": "2023-12-18T10:21:12Z",
+            "content": "A 3% increased incidence of stroke risk is seen in winters and an 8% decrease in summers. The risk is significant for ischemic strokes rather than hemorrhagic strokes. Several factors can contribute … [+4411 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Parmita Uniyal",
+            "title": "Year Ender 2023: Heart attack to cardiomyopathy; cardiac conditions in spotlight - Hindustan Times",
+            "description": "In 2023, sudden deaths, particularly among younger people, made headlines. This concerning trend could be due to a range of cardiovascular conditions. | Health",
+            "url": "https://www.hindustantimes.com/lifestyle/health/year-ender-2023-heart-attack-to-cardiomyopathy-cardiac-conditions-in-spotlight-101702893812652.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/heart_1702894112301_1702894121590.jpg",
+            "publishedAt": "2023-12-18T10:11:43Z",
+            "content": "The trend of sudden cardiac arrest and heart attacks continued in 2023 as people with no prior warning symptoms collapsed doing seemingly harmless activities - working out, running marathons, or doin… [+6841 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Daijiworld.com"
+            },
+            "author": null,
+            "title": "Study offers hope for childhood respiratory diseases - Daijiworld.com",
+            "description": "London, Dec 18(IANS): The immune and respiratory systems coordinate much earlier than previously thought, finds a study that raises hope for tackling respiratory diseases in early childhood.\r\nGlobally, respiratory conditions account for almost 20 per cent of …",
+            "url": "https://www.daijiworld.com/news/newsDisplay?newsID=1150416",
+            "urlToImage": "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/rayan_181223_Health1.jpg",
+            "publishedAt": "2023-12-18T10:07:31Z",
+            "content": "London, Dec 18(IANS): The immune and respiratory systems coordinate much earlier than previously thought, finds a study that raises hope for tackling respiratory diseases in early childhood.\r\nGloball… [+2068 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Can constipation cause a heart attack? - IndiaTimes",
+            "description": "Straining while passing stool due to constipation can lead to chest pain and increase the chances of a heart attack. It is important to seek prompt me",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/can-constipation-cause-a-heart-attack/articleshow/106082079.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106082001,width-1070,height-580,imgsize-818577,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T09:30:00Z",
+            "content": "Practical tips for preventing constipation in everyday life (remedies for adults and kids)"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Written by Health Desk, Edited by Kristina Das",
+            "title": "Constipation Awareness Month 2023: Effective ways to tackle this common issue in adults - India TV News",
+            "description": "Constipation is a common and generally treatable condition, often linked to lifestyle choices. Preventive measures and lifestyle adjustments play a pivotal role in managing the common issue in adults.",
+            "url": "https://www.indiatvnews.com/health/constipation-awareness-month-2023-effective-ways-to-tackle-this-common-issue-in-adults-2023-12-18-907797",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/constipation-1-1702890718.jpg",
+            "publishedAt": "2023-12-18T09:21:06Z",
+            "content": "Constipation is a prevalent digestive ailment that can significantly impact an individual's quality of life. It occurs when bowel movements become irregular or challenging, leading to discomfort and … [+3307 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Right time to drink water after meals as per Ayurveda - IndiaTimes",
+            "description": "Ayurveda emphasizes the timing of activities like water consumption for overall health. Ayurveda provides guidelines for drinking water after meals ba",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/right-time-to-drink-water-after-meals-as-per-ayurveda/articleshow/106037985.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106037963,width-1070,height-580,imgsize-476971,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T09:10:50Z",
+            "content": "How does diet affect your immune system"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News24online.com"
+            },
+            "author": "Priyanka Negi",
+            "title": "Mood Booster! The Hidden Benefits Of Bitter Dark Chocolate - News24",
+            "description": "Dark Chocolate tastes slightly bitter but their benefits are totally different.",
+            "url": "https://news24online.com/lifestyle/mood-booster-the-hidden-benefits-of-bitter-dark-chocolate/201234/",
+            "urlToImage": "https://news24online.com/wp-content/uploads/2023/12/Dark-Chocolate.jpg",
+            "publishedAt": "2023-12-18T09:07:42Z",
+            "content": "Dark Chocolate tastes slightly bitter but their benefits are totally different. There are tons of rich sources of essential minerals and heart health benefits if you consume them regularly.\r\nDo you e… [+1913 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Written by India TV Lifestyle Desk, Edited by Kristina Das",
+            "title": "5 benefits of drinking guava leaf tea in winter - India TV News",
+            "description": "Guava leaf tea is a delicious and healthy beverage that is perfect for the winter season. It not only helps boost the immune system, but it also has various other health benefits such as relieving cold and flu symptoms, soothing digestive issues, etc.",
+            "url": "https://www.indiatvnews.com/lifestyle/food/5-benefits-of-drinking-guava-leaf-tea-in-winter-2023-12-18-907793",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/guava-leaf-tea-1702889585.jpg",
+            "publishedAt": "2023-12-18T08:57:28Z",
+            "content": "Winter is the season of cold and chilly weather, which brings with it an increased risk of catching illnesses and infections. During this season, it is crucial to boost our immune system and keep our… [+2415 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Akanksha Agnihotri",
+            "title": "Year Ender 2023: 8 top health and fitness trends that went viral this year - Hindustan Times",
+            "description": "From virtual challenges to innovative workouts, check out top trends that took the wellness and health world by storm and went viral across social platforms. | Health",
+            "url": "https://www.hindustantimes.com/lifestyle/health/year-ender-2023-from-biohacking-to-metaverse-wellness-8-top-health-and-fitness-trends-that-went-viral-this-year-101702886538634.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/3868928_1702888818544_1702888828077.jpg",
+            "publishedAt": "2023-12-18T08:41:26Z",
+            "content": "As we bid farewell to 2023, it's intriguing to reflect on the dynamic shifts and innovations that have taken the health and fitness world by storm. From cutting-edge technologies to holistic lifestyl… [+4692 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Tech Explorist"
+            },
+            "author": "Pranjal Mehar",
+            "title": "A novel dry powder inhaled vaccine platform - Tech Explorist",
+            "description": "This platform combines biodegradable microspheres with protein nanoparticles.",
+            "url": "https://www.techexplorist.com/novel-dry-powder-inhaled-vaccine-platform/78635/",
+            "urlToImage": "https://www.techexplorist.com/wp-content/uploads/2023/12/dry-powder-vaccine.jpg",
+            "publishedAt": "2023-12-18T08:37:11Z",
+            "content": "The COVID-19 pandemic has fostered significant advances in vaccination technologies. However, there are urgent need for vaccines that induce mucosal immune responses and for single-dose, non-invasive… [+2389 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Education Diary"
+            },
+            "author": "iednewsdesk",
+            "title": "Girls still 2x more likely to contract HIV than boys: Unicef - India Education Diary",
+            "description": "Girls continue to be more than twice as likely to contract HIV than boys, according to the Unicef’s latest report. The report said girls continue to bear the brunt of the HIV epidemic, even though total infections among girls aged 10-19 have alm",
+            "url": "https://indiaeducationdiary.in/girls-still-2x-more-likely-to-contract-hiv-than-boys-unicef/",
+            "urlToImage": "https://indiaeducationdiary.in/wp-content/uploads/2023/12/56bb2e1e0d11992fd0749d4661e1f817.jpg",
+            "publishedAt": "2023-12-18T08:26:12Z",
+            "content": "Girls continue to be more than twice as likely to contract HIV than boys, according to the Unicefs latest report.\r\nThe report said girls continue to bear the brunt of the HIV epidemic, even though to… [+1907 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Biotecnika.org"
+            },
+            "author": "Shekhar",
+            "title": "Scientist’s Revolutionary Breakthrough in Eradicating Malaria: African Gene Drive Tech Unveiled! - BioTecNika",
+            "description": "Gene Drive Tech By African Scientists To Eradicate Malaria. Breakthrough in Eradicating Malaria: African Gene Drive Tech",
+            "url": "https://www.biotecnika.org/2023/12/gene-drive-tech-by-african-scientists-to-eradicate-malaria/",
+            "urlToImage": "https://cdn.biotecnika.org/wp-content/uploads/2023/12/Purple-Neon-Pink-Cricket-YouTube-Thumbnail-in-Neon-Dark-Style.jpg",
+            "publishedAt": "2023-12-18T08:14:54Z",
+            "content": "--Must See--\r\nGene Drive Tech\r\nMalaria, a deadly disease transmitted by female Anopheles mosquitoes, remains a major public health concern in Africa. However, hope is on the horizon as African scient… [+3503 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dtnext.in"
+            },
+            "author": "IANS",
+            "title": "Why India’s overall NCD burden is rising among children - DTNEXT",
+            "description": "Dr Sriram noted that 5-17 years is an age group where there should ‘technically and historically’ not be a growing impact of lifestyle diseases.",
+            "url": "https://www.dtnext.in/lifestyle/wellbeing/why-indias-overall-ncd-burden-is-rising-among-children-755204",
+            "urlToImage": "https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/12/18/787379-4d0d3c542b875aa66d787ffaf7730193.jpg",
+            "publishedAt": "2023-12-18T07:55:03Z",
+            "content": "NEW DELHI: India is seeing a significant rise in cases of non communicable diseases like obesity, diabetes, hypertension among children.\r\nHealth experts on Monday blamed the surge on ever-increasing … [+4018 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Abplive.com"
+            },
+            "author": "Utsa Ganguly",
+            "title": "Constipation Awareness Month 2023: What Is The Link Between Constipation And UTI? Does It Affect Children? See What Experts Say - ABP Live",
+            "description": "When a child is constipated and holds stool longer than normal, there is bacterial overgrowth which usually cause the UTI.",
+            "url": "https://news.abplive.com/lifestyle/what-is-the-link-between-constipation-and-uti-does-it-affect-children-1650506",
+            "urlToImage": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/12/18/e1961e5de565ecf831df2b36ba8cfb6b1702884893342557_original.png?impolicy=abp_cdn&imwidth=1200&imheight=628",
+            "publishedAt": "2023-12-18T07:42:38Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "WION"
+            },
+            "author": "WION Video Team",
+            "title": "Less screen time is the secret to happiness, new research reveals - WION",
+            "description": "Less screen time is the secret to happiness, new research reveals. There is a sharp increase in average screen time by children during the pandemic. But it has a harmful impact on health. Spending more time online increases the risk of depression.",
+            "url": "https://www.wionews.com/videos/less-screen-time-is-the-secret-to-happiness-new-research-reveals-670800",
+            "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/18/1812_WION_STUDY_12PM-1702885218-00000003.jpg",
+            "publishedAt": "2023-12-18T07:40:01Z",
+            "content": "WION Video Team | Updated: Dec 18, 2023, 01:10 PM IST\r\nLess screen time is the secret to happiness, new research reveals. There is a sharp increase in average screen time by children during the pande… [+142 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Written by Health Desk, Edited by Kristina Das",
+            "title": "Chia Seeds vs Basil Seeds: Which is better for your health? - India TV News",
+            "description": "Both chia seeds and basil seeds are excellent sources of essential nutrients and can greatly benefit your health. Incorporating both of these superfoods into your diet can provide a well-rounded source of nutrition and support overall wellness.",
+            "url": "https://www.indiatvnews.com/lifestyle/food/chia-seeds-vs-basil-seeds-which-is-better-for-your-health-2023-12-18-907765",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/chia-vs-basil-1702880858.jpg",
+            "publishedAt": "2023-12-18T06:41:22Z",
+            "content": "In the realm of health and wellness, chia seeds and basil seeds are two well-liked superfoods that are receiving a lot of attention. These little, highly nutritious seeds are typically hailed as nece… [+3132 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Thehealthsite.com"
+            },
+            "author": "Prerna Mittra",
+            "title": "What Is Vitamin K2 And How Does It Benefit The Body? | TheHealthSite.com - TheHealthSite",
+            "description": "Vitamin K2 is a nutrient \"often overshadowed but crucial\" for health. \"It's a fat-soluble vitamin that plays a pivotal role in directing calcium to where it belongs -- your bones and teeth and away from arteries and soft tissues\" said nutritionist Bhakti Aror…",
+            "url": "https://www.thehealthsite.com/photo-gallery/what-is-vitamin-k2-and-how-does-it-benefit-the-body-1045083/",
+            "urlToImage": "https://www.thehealthsite.com/wp-content/uploads/2023/12/Freepik-vitamin-K2-benefits-1.jpg",
+            "publishedAt": "2023-12-18T06:30:26Z",
+            "content": "There are many types of vitamins that are essential for the health and overall well-being of the body and among them is vitamin K2. Nutritionist Bhakti Arora Kapoor recently explained in an Instagram… [+261 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "DNA India"
+            },
+            "author": "DNA Web Team",
+            "title": "Feeling tired and weak? It could be a sign of Vitamin B12 deficiency - DNA India",
+            "description": "Vitamin B12 also plays a vital role in maintaining a healthy nervous system.",
+            "url": "https://www.dnaindia.com/health/report-feeling-tired-and-weak-it-could-be-a-sign-of-vitamin-b12-deficiency-3071933",
+            "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/12/18/2620170-image-2023-12-18t115341.710.jpg",
+            "publishedAt": "2023-12-18T06:21:00Z",
+            "content": "Vitamin B12 also plays a vital role in maintaining a healthy nervous system.Vitamin B12 is an essential nutrient that plays a crucial role in maintaining our health and overall well-being. It is a wa… [+2495 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Post Magazine"
+            },
+            "author": null,
+            "title": "China health authorities say respiratory illnesses spike is finally easing - South China Morning Post",
+            "description": "Latest monitoring results show the numbers of people, mostly children, needing treatment nationally is on a downward trend.",
+            "url": "https://www.scmp.com/news/china/science/article/3245439/china-health-authorities-say-respiratory-illnesses-spike-finally-easing",
+            "urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2023/12/18/a4428063-9c97-4a36-b14e-e1ef940d2acc_35b14265.jpg?itok=Jk1VHyLc&v=1702877647",
+            "publishedAt": "2023-12-18T06:00:26Z",
+            "content": "Monitoring results showed that at grass roots levels, fever clinics and outpatient departments accounted for around 44 per cent of the nationwide medical institutions reception volume, he said.\r\nChin… [+2017 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Saurav Saha",
+            "title": "Here are the best nutritional drinks for the elderly - Sportskeeda",
+            "description": "Nutritional drinks for the elderly should be given considerable importance at this time and age.",
+            "url": "https://www.sportskeeda.com/health-and-fitness/here-best-nutritional-drinks-elderly",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/e9c28-17022127022922-1920.jpg",
+            "publishedAt": "2023-12-18T05:48:00Z",
+            "content": "Nutritional drinks for the elderly should be given considerable importance at this time and age. With rapidly changing seasons, eras and especially the pandemic, elderly people need good nutrition so… [+4003 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/lifestylestaff/",
+            "title": "Heart Health: 5 Things Men Over 50 Should Do to Keep Cholesterol in Check and Lower Cardiac Attack Risk - India.com",
+            "description": "Men in their 50s should try to adopt few lifestyle tweaks, if not doing that already., in a bid to protect their heart health.",
+            "url": "https://www.india.com/health/heart-health-5-things-men-over-50-should-do-to-keep-cholesterol-in-check-and-lower-cardiac-attack-risk-6593870/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/MixCollage-18-Dec-2023-11-04-AM-7299.jpg",
+            "publishedAt": "2023-12-18T05:47:17Z",
+            "content": "Men in their 50s should try to adopt few lifestyle tweaks, if not doing that already., in a bid to protect their heart health. \r\nHeart Health: 5 Things Men Over 50 Should Do to Keep Cholesterol in Ch… [+3658 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Himani Chandna",
+            "title": "Health Matters | Like Actor Shreyas Talpade, Many Indians Below 50 are Undergoing Angioplasty - News18",
+            "description": "The notable increase in heart attacks and untimely deaths has been a cause for alarm, highlighting the shift of cardiac ailments to a considerably younger age group",
+            "url": "https://www.news18.com/india/health-matters-like-actor-shreyas-talpade-many-indians-below-50-are-undergoing-angioplasty-8707854.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/shreyas-talpade-heart-attack-2023-12-6c430d135b5fee3ddcf33980cbd1776d-16x9.png?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T05:31:28Z",
+            "content": "In recent times, several seemingly healthy celebrities have suffered heart attacks, revealing a startling truth about the lack of awareness regarding ones physical condition. The latest actor to suff… [+5874 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Worried about sugar levels in this wedding season? Tips from a cardiologist to keep it in check - IndiaTimes",
+            "description": "Managing sugar levels, especially during celebratory events like weddings, is important for individuals concerned about their cardiovascular health. Here are some tips that a cardiologist might offer to help keep sugar levels in check during the wedding seaso…",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/worried-about-sugar-levels-in-this-wedding-season-tips-from-a-cardiologist-to-keep-it-in-check/photostory/106048976.cms",
+            "urlToImage": "https://static.toiimg.com/photo/106049006.cms",
+            "publishedAt": "2023-12-18T05:30:00Z",
+            "content": "According to Dr. Jaideep Rajebahadur, Consultant – Cardiology, SRV Hospitals – Goregaon, “There is an alternative to the fear of mithai—learn about its goodness and educate yourself in the basics so … [+726 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "DNA India"
+            },
+            "author": "Srishty Choudhury",
+            "title": "Benefits of 10-minute daily brisk walk - DNA India",
+            "description": "Incorporating brisk walking into a daily routine can offer a range of health benefits, both physical and mental.",
+            "url": "https://www.dnaindia.com/web-stories/lifestyle/benefits-of-10-minute-daily-brisk-walk-heart-mental-weightloss-better-sleep-uplifts-mood-lung-health-1702875128208",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:29:48Z",
+            "content": "Walking briskly stimulates the release of endorphins, which are natural mood enhancers. It can help alleviate symptoms of stress, anxiety, and depression, promoting overall mental well-being."
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "5 Cancer Signs That Could Be Mistaken For Flu - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-in/health/health-news/5-cancer-signs-that-could-be-mistaken-for-flu/ar-AA1lEVDe",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T05:28:53Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": null,
+            "title": "These 10 superfoods will boost your dopamine levels naturally - Times of India",
+            "description": "Dopamine is a crucial neurotransmitter associated with pleasure, motivation, and reward pathways in the brain. It plays a key role in regulating mood, motivation, and cognitive function. Imbalances in dopamine levels have been linked to various neurological a…",
+            "url": "https://timesofindia.indiatimes.com/videos/lifestyle/health-fitness/these-10-superfoods-will-boost-your-dopamine-levels-naturally/videoshow/106077735.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-106077735,imgsize-242736.cms",
+            "publishedAt": "2023-12-18T05:17:30Z",
+            "content": "Dec 18, 2023, 10:47AM ISTSource: TIMESOFINDIA.COMDopamine is a crucial neurotransmitter associated with pleasure, motivation, and reward pathways in the brain. It plays a key role in regulating mood,… [+189 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Silent heart attack: Warning signs you shouldn't ignore - IndiaTimes",
+            "description": "Silent myocardial infarctions (SMIs) account for 45% of heart attacks, often with mild and fleeting symptoms. Early detection and intervention are cru",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/silent-heart-attack-warning-signs-you-shouldnt-ignore/articleshow/106077418.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106077384,width-1070,height-580,imgsize-504098,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T05:06:20Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "Momen Zellmi",
+            "title": "Global Underdiagnosis of Familial Hypercholesterolaemia in Youth - BNN Breaking",
+            "description": "A recent study reveals significant underdiagnosis and inadequate treatment of the genetic disorder HeFH in children and adolescents globally. Early detection and management can significantly reduce ASCVD risk and improve life expectancy.",
+            "url": "https://bnnbreaking.com/breaking-news/health/study-reveals-significant-underdiagnosis-of-familial-hypercholesterolaemia-in-children-and-adolescents/",
+            "urlToImage": "https://media.bnn.network/content/uploads/2023/12/familial-hypercholesterolaemia-in-youth-20231218044027.jpg",
+            "publishedAt": "2023-12-18T04:57:14Z",
+            "content": "A recent study published in The Lancet has unveiled disconcerting findings about the identification and management of a genetic disorder known as heterozygous familial hypercholesterolaemia (HeFH), w… [+2238 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "BNN Breaking",
+            "title": "Red Meat Consumption Increases Type 2 Diabetes Risk - BNN Breaking",
+            "description": null,
+            "url": "https://bnnbreaking.com/breaking-news/health/high-red-meat-consumption-linked-to-increased-type-2-diabetes-risk-study-reveals/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T04:55:40Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dtnext.in"
+            },
+            "author": "IANS",
+            "title": "Flu infections in Japan soar to warning level at fastest pace in 10 years - DTNEXT",
+            "description": "The National Institute of Infectious Diseases estimated that the number of patients nationwide totaled around 1,118,000 during the seven-day period.",
+            "url": "https://www.dtnext.in/news/world/flu-infections-in-japan-soar-to-warning-level-at-fastest-pace-in-10-years-755178",
+            "urlToImage": "https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/12/18/787355-202312153095031.jpg",
+            "publishedAt": "2023-12-18T04:53:10Z",
+            "content": "TOKYO: The average number of influenza patients per regularly monitored medical institution in Japan had hit warning levels at the fastest pace in 10 years, the health ministry has announced.\r\nAbout … [+1220 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Indiaspend.com"
+            },
+            "author": "Charu Bahri",
+            "title": "Why India Could Miss 2030 Target To Eliminate Cervical Cancer - IndiaSpend",
+            "description": "Creating awareness about cervical cancer, rolling out an HPV vaccine programme and improving access to treatment would help reduce deaths from the disease",
+            "url": "https://www.indiaspend.com/health/why-india-could-miss-2030-target-to-eliminate-cervical-cancer-885975",
+            "urlToImage": "https://www.indiaspend.com/h-upload/2023/12/18/1141320-cervical-cancer-who-1500.jpg",
+            "publishedAt": "2023-12-18T04:48:53Z",
+            "content": "Mount Abu, Rajasthan: Poonam*, aged 53, an anganwadi worker in a village in Gurugram, Haryana got herself screened for cancer of the cervix in early 2023.I wasnt ill as such but some NGO workers enco… [+12957 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "News18",
+            "title": "7 Benefits Of Consuming Olive Oil In Winters - News18",
+            "description": "These are the benefits associated with the consumption of olive oil in the winter months.",
+            "url": "https://www.news18.com/web-stories/lifestyle/7-benefits-of-consuming-olive-oil-in-winters-1354681/",
+            "urlToImage": "https://images.news18.com/webstories/2023/10/cropped-shutterstock_788301205-1.jpg",
+            "publishedAt": "2023-12-18T04:43:44Z",
+            "content": "Producer:  Shreeja Bhattacharya"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/lifestylestaff/",
+            "title": "Depression: 5 Lesser-Known Side Effects of Antidepressants You Should be Aware of - India.com",
+            "description": "Antidepressant medications are a first-choice option for treating depression and anxiety. People respond differently to antidepressants. Some people may have no troubling side effects, while others may have one or more serious side effects.",
+            "url": "https://www.india.com/health/depression-5-lesser-known-side-effects-of-antidepressants-you-should-be-aware-of-6593831/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-18-at-10.09.26-AM.jpeg",
+            "publishedAt": "2023-12-18T04:42:20Z",
+            "content": "Antidepressant medications are a first-choice option for treating depression and anxiety. People respond differently to antidepressants. Some people may have no troubling side effects, while others m… [+2358 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News9live.com"
+            },
+            "author": "Unnati Gusain",
+            "title": "Brain-booster: Nutritional role in enhancing neurological and cognitive health - News9 LIVE",
+            "description": "By recognising the symbiotic relationship between diet and neurological health, one can make informed choices that nourish not only the body but also the mind, contributing to a holistic approach to well-being",
+            "url": "https://www.news9live.com/health/health-conditions/brain-booster-nutritional-role-in-enhancing-neurological-and-cognitive-health-2380150",
+            "urlToImage": "https://images.news9live.com/wp-content/uploads/2023/09/blue-tumor-reveals-alzheimer-disease-human-brain-generated-by-ai-1-1.jpg",
+            "publishedAt": "2023-12-18T04:26:35Z",
+            "content": "New Delhi: Proper nutrition plays a pivotal role in shaping the intricate dynamics of brain function. The intricate connection between diet and neurological health is a subject of growing significanc… [+1804 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Rajeshwaari Kalla",
+            "title": "Causes, symptoms and cure for nasal polypi: Manage asthma, clear allergens with regular saline sprays - Moneycontrol",
+            "description": "Persistent nasal congestion and reduced sense of smell may be signs of nasal polypi, which can block nasal passages and affect breathing. Maintaining optimal humidity, managing asthma, practicing nasal hygiene, and avoiding environmental triggers can help pre…",
+            "url": "https://www.moneycontrol.com/news/health-and-fitness/causes-symptoms-and-cure-for-nasal-polypi-manage-asthma-clear-allergens-with-regular-saline-sprays-11918601.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/12/Causes-symptoms-and-treatment-for-nasal-polyp-770x433.jpg",
+            "publishedAt": "2023-12-18T04:11:27Z",
+            "content": "Do you find yourself dealing with persistent nasal congestion and a reduced sense of smell? It could be because of nasal polypi, which could block nasal passages, impacting breathing and comfort. Rec… [+3687 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Thehealthsite.com"
+            },
+            "author": "saumya pandey",
+            "title": "Discover Some Weight-Loss-Friendly Flours For Your Kitchen | TheHealthSite.com - TheHealthSite",
+            "description": "By embracing these weight-loss-friendly flours you not only prioritize your health but also open the door to a world of flavors and textures that will make your culinary adventures all the more exciting. TheHealthSite.com",
+            "url": "https://www.thehealthsite.com/photo-gallery/discover-some-weight-loss-friendly-flours-for-your-kitchen-1045030/",
+            "urlToImage": "https://www.thehealthsite.com/wp-content/uploads/2023/12/ingredient-bags-full-flour-1-1.jpg",
+            "publishedAt": "2023-12-18T03:30:54Z",
+            "content": "Embarking on a weight-loss journey often involves reevaluating dietary choices, and one significant aspect is the type of flour used in cooking and baking. Traditional all-purpose flour, while versat… [+242 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Moneycontrol"
+            },
+            "author": "Sushmita Srivastav",
+            "title": "Why gut health can get worse in winters, and tips for prevention - Moneycontrol",
+            "description": "Winter presents its unique challenges for maintaining gut health, but with mindful dietary choices, hydration, supplementation, regular exercise, and stress management, it’s possible to support and preserve a healthy gut microbiome.",
+            "url": "https://www.moneycontrol.com/news/health-and-fitness/why-gut-health-can-get-worse-in-winters-and-tips-for-prevention-11918391.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/11/Health-benefits-of-cosy-cardio-exercises-770x433.jpg",
+            "publishedAt": "2023-12-18T03:28:49Z",
+            "content": "As winter settles in, our bodies undergo subtle yet significant changes, and one area profoundly affected is our gut health. The drop in temperature, altered dietary habits, and reduced physical acti… [+3138 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Sentinel Assam"
+            },
+            "author": "Sentinel Digital Desk",
+            "title": "Eating meals early may lower cardiovascular risk: Study - Sentinelassam - The Sentinel Assam",
+            "description": "Researchers have discovered that eating meals early could reduce the risk of cardiovascular diseases.",
+            "url": "https://www.sentinelassam.com/topheadlines/eating-meals-early-may-lower-cardiovascular-risk-study-681524",
+            "urlToImage": "https://assets.sentinelassam.com/h-upload/2023/12/18/498767-meals.jpg",
+            "publishedAt": "2023-12-18T03:08:56Z",
+            "content": "SAN FRANCISCO: Researchers have discovered that eating meals early could reduce the risk of cardiovascular diseases. In a study published in the journal Nature Communications, the researchers used da… [+2085 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TNN",
+            "title": "Cough, cold cases on the rise - Times of India",
+            "description": "As the mercury has started dipping, more cases of cough, cold, fever, breathlessness and joint pain are being reported in Prayagraj. Doctors recommend nutritious warm meals, exercise, sound sleep, and sun exposure to stay healthy during the winter season. Pat…",
+            "url": "https://timesofindia.indiatimes.com/city/allahabad/cough-and-cold-cases-on-the-rise-in-prayagraj/articleshow/106073990.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106073989,width-1070,height-580,imgsize-23064,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T03:03:08Z",
+            "content": "Dr. APJ Abdul Kalam: Inspiring quotes on life and success"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Chaitanya Deshpande",
+            "title": "CT scans done during Covid unravel lung cancer threat - Times of India",
+            "description": "A study conducted by pulmonologist Dr Deepak Muthreja found that about 10% of randomly selected patients who underwent CT scan during the Covid-19 pandemic showed early signs of lung cancer. The study highlights the prevalence of lung cancer in the Vidarbha r…",
+            "url": "https://timesofindia.indiatimes.com/city/nagpur/ct-scans-during-covid-reveal-early-signs-of-lung-cancer-in-nagpur/articleshow/106073469.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-47529300,width-1070,height-580,imgsize-110164,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T02:50:59Z",
+            "content": "Dia Mirza brings out her inner 'Wednesday Addams' in a little black dress"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Mid-day"
+            },
+            "author": null,
+            "title": "Winter Wellness: Food to include in your diet to keep flu away this winter - mid-day.com",
+            "description": "Functional Nutritionist Mugdha Pradhan, CEO and Founder, iThrive shares a list of essential food items to include in your diet to keep flu away this winter",
+            "url": "https://www.mid-day.com/lifestyle/food/article/winter-wellness-food-to-include-in-your-diet-to-keep-flu-away-this-winter-23325414",
+            "urlToImage": "https://images.mid-day.com/images/images/2023/dec/winterwellness_d.jpg",
+            "publishedAt": "2023-12-18T02:50:02Z",
+            "content": "Functional Nutritionist Mugdha Pradhan, CEO and Founder, iThrive shares a list of essential food items to include in your diet to keep flu away this winter\r\nImage for representational purposes only. … [+3686 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Anuja Jaiswal",
+            "title": "Hearts that beat together keep BP too on same level - Times of India",
+            "description": "If your spouse has high blood pressure, you are more likely to be suffering the same condition too. Learn about spousal concordance of hypertension among middle-aged couples and the potential utility of couple-based interventions for diagnosis and management.",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/spousal-concordance-of-hypertension-among-middle-aged-couples/articleshow/106073082.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106074943,width-1070,height-580,imgsize-22826,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-18T02:40:28Z",
+            "content": "Dr. APJ Abdul Kalam: Inspiring quotes on life and success"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "CDC data shows rise in respiratory illness among children heading to Christmas - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-us/health/other/cdc-data-shows-rise-in-respiratory-illness-among-children-heading-to-christmas/ar-AA1lDKBd",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T02:36:48Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Mid-day"
+            },
+            "author": null,
+            "title": "Study finds blood biomarkers linked to suicidal thoughts - mid-day.com",
+            "description": "Researchers at University of California San Diego School of Medicine revealed a connection between cellular metabolism and suicidal thoughts",
+            "url": "https://www.mid-day.com/lifestyle/health-and-fitness/article/study-finds-blood-biomarkers-linked-to-suicidal-thoughts-23325486",
+            "urlToImage": "https://images.mid-day.com/images/images/2023/dec/bloodbiomarkermidday_d.jpg",
+            "publishedAt": "2023-12-18T02:32:00Z",
+            "content": "Researchers at University of California San Diego School of Medicine revealed a connection between cellular metabolism and suicidal thoughts\r\nImage for representational purposes only. Photo Courtesy:… [+3584 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Thesouthfirst.com"
+            },
+            "author": "Chetana Belagere",
+            "title": "Soleus muscle exercise: It takes just a chair to fix your blood sugar - South First",
+            "description": "Heard of the soleus muscle exercise that you can do while sitting in a chair? Study proves its effectiveness in reducing blood sugar levels.",
+            "url": "https://thesouthfirst.com/health/do-this-simple-exercise-and-watch-your-blood-sugar-levels-go-down/",
+            "urlToImage": "https://thesouthfirst.com/wp-content/uploads/2023/12/Copy-of-Untitled-1200-×-600-px-5-4.png",
+            "publishedAt": "2023-12-18T02:31:46Z",
+            "content": "Did you know that you can lower your blood sugar levels with just simple leg exercises? These exercises could be a game-changer for people with diabetes or those concerned about their blood sugar lev… [+5423 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Odishatv.in"
+            },
+            "author": "Sangati Jogwar",
+            "title": "White poison in kitchen! Know how this most-eaten flour affects your health - OTV News",
+            "description": "Maida or refined flour is extremely bad for health and can lead to several health issues if consumed regularly.",
+            "url": "https://odishatv.in/news/health/white-poison-in-kitchen-know-how-this-most-eaten-flour-affects-your-health-222802",
+            "urlToImage": "https://images.odishatv.in/uploadimage/library/16_9/16_9_5/Maida_1702747679.webp",
+            "publishedAt": "2023-12-18T02:16:36Z",
+            "content": "Cooking and eating at home is the best way to stay healthy. However, very few people know that certain ingredients that are commonly used in most kitchens in India are hazardous to health. While ther… [+2457 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Statetimes.in"
+            },
+            "author": "statetimes_editor",
+            "title": "Preventing heart disease by healthy heart diet-Cheap and non pharmacological modality: Dr Sushil - State Times",
+            "description": "STATE TIMES NEWSJAMMU: To strengthen their campaign further to aware the common masses about the ill effects of Cardiovascular Diseases, Head of Department (HoD) of Cardiology, Dr Sushil Sharma held a day long Cardiac awareness-cum-health check up ca",
+            "url": "https://statetimes.in/preventing-heart-disease-by-healthy-heart-diet-cheap-and-non-pharmacological-modality-dr-sushil/",
+            "urlToImage": "https://statetimes.in/wp-content/uploads/2023/12/Dr-Sushilfff-1.jpg",
+            "publishedAt": "2023-12-18T02:12:55Z",
+            "content": "STATE TIMES NEWS\r\nJAMMU: To strengthen their campaign further to aware the common masses about the ill effects of Cardiovascular Diseases, Head of Department (HoD) of Cardiology, Dr Sushil Sharma hel… [+3722 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/lifestylestaff/",
+            "title": "Weight Loss With Intermittent Fasting: How to Stay on Track on With 10-Hour Eating Window? 5 Tips - India.com",
+            "description": "Intermittent fasting is basically setting time window for your meals. It helps with weight loss and here is how one maybe able to stay on track and maintain the regime.",
+            "url": "https://www.india.com/lifestyle/weight-loss-with-intermittent-fasting-how-to-stay-on-track-on-with-10-hour-eating-window-5-tips-6593481/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/intermittent-fasting-weight-los.jpg",
+            "publishedAt": "2023-12-18T01:57:33Z",
+            "content": "Intermittent fasting is basically setting time window for your meals. It helps with weight loss and here is how one maybe able to stay on track and maintain the regime. \r\nWeight Loss With Intermitten… [+2967 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "5 Reasons to eat raw turmeric and jaggery in the morning - IndiaTimes",
+            "description": "Starting the day with a small piece of raw turmeric and jaggery can help boost immunity, improve metabolism, reduce inflammation and help in overall well being. Here are a few reasons why you must include raw turmeric and jaggery to your winter morning regime.",
+            "url": "https://timesofindia.indiatimes.com/life-style/food-news/5-reasons-to-eat-raw-turmeric-and-jaggery-in-the-morning/photostory/106069218.cms",
+            "urlToImage": "https://static.toiimg.com/photo/106069245.cms",
+            "publishedAt": "2023-12-18T01:53:00Z",
+            "content": "Winter is here and it is that time of the year, when the body needs ample nutrition to survive the bone chilling cold. According to Ayurveda, starting the day with a small piece of raw turmeric and j… [+202 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "Dr Priyanka Rohatgi",
+            "title": "Why half a cup of beetroot can help you control post-meal blood sugar - The Indian Express",
+            "description": "Dr Priyanka Rohatgi, Chief Nutritionist, Apollo Hospitals, explains why this root vegetable impacts insulin sensitivity",
+            "url": "https://indianexpress.com/article/health-wellness/beetroot-post-meal-blood-sugar-control-9072308/",
+            "urlToImage": "https://images.indianexpress.com/2023/12/beetroot.jpg",
+            "publishedAt": "2023-12-18T01:43:53Z",
+            "content": "Beetroot, with its vibrant colour and earthy flavour, has long been recognised for its vitamins, minerals and antioxidants. However recent research has shown it can be a complementary dietary compone… [+2750 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Hidden danger of crash diets: 6 dangerous signs to watch out for - IndiaTimes",
+            "description": "Crash diets, characterized by extreme calorie restriction and rapid weight loss, can pose serious risks to your health. Here are six dangerous signs to watch out for if you are on a crash diet or considering one.",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/hidden-danger-of-crash-diets-6-dangerous-signs-to-watch-out-for/photostory/106049693.cms",
+            "urlToImage": "https://static.toiimg.com/photo/106049707.cms",
+            "publishedAt": "2023-12-18T01:30:00Z",
+            "content": "According to Bhakti Adkar, Dietitian, SRV Hospitals – Chembur, “Abrupt diets have the potential to upset the body's electrolyte balance, which can result in issues like electrolyte imbalances and deh… [+122 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "EL PAÍS"
+            },
+            "author": "Adrián Cordellat",
+            "title": "How to cope better after a rough night’s sleep - EL PAÍS USA",
+            "description": "Not getting enough sleep affects many areas of our day-to-day life",
+            "url": "https://english.elpais.com/health/2023-12-18/how-to-cope-better-after-a-rough-nights-sleep.html",
+            "urlToImage": "https://images.english.elpais.com/resizer/-iZUAdO7RGUQMj3FPanDf5bs494=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/BEKZO25CLVD3RPBTGS6H2CMFKI.jpg",
+            "publishedAt": "2023-12-18T01:00:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News-Medical.Net"
+            },
+            "author": null,
+            "title": "Fasting-mimicking diet shows unique benefits in cardiovascular health, study finds - News-Medical.Net",
+            "description": "Study compares the fasting-mimicking diet and the Mediterranean diet in reducing cardiovascular disease risk among obese adults with hypertension, revealing unique benefits of each diet.",
+            "url": "https://www.news-medical.net/news/20231217/Fasting-mimicking-diet-shows-unique-benefits-in-cardiovascular-health-study-finds.aspx",
+            "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_767395_17028557943957325.jpg",
+            "publishedAt": "2023-12-18T00:45:00Z",
+            "content": "In a recent article published in Npj Metabolic Health and Disease, researchers assessed the effectiveness of the fasting-mimicking diet (FMD) against the Mediterranean diet (MD) in reducing the risk … [+6963 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+            },
+            "author": null,
+            "title": "The CDC Warns of 'Urgent Need' for Vaccinations to Fight Respiratory Illnesses This Winter - Yahoo Eurosport UK",
+            "description": null,
+            "url": "https://uk.sports.yahoo.com/news/cdc-warns-urgent-vaccinations-fight-190542751.html",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T19:05:42Z",
+            "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Neurologylive.com"
+            },
+            "author": "Martha Morrell, MD",
+            "title": "Neurostimulation and Targeted Treatment Delivery in Epilepsy Care: Martha Morrell, MD - Neurology Live",
+            "description": "The clinical professor of neurology at Stanford University School of Medicine talked about the collaboration of Rapport leveraging NeuroPace’s data analysis capabilities to study the target delivery of a therapy for focal epilepsy. [WATCH TIME: 5 minutes]",
+            "url": "https://www.neurologylive.com/view/neurostimulation-targeted-treatment-delivery-epilepsy-care-martha-morrell",
+            "urlToImage": "https://cdn.sanity.io/images/0vv8moc6/neurolive/2e33afc649ea6c3d7d546e12021cfed3703b5480-1280x720.png?fit=crop&auto=format",
+            "publishedAt": "2023-12-17T17:08:15Z",
+            "content": "WATCH TIME: 5 minutes\r\nIt's wonderful that there are innovative study designs being applied to treatments like epilepsy. We need to get treatments to patients as soon as possible, while providing the… [+2964 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "DNA India"
+            },
+            "author": "DNA Web Team",
+            "title": "How bad cholesterol increases risk of heart disease? Way to bring it down naturally - DNA India",
+            "description": "Reducing bad cholesterol levels is crucial for maintaining heart health. Here are some natural methods to help lower LDL cholesterol.",
+            "url": "https://www.dnaindia.com/health/report-how-bad-cholesterol-increases-risk-of-heart-disease-way-to-bring-it-down-naturally-3071891",
+            "urlToImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/12/17/2620125-untitled-design-49.jpg",
+            "publishedAt": "2023-12-17T15:55:00Z",
+            "content": "Reducing bad cholesterol levels is crucial for maintaining heart health. Here are some natural methods to help lower LDL cholesterol. \r\nBad cholesterol, also known as low-density lipoprotein (LDL), p… [+1863 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Sportskeeda"
+            },
+            "author": "Ruby Khanna",
+            "title": "Pneumonia in kids: Important things to know about - Sportskeeda",
+            "description": "Pneumonia in kids is a serious infection that leads to inflammation in the lungs.",
+            "url": "https://www.sportskeeda.com/health-and-fitness/pneumonia-kids-important-things-know",
+            "urlToImage": "https://staticg.sportskeeda.com/editor/2023/12/9d2c0-17028254861384-1920.jpg",
+            "publishedAt": "2023-12-17T15:22:00Z",
+            "content": "Pneumonia in kids is a serious infection that leads to inflammation in the lungs. The air sacs in the lungs also get filled with pus and other fluids, which causes symptoms like severe cough, chest p… [+4124 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "10 easy ways to add ghee in your diet and its health benefits - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-in/health/other/10-easy-ways-to-add-ghee-in-your-diet-and-its-health-benefits/ar-AA1lD1UJ",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T14:33:34Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/lifestylestaff/",
+            "title": "Pre-Bridal Glow up: Try These 5 Natural Drinks For Wedding-Ready Skin - India.com",
+            "description": "Begin your pre-bridal beauty regime with the calming notes of these homemade drinks and see the results!",
+            "url": "https://www.india.com/health/pre-bridal-glow-up-try-these-5-natural-drinks-for-wedding-ready-skin-6592528/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-4.00.08-PM.jpeg",
+            "publishedAt": "2023-12-17T10:30:58Z",
+            "content": "Begin your pre-bridal beauty regime with the calming notes of these homemade drinks and see the results!\r\nPre-Bridal Glow up: Try These 5 Natural Drinks For Wedding-Ready Skin\r\nAs you embark on the e… [+1892 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Herbal remedies for relief from seasonal flu - IndiaTimes",
+            "description": "While herbal remedies are a pure cure for seasonal flu, they offer a natural way to fight influenza or flu. Try these remedies to get relief from influenza as  they might be enough to treat it.",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/herbal-remedies-for-relief-from-seasonal-flu/photostory/106049207.cms",
+            "urlToImage": "https://static.toiimg.com/photo/106049215.cms",
+            "publishedAt": "2023-12-17T10:30:00Z",
+            "content": "A hot herbal tea drink, commonly referred to as kadha can be very effective in offering relief to your throat and sinuses. To make your herbal tea healthy as well as tasty, you can sweeten it with ho… [+219 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Odishatv.in"
+            },
+            "author": "Poonam Singh",
+            "title": "Unlocking radiant skin: Top 5 vitamin E-rich foods for a healthy glow - OTV News",
+            "description": "When prioritizing a healthy lifestyle, a nutrient-dense diet is crucial. One key player in overall well-being is vitamin E as this essential vitamin fortifies the immune system, combating viruses and bacteria.",
+            "url": "https://odishatv.in/webstories/lifestyle/unlocking-radiant-skin-top-5-vitamin-e-rich-foods-for-a-healthy-glow-222870",
+            "urlToImage": "https://images.odishatv.in/uploadimage/library/16_9/16_9_1/recent_photo_1702802557.webp",
+            "publishedAt": "2023-12-17T08:57:09Z",
+            "content": "Author: Poonam Singh | Credit: Canva\r\n<ul>When prioritizing a healthy lifestyle, a nutrient-dense diet is crucial. One key player in overall well-being is vitamin E as this essential vitamin fortifie… [+1568 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India TV News"
+            },
+            "author": "Written by Sakshi Verma",
+            "title": "5 low-glycemic foods to Include in your diet plan for weight loss - India TV News",
+            "description": "The glycemic index ranks foods on a scale from 0 to 100. The lower end of the scale contains foods that have little effect on blood sugar levels. Some foods have a big impact on sugar levels as well.",
+            "url": "https://www.indiatvnews.com/lifestyle/food/5-low-glycemic-foods-to-include-in-your-diet-plan-for-weight-loss-2023-12-17-907649",
+            "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/health-2-1702796849.jpg",
+            "publishedAt": "2023-12-17T07:10:23Z",
+            "content": "Losing Weight Losing weight with low glycemic index food can help in reducing the symptoms of diabetes and it also helps in burning calories by reducing the excess fat in our thighs, arms, stomach, e… [+1852 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zoom"
+            },
+            "author": "Ashima Sharda Mahindra, Times Now Digital",
+            "title": "8 Calcium Rich Dry Fruits For Strong Bones - Times Now",
+            "description": "8 Calcium Rich Dry Fruits For Strong Bones",
+            "url": "https://www.timesnownews.com/web-stories/health/8-calcium-rich-dry-fruits-for-strong-bones/photostory/106060335.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106060816,width-900,height-1200,resizemode-6.cms",
+            "publishedAt": "2023-12-17T07:08:30Z",
+            "content": "Almonds are packed with calcium, fatty acids, vitamin E, antioxidants, and proteins. They help to strengthen your bones, keep your heart healthy, and improve memory power. A cup full of whole almonds… [+87 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Tapatrisha Das",
+            "title": "Tiny habits that will transform your nervous system: Nutritionist shares tips - Hindustan Times",
+            "description": "From spending time in nature to limiting phone notifications, here are a few tiny habits that can transform the nervous system in weeks. | Health",
+            "url": "https://www.hindustantimes.com/lifestyle/health/tiny-habits-that-will-transform-your-nervous-system-nutritionist-shares-tips-101702781733869.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/17/1600x900/ss_1682477117050_1702781769358.jpg",
+            "publishedAt": "2023-12-17T03:34:22Z",
+            "content": "The way we deal with stress, anxiety and other negative emotions is strongly rooted to how relaxed and calm the nervous system is. \"A flexible nervous system, characterized by high vagal tone, can ad… [+2052 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Medical Dialogues"
+            },
+            "author": "Kajal Rajput",
+            "title": "Indian docs support WHO ban on vapes, call on govt to take action - Medical Dialogues",
+            "description": "New Delhi: A day after the World Health Organization (WHO) urged governments to treat e-cigarettes akin to tobacco and impose a ban on all flavours, health experts in India have called on the...",
+            "url": "https://medicaldialogues.in/news/health/indian-docs-support-who-ban-on-vapes-call-on-govt-to-take-action-121686",
+            "urlToImage": "https://medicaldialogues.in/h-upload/2023/12/16/228003-cigarettes.jpg",
+            "publishedAt": "2023-12-17T03:30:27Z",
+            "content": "New Delhi: A day after the World Health Organization (WHO) urged governments to treat e-cigarettes akin to tobacco and impose a ban on all flavours, health experts in India have called on the governm… [+2904 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "TNN",
+            "title": "Docs, staff honoured for tackling AIDS - Times of India",
+            "description": "Madurai: In observation of ‘World AIDS Day’ this month, a programme was organised at Government Rajaji Hospital (GRH) on Saturday to honour doctors an.",
+            "url": "https://timesofindia.indiatimes.com/city/madurai/docs-staff-honoured-for-tackling-aids/articleshow/106056570.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-47529300,width-1070,height-580,imgsize-110164,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-17T03:04:33Z",
+            "content": "Meet the star kids who are alumni of Dhirubhai Ambani International School"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Shreeja Bhattacharya",
+            "title": "Common Cold To Pneumonia: How To Keep Winter Illnesses At Bay - News18",
+            "description": "The fall and winter months often herald the downside of winter in the form of illness and health problems.",
+            "url": "https://www.news18.com/lifestyle/common-cold-to-pneumonia-how-to-keep-winter-illnesses-at-bay-8705596.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2023-12-16t233315.049-2023-12-f54e0c38a191a9ef7334c2f7debaa8eb-16x9.png?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-17T03:00:50Z",
+            "content": "As much as we look forward to winter dressing, scrumptious meals, celebrations, and even vacations, we cannot ignore the fact that this winter season also has its nasty side. Winter is a time to watc… [+3090 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": "The Financial Express",
+            "title": "Winter & your ticker: How to keep the heart healthy in colder months - The Financial Express",
+            "description": null,
+            "url": "https://www.financialexpress.com/life/winter-amp-your-ticker-how-to-keep-the-heart-healthy-in-colder-months-3340444/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-16T21:00:00Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "This One Simple Diet Change Could Transform Your Blood Pressure - SciTechDaily",
+            "description": "Research reveals that a low-sodium diet significantly lowers blood pressure, benefiting individuals with or without hypertension and those on blood pressure medications. Lowering sodium intake significantly reduced blood pressure in most people, even those wh…",
+            "url": "https://scitechdaily.com/this-one-simple-diet-change-could-transform-your-blood-pressure/",
+            "urlToImage": "https://scitechdaily.com/images/Happy-Young-Woman-Eating.jpg",
+            "publishedAt": "2023-12-16T14:53:39Z",
+            "content": "New research shows that reducing dietary sodium significantly lowers blood pressure in individuals, regardless of whether they have hypertension or are on medication. The study, involving 213 partici… [+4472 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News9live.com"
+            },
+            "author": "Ayra Imam",
+            "title": "Eat your greens: Discover the amazing health benefits of green beans - News9 LIVE",
+            "description": "Green beans are a must-have in Indian kitchens. Learn about the health perks of this nutritious green vegetable!",
+            "url": "https://www.news9live.com/lifestyle/fitness/eat-your-greens-discover-the-amazing-health-benefits-of-green-beans-2379333",
+            "urlToImage": "https://images.news9live.com/wp-content/uploads/2023/12/pexels-yulia-rozanova-3004798.jpg",
+            "publishedAt": "2023-12-16T10:11:51Z",
+            "content": "New Delhi: Green beans, often overlooked in the realm of superfoods, are a nutritional powerhouse packed with health benefits. These also known as string beans or snap beans, are not only delicious b… [+2504 chars]"
+          }
+        ]
+      },
+      {
+        "science": [
+          {
+            "source": {
+              "id": null,
+              "name": "WION"
+            },
+            "author": "WION Web Team",
+            "title": "Decoding the mystery of plastic rocks discovered on five continents - WION",
+            "description": "Explained | Decoding the mystery of plastic rocks discovered on five continents",
+            "url": "https://www.wionews.com/science/decoding-the-mystery-of-plastic-rocks-discovered-on-five-continents-670869",
+            "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/18/399901-plastic-rocks-1.png",
+            "publishedAt": "2023-12-18T10:06:45Z",
+            "content": "A strange and new kind of rock containing plastics has been found across the globe. They are deposits mainly formed by compressing rock and plastic polymers discarded by humans. So far, these plastic… [+5369 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Technology Networks"
+            },
+            "author": "Technology Networks",
+            "title": "Sex Chromosomes Influence Gene Regulation - Technology Networks",
+            "description": "New research sheds light on the sex chromosomes’ shared role as influential gene regulators. The research shows that genes expressed from the X and Y chromosomes impact cells throughout the body.",
+            "url": "https://www.technologynetworks.com/genomics/news/sex-chromosomes-influence-gene-regulation-382122",
+            "urlToImage": "https://assets.technologynetworks.com/production/dynamic/images/content/382122/sex-chromosomes-influence-gene-regulation-382122-640x360.jpg?cb=20231218",
+            "publishedAt": "2023-12-18T09:35:14Z",
+            "content": "Human sex chromosomes originated from a pair of autosomes, the ordinary or non-sex chromosomes that contain the majority of our genome and come in identical pairs. That ancestral pair of autosomes di… [+5771 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "The Indian Express"
+            },
+            "author": "The Indian Express",
+            "title": "NASA solves mystery of missing tomatoes aboard International Space Station - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/trending/trending-globally/nasa-solves-mystery-missing-tomatoes-aboard-international-space-station-9072807/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T09:24:33Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India Education Diary"
+            },
+            "author": "iednewsdesk",
+            "title": "Scientists develop new antibiotics to fight hospital superbug - India Education Diary",
+            "description": "Scientists have developed a promising antibiotic candidate against a hospital superbug, using a methodology that may be important in the fight against antimicrobial resistance. The team from the Norwegian University of Science and Technology (NT",
+            "url": "https://indiaeducationdiary.in/scientists-develop-new-antibiotics-to-fight-hospital-superbug/",
+            "urlToImage": "https://indiaeducationdiary.in/wp-content/uploads/2023/12/003db2c5bb815da278858eb58c4d2fa5.jpg",
+            "publishedAt": "2023-12-18T08:46:14Z",
+            "content": "Scientists have developed a promising antibiotic candidate against a hospital superbug, using a methodology that may be important in the fight against antimicrobial resistance.\r\nThe team from the Nor… [+2351 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Buzz Staff",
+            "title": "This Newly Discovered Sea Spider, With Boxing Glove-like Claws, Breathes Through Legs - News18",
+            "description": "The newly discovered species was extracted from the ocean floor in the Ross Sea, about 1,870 feet (570 meters) below the surface.",
+            "url": "https://www.news18.com/viral/this-newly-discovered-sea-spider-with-boxing-glove-like-claws-breathes-through-legs-8708172.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2023-12-18t120451.948-2023-12-ef461f8c1157562ade5d71c0002ac519-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T08:09:58Z",
+            "content": "A new species of sea spider, with boxing glove-like claws, was recently discovered by scientists and the pictures of the creature are being widely shared on social media. So far, more than 1,000 spec… [+1791 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Zoom"
+            },
+            "author": "TN Tech Desk",
+            "title": "NASA Warns Asteroid 2023 XL11 Grazing at 42021 kmph Towards the Earth - Times Now",
+            "description": "NASA observes a 55-foot house-sized Asteroid 2023 XL11 travelling towards the Earth at a furious pace. Read further and know every detail on this asteroid.",
+            "url": "https://www.timesnownews.com/technology-science/nasa-warns-asteroid-2023-xl11-grazing-at-42021-kmph-towards-the-earth-article-106083396",
+            "urlToImage": "https://static.tnn.in/thumb/msid-106083541,thumbsize-423485,width-1280,height-720,resizemode-75/106083541.jpg",
+            "publishedAt": "2023-12-18T07:59:57Z",
+            "content": "Zomato Share Price Target 2024, 2025: Stock Zooms 52-Week High, Analyst Sees 'Promising Buying Opportunity'"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "BNN Correspondents",
+            "title": "NASA's Space Telescope Reveals Detailed Supernova Image; Artemis II Mission & Laser Communication Technology Progress - BNN Breaking",
+            "description": "NASA's James Webb Space Telescope captures detailed image of supernova remnant Cassiopeia A. Artemis II mission progresses with Orion stage adapter preparation. Laser communication technology establishes successful data exchange. Public invited to participate…",
+            "url": "https://bnnbreaking.com/world/us/nasas-space-telescope-reveals-detailed-supernova-image-artemis-ii-mission-laser-communication-technology-progress/",
+            "urlToImage": "https://media.bnn.network/content/uploads/2023/12/nasas-james-webb-space-telescope-20231218075126.jpg",
+            "publishedAt": "2023-12-18T07:51:00Z",
+            "content": "NASA’s James Webb Space Telescope, in a breakthrough revelation, has captured an unprecedented high-definition image of the supernova remnant Cassiopeia A (Cas A) using its Near-Infrared Camera (NIRC… [+2025 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Livemint"
+            },
+            "author": null,
+            "title": "Scientists use a fiber optic cable to study Arctic seafloor permafrost - Mint Lounge",
+            "description": "Researchers are using an emerging technique that involves sending laser pulses down a fiber optic cable under the Arctic sea floor",
+            "url": "https://lifestyle.livemint.com/smart-living/environment/fiber-optic-cable-arctic-seafloor-permafrost-climate-change-111702884738516.html",
+            "urlToImage": "https://images.livemint.com/img/2023/12/18/1140x641/Jenn_Frederick_1702885240636_1702885248977.jpg",
+            "publishedAt": "2023-12-18T07:45:42Z",
+            "content": "The Arctic is fast becoming an important area for climate change research. The harsh and remote region, which is warming four times faster than the rest of the Earth, is changing rapidly.\r\nBut studyi… [+3188 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SpaceWatch.Global"
+            },
+            "author": "SpaceWatch.Global",
+            "title": "NASA Launches its High-Resolution Air Quality Control Instrument - SpaceWatch.Global",
+            "description": null,
+            "url": "https://spacewatch.global/2023/12/nasa-launches-its-high-resolution-air-quality-control-instrument/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T07:36:15Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Devdiscourse"
+            },
+            "author": "Devdiscourse News Desk",
+            "title": "NASA's Starling spacecraft get into swarm operations configuration - Devdiscourse",
+            "description": "Read more about NASA's Starling spacecraft get into swarm operations configuration on Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/science-environment/2749521-nasas-starling-spacecraft-get-into-swarm-operations-configuration",
+            "urlToImage": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/18_12_2023_12_49_50_4658275.webp?width=920&format=jpeg",
+            "publishedAt": "2023-12-18T07:25:17Z",
+            "content": "NASA's Starling spacecraft, a team of four CubeSats flying into orbit around Earth, have completed commissioning and are now in swarm experiment configuration that can function as an autonomous commu… [+2175 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Scientists Concerned About Humanity's Impact On Moon, Say It Has Entered A New Era - NDTV",
+            "description": "Moon has been impacted by human activity since 1959, when Soviet Union's unmanned spacecraft Luna 2 touched down on on its surface.",
+            "url": "https://www.ndtv.com/science/scientists-concerned-about-humanitys-impact-on-moon-say-it-has-entered-a-new-era-4695524",
+            "urlToImage": "https://c.ndtvimg.com/2019-06/kt2od0fo_moon-landing-1969-wp_625x300_20_June_19.jpg",
+            "publishedAt": "2023-12-18T07:22:10Z",
+            "content": "One of the famous Moon missions are the Apollo 11, which landed in 1969.\r\nSpace Scientists concerned about the impact of humans on the Moon have declared a new geological epoch for Earth's satellite.… [+2126 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Buzz Staff",
+            "title": "Watch: When NASA's Parker Solar Probe Ventured Close To Sun Without Incinerating - News18",
+            "description": "The Sun is the hottest star in our solar system.",
+            "url": "https://www.news18.com/viral/watch-when-nasas-parker-solar-probe-ventured-close-to-sun-without-incinerating-8708052.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2023-12-18t110635.823-2023-12-f3fd698365903d22e70f032923b58348-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T06:22:22Z",
+            "content": "The temperature at the surface of the Sun is about 5,600 degrees Celsius, and it rises from the surface towards the extremely hot core, reaching temperatures of about 15 million degrees Celsius. This… [+1806 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Buzz Staff",
+            "title": "2 Months Later, NASA Is Still Struggling To Open Its Asteroid Sample Container - News18",
+            "description": "After multiple attempts, NASA discovered two of the 35 fasteners on the TAGSAM head could not be removed with the current tools approved for use in the OSIRIS-REx glovebox.",
+            "url": "https://www.news18.com/viral/2-months-later-nasa-is-still-struggling-to-open-its-asteroid-sample-container-8708122.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2-2023-12-3bfc37140ade29566977e57ee9339656-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T06:22:18Z",
+            "content": "NASAs mission to unravel the secrets of the solar system has hit an unexpected snag. Two months after obtaining a crucial sample from an asteroid, the space agency finds itself grappling with a perpl… [+2413 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Vicky Stavropoulou",
+            "title": "Would we feel dizzy if the Earth stopped spinning? - CityLife",
+            "description": "Would we feel dizzy if the Earth stopped spinning? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/would-we-feel-dizzy-if-the-earth-stopped-spinning/538945/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_high_resolution_76e5db95-d639-40af-a89f-0c9d55b2af6d.jpeg",
+            "publishedAt": "2023-12-18T06:15:16Z",
+            "content": "Summary:The idea of the Earth suddenly stopping its rotation may seem like a dizzying concept, but would it actually make us feel dizzy? In this article, we delve into the science behind the Earth’s … [+3672 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "News18"
+            },
+            "author": "Buzz Staff",
+            "title": "Watch: Astronaut Attempts To Eat Honey In Space; Internet Wonders How They Digest Food Without Gravity - News18",
+            "description": "It is believed that the digestion of food doesn’t require gravity but involves the contraction and relaxation of gastrointestinal tract muscles.",
+            "url": "https://www.news18.com/viral/watch-astronaut-attempts-to-eat-honey-in-space-internet-wonders-how-they-digest-food-without-gravity-8708105.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2023-12-18t112452.491-2023-12-fbcd1250e5267f6b9227ffbb3e84194f-16x9.jpg?impolicy=website&width=1200&height=675",
+            "publishedAt": "2023-12-18T05:59:43Z",
+            "content": "People are often fascinated by the intricacies of astronauts lives in space, and one significant challenge they face is the act of eating. Both NASA and the European Space Agency frequently release v… [+2045 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Sidney Hernandez",
+            "title": "Which planet spins the fastest? - CityLife",
+            "description": "Which planet spins the fastest? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/which-planet-spins-the-fastest/538912/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_automatization_high_resolutio_8a53482b-191f-470a-ad72-fe845d05247b.jpeg",
+            "publishedAt": "2023-12-18T05:50:18Z",
+            "content": "Which planet spins the fastest?\r\nSummary:The speed at which planets rotate on their axes varies greatly across our solar system. Among the eight planets, Jupiter holds the title for the fastest spin,… [+3133 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "Arfa Javaid",
+            "title": "NASA shares 51-year-old photo of US flag on Moon with Earth in distance - Hindustan Times",
+            "description": "The pic of the US flag on the Moon with Earth in the background was taken 51 years ago by Eugene A. Cernan or Harrison H. Schmitt during the Apollo Mission.  | Trending",
+            "url": "https://www.hindustantimes.com/trending/viral-pic-nasa-shares-51-year-old-photo-of-us-flag-on-moon-with-earth-in-distance-101702876713836.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/12/18/1600x900/NASA-us-flag-moon-earth-apollo-mission-instagram_1702877884893_1702877894162.jpg",
+            "publishedAt": "2023-12-18T05:39:26Z",
+            "content": "Perspective is everything, wrote NASA Artemis on Instagram while sharing a picture taken 51 years ago by an astronaut. It shows the US flag deployed on the surface of the Moon. Whats more, the Earth … [+2240 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Sidney Hernandez",
+            "title": "Can Earth end at any time? - CityLife",
+            "description": "Can Earth end at any time? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/can-earth-end-at-any-time/538795/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_programming_c11fb785-d0e8-45c5-854a-cf6e5237b457.jpeg",
+            "publishedAt": "2023-12-18T05:09:19Z",
+            "content": "Summary:The question of whether Earth can come to an end at any time has long intrigued scientists and philosophers alike. While the planet’s ultimate fate is tied to cosmic events and natural proces… [+4882 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Samudrayaan mission: India's deep ocean mission- a challenge beyond space exploration - HT Tech",
+            "description": "Samudrayaan mission Indias deep ocean mission a challenge beyond space exploration Samudrayaan mission The Deep Ocean Mission DOM is an ambitious initiative by India to explore and exploit the depths of the ocean. Approved by the Union Cabinet in 2021 the mis…",
+            "url": "https://tech.hindustantimes.com/web-stories/samudrayaan-mission-indias-deep-ocean-mission-a-challenge-beyond-space-exploration-71702892334898.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/12/18/1600x900/Samudrayaan_mission_1702892471550_1702892967183.jpg/",
+            "publishedAt": "2023-12-18T04:19:35Z",
+            "content": "Photo Credit: @KirenRijiju\r\n Samudrayaan mission: The Deep Ocean Mission (DOM) is an ambitious initiative by India to explore and exploit the depths of the ocean. Approved by the Union Cabinet in 202… [+2435 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "NASA's Voyager 1 Is Glitching, Sending Nonsensical Messages Back To Earth - NDTV",
+            "description": "NASA reports that the spacecraft, currently situated 15 billion miles away from our planet, is experiencing a communications glitch.",
+            "url": "https://www.ndtv.com/science/nasas-voyager-1-is-glitching-sending-nonsensical-messages-back-to-earth-4694514",
+            "urlToImage": "https://i.ndtvimg.com/i/2017-12/nasa-voyager-1-twitter_650x400_81512208124.jpg",
+            "publishedAt": "2023-12-18T03:27:55Z",
+            "content": "NASA receives the transmitted data in binary code\r\nAfter traversing billions of miles and spending almost five decades in space, NASA's Voyager 1 space probe has started sending nonsensical data back… [+2233 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "ScienceAlert"
+            },
+            "author": "Michelle Starr",
+            "title": "Tantalizing Organic Molecules Detected Erupting From Enceladus - ScienceAlert",
+            "description": "Cronian moon Enceladus doesn't look like much.",
+            "url": "https://www.sciencealert.com/tantalizing-organic-molecules-detected-erupting-from-enceladus",
+            "urlToImage": "https://www.sciencealert.com/images/2023/05/enceladus-plumes-cassini-2014.jpg",
+            "publishedAt": "2023-12-18T03:18:36Z",
+            "content": "Cronian moon Enceladus doesn't look like much. It's kind of monochrome and small, paling in comparison with Saturn's big showy rings and giant hexagon.\r\nBut, as many Solar System objects make clear, … [+4117 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dovepress.com"
+            },
+            "author": "Dove Press",
+            "title": "Clinically invasive Staphylococcus aureus isolates | IDR - Dove Medical Press",
+            "description": "Investigating the molecular characteristics, antimicrobial resistance, and biofilm-forming ability of Staphylococcus aureus isolates from invasive infections.",
+            "url": "https://www.dovepress.com/molecular-characteristics-antimicrobial-susceptibility-biofilm-forming-peer-reviewed-fulltext-article-IDR",
+            "urlToImage": "https://www.dovepress.com/assets/img/addon/og_logo.png",
+            "publishedAt": "2023-12-18T02:49:41Z",
+            "content": "Introduction\r\nStaphylococcus aureus is a major bacterial pathogen capable of causing infections ranging from mild skin infections to life-threatening invasive diseases.1,2 The emergence of methicilli… [+33556 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+            },
+            "author": null,
+            "title": "Early Risers May Be Neanderthal Descendants, New Study Suggests - Yahoo Finance UK",
+            "description": null,
+            "url": "https://uk.finance.yahoo.com/news/early-risers-may-neanderthal-descendants-012223426.html",
+            "urlToImage": null,
+            "publishedAt": "2023-12-18T01:22:00Z",
+            "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Hurriyet Daily News"
+            },
+            "author": "hurriyetdailynews.com",
+            "title": "Biggest solar flare in years temporarily disrupts radio signals on Earth - Hurriyet Daily News",
+            "description": "A NASA telescope has captured the biggest solar flare in years, which temporarily knocked out radio communication on Earth.",
+            "url": "https://www.hurriyetdailynews.com/biggest-solar-flare-in-years-temporarily-disrupts-radio-signals-on-earth-188707",
+            "urlToImage": "https://image.hurimg.com/i/hurriyet/75/200x200/657ed2a04e3fe11af4311996.jpg",
+            "publishedAt": "2023-12-18T01:00:00Z",
+            "content": "CAPE CANAVERAL, FLORIDA\r\nA NASA telescope has captured the biggest solar flare in years, which temporarily knocked out radio communication on Earth.\r\nThe sun spit out the huge flare, resulting in two… [+926 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "WION"
+            },
+            "author": "WION Web Team",
+            "title": "This is what going to gym looks like at International Space Station - WION",
+            "description": "This is what going to gym looks like at International Space Station",
+            "url": "https://www.wionews.com/science/this-is-what-going-to-gym-looks-like-at-international-space-station-670676",
+            "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/18/399773-untitled-design-2023-12-18t031007148.png",
+            "publishedAt": "2023-12-17T21:37:36Z",
+            "content": "Exercise and going to gym requires ample willpower. Not every human on Earth has it. But almost everyone of the counted few who go to the International Space Station must go to the gym at the ISS.\r\nG… [+1988 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ticker.tv"
+            },
+            "author": "Cheryl King",
+            "title": "Prepare for the Celestial Ballet: The Dazzling \"Ring of Fire\" Solar Eclipse - TickerTV News",
+            "description": "Prepare for the Celestial Ballet: The Dazzling \"Ring of Fire\" Solar Eclipse - TickerTV News",
+            "url": "https://ticker.tv/news/us-will-see-ring-of-fire-solar-eclipse/344650/",
+            "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_mens_using_smartphone_or_computer_on_outdoor_2f0fa203-163e-4a40-ba3f-9e4a01a4ebfe.png",
+            "publishedAt": "2023-12-17T21:11:26Z",
+            "content": "Summary: Get ready to be spellbound the upcoming “Ring of Fire” solar eclipse, a celestial ballet that promises to captivate sky gazers. This rare event occurs when the moon partially covers the sun,… [+4514 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "Gravitational Waves Create A 'Cosmic Symphony' That Scientists Are Tuning Into - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-us/news/technology/gravitational-waves-create-a-cosmic-symphony-that-scientists-are-tuning-into/vi-AA1lDnas",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T21:08:03Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ticker.tv"
+            },
+            "author": "Betty Davis",
+            "title": "Scientists Discover New Species of Deep-Sea Fish in the Indian Ocean - TickerTV News",
+            "description": "Scientists Discover New Species of Deep-Sea Fish in the Indian Ocean - TickerTV News",
+            "url": "https://ticker.tv/news/dc-young-fly-says-prayer-helped-him-deal-with-grief-after-loss-of-partner-ms-jacky-oh/346856/",
+            "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_a_man_using_smartphone_or_computer_on_outdoor_c0e2214a-fbbc-473f-b749-60d9c8707856.png",
+            "publishedAt": "2023-12-17T20:15:42Z",
+            "content": "Summary: In a recent expedition to the Indian Ocean, scientists made an exciting discovery – a new species of fish that resides in the depths of the ocean. The unidentified fish, adapted to its dark … [+1925 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "India.com"
+            },
+            "author": "https://www.india.com/author/joy-pillai/",
+            "title": "Year Ender 2023: A Glimpse Of Most Significant Space Explorations Of The Year - India.com",
+            "description": "Year Ender 2023: As the year comes to an end, let's take a look back at significant space developments that happened this year.",
+            "url": "https://www.india.com/science/year-ender-2023-most-significant-space-explorations-of-the-year-chandrayaan-3-mission-moon-aditya-l1-euclid-telescope-psyche-juice-mission-6593402/",
+            "urlToImage": "https://static.india.com/wp-content/uploads/2023/12/space-explorations-2023.jpg",
+            "publishedAt": "2023-12-17T18:11:27Z",
+            "content": "Year Ender 2023: As the year comes to an end, let's take a look back at significant space developments that happened this year.\r\nYear Ender 2023: A Glimpse Of Most Significant Space Explorations Of T… [+3787 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "Geeta Pillai",
+            "title": "Scientists Confirm Distinct Structure Within Earth's Inner Core – BNN Breaking - BNN Breaking",
+            "description": "A team of researchers from the Australian National University, headed by observational seismologist Thanh-Son Pham, have confirmed the existence of a unique structure deep within Earth's inner core. Utilizing sophisticated seismic monitoring methods, the scie…",
+            "url": "https://bnnbreaking.com/world/australia/scientists-confirm-distinct-structure-within-earths-inner-core/",
+            "urlToImage": "https://media.bnn.network/content/uploads/2023/12/earths-inner-core-structure-20231217174235.jpg",
+            "publishedAt": "2023-12-17T17:42:39Z",
+            "content": "A team of researchers from the Australian National University, headed by observational seismologist Thanh-Son Pham, have confirmed the existence of a unique structure deep within Earth’s inner core. … [+2008 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Vicky Stavropoulou",
+            "title": "Early Humans May Have Arrived in North America Earlier Than Thought by Using a \"Sea Ice Highway\" - CityLife",
+            "description": "Early Humans May Have Arrived in North America Earlier Than Thought by Using a \"Sea Ice Highway\" - CityLife",
+            "url": "https://citylife.capetown/uncategorized/glacial-pathfinders-tracing-north-americas-first-migrants-via-the-sea-ice-highway/537254/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_automatization_high_resolutio_aa5b4e3e-8820-477d-b9f3-8f0beb53a507.jpeg",
+            "publishedAt": "2023-12-17T17:35:58Z",
+            "content": "New evidence suggests that early humans may have arrived in North America much earlier than previously believed, challenging traditional migration theories. Researchers have proposed the possibility … [+2523 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "BGR"
+            },
+            "author": "Joshua Hawkins, Joshua Hawkins",
+            "title": "Scientists made an ultra-tough substance as strong as diamonds that could be used to coat spacecraft - BGR",
+            "description": "A group of scientists have created an ultra-tough substance that rivals the hardness of diamonds. It may even be used to coat spacecraft.",
+            "url": "https://bgr.com/science/scientists-made-an-ultra-tough-substance-as-hard-as-diamonds/",
+            "urlToImage": "https://bgr.com/wp-content/uploads/2022/09/AdobeStock_313933958.jpg?quality=82&strip=all",
+            "publishedAt": "2023-12-17T17:06:00Z",
+            "content": "Diamonds are one of the hardest naturally occurring substances on Earth, and while we’ve discovered minerals even stronger than diamonds, scientists may have just taken things a step further. Accordi… [+2122 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ticker.tv"
+            },
+            "author": "Cheryl King",
+            "title": "A Star's Epic Journey: From the Depths of the Cosmos to a Black Hole's Grasp - TickerTV News",
+            "description": "A Star's Epic Journey: From the Depths of the Cosmos to a Black Hole's Grasp - TickerTV News",
+            "url": "https://ticker.tv/news/a-10-billion-year-50000-light-year-journey-to-a-black-hole/344492/",
+            "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_man_or_men_using_smartphone_or_computer_28d886bb-d7a0-4826-a57f-19ad98f94c2a.png",
+            "publishedAt": "2023-12-17T15:50:14Z",
+            "content": "A groundbreaking study recently published in Proceedings of the Japan Academy, Series B has revealed a fascinating discovery regarding a star located near the supermassive black hole at the center of… [+2567 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gearrice.com"
+            },
+            "author": "Advay Hora",
+            "title": "An AI analysis shows that monster waves happen all the time, what are the consequences of this? - Gearrice",
+            "description": "Join the conversation",
+            "url": "https://www.gearrice.com/update/an-ai-analysis-shows-that-monster-waves-happen-all-the-time-what-are-the-consequences-of-this/",
+            "urlToImage": "https://www.mundodeportivo.com/urbantecno/hero/2023/11/pexels-daniel-torobekov-19049977.jpg",
+            "publishedAt": "2023-12-17T15:47:50Z",
+            "content": "Freak waves are hard to see, but AI analysis shows they happen daily\r\nMore than two thirds of planet Earth are covered in water. Therefore, the oceans and seas extend for thousands of square kilomete… [+2306 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "NASA's Engineering Marvel: Preparing the Gateway to the Moon - SciTechDaily",
+            "description": "NASA's Artemis II mission progresses with final preparations of the SLS rocket. The Orion stage adapter, essential for connecting Orion to the SLS and ensuring launch safety, has reached a key milestone. The SLS is integral to NASA’s goal of lunar exploration…",
+            "url": "https://scitechdaily.com/nasas-engineering-marvel-preparing-the-gateway-to-the-moon/",
+            "urlToImage": "https://scitechdaily.com/images/Orion-Stage-Adapter-Diaphragm-Installed-scaled.jpg",
+            "publishedAt": "2023-12-17T15:07:06Z",
+            "content": "NASA’s Artemis II mission is advancing with the final preparations of the SLS rocket at Kennedy Space Center. The Orion stage adapter, a key component connecting Orion to the SLS, recently underwent … [+3070 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "One Green Planet"
+            },
+            "author": "Trinity Sparke",
+            "title": "Cockatoos Enjoy a Soggy Snacks, Too - One Green Planet - One Green Planet",
+            "description": "Humans aren't the only species with peculiar dining habits as researchers discovered that some cockatoos exhibit a rather unique behavior.",
+            "url": "https://www.onegreenplanet.org/animals/cockatoos-enjoy-a-soggy-snacks-too/",
+            "urlToImage": "https://www.onegreenplanet.org/wp-content/uploads/2023/12/shutterstock-533948902-e1702587394650.jpg",
+            "publishedAt": "2023-12-17T14:48:41Z",
+            "content": "Humans aren’t the only species with peculiar dining habits, as researchers have recently discovered that some cockatoos exhibit a rather unique behavior – they dunk their food before indulging in a m… [+3838 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Northeast Now"
+            },
+            "author": "The Conversation",
+            "title": "The Sahara Desert used to be a green savannah - NORTHEAST NOW - Northeast Now",
+            "description": "The ice ages are driven by the eccentricity cycle, which determines how circular Earth’s orbit is around the sun",
+            "url": "http://nenow.in/environment/the-sahara-desert-used-to-be-a-green-savannah.html",
+            "urlToImage": "https://nenow.in/wp-content/uploads/2023/12/okay.jpg",
+            "publishedAt": "2023-12-17T14:26:32Z",
+            "content": "Edward Armstrong, University of Helsinki\r\nAlgerias Tassili NAjjer plateau is Africas largest national park. Among its vast sandstone formations is perhaps the worlds largest art museum. Over 15,000 e… [+6012 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Scroll.in"
+            },
+            "author": "Niladry Sarkar",
+            "title": "Water droplets from remnants of ancient ocean found in Himalayan mineral deposits - Scroll.in",
+            "description": "Little is known about past oceans where the first life forms originated and evolved. Ocean water trapped in magnesite crystals could provide insights.",
+            "url": "https://scroll.in/article/1060589/water-droplets-from-remnants-of-ancient-ocean-found-in-himalayan-mineral-deposits",
+            "urlToImage": "https://sc0.blr1.cdn.digitaloceanspaces.com/book/196659-hfsmavzyfp-1702583749.jpg",
+            "publishedAt": "2023-12-17T14:00:00Z",
+            "content": "In the Kumaon mountains in the central sector of Uttarakhands Himalayas, a team of scientists from the Indian Institute of Science and Japans Niigata University have unearthed water droplets trapped … [+8049 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Live Science"
+            },
+            "author": "Alexander McNamara",
+            "title": "Science news this week: A dolphin with thumbs and a massive quantum chip - Livescience.com",
+            "description": "Dec. 17, 2023: Our weekly roundup of the latest science in the news, as well as a few fascinating articles to keep you entertained over the weekend.",
+            "url": "https://www.livescience.com/technology/science-news-this-week-a-dolphin-with-thumbs-and-a-massive-quantum-chip",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/z8uvn6ff4tMGVHJBSesLpD-1200-80.jpg",
+            "publishedAt": "2023-12-17T13:00:00Z",
+            "content": "This week in science news IBM unveiled a massive 1,000 qubit quantum chip, we discovered a lost world of lagoons in the Atacama desert, and met a dolphin with an unusual flipper.\r\nQuantum computing i… [+5075 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Forbes"
+            },
+            "author": "Jamie Carter",
+            "title": "Year’s Final Meteor Shower Has Begun: When To See The Ursids At Their Best - Forbes",
+            "description": "The Ursids—the year’s final meteor shower—has started, and you can see “shooting stars” light up the night sky on the solstice in the northern hemisphere.",
+            "url": "https://www.forbes.com/sites/jamiecartereurope/2023/12/17/years-final-meteor-shower-has-begun-when-to-see-the-ursids-at-their-best/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/595949938/0x0.jpg?format=jpg&crop=1938,908,x69,y913,safe&height=900&width=1600&fit=bounds",
+            "publishedAt": "2023-12-17T12:15:00Z",
+            "content": "null\r\nGetty\r\nThe Ursids, the final meteor shower of the year, has begun.\r\nRunning from December 17-26 this year, according to Timeanddate, the Ursid meteor shower will peak overnight on Thursday, Dec… [+2128 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Republic World"
+            },
+            "author": "Digital Desk",
+            "title": "NASA finds 17 exoplanets with potentially vast oceans that could be suitable for life- Republic World - Republic World",
+            "description": "A new NASA study has indicated that as many as 17 exoplanets may have oceans beneath their icy shells providing suitable conditions for life.",
+            "url": "https://www.republicworld.com/science/space/nasa-finds-17-exoplanets-with-potentially-vast-oceans-that-could-be-suitable-for-life",
+            "urlToImage": "https://img.republicworld.com/rimages/WaterWorldHiH264-170281236835716_9.webp",
+            "publishedAt": "2023-12-17T11:26:00Z",
+            "content": "NASA scientists have found a key element necessary for the origin of life on one of Saturn's Moon. The Moon in question is Enceladus which is famous for spewing organic compounds into outer space.\r\nA… [+2617 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "WION"
+            },
+            "author": "WION Web Team",
+            "title": "Disturbance on Sun can cause train accidents on Earth, researchers warn - WION",
+            "description": "Solar storms can cause train accidents on Earth, researchers warn",
+            "url": "https://www.wionews.com/science/disturbance-on-sun-can-cause-train-accidents-on-earth-researchers-warn-670555",
+            "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/17/399697-railway-train-signal.jpg",
+            "publishedAt": "2023-12-17T11:17:32Z",
+            "content": "Changes in space weather, especially powerful solar storms can cause transport havoc like train accidents, researchers from Lancaster University have concluded.\r\nAccording to experts, solar storms ca… [+2256 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Robert Andrew",
+            "title": "Remains of Baby Dinosaurs Found Inside Fossil of Ancient Predator - CityLife",
+            "description": "Remains of Baby Dinosaurs Found Inside Fossil of Ancient Predator - CityLife",
+            "url": "https://citylife.capetown/ai/two-baby-dinosaurs-found-in-tyrannosaur-fossil-shed-light-on-changing-diet-3/536414/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_automatization_high_resolutio_208863ad-46ad-4be5-a8be-6b5159854215.jpeg",
+            "publishedAt": "2023-12-17T11:08:41Z",
+            "content": "The recent discovery of the remains of two baby dinosaurs inside the fossil of a 75-million-year-old tyrannosaur has provided valuable insights into the diet of these ancient predators. The findings,… [+1733 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dynamitenews.com"
+            },
+            "author": null,
+            "title": "Researchers give more insight into how new genes arise from nothing - Dynamite News",
+            "description": "The DNA of living species encode their complexity, but where do these genes come from? The University of Helsinki researchers answered long-standing problems about the development of small regulatory genes and described a way for generating their DNA palindro…",
+            "url": "https://www.dynamitenews.com/story/researchers-give-more-insight-into-how-new-genes-arise-from-nothing",
+            "urlToImage": "https://www.dynamitenews.com/images/2023/12/17/researchers-give-more-insight-into-how-new-genes-arise-from-nothing/657eccc57dd24.jpg",
+            "publishedAt": "2023-12-17T10:29:52Z",
+            "content": "The DNA of living species encode their complexity, but where do these genes come from? The University of Helsinki researchers answered long-standing problems about the development of small regulatory… [+4139 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Revyuh.com"
+            },
+            "author": "Kamal Saini",
+            "title": "Meet the Wakayama ‘Blue Dragon’ Mosasaur that Terrorized Ancient Seas – and ‘Never Seen Before’ - Revyuh",
+            "description": "Wakayama’s ‘Blue Dragon’ Mosasaur, The Fearsome Guardian of Ancient Oceans: 'It Was Something I Had Never Seen Before' In a groundbreaking discovery,",
+            "url": "https://www.revyuh.com/news/science-and-research/sustainability/meet-the-wakayama-blue-dragon-mosasaur-that-terrorized-ancient-seas-and-never-seen-before/",
+            "urlToImage": "https://www.revyuh.com/wp-content/uploads/2023/12/Meet-the-Wakayama-‘Blue-Dragon-Mosasaur-that-Terrorized-Ancient-Seas-and-Never-Seen-Before.jpg",
+            "publishedAt": "2023-12-17T09:27:51Z",
+            "content": "In a groundbreaking discovery, scientists led by University of Cincinnati Associate Professor Takuya Konishi have revealed the remarkable secrets of the Wakayama Soryu, a mosasaur that once roamed th… [+3778 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "Blast Off to Innovation: Dream Chaser's Thrilling Testing Phase at NASA - SciTechDaily",
+            "description": "NASA and Sierra Space are advancing the Dream Chaser spacecraft's testing at the Neil Armstrong Test Facility, focusing on environmental simulations for its upcoming ISS mission. Post-testing, the spacecraft will head to Kennedy Space Center for a 2024 launch…",
+            "url": "https://scitechdaily.com/blast-off-to-innovation-dream-chasers-thrilling-testing-phase-at-nasa/",
+            "urlToImage": "https://scitechdaily.com/images/Sierra-Space-Dream-Chaser-Spacecraft-scaled.jpg",
+            "publishedAt": "2023-12-17T08:45:41Z",
+            "content": "NASA and Sierra Space are making progress on the first flight of the company’s Dream Chaser spacecraft to the International Space Station. The uncrewed cargo spaceplane is planned to launch its demon… [+2456 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "WION"
+            },
+            "author": "WION Web Team",
+            "title": "NASA’s tiny telescope discovers seven hot Jupiters millions of light-years away - WION",
+            "description": "NASA’s tiny telescope discovers seven hot Jupiters millions of light-years away",
+            "url": "https://www.wionews.com/science/nasas-tiny-telescope-discovers-seven-hot-jupiters-millions-of-light-years-away-670508",
+            "urlToImage": "https://cdn.wionews.com/sites/default/files/2023/12/17/399670-gettyimages-1025381220.jpg",
+            "publishedAt": "2023-12-17T08:43:57Z",
+            "content": "In a recent study unveiled at the 2023 American Geophysical Union meeting, researchers studied and explored \"hot Jupiters\" through NASA's CubeSat mission, the Colorado Ultraviolet Transit Experiment … [+2754 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Thewire.in"
+            },
+            "author": null,
+            "title": "Was Going to Space a Good Idea? - The Wire",
+            "description": "After the Moon, Mars is the next world in line for 'conquest'. But the question remains. Is space travel enhancing what we value about humanity?",
+            "url": "https://thewire.in/space/was-going-to-space-a-good-idea",
+            "urlToImage": "https://cdn.thewire.in/wp-content/uploads/2023/12/17124747/image-1614-800x375.png",
+            "publishedAt": "2023-12-17T08:00:42Z",
+            "content": "In 1963, six years after the first satellite was launched, editors from the Encyclopaedia Britannica posed a question to five eminent thinkers of the day: Has mans conquest of space increased or dimi… [+6097 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "DNA India"
+            },
+            "author": "Kajari Goswami",
+            "title": "10 fastest animals in the world - DNA India",
+            "description": "10 fastest animals in the world",
+            "url": "https://www.dnaindia.com/web-stories/lifestyle/10-fastest-animals-in-the-world--1702794461437",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T06:36:41Z",
+            "content": "Dec 17, 2023, 12:06PM IST"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dtnext.in"
+            },
+            "author": "ANI",
+            "title": "Study finds how body reacts to high or low oxygen levels - DTNEXT",
+            "description": "Is it possible, however, to have too much? Indeed, breathing air that contains more oxygen than your body requires can lead to health problems or even death. But with scant research on the topic,...",
+            "url": "https://www.dtnext.in/lifestyle/wellbeing/study-finds-how-body-reacts-to-high-or-low-oxygen-levels-755007",
+            "urlToImage": "https://dtnext-prod.s3.ap-south-1.amazonaws.com/h-upload/2023/12/17/787162-ani-20231216175703.jpg",
+            "publishedAt": "2023-12-17T05:16:02Z",
+            "content": "CALIFORNIA: It only takes a few seconds of holding your breath to know that not obtaining adequate oxygen is detrimental to your health. \r\nIs it possible, however, to have too much? Indeed, breathing… [+4496 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Bnnbreaking.com"
+            },
+            "author": "BNN Breaking",
+            "title": "Astrophotographer Captures Geminid Meteor Shower: A Cosmic Spectacle - BNN Breaking",
+            "description": null,
+            "url": "https://bnnbreaking.com/world/new-zealand/astrophotographer-captures-geminid-meteor-shower-a-cosmic-spectacle/",
+            "urlToImage": null,
+            "publishedAt": "2023-12-17T04:12:57Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "YouTube"
+            },
+            "author": null,
+            "title": "Scientists sound alarm on global consequences as Antarctic ice melt accelerates - AP Archive",
+            "description": "(12 Dec 2023) RESTRICTION SUMMARY: ++MUSIC CLEARED FOR EDITORIAL USE++ASSOCIATED PRESSIsabel Riquelme Islet, Antarctic Peninsula - 24 November 20231. Drone s...",
+            "url": "https://www.youtube.com/watch?v=flFwlftFBIo",
+            "urlToImage": "https://i.ytimg.com/vi/flFwlftFBIo/maxresdefault.jpg",
+            "publishedAt": "2023-12-17T04:02:34Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Gabriel Botha",
+            "title": "Indian Rover Awakening Raises Excitement for Lunar Exploration - CityLife",
+            "description": "Indian Rover Awakening Raises Excitement for Lunar Exploration - CityLife",
+            "url": "https://citylife.capetown/space/ist-der-indische-rover-aufgewacht/535209/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_6e0c2e40-d4f7-45ba-938c-6836abdb6af2.jpeg",
+            "publishedAt": "2023-12-17T00:50:45Z",
+            "content": "Scientists and space enthusiasts are eagerly awaiting the awakening of the Indian rover, known as Pragyan, which has been in hibernation for several months. Pragyan is part of the Chandrayaan-2 missi… [+2891 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ticker.tv"
+            },
+            "author": "Tanya King",
+            "title": "Indian Spacecraft Successfully Returns to Earth Orbit after Lunar Mission - TickerTV News",
+            "description": "Indian Spacecraft Successfully Returns to Earth Orbit after Lunar Mission - TickerTV News",
+            "url": "https://ticker.tv/news/india-returns-chandrayaan-3-propulsion-module-to-earth-orbit/342521/",
+            "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_a_woman_using_smartphone_or_computer_on_outdoor_32358097-32ad-432a-b081-f4347a64fbfe.png",
+            "publishedAt": "2023-12-17T00:33:48Z",
+            "content": "India’s space agency, ISRO, has announced that the spacecraft used for the Chandrayaan-3 mission has successfully returned to Earth orbit. This marks a significant milestone in India’s plans for a fu… [+1717 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Dunya News"
+            },
+            "author": null,
+            "title": "Look Up! The stunning visual phenomena that Aren't auroras - Dunya News",
+            "description": "Night sky can be host to ghosts, elves, red sprites and, last but never least, Steve",
+            "url": "https://dunyanews.tv/en/Technology/778194-Look-Up!-The-stunning-visual-phenomena-that-Aren’t-auroras",
+            "urlToImage": "https://img.dunyanews.tv/news/2023/December/12-17-23/news_big_images/778194_62787148.jpg",
+            "publishedAt": "2023-12-16T22:00:42Z",
+            "content": "Technology\r\nNight sky can be host to ghosts, elves, red sprites and, last but never least, Steve\r\n(Web Desk) - The Sun is on a roll. Our star has been releasing some of its strongest solar flares in … [+2722 chars]"
+          },
+          {
+            "source": {
+              "id": "the-times-of-india",
+              "name": "The Times of India"
+            },
+            "author": "Reuters",
+            "title": "Aborted test, missing parts add to Europe's space woes - IndiaTimes",
+            "description": "Europe News: The final flight of Italy's Vega rocket has been delayed after crucial parts went missing, while the latest test of Europe's new Ariane 6 has been abo",
+            "url": "https://timesofindia.indiatimes.com/world/europe/aborted-test-missing-parts-add-to-europes-space-woes/articleshow/106052616.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-106052638,width-1070,height-580,imgsize-59596,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-12-16T19:54:12Z",
+            "content": "10 foods that claim to be healthy but are not"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Financial Express"
+            },
+            "author": null,
+            "title": "METEOR SHOWERS: Here’s a look at some of the most established meteor showers known in recent years - The Financial Express",
+            "description": "Quadrantids are also known for their bright fireball meteors, adds Nasa. The Quadrantids are best viewed in the Northern Hemisphere during the night and predawn hours.",
+            "url": "https://www.financialexpress.com/life/science-meteor-showers-heresnbspa-look-at-some-of-the-most-establishednbspmeteor-showers-known-in-recent-years-3340339/",
+            "urlToImage": "https://www.financialexpress.com/wp-content/uploads/2023/12/meteor-reu.jpg",
+            "publishedAt": "2023-12-16T19:45:00Z",
+            "content": "‘Geminids’, known for their bright colourful fireballs and considered one of the most reliable meteor showers visible from Earth, peaked on December 14 and will be active till December 24, as per rep… [+4311 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Sidney Hernandez",
+            "title": "Did India find ice on moon? - CityLife",
+            "description": "Did India find ice on moon? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/did-india-find-ice-on-moon/534479/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_575d2c41-0100-4bb3-a903-9ec6af8ca9b4.jpeg",
+            "publishedAt": "2023-12-16T19:41:15Z",
+            "content": "Did India find ice on the moon?\r\nSummary:In a significant development, India’s Chandrayaan-1 mission has reportedly discovered evidence of water ice on the moon. This finding has the potential to rev… [+4156 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Ticker.tv"
+            },
+            "author": "Betty Davis",
+            "title": "New Galaxy Reveals Hidden Population in Early Universe - TickerTV News",
+            "description": "New Galaxy Reveals Hidden Population in Early Universe - TickerTV News",
+            "url": "https://ticker.tv/news/james-webb-space-telescope-pierces-through-dust-to-find-an-ancient-ghostly-galaxy-2/343051/",
+            "urlToImage": "https://ticker.tv/wp-content/uploads/2023/08/mfrack_mens_using_smartphone_or_computer_on_outdoor_a570845a-27ab-4ada-8ec5-25e3f7efe07e.png",
+            "publishedAt": "2023-12-16T19:04:39Z",
+            "content": "Scientists have made a remarkable discovery with the help of the James Webb Space Telescope (JWST), uncovering a previously unknown population of galaxies from the early universe. The image captured … [+1873 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Unilad.com"
+            },
+            "author": "Kit Roberts",
+            "title": "Earth just received record-breaking laser-beamed message from 16000000 miles away - UNILAD",
+            "description": "The message arrived from far beyond the Moon, a record-breaking distance from the planet.",
+            "url": "https://www.unilad.com/technology/space/earth-message-from-space-385612-20231216",
+            "urlToImage": "https://images.ladbible.com/resize?type=jpeg&quality=70&width=1200&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/blt949ea8e16e463049/bltfdb1e74ed8b6eb63/657ddba2d56a0404073fd865/message-earth.png",
+            "publishedAt": "2023-12-16T17:37:47Z",
+            "content": "Earth has received a message from outer space. \r\nYes, you read that right, a message arrived on Earth from a source some 16 million kilometres - or around 10 million miles - from the planet.\r\nThis is… [+2263 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Observervoice.com"
+            },
+            "author": "OV Digital Desk, OV Digital Desk",
+            "title": "Unmasking a Legend: The Story of Samuel C. C. Ting - Observer Voice",
+            "description": "Samuel C. C. Ting is an Indian child rights activist. Ting was awarded the Nobel Prize in Physics in 1976.",
+            "url": "https://observervoice.com/unmasking-a-legend-the-story-of-samuel-c-c-ting-44305/",
+            "urlToImage": "https://observervoice.com/wp-content/uploads/2023/12/Samuel-C.-C.-Ting.jpg",
+            "publishedAt": "2023-12-16T17:21:52Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Vicky Stavropoulou",
+            "title": "How will Aditya-L1 not burn? - CityLife",
+            "description": "How will Aditya-L1 not burn? - CityLife",
+            "url": "https://citylife.capetown/uncategorized/how-will-aditya-l1-not-burn/533872/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_6444ced6-17ee-45d7-8449-174bf1d49b40.jpeg",
+            "publishedAt": "2023-12-16T15:32:15Z",
+            "content": "Summary:The Aditya-L1 mission, India’s first solar mission, is set to launch in the near future. One of the major concerns surrounding this mission is how the spacecraft will not burn when it gets cl… [+3412 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Thetechoutlook.com"
+            },
+            "author": "Blossom Hazarika",
+            "title": "Registration for NASA PACE mission Social Media Credential closes on 19 December 2023, 3 pm EST - The Tech Outlook",
+            "description": "NASA’s latest development, the PACE mission is scheduled to launch no earlier than February 6, 2024. PACE stands for Plankton, Aerosol, Cloud Ocean Ecosystem. The PACE mission will be launched on a SpaceX Falcon 9 rocket from Space Launch Complex 40",
+            "url": "https://www.thetechoutlook.com/news/science/registration-for-nasa-pace-mission-social-media-credential-closes-on-19-december-2023-3-pm-est/",
+            "urlToImage": "https://www.thetechoutlook.com/wp-content/uploads/2023/12/PACE-mission.jpg",
+            "publishedAt": "2023-12-16T15:27:14Z",
+            "content": "NASAs latest development, the PACE mission is scheduled to launch no earlier than February 6, 2024. PACE stands for Plankton, Aerosol, Cloud Ocean Ecosystem. The PACE mission will be launched on a Sp… [+1451 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "NDTV News"
+            },
+            "author": null,
+            "title": "ESA Astronaut Shares Incredible Pictures Of Icebergs As Seen From Space - NDTV",
+            "description": "An astronaut aboard the International Space Station (ISS) recently shared incredible images of giant icebergs seen from space.",
+            "url": "https://www.ndtv.com/science/esa-astronaut-shares-incredible-pictures-of-icebergs-as-seen-from-space-4686570",
+            "urlToImage": "https://c.ndtvimg.com/2023-12/uj6g6qj_icebergs-seen-from-space-_625x300_16_December_23.jpeg?ver-20231203.06",
+            "publishedAt": "2023-12-16T15:21:09Z",
+            "content": "The astronaut also expressed his concerns on climate change.\r\nAn astronaut aboard the International Space Station (ISS) recently shared incredible images of giant icebergs seen from space. European S… [+2224 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "YouTube"
+            },
+            "author": null,
+            "title": "There maybe small black hole inside some stars | Latest News | WION - WION",
+            "description": "Could a black hole be lurking inside our sun? Well if it does then what is its impact well our next report tells you what scientists make of this new interes...",
+            "url": "https://www.youtube.com/watch?v=agv9HZeL9vU",
+            "urlToImage": "https://i.ytimg.com/vi/agv9HZeL9vU/maxresdefault.jpg",
+            "publishedAt": "2023-12-16T15:06:34Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "msnNOW"
+            },
+            "author": null,
+            "title": "OTD In Space - December 15: Andromeda Galaxy Spotted By Telescope For The 1st Time - MSN",
+            "description": null,
+            "url": "https://www.msn.com/en-us/news/technology/otd-in-space-december-15-andromeda-galaxy-spotted-by-telescope-for-the-1st-time/vi-AA1lzJZT",
+            "urlToImage": null,
+            "publishedAt": "2023-12-16T13:26:55Z",
+            "content": null
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Vicky Stavropoulou",
+            "title": "India's Contribution to Solar Study: Unraveling the Secrets of the Sun - CityLife",
+            "description": "India's Contribution to Solar Study: Unraveling the Secrets of the Sun - CityLife",
+            "url": "https://citylife.capetown/space/did-india-send-a-rocket-to-the-sun-2/533589/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_new_technologies_of_XXI_century_high__85fcc5ee-9bb3-4185-a3da-4b8b61fac4e1.jpeg",
+            "publishedAt": "2023-12-16T13:17:29Z",
+            "content": "Summary:\r\nContrary to recent rumors, India has not sent a rocket to the Sun. However, India’s space agency, the Indian Space Research Organisation (ISRO), has made significant strides in space explor… [+2685 chars]"
+          },
+          {
+            "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+            },
+            "author": "Kasha Patel",
+            "title": "Here's what happens when the sun's 'wind' disappears near Earth and Mars - The Washington Post",
+            "description": "Scientists are gaining new insights into the solar wind, which played a role in the loss of water from Mars and can disrupt communications systems on Earth.",
+            "url": "https://www.washingtonpost.com/climate-environment/2023/12/16/solar-wind-mars-earth-water/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A7VRJJLL5SACN3QRBA2GWVEELM.jpg&w=1440",
+            "publishedAt": "2023-12-16T12:14:43Z",
+            "content": "Comment on this story\r\nComment\r\nAdd to your saved stories\r\nSave\r\nThe sun constantly spews gas and particles charged with electricity into space at a million miles per hour. The stream, known as the s… [+5850 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Citylife.capetown"
+            },
+            "author": "Gabriel Botha",
+            "title": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
+            "description": "Scientists Make Groundbreaking Communication Breakthrough with Humpback Whale - CityLife",
+            "url": "https://citylife.capetown/space/scientists-say-they-conversed-with-a-whale-it-may-be-practice-for-aliens/533307/",
+            "urlToImage": "https://citylife.capetown/wp-content/uploads/2023/05/mfrack_realistic_photo_of_future_of_AI_men_fc5f1167-f58a-414e-a9cc-49ccd5458071.jpeg",
+            "publishedAt": "2023-12-16T11:24:46Z",
+            "content": "Summary: In a groundbreaking new study, scientists have successfully engaged in a “conversation” with a humpback whale named Twain. Researchers from the University of California, Davis, the SETI Inst… [+1999 chars]"
+          }
+        ]
+      }
+    ]
       
     const sportsObject = filteredData.find(category => category.hasOwnProperty(props.category));
     const sportsValue = sportsObject ? sportsObject[props.category] : [];
